@@ -38,48 +38,48 @@ Recover Binary Search Tree
 	Validate Binary Search Tree
 	Interleaving String
 Unique Binary Search Trees II
-Unique Binary Search TreesAug 27 '121400 / 2690
+Unique Binary Search Trees
 	Binary Tree Inorder Traversal
 	Restore IP Addresses
 	Reverse Linked List II
 	Subsets II
-Decode Ways
-Gray Code
+	Decode Ways
+	Gray Code
 	Merge Sorted Array
-Scramble String
-Partition List
+	Scramble String
+	Partition List
 Maximal Rectangle
 	Largest Rectangle in Histogram
 Remove Duplicates from Sorted List II
 Remove Duplicates from Sorted List
 Search in Rotated Sorted Array II
-Remove Duplicates from Sorted Array II
-Word Search
+	Remove Duplicates from Sorted Array II
+	Word Search
 	Subsets
 	Combinations
-Minimum Window SubstringApr 15 '121197 / 5211
+	Minimum Window Substring
 	Sort Colors
 	Search a 2D Matrix
 	Set Matrix Zeroes
 	Edit Distance
-Simplify Path
+	Simplify Path
 	Climbing Stairs
 	Sqrt(x)
-Text Justification
+	Text Justification
 	Plus One
-Valid Number
+	Valid Number
 Add Binary
 	Merge Two Sorted Lists
 	Minimum Path Sum
-Unique Paths II
-Unique Paths
+	Unique Paths II
+	Unique Paths
 	Rotate List
 	Permutation Sequence
 	Spiral Matrix II
 	Length of Last Word
-Insert Interval
-Merge Intervals
-Jump Game
+	Insert Interval
+	Merge Intervals
+	Jump Game
 	Spiral Matrix
 	Maximum Subarray
 	N-Queens II
@@ -87,27 +87,27 @@ Jump Game
 	Pow(x, n)
 	Anagrams
 	Rotate Image
-Permutations II
-Permutations
-Jump Game II
+	Permutations II
+	Permutations
+	Jump Game II
 	Wildcard Matching
 Multiply Strings
 	Trapping Rain Water
 	First Missing Positive
-Combination Sum II
-Combination Sum
-Count and Say
-Sudoku Solver
-Valid Sudoku
-Search Insert Position
-Search for a Range
+	Combination Sum II
+	Combination Sum
+	Count and Say
+	Sudoku Solver
+	Valid Sudoku
+	Search Insert Position
+	Search for a Range
 Search in Rotated Sorted Array
 Longest Valid Parentheses
-Next Permutation
+	Next Permutation
 Substring with Concatenation of All Words
 	Divide Two Integers
 Implement strStr()Feb 18 '121962 / 6114
-Remove Element
+	Remove Element
 	Remove Duplicates from Sorted Array
 Reverse Nodes in k-Group
 Swap Nodes in Pairs
