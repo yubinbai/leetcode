@@ -33,7 +33,6 @@ def reverseList(head, m, n):
     oldList = curr.next
     newListHead = curr
     newListTail = curr
-    curr = curr.next
     
     while counter > 1:
         curr = oldList
