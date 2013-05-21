@@ -48,11 +48,10 @@ Recover Binary Search Tree
 	Merge Sorted Array
 	Scramble String
 	Partition List
-Maximal Rectangle
 	Largest Rectangle in Histogram
-Remove Duplicates from Sorted List II
-Remove Duplicates from Sorted List
-Search in Rotated Sorted Array II
+	Remove Duplicates from Sorted List II
+	Remove Duplicates from Sorted List
+	Search in Rotated Sorted Array II
 	Remove Duplicates from Sorted Array II
 	Word Search
 	Subsets
@@ -68,7 +67,7 @@ Search in Rotated Sorted Array II
 	Text Justification
 	Plus One
 	Valid Number
-Add Binary
+	Add Binary
 	Merge Two Sorted Lists
 	Minimum Path Sum
 	Unique Paths II
@@ -91,7 +90,7 @@ Add Binary
 	Permutations
 	Jump Game II
 	Wildcard Matching
-Multiply Strings
+	Multiply Strings
 	Trapping Rain Water
 	First Missing Positive
 	Combination Sum II
@@ -102,15 +101,15 @@ Multiply Strings
 	Search Insert Position
 	Search for a Range
 	Search in Rotated Sorted Array
-Longest Valid Parentheses
+	Longest Valid Parentheses
 	Next Permutation
-Substring with Concatenation of All Words
+	Substring with Concatenation of All Words
 	Divide Two Integers
-Implement strStr()Feb 18 '121962 / 6114
+	Implement strStr()
 	Remove Element
 	Remove Duplicates from Sorted Array
-Reverse Nodes in k-Group
-Swap Nodes in Pairs
+	Reverse Nodes in k-Group
+	Swap Nodes in Pairs
 	Merge k Sorted Lists
 	Generate Parentheses
 	Valid Parentheses
@@ -119,7 +118,7 @@ Swap Nodes in Pairs
 	4Sum
 	3Sum Closest
 	3Sum
-Longest Common Prefix
+	Longest Common Prefix
 Roman to Integer
 Integer to Roman
 	Container With Most Water
