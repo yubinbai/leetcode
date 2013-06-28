@@ -34,7 +34,7 @@ Questions List: (Click on title to expand)sort questions by: [ title ] [ freshne
 	Binary Tree Level Order Traversal
 	Symmetric Tree
 	Same Tree
-Recover Binary Search Tree
+	Recover Binary Search Tree
 	Validate Binary Search Tree
 	Interleaving String
 	Unique Binary Search Trees II

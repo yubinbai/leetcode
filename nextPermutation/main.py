@@ -9,6 +9,9 @@ def nextPermutation(data):
     i = size - 2
     while i != 0 and data[i] > data[i + 1]:
         i -= 1
+    if i == 0 and data[i] > data[i + 1]:
+        data.reverse()
+        return data
     # increase data[i] by the smallest amount
     # a[j+1] > a[j+1] > ... a[n-1]
     l = size - 1
@@ -30,12 +33,8 @@ def swap(array, i, j):
     data[j] = temp
     
 if __name__ == '__main__':
-    '''
-    data = [1, 2, 3, 4]
+    data = [1, 2, 3]
     print(data)
-    for i in range(23):
+    for i in range(12):
         print(nextPermutation(data))    
-    '''
-    data = [1, 4, 2, 3]
-    print(data)
-    print(nextPermutation(data))
+
