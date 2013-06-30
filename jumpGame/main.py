@@ -3,10 +3,13 @@ Created on May 17, 2013
 
 @author: Administrator
 '''
+
+
 def jumpGame(array):
     result = [False]
     memo = {}
     return _jumpGame(array, 0, memo, result)
+
 
 def _jumpGame(array, currPos, memo, result):
     if currPos in memo:
@@ -24,6 +27,6 @@ def _jumpGame(array, currPos, memo, result):
 if __name__ == '__main__':
     data = [2, 3, 1, 1, 4]
     print(jumpGame(data))
-    
+
     data = [3, 2, 1, 0, 4]
     print(jumpGame(data))
