@@ -11,21 +11,27 @@ def nextPermutation(seq):
     raise error if reached end of permutation
     '''
     size = len(seq)
-    # find the largest i than can be increased
-    i = size - 2
-    while i != 0 and seq[i] > seq[i + 1]:
-        i -= 1
+    if size <= 1:
+        return
+    # 1.find the first acending order pair from the bottom
+    low = size - 2
+    high = size - 1
+    while seq[low] >= seq[high]:
+        if low == high - 1:
+            low -= 1
+            high = size - 1
+            if low < 0:
+                break
+        else:
+            high -= 1
 
-    if i == 0 and seq[i] > seq[i + 1]:
+    if low < 0:
         raise Exception("End of permutation")
-    # increase seq[i] by the smallest amount
-    # a[j+1] > a[j+1] > ... a[n-1]
-    l = size - 1
-    while seq[l] < seq[i]:
-        l -= 1
-    seq[l], seq[i] = seq[i], seq[l]
-    # reverse i+1 .. end
-    k = i + 1
+
+    # 2.swap num[li] with num[hi] if li >= 0
+    seq[low], seq[high] = seq[high], seq[low]
+    # 3.reverse i+1 .. end
+    k = low + 1
     l = size - 1
     while k < l:
         seq[k], seq[l] = seq[l], seq[k]
@@ -33,7 +39,7 @@ def nextPermutation(seq):
         l -= 1
 
 if __name__ == '__main__':
-    seq = [1, 2, 3, 4]
+    seq = [1, 2, 2, 3]
     print(seq)
     for i in range(29):
         try:

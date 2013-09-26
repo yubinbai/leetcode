@@ -1,8 +1,10 @@
 '''
 Created on May 13, 2013
 
-@author: Administrator
+@author: Yubin Bai
 '''
+
+
 def profits(data):
     sumProfit = 0
     for j in range(1, len(data)):

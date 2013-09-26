@@ -1,7 +1,7 @@
 '''
 Created on May 15, 2013
 
-@author: Administrator
+@author: Yubin Bai
 '''
 
 

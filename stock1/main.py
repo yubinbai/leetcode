@@ -1,8 +1,10 @@
 '''
 Created on May 13, 2013
 
-@author: Administrator
+@author: Yubin Bai
 '''
+
+
 def profit(data):
     currProfit = maxProfit = 0
     currMin = data[0]

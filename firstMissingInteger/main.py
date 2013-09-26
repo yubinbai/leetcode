@@ -1,7 +1,7 @@
 '''
 Created on 2013-5-15
 
-@author: Administrator
+@author: Yubin Bai
 '''
 
 
@@ -17,6 +17,7 @@ def firstMissing(array):
     for cursor in range(size):
         if cursor + 1 != array[cursor]:
             return cursor + 1
+    # last one not found
     return size + 1
 
 

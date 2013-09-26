@@ -1,13 +1,13 @@
 '''
 Created on May 17, 2013
 
-@author: Administrator
+@author: Yubin Bai
 '''
+
+
 def mergeIntervals(data, result):
     # sort the data by left
-    from operator import itemgetter
-    data = sorted(data, key=itemgetter(0))
-    
+    data = sorted(data)
     i1 = list(data[0])
     for i in range(1, len(data)):
         i2 = list(data[i])
@@ -17,7 +17,7 @@ def mergeIntervals(data, result):
             result.append(list(i1))
             i1 = list(i2)
     result.append(i1)
-    
+
 if __name__ == '__main__':
     data = [[1, 3], [2, 6], [8, 10], [15, 18]]
     result = []

@@ -1,8 +1,10 @@
 '''
 Created on May 17, 2013
 
-@author: Administrator
+@author: Yubin Bai
 '''
+
+
 def isValid(numberStr):
     s = numberStr.strip()
     import re

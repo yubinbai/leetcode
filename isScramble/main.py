@@ -1,7 +1,7 @@
 '''
 Created on 2013-5-16
 
-@author: Administrator
+@author: Yubin Bai
 '''
 
 
@@ -25,7 +25,7 @@ def isScramble(s1, s2):
                 return True
         memo[t] = False
         return False
-        
+
     memo = {}
     return _isScramble(0, 0, len(s1))
 

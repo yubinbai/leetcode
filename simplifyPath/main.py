@@ -1,8 +1,10 @@
 '''
 Created on May 17, 2013
 
-@author: Administrator
+@author: Yubin Bai
 '''
+
+
 def simplify(pathStr):
     path = pathStr.split('/')
     result = []

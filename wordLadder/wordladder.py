@@ -1,9 +1,10 @@
 '''
 Created on 2013-5-11
 
-@author: Administrator
+@author: Yubin Bai
 '''
 MAX_INT = 100  # (1 << 33) - 1
+
 
 def distance(s1, s2):
     size = len(s1)
@@ -12,6 +13,7 @@ def distance(s1, s2):
         if s1[i] != s2[i]:
             counter += 1
     return counter
+
 
 def wordLadder(start, end, dictionary):
     dictionary.append(start)
@@ -28,7 +30,7 @@ def wordLadder(start, end, dictionary):
         d = distance(dictionary[i], end)
         if d == 1:
             distToEnd[i] = 1
-        
+
     # BFS
     startIndex = dictSize - 1
     visited = {}  # also holds the shortest path length
@@ -43,7 +45,7 @@ def wordLadder(start, end, dictionary):
                 frontier.append(i)
                 visited[i] = visited[v] + 1
                 prev[i] = v
-                
+
     # match the distance to the end, find the closest nodes
     minNodes = []
     currMin = MAX_INT
@@ -53,7 +55,7 @@ def wordLadder(start, end, dictionary):
             currMin = distToEnd[i] + visited[i]
         elif distToEnd[i] + visited[i] == currMin:
             minNodes.append(i)
-            
+
     results = []
     for i in minNodes:
         resultRow = [end]
@@ -64,7 +66,7 @@ def wordLadder(start, end, dictionary):
         resultRow.reverse()
         results.append('->'.join(resultRow))
     return str(results)
-    
+
 
 if __name__ == '__main__':
     start = "hit"

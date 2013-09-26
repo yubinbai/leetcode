@@ -1,12 +1,16 @@
 '''
 Created on 2013-5-20
 
-@author: Administrator
+@author: Yubin Bai
 '''
+
+
 class ListNode:
     next = None
+
     def __init__(self, value):
         self.value = value
+
 
 def swapInPairs(head):
     if head == None:
@@ -16,11 +20,11 @@ def swapInPairs(head):
     prev = head
     curr = head.next
     newHead = curr
-    
-    # swap in pairs    
+
+    # swap in pairs
     while True:
         nextPrev = curr.next
-        if nextPrev == None: # reached end of list
+        if nextPrev == None:  # reached end of list
             curr.next = prev
             prev.next = None
             break
@@ -31,11 +35,12 @@ def swapInPairs(head):
             break
         curr.next = prev
         prev.next = nextCurr
-        
+
         prev = nextPrev
         curr = nextCurr
-    
+
     return newHead
+
 
 def printList(head):
     curr = head
@@ -47,17 +52,15 @@ def printList(head):
 
 
 if __name__ == '__main__':
-    
+
     linked = ListNode(0)
     curr = linked
     for i in range(1, 6):
         curr.next = ListNode(i)
         curr = curr.next
-    
+
     printList(linked)
-        
+
     linked2 = swapInPairs(linked)
-    
+
     printList(linked2)
-    
-    

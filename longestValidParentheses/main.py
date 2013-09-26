@@ -1,8 +1,10 @@
 '''
 Created on May 20, 2013
 
-@author: Administrator
+@author: Yubin Bai
 '''
+
+
 def longestValid(array):
     if array == None or len(array) == 0:
         return 0, 0, 0
@@ -19,7 +21,7 @@ def longestValid(array):
         else:
             stack.append(right)
     return maxLen
-    
+
 
 if __name__ == '__main__':
     print(longestValid('((()'))

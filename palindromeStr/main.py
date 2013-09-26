@@ -1,10 +1,12 @@
 '''
 Created on 2013-5-13
 
-@author: Administrator
+@author: Yubin Bai
 '''
+import re
+
+
 def isPalindrome(s):
-    import re
     strList = re.findall('[a-zA-Z]', s)
     size = len(strList)
     for i in range(size):

@@ -1,6 +1,6 @@
 ''' Created on May 17, 2013
 
-@author: Administrator
+@author: Yubin Bai
 Given an array of non-negative integers, you are initially positioned
 at the first index of the array.
 

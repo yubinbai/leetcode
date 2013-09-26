@@ -1,8 +1,9 @@
 '''
 Created on May 15, 2013
 
-@author: Administrator
+@author: Yubin Bai
 '''
+
 
 def matched(array):
     stack = []
@@ -17,10 +18,11 @@ def matched(array):
     if len(stack) == 0:
         return True
     return False
-    
+
+
 def _match(c1, c2):
     return any([c1 == '(' and c2 == ')', c1 == '[' and c2 == ']', c1 == '{' and c2 == '}'])
-    
+
 if __name__ == '__main__':
     print(matched('()[]{}{}{}{}'))
     print(matched('(]'))
