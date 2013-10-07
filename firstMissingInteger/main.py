@@ -25,9 +25,7 @@ def firstMissing2(array):
     size = len(array)
     for i in range(size):
         while array[i] <= size and array[i] > 0 and array[i] != array[array[i] - 1]:
-            temp = array[array[i] - 1]
-            array[array[i] - 1] = array[i]
-            array[i] = temp
+            array[array[i] - 1], array[i] = array[i], array[array[i] - 1]
 
     for cursor in range(size):
         if cursor + 1 != array[cursor]:

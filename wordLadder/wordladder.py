@@ -3,6 +3,7 @@ Created on 2013-5-11
 
 @author: Yubin Bai
 '''
+import collections
 MAX_INT = 100  # (1 << 33) - 1
 
 
@@ -18,17 +19,14 @@ def distance(s1, s2):
 def wordLadder(start, end, dictionary):
     dictionary.append(start)
     dictSize = len(dictionary)
-    dist = [[MAX_INT for x in range(dictSize)] for y in range(dictSize)]
+    dist = [[MAX_INT] * dictSize for _ in range(dictSize)]
     for i in range(dictSize):
-        for j in range(dictSize):
-            if i != j:
-                d = distance(dictionary[i], dictionary[j])
-                if d == 1:
-                    dist[i][j] = dist[j][i] = 1
-    distToEnd = [MAX_INT for x in range(dictSize)]
+        for j in range(i + 1, dictSize):
+            if distance(dictionary[i], dictionary[j]) == 1:
+                dist[i][j] = dist[j][i] = 1
+    distToEnd = [MAX_INT for _ in range(dictSize)]
     for i in range(dictSize):
-        d = distance(dictionary[i], end)
-        if d == 1:
+        if distance(dictionary[i], end) == 1:
             distToEnd[i] = 1
 
     # BFS
@@ -36,7 +34,6 @@ def wordLadder(start, end, dictionary):
     visited = {}  # also holds the shortest path length
     visited[startIndex] = 0
     prev = {}
-    import collections
     frontier = collections.deque([startIndex])  # the start is in dict tail
     while len(frontier) > 0:
         v = frontier.popleft()

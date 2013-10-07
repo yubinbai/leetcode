@@ -9,6 +9,7 @@ def combinationSum(array, target):
     '''
     find the way to get to sum target using
     combination of array elements
+    data can be used multiple times
     '''
     def _combinationSum(target, step):
         if target == 0:

@@ -1,6 +1,5 @@
 '''
 Created on May 16, 2013
-
 @author: Yubin Bai
 '''
 
@@ -18,9 +17,9 @@ def uniquePermutations(array):
             _uniquePermutations()
             used[i] = False
             path.pop()
-            
+
     results = []
-    used = [False for x in range(len(array))]
+    used = [False] * len(array)
     path = []
     _uniquePermutations()
     for i in results:

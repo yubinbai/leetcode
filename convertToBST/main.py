@@ -1,6 +1,5 @@
 '''
 Created on May 15, 2013
-
 @author: Yubin Bai
 '''
 
@@ -46,13 +45,11 @@ def generateBST(head):
         currListNode[0] = currListNode[0].next
         e.right = _generateBST(mid + 1, right, currListNode)
         return e
-
     size = 0
     curr = head
     while curr != None:
         curr = curr.next
         size += 1
-
     currListNode = [head]
     return _generateBST(0, size - 1, currListNode)
 
@@ -78,13 +75,9 @@ def postOrder(root):
     _postOrder(root)
     return result
 
-
 if __name__ == '__main__':
     data = list(range(1, 16))
     linked = generateLinkedList(data)
-
     tree = generateBST(linked)
-
     print(inOrder(tree))
-
     print(postOrder(tree))

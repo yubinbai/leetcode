@@ -1,6 +1,5 @@
 '''
 Created on 2013-5-19
-
 @author: Yubin Bai
 '''
 memo = {0: 1, 1: 1}

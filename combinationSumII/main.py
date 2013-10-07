@@ -1,11 +1,11 @@
 '''
 Created on May 16, 2013
-
 @author: Yubin Bai
 '''
 
 
 def combinationSum(array, target):
+    # each data can be used only once
     def _combinationSum(target, step):
         if target < 0 or step == len(array):
             return

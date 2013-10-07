@@ -1,6 +1,8 @@
 '''
 Created on May 17, 2013
 
+Yubin Bai
+
 Given an array of non-negative integers, you are initially
 positioned at the first index of the array.
 
@@ -14,36 +16,35 @@ A = [2,3,1,1,4], return true.
 A = [3,2,1,0,4], return false.
 '''
 
+INF = 1 << 31
+
 
 def jumpGame(array):
     '''
     dp
     state = steps to get to end
     '''
-    def _jumpGame(array, currPos):
+    def _jumpGame(currPos):
         size = len(array)
-        if currPos not in memo:
-            return size
-        if memo[currPos] != size:
+        if currPos >= size:
+            return INF
+        if memo[currPos] != INF:
             return memo[currPos]
-
-        currMin = size
-        for i in range(1, array[currPos] + 1):
-            currMin = min(currMin, _jumpGame(array, currPos + i))
-        if currMin != size:
-            memo[currPos] = currMin + 1
+        if array[currPos] >= 1:
+            currMin = min(_jumpGame(currPos + i)
+                          for i in range(1, array[currPos] + 1))
+            if currMin != size:
+                memo[currPos] = currMin + 1
         return memo[currPos]
 
-    memo = {}
-    for i in range(len(array) - 1):
-        memo[i] = len(array)  # a large number
+    memo = [INF] * (len(array) + 2)
     memo[len(array) - 1] = 0
-    return _jumpGame(array, 0)
+    return _jumpGame(0)
 
 
 if __name__ == '__main__':
     data = [2, 3, 4, 1, 4, 5]
     print(jumpGame(data))
 
-    data = [3, 2, 1, 0, 4, 6]
+    data = [3, 2, 1, 0, 4]
     print(jumpGame(data))
