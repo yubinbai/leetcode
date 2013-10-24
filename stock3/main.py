@@ -1,6 +1,5 @@
 '''
 Created on 2013-5-13
-
 @author: Yubin Bai
 '''
 
@@ -8,7 +7,7 @@ Created on 2013-5-13
 def bestTwoTransactions(data):
     size = len(data)
     # find the best from 0 .. i
-    bestLeft = [0 for x in range(size)]  # bestLeft[0] is empty
+    bestLeft = [0] * size  # bestLeft[0] is empty
     currProfit = maxProfit = 0
     currMin = data[0]
     for i in range(1, size):
@@ -18,7 +17,7 @@ def bestTwoTransactions(data):
         bestLeft[i] = maxProfit
 
     # find the best from i .. n-1
-    bestRight = [0 for x in range(size)]  # bestRight[size-1] is empty
+    bestRight = [0] * size  # bestRight[size-1] is empty
     currProfit = maxProfit = 0
     currMax = data[size - 1]
     for i in range(size - 1, -1, -1):

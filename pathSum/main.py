@@ -1,14 +1,11 @@
 '''
 Created on May 14, 2013
-
 @author: Yubin Bai
 '''
 
 
 class Node:
-    data = None
-    leftChild = None
-    rightChild = None
+    data = leftChild = rightChild = None
 
     def __init__(self, data=None):
         self.data = data

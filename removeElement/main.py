@@ -1,17 +1,21 @@
 '''
 Created on 2013-5-16
-
 @author: Yubin Bai
 '''
 
 
 def removeElement(data, x):
-    left = right = 0
+    counter = left = right = 0
     for right in range(len(data)):
         if data[right] != x:
             if left != right:
                 data[left] = data[right]
             left += 1
+        else:
+            counter += 1
+    # remove rest of list
+    for _ in range(counter):
+        data.pop()
     return left
 
 if __name__ == '__main__':

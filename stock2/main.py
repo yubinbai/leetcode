@@ -1,18 +1,13 @@
 '''
 Created on May 13, 2013
-
 @author: Yubin Bai
 '''
 
 
 def profits(data):
-    sumProfit = 0
-    for j in range(1, len(data)):
-        if data[j] > data[j - 1]:
-            sumProfit += data[j] - data[j - 1]
-    return sumProfit
-
+    return sum(data[i] - data[i - 1] for i in range(1, len(data))
+               if data[i] > data[i - 1])
 
 if __name__ == '__main__':
-    data = [1, 2, 5]
+    data = [1, 2, 5, 4, 9, 2]
     print(profits(data))

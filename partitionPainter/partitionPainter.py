@@ -1,6 +1,5 @@
 '''
 Created on Jun 19, 2013
-
 @author: Yubin Bai
 '''
 import unittest
@@ -24,7 +23,7 @@ class PartitionPainter(object):
             return counter + 1 <= segments
 
         while low < high:
-            mid = (low + high) // 2
+            mid = (low + high) >> 1
             if check(mid):
                 high = mid
             else:

@@ -1,14 +1,13 @@
 '''
 Created on 2013-5-20
-
 @author: Yubin Bai
 '''
 
 
 class ListNode:
-    next = None
 
     def __init__(self, value):
+        self.next = None
         self.value = value
 
 

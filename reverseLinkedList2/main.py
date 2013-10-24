@@ -6,8 +6,7 @@ Created on May 15, 2013
 
 
 class ListNode:
-    data = 0
-    next = None
+    data = next = None
 
     def __init__(self, data):
         self.data = data

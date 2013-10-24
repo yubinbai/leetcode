@@ -1,6 +1,5 @@
 '''
 Created on 2013-5-19
-
 @author: Yubin Bai
 '''
 
@@ -9,8 +8,8 @@ def searchInRotated(array, key):
     left = 0
     right = len(array) - 1
 
-    while left < right:
-        mid = (left + right) // 2
+    while left <= right:
+        mid = (left + right) >> 1
         if key > array[mid]:
             if key > array[right]:
                 right = mid - 1
@@ -18,7 +17,6 @@ def searchInRotated(array, key):
                 left = mid + 1
             else:
                 return right
-
         elif key < array[mid]:
             if key < array[left]:
                 left = mid + 1
