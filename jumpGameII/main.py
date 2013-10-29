@@ -1,19 +1,19 @@
+# Given an array of non-negative integers, you are initially
+# positioned at the first index of the array.
+
+# Each element in the array represents your maximum jump length at that
+# position.
+
+# Determine how many steps you need to get to the end
+
+# For example:
+# A = [2,3,1,1,4], return true.
+
+# A = [3,2,1,0,4], return false.
+
 '''
 Created on May 17, 2013
-
 Yubin Bai
-
-Given an array of non-negative integers, you are initially
-positioned at the first index of the array.
-
-Each element in the array represents your maximum jump length at that position.
-
-Determine how many steps you need to get to the end
-
-For example:
-A = [2,3,1,1,4], return true.
-
-A = [3,2,1,0,4], return false.
 '''
 
 INF = 1 << 31

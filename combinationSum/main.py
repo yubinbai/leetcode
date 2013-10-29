@@ -43,11 +43,11 @@ def combinationSum(array, target):
     results = []
     stack = []
     _combinationSum(target, 0)
-    for i in results:
-        print(i)
-
+    return results
 
 if __name__ == '__main__':
     data = [2, 3, 6, 7]
-    target = 7
-    combinationSum(data, target)
+    target = 10
+    results = combinationSum(data, target)
+    for i in results:
+        print(i)

@@ -10,6 +10,7 @@ Your algorithm should run in O(n) complexity.
 
 
 def longestConsecutive(data):
+    # use hashtable to get random element at O(1)
     numberSet = set(data)
     currMax = 0
 

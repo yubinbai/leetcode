@@ -1,3 +1,14 @@
+# Reverse a linked list from position m to n. Do it in-place and in one-pass.
+
+# For example:
+# Given 1->2->3->4->5->NULL, m = 2 and n = 4,
+
+# return 1->4->3->2->5->NULL.
+
+# Note:
+# Given m, n satisfy the following condition:
+# 1 ≤ m ≤ n ≤ length of list.
+
 '''
 Created on May 15, 2013
 
@@ -24,12 +35,20 @@ def generateLinkedList(array):
     return head
 
 
+def printLinkedList(curr):
+    result = []
+    while curr != None:
+        result.append(curr.data)
+        curr = curr.next
+    print(result)
+
+
 def reverseList(head, m, n):
     # pass m - 1 nodes
     curr = head
-    lastNode = None
-    for counter in range(m - 1):
-        lastNode = curr
+    prev = None
+    for _ in range(m - 1):
+        prev = curr
         curr = curr.next
 
     # reverse list
@@ -47,23 +66,15 @@ def reverseList(head, m, n):
 
     # link the list back
     newListTail.next = oldList
-    if lastNode == None:
+    if prev == None:
         return newListHead
     else:
-        lastNode.next = newListHead
+        prev.next = newListHead
         return head
-
-
-def printLinkedList(curr):
-    result = []
-    while curr != None:
-        result.append(curr.data)
-        curr = curr.next
-    print(result)
 
 if __name__ == '__main__':
     data = list(range(1, 20))
     linked = generateLinkedList(data)
     printLinkedList(linked)
-    linked = reverseList(linked, 1, 14)
+    linked = reverseList(linked, 4, 14)
     printLinkedList(linked)

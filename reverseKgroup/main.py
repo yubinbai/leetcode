@@ -1,3 +1,21 @@
+# Reverse Nodes in k-Group
+# Given a linked list, reverse the nodes of a linked list k at a time and
+# return its modified list.
+
+# If the number of nodes is not a multiple of k then left-out nodes in the
+# end should remain as it is.
+
+# You may not alter the values in the nodes, only nodes itself may be changed.
+
+# Only constant memory is allowed.
+
+# For example,
+# Given this linked list: 1->2->3->4->5
+
+# For k = 2, you should return: 2->1->4->3->5
+
+# For k = 3, you should return: 3->2->1->4->5
+
 '''
 Created on 2013-5-20
 @author: Yubin Bai
@@ -35,7 +53,7 @@ def reverseKgroup(head, k):
     if head == None:
         return None
 
-    newListHead = head
+    newList = head
     newListTail = None
 
     currHead = head
@@ -47,8 +65,8 @@ def reverseKgroup(head, k):
 
         if counter == k:
             nextHead, nextTail = reverse(currTail, currTemp)
-            if newListHead == head:
-                newListHead = nextHead
+            if newList == head:
+                newList = nextHead
                 newListTail = nextTail
                 nextTail.next = None
             else:
@@ -61,7 +79,7 @@ def reverseKgroup(head, k):
         counter += 1
     if newListTail != None:
         newListTail.next = currTail
-    return newListHead
+    return newList
 
 
 def reverse(head, tail):
@@ -70,14 +88,15 @@ def reverse(head, tail):
     if head == tail:
         return head
     oldList = head.next
-    newListHead = head
+    newList = head
+    newList.next = None
 
     while oldList != tail:
         curr = oldList
         oldList = curr.next
-        curr.next = newListHead
-        newListHead = curr
-    tail.next = newListHead
+        curr.next = newList
+        newList = curr
+    tail.next = newList
     return tail, head
 
 if __name__ == '__main__':
@@ -85,4 +104,6 @@ if __name__ == '__main__':
     linked = generateList(data)
     printList(linked)
     linked2 = reverseKgroup(linked, 5)
+    printList(linked2)
+    linked2 = reverseKgroup(linked2, 5)
     printList(linked2)

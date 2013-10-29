@@ -1,3 +1,16 @@
+# Given numRows, generate the first numRows of Pascal's triangle.
+
+# For example, given numRows = 5,
+# Return
+
+# [
+#      [1],
+#     [1,1],
+#    [1,2,1],
+#   [1,3,3,1],
+#  [1,4,6,4,1]
+# ]
+
 '''
 Created on 2013-5-13
 @author: Yubin Bai
@@ -5,7 +18,7 @@ Created on 2013-5-13
 
 if __name__ == '__main__':
     result = [[1]]
-    level = 15
+    level = 5
 
     n = 2
     prevRow = [1]

@@ -1,3 +1,6 @@
+# Given a singly linked list where elements are sorted in ascending order,
+# convert it to a height balanced BST.
+
 '''
 Created on May 15, 2013
 @author: Yubin Bai
