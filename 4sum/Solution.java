@@ -25,8 +25,10 @@ public class Solution {
                         temp.add(num[j]);
                         temp.add(num[k]);
                         temp.add(num[l]);
-
-                        result.add(temp);
+                        if ( !hashSet.contains(temp) ) {
+                            result.add(temp);
+                            hashSet.add(temp);
+                        }
                         k++;
                     }
                 }

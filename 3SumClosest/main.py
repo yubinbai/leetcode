@@ -11,7 +11,7 @@
 
 # The above problem can be solved in O(n) time, assuming that the set S is already sorted. By
 # using two index first and last, each pointing to the first and last element, we look at the
-# element pointed by first, which we call A. We know that we need to find B = k – A, the
+# element pointed by first, which we call A. We know that we need to find B = k - A, the
 # complement of A. If the element pointed by last is less than B, we know that the choice is
 # to increment pointer first by one step. Similarly, if the element pointed by last is greater
 # than B, we decrement pointer last by one step. We are progressively refining the sum step by
@@ -27,28 +27,30 @@ Created on 2013-5-19
 @author: Yubin Bai
 '''
 
+class Solution:
+    # @return an integer
+    def threeSumClosest(self, num, target):
+        num.sort()
+        size = len(num)
+        result = [1 << 33, -1, -1, -1]  # a large number
+        for first in range(size - 2):
+            left = first + 1
+            right = size - 1
+            while left < right:
+                curr = num[first] + num[left] + num[right]
+                distance = abs(curr - target)
+                if distance < result[0]:
+                    result = [distance, num[first], num[left], num[right]]
+                if curr < target:
+                    left += 1
+                else:
+                    right -= 1
 
-def threeSumClosest(array, target):
-    array.sort()
-    size = len(array)
-    result = [1 << 33, -1, -1, -1]  # a large number
-    for first in range(size - 2):
-        left = first + 1
-        right = size - 1
-        while left < right:
-            curr = array[first] + array[left] + array[right]
-            distance = abs(curr - target)
-            if distance < result[0]:
-                result = [distance, array[first], array[left], array[right]]
-            if curr < target:
-                left += 1
-            else:
-                right -= 1
-
-    return result[1] + result[2] + result[3]
+        return result[1] + result[2] + result[3]
 
 
-if __name__ == '__main__':
-    data = [-1, 2, 1, -2]
-    target = 1
-    print(threeSumClosest(data, target))
+# if __name__ == '__main__':
+#     data = [0,0,0]
+#     target = 1
+#     s = Solution()
+#     print(s.threeSumClosest(data, target))
