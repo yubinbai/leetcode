@@ -1,3 +1,6 @@
+# Given a binary tree, find the path sum that matches
+# the target value
+
 '''
 Created on May 14, 2013
 @author: Yubin Bai
@@ -12,17 +15,15 @@ class Node:
 
 
 def generateTreeFromArray(data):
+    def generateTreeHelper(data, root):
+        if root < len(data):
+            r = Node(data[root])
+            r.leftChild = generateTreeHelper(data, 2 * root + 1)
+            r.rightChild = generateTreeHelper(data, 2 * root + 2)
+            return r
+        else:
+            return None
     return generateTreeHelper(data, 0)
-
-
-def generateTreeHelper(data, root):
-    if root < len(data):
-        r = Node(data[root])
-        r.leftChild = generateTreeHelper(data, 2 * root + 1)
-        r.rightChild = generateTreeHelper(data, 2 * root + 2)
-        return r
-    else:
-        return None
 
 
 def pathSum(root, total):

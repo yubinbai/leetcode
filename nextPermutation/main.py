@@ -41,6 +41,7 @@ def nextPermutation(seq):
         raise Exception("End of permutation")
 
     # 2.swap num[lo] with num[hi] if lo >= 0
+    # print low, high
     seq[low], seq[high] = seq[high], seq[low]
 
     # 3.reverse lo+1 .. end

@@ -1,3 +1,7 @@
+# Say you have an array for which the ith element is the price of a given
+# stock on day i.
+
+# unlimited buy and sell
 '''
 Created on May 13, 2013
 @author: Yubin Bai

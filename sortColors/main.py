@@ -31,7 +31,7 @@ def sortColors(A):
         elif A[cur] == 1:
             cur += 1
         else:
-            if cur >= j:
+            if cur > j:
                 break
             else:
                 A[cur], A[j] = A[j], A[cur]

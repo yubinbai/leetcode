@@ -63,5 +63,5 @@ def printList(head):
 if __name__ == '__main__':
     value = [1, 4, 3, 2, 5, 2]
     linked = generateLinkedList(value)
-    L = partition(linked, 3)
-    printList(L)
+    newLinked = partition(linked, 3)
+    printList(newLinked)

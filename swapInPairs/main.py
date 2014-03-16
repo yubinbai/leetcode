@@ -1,3 +1,8 @@
+# Given a linked list, swap every two adjacent nodes and return its head.
+# For example,
+# Given 1->2->3->4, you should return the list as 2->1->4->3.
+# Your algorithm should use only constant space. You may not modify the
+# values in the list, only nodes itself can be changed.
 '''
 Created on 2013-5-20
 @author: Yubin Bai
@@ -19,7 +24,6 @@ def swapInPairs(head):
     prev = head
     curr = head.next
     newHead = curr
-
     # swap in pairs
     while True:
         nextPrev = curr.next
@@ -34,10 +38,8 @@ def swapInPairs(head):
             break
         curr.next = prev
         prev.next = nextCurr
-
         prev = nextPrev
         curr = nextCurr
-
     return newHead
 
 
@@ -48,18 +50,12 @@ def printList(head):
         result.append(curr.value)
         curr = curr.next
     print(result)
-
-
 if __name__ == '__main__':
-
     linked = ListNode(0)
     curr = linked
     for i in range(1, 6):
         curr.next = ListNode(i)
         curr = curr.next
-
     printList(linked)
-
     linked2 = swapInPairs(linked)
-
     printList(linked2)

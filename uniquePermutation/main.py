@@ -1,3 +1,10 @@
+# Given a collection of numbers that might contain duplicates, return all
+# possible unique permutations.
+
+# For example,
+# [1,1,2] have the following unique permutations:
+# [1,1,2], [1,2,1], and [2,1,1].
+
 '''
 Created on May 16, 2013
 @author: Yubin Bai
@@ -21,6 +28,7 @@ def uniquePermutations(array):
     results = []
     used = [False] * len(array)
     path = []
+    array.sort()
     _uniquePermutations()
     for i in results:
         print(i)

@@ -1,4 +1,4 @@
-# Valid Parentheses Total Accepted: 1638 Total Submissions: 5867 My Submissions
+# Valid Parentheses
 # Given a string containing just the characters '(', ')', '{', '}', '['
 # and ']', determine if the input string is valid.
 

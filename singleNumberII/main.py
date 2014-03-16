@@ -4,7 +4,6 @@
 # Note:
 # Your algorithm should have a linear runtime complexity. Could you
 # implement it without using extra memory?
-import operator
 
 # idea: think of the final answer as the value that all bits count together
 # the result should be all bits in a certain position mod 3 == 1, the

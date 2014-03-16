@@ -30,7 +30,7 @@ def solve(board):
             if not visited[row][col]:
                 flag &= dfs(row, col)
         if flag:
-            surr[0] += 1
+            surroundCount[0] += 1
             return True
         else:
             return False
@@ -38,12 +38,12 @@ def solve(board):
     n = len(board)
     m = len(board[0])
     visited = [[False] * m for _ in range(n)]
-    surr = [0]
+    surroundCount = [0]
     for i in range(n):
         for j in range(m):
             if not visited[i][j]:
                 dfs(i, j)
-    return surr[0]
+    return surroundCount[0]
 
 board = ['XXXX', 'XOOX', 'XXOX', 'XOXX']
 print solve(board)
