@@ -7,7 +7,7 @@
 # dict = ["leet", "code"].
 
 # Return true because "leetcode" can be segmented as "leet code".
-import numpypy as np
+import numpy as np
 
 
 def wordBreak(s, d):
@@ -18,7 +18,7 @@ def wordBreak(s, d):
             memo[a, b] = 1
             return 1
         for i in range(a, b):
-            if dp(a, i) and dp(i + 1, b):
+            if dp(a, i) > 0 and dp(i + 1, b) > 0:
                 memo[a, b] = 1
                 return 1
         memo[a, b] = 0
@@ -27,14 +27,9 @@ def wordBreak(s, d):
     n = len(s)
     memo = np.zeros((n, n), dtype=np.int)
     memo.fill(-1)
-    return dp(0, n - 1)
+    return dp(0, n - 1) > 0
 
 
 s = "leetcodeleetcodecode"
 d = ["leet", "code", "abacus"]
-print wordBreak(s, d)
-
-s = "a" * 1000 + "b"
-d = ["a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa",
-     "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa"]
 print wordBreak(s, d)
