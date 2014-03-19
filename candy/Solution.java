@@ -1,5 +1,6 @@
 import java.util.Arrays;
 public class Solution {
+    // AC
     public int candy(int[] ratings) {
         int len = ratings.length;
         int[] left = new int[len];
