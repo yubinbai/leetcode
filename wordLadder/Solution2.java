@@ -1,63 +1,42 @@
 import java.util.*;
-public class Solution {
-    static int MAX_INT = 5000;
+public class Solution2 {
     public int ladderLength(String start, String end, HashSet<String> dict) {
-        dict.remove(start);
-        dict.remove(end);
-        ArrayList<String> list = new ArrayList<String>();
-        for (String s : dict)
-            list.add(s);
-        list.add(end);
-        list.add(start);
 
-        // for (String s : list) System.out.println(s);
-        int listSize = list.size();
-        boolean[][] hasPath = new boolean[listSize][listSize];
-
-        // will give TLE on large graphs
-        for (int i = 0; i < listSize ; i++) {
-            for (int j = 0; j < listSize; j++) {
-                if (distance(list.get(i), list.get(j)) == 1) {
-                    hasPath[i][j] = hasPath[j][i] = true;
-                }
-            }
-        }
-
-        // BFS
-        int startIndex = listSize - 1;
-        int[] shortest = new int[listSize];
-        boolean[] visited = new boolean[listSize];
-        Arrays.fill(shortest, MAX_INT);
-        shortest[startIndex] = 1;
-        visited[startIndex] = true;
-        Queue<Integer> frontier = new LinkedList<Integer>();
-        frontier.offer(startIndex);
-        while (!frontier.isEmpty()) {
-            int v = frontier.poll();
-            if (v == listSize - 2) break;
-            for (int i = 0; i < listSize; i++) {
-                if ( !visited[i] && hasPath[v][i] ) {
-                    frontier.offer(i);
-                    shortest[i] = shortest[v] + 1;
-                    visited[i] = true;
-                }
-            }
-        }
-        if (shortest[listSize - 2] < MAX_INT )
-            return shortest[listSize - 2];
-        else
+        if (dict.size() == 0)
             return 0;
-    }
 
-    public int distance(String s1, String s2) {
-        int size = s1.length();
-        int counter = 0;
-        for (int i = 0; i < size; i++)
-            if (s1.charAt(i) != s2.charAt(i))
-                counter += 1;
-        return counter;
-    }
+        LinkedList<String> wordQueue = new LinkedList<String>();
+        LinkedList<Integer> distanceQueue = new LinkedList<Integer>();
 
+        wordQueue.add(start);
+        distanceQueue.add(1);
+
+
+        while (!wordQueue.isEmpty()) {
+            String currWord = wordQueue.pop();
+            Integer currDistance = distanceQueue.pop();
+
+            if (currWord.equals(end)) {
+                return currDistance;
+            }
+
+            for (int i = 0; i < currWord.length(); i++) {
+                char[] currCharArr = currWord.toCharArray();
+                for (char c = 'a'; c <= 'z'; c++) {
+                    currCharArr[i] = c;
+
+                    String newWord = new String(currCharArr);
+                    if (dict.contains(newWord)) {
+                        wordQueue.add(newWord);
+                        distanceQueue.add(currDistance + 1);
+                        dict.remove(newWord);
+                    }
+                }
+            }
+        }
+
+        return 0;
+    }
     public static void main(String[] args) {
         String start = "nanny";
         String end = "alout";
@@ -67,7 +46,7 @@ public class Solution {
 
         for (String s : paths)
             set.add(s);
-        Solution sol = new Solution();
+        Solution2 sol = new Solution2();
         System.out.println(sol.ladderLength(start, end, set));
     }
 }
