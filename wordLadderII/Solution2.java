@@ -1,55 +1,38 @@
 import java.util.*;
 public class Solution2 {
+    ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
     public ArrayList<ArrayList<String>> findLadders(String start, String end, HashSet<String> dict) {
-
-        // Start typing your Java solution below
-        // DO NOT write main() function
 
         HashMap<String, HashSet<String>> neighbours = new HashMap<String, HashSet<String>>();
 
         dict.add(start);
         dict.add(end);
 
-        // init adjacent graph
         for (String str : dict) {
             calcNeighbours(neighbours, str, dict);
         }
 
-        ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
-
         // BFS search queue
         LinkedList<Node> queue = new LinkedList<Node>();
         queue.add(new Node(null, start, 1));
-
-        // BFS level
         int previousLevel = 0;
-
-        // mark which nodes have been visited, to break infinite loop
         HashMap<String, Integer> visited = new HashMap<String, Integer>();
+
         while (!queue.isEmpty()) {
             Node n = queue.pollFirst();
             if (end.equals(n.str)) {
-                // fine one path, check its length, if longer than previous path it's valid
-                // otherwise all possible short path have been found, should stop
                 if (previousLevel == 0 || n.level == previousLevel) {
                     previousLevel = n.level;
-                    findPath(n, result);
+                    savePath(n);
                 } else {
-                    // all path with length *previousLevel* have been found
                     break;
                 }
             } else {
                 HashSet<String> set = neighbours.get(n.str);
-
                 if (set == null || set.isEmpty()) continue;
-                // note: I'm not using simple for(String s: set) here. This is to avoid hashset's
-                // current modification exception.
                 ArrayList<String> toRemove = new ArrayList<String>();
                 for (String s : set) {
 
-                    // if s has been visited before at a smaller level, there is already a shorter
-                    // path from start to s thus we should ignore s so as to break infinite loop; if
-                    // on the same level, we still need to put it into queue.
                     if (visited.containsKey(s)) {
                         Integer occurLevel = visited.get(s);
                         if (n.level + 1 > occurLevel) {
@@ -58,8 +41,10 @@ public class Solution2 {
                             continue;
                         }
                     }
+
                     visited.put(s,  n.level + 1);
                     queue.add(new Node(n, s, n.level + 1));
+
                     if (neighbours.containsKey(s))
                         neighbours.get(s).remove(n.str);
                 }
@@ -72,7 +57,7 @@ public class Solution2 {
         return result;
     }
 
-    public void findPath(Node n, ArrayList<ArrayList<String>> result) {
+    public void savePath(Node n) {
         ArrayList<String> path = new ArrayList<String>();
         Node p = n;
         while (p != null) {
