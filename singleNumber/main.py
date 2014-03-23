@@ -7,8 +7,11 @@
 import operator
 
 
-def singleNumber(A):
-    return reduce(operator.xor, A)
+class Solution:
+    # @param A, a list of integer
+    # @return an integer
+    def singleNumber(self, A):
+        return reduce(operator.xor, A)
 
 A = [1, 1, 3, 3, 10000]
 print singleNumber(A)
