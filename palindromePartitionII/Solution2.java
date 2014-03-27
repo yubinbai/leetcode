@@ -2,7 +2,7 @@ import java.util.*;
 public class Solution2 {
     public int minCut(String s) {
         int N = s.length();
-        int[] D = new int[N + 1] ;
+        int[] D = new int[N + 1]; // min cuts between i and N
         boolean[][] P = new boolean[N][N];
         //the worst case is cutting by each char
         for (int i = 0; i <= N; i++)
