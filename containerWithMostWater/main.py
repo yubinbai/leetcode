@@ -6,16 +6,18 @@
 
 # Note: You may not slant the container.
 
+class Solution:
+    # @return an integer
+    def maxArea(self, height):
+        l, r = 0, len(height) - 1
+        currMax = min(height[l], height[r]) * (r - l)
+        while l < r:
+            currMax = max(currMax, min(height[l], height[r]) * (r - l))
+            if height[l] < height[r]:
+                l += 1
+            else:
+                r -= 1
+        return currMax
 
-def maxArea(heights):
-    l, r = 0, len(heights) - 1
-    currMax = min(heights[l], heights[r]) * (r - l)
-    while l < r:
-        currMax = max(currMax, min(heights[l], heights[r]) * (r - l))
-        if heights[l] < heights[r]:
-            l += 1
-        else:
-            r -= 1
-    return currMax
-
-print maxArea([2, 4, 1, 3])
+s = Solution()
+print s.maxArea([2, 4, 1, 3])

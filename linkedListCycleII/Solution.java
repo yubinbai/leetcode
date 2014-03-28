@@ -44,7 +44,6 @@ public class Solution {
         }
         Solution sol = new Solution();
         System.out.println(sol.detectCycle(head.next).val);
-
     }
 }
 
