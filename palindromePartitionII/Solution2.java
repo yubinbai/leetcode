@@ -1,66 +1,28 @@
 import java.util.*;
-public class Solution {
-    int[][] memo;
-    boolean[][] isPalindrome;
-    int N;
+public class Solution2 {
     public int minCut(String s) {
-        N = s.length();
-        memo = new int[N][N];
-        for (int[] arr : memo) Arrays.fill(arr, N + 1);
-        isPalindrome = new boolean[N][N];
-
-        int left, right;
-        boolean flag;
-        for (int center = 0; center < N; center++) {
-            flag = true;
-            left = center;
-            right = center;
-            while (left >= 0 && right < N) {
-                if (s.charAt(left) != s.charAt(right)) flag = false;
-                isPalindrome[left][right] = flag;
-                left--;
-                right++;
-            }
-        }
-        for (int center = 0; center < N - 1; center++) {
-            flag = true;
-            left = center;
-            right = center + 1;
-            while (left >= 0 && right < N) {
-                if (s.charAt(left) != s.charAt(right)) flag = false;
-                isPalindrome[left][right] = flag;
-                left--;
-                right++;
-            }
-        }
-
-        // for (boolean[] arr : isPalindrome) {
-        //     for (boolean b : arr ) System.out.format("%s " , b);
-        //     System.out.println("");
-        // }
-
-        int start, end;
-        for (int l = 1; l <= N; l++) {
-            for (start = 0, end = start + l - 1; end < N; start++, end++) {
-                if (isPalindrome[start][end]) {
-                    memo[start][end] = 0;
-                    continue;
+        int N = s.length();
+        int[] D = new int[N + 1]; // min cuts between i and N
+        boolean[][] P = new boolean[N][N];
+        //the worst case is cutting by each char
+        for (int i = 0; i <= N; i++)
+            D[i] = N - i;
+        for (int i = 0; i < N; i++)
+            for (int j = 0; j < N; j++)
+                P[i][j] = false;
+        for (int i = N - 1; i >= 0; i--) {
+            for (int j = i; j < N; j++) {
+                if (s.charAt(i) == s.charAt(j) && (j - i < 2 || P[i + 1][j - 1])) {
+                    P[i][j] = true;
+                    D[i] = Math.min(D[i], D[j + 1] + 1);
                 }
-                int minC = N + 1;
-                for (int i = start + 1; i <= end ; i++)
-                    minC = Math.min(minC, 1 + memo[start][i - 1] + memo[i][end]);
-                memo[start][end] = minC;
             }
         }
-        // for (int[] arr : memo) {
-        //     for (int b : arr ) System.out.format("%d " , b);
-        //     System.out.println("");
-        // }
-        return memo[0][N - 1];
+        return D[0] - 1;
     }
 
     public static void main(String[] args) {
-        Solution s = new Solution();
+        Solution2 s = new Solution2();
         System.out.println(s.minCut("aab"));
         System.out.println(s.minCut("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"));
         System.out.println(s.minCut("adabdcaebdcebdcacaaaadbbcadabcbeabaadcbcaaddebdbddcbdacdbbaedbdaaecabdceddccbdeeddccdaabbabbdedaaabcdadbdabeacbeadbaddcbaacdbabcccbaceedbcccedbeecbccaecadccbdbdccbcbaacccbddcccbaedbacdbcaccdcaadcbaebebcceabbdcdeaabdbabadeaaaaedbdbcebcbddebccacacddebecabccbbdcbecbaeedcdacdcbdbebbacddddaabaedabbaaabaddcdaadcccdeebcabacdadbaacdccbeceddeebbbdbaaaaabaeecccaebdeabddacbedededebdebabdbcbdcbadbeeceecdcdbbdcbdbeeebcdcabdeeacabdeaedebbcaacdadaecbccbededceceabdcabdeabbcdecdedadcaebaababeedcaacdbdacbccdbcece"));
