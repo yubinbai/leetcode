@@ -26,9 +26,9 @@ class Solution:
 
         def _combinationSum(target, step):
             if target == 0:
-                results.append(sorted(stack))
+                results.append(list(stack))
                 return
-            if target < 0 or step == -1:
+            if target < 0 or step == len(candidates):
                 return
 
             # use the current value
@@ -37,16 +37,18 @@ class Solution:
             stack.pop()
 
             # do not use the current value
-            _combinationSum(target, step - 1)
+            _combinationSum(target, step + 1)
 
+        candidates = sorted(candidates)
         results = []
         stack = []
-        _combinationSum(target, len(candidates) - 1)
-        return sorted(results)
+        _combinationSum(target, 0)
+        return results
 
 if __name__ == '__main__':
     s = Solution()
     data = [2, 3, 6, 7]
-    target = 10
+    data = [1, 2]
+    target = 3 
     results = s.combinationSum(data, target)
     print results
