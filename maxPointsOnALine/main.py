@@ -11,7 +11,6 @@ class Point:
 class Solution:
     # @param points, a list of Points
     # @return an integer
-
     def maxPoints(self, points):
         s = set([(p.x, p.y) for p in points])
         if len(s) <= 1:
