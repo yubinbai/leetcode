@@ -9,16 +9,21 @@ Created on May 13, 2013
 @author: Yubin Bai
 '''
 
-
-def profit(data):
-    currProfit = maxProfit = 0
-    currMin = data[0]
-    for j in range(1, len(data)):
-        currMin = min(currMin, data[j])
-        currProfit = data[j] - currMin
-        maxProfit = max(currProfit, maxProfit)
-    return maxProfit
+class Solution:
+    # @param prices, a list of integer
+    # @return an integer
+    def maxProfit(self, prices):
+        if len(prices) == 0:
+            return 0
+        currProfit = ret = 0
+        currMin = prices[0]
+        for j in range(1, len(prices)):
+            currMin = min(currMin, prices[j])
+            currProfit = prices[j] - currMin
+            ret = max(currProfit, ret)
+        return ret
 
 if __name__ == '__main__':
     data = [1, 22, 13, 55]
-    print(profit(data))
+    s = Solution()
+    print(s.maxProfit(data))
