@@ -7,11 +7,15 @@ Created on May 13, 2013
 @author: Yubin Bai
 '''
 
-
-def profits(data):
-    return sum(data[i] - data[i - 1] for i in range(1, len(data))
-               if data[i] > data[i - 1])
+class Solution:
+    # @param prices, a list of integer
+    # @return an integer
+    def maxProfit(self, prices):
+        if len(prices) == 0:
+            return 0
+        return sum(prices[i] - prices[i - 1] for i in range(1, len(prices)) if prices[i] > prices[i - 1])
 
 if __name__ == '__main__':
-    data = [1, 2, 5, 4, 9, 2]
-    print(profits(data))
+    data = [1, 2, 15, 4, 9, 2]
+    s = Solution()
+    print(s.maxProfit(data))
