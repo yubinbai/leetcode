@@ -12,6 +12,11 @@ Created on 2013-5-13
 
 def bestTwoTransactions(data):
     size = len(data)
+    if size <= 1:
+        return 0
+    if size == 2:
+        return data[1] - data[0] if (data[0] < data[1]) else 0
+
     # find the best from 0 .. i
     bestLeft = [0] * size  # bestLeft[0] is empty
     currProfit = maxProfit = 0
@@ -34,10 +39,13 @@ def bestTwoTransactions(data):
 
     # find the best pair
     maxSum = 0
-    for i in range(1, size - 1):
+    for i in range(size - 1):
         maxSum = max(maxSum, bestLeft[i] + bestRight[i + 1])
     return maxSum
 
 if __name__ == '__main__':
     data = [1, 9, 10, 4, 15, 100]
+    data = [1, 2, 3, 4]
+    # data = [1, 2]
+    print(data)
     print(bestTwoTransactions(data))
