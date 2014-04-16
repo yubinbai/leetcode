@@ -16,11 +16,7 @@ class Solution:
         size = len(prices)
         if size <= 1:
             return 0
-        if size == 2:
-            if prices[0] < prices[1]:
-                return prices[1] - prices[0]
-            else:
-                return 0
+
         # find the best from 0 .. i
         bestLeft = [0] * size  # bestLeft[0] is empty
         currProfit = maxProfit = 0
@@ -45,9 +41,23 @@ class Solution:
         maxSum = 0
         for i in range(1, size - 1):
             maxSum = max(maxSum, bestLeft[i] + bestRight[i + 1])
-        return maxSum
+        return max(maxSum, self.maxProfit1(prices))
+
+    # @param prices, a list of integer
+    # @return an integer
+    def maxProfit1(self, prices):
+        if len(prices) == 0:
+            return 0
+        currProfit = ret = 0
+        currMin = prices[0]
+        for j in range(1, len(prices)):
+            currMin = min(currMin, prices[j])
+            currProfit = prices[j] - currMin
+            ret = max(currProfit, ret)
+        return ret
 
 if __name__ == '__main__':
     prices = [1, 9, 10, 4, 15, 100]
+    # prices = [1, 2, 3, 4]
     s = Solution()
     print(s.maxProfit(prices))
