@@ -10,26 +10,29 @@ Created on 2013-5-19
 @author: Yubin Bai
 '''
 
-
-def generateParentheses(depth):
-    def _generateParentheses(left, right):
-        if left + right == depth * 2:
-            result.append(''.join(path))
-        if left < depth:
-            path.append('(')
-            _generateParentheses(left + 1, right)
-            path.pop()
-        if left > right:
-            path.append(')')
-            _generateParentheses(left, right + 1)
-            path.pop()
-    path = []
-    result = []
-    _generateParentheses(0, 0)
-    return result
+class Solution:
+    # @param an integer
+    # @return a list of string
+    def generateParenthesis(self, n):
+        def _generateParentheses(left, right):
+            if left + right == n * 2:
+                result.append(''.join(path))
+            if left < n:
+                path.append('(')
+                _generateParentheses(left + 1, right)
+                path.pop()
+            if left > right:
+                path.append(')')
+                _generateParentheses(left, right + 1)
+                path.pop()
+        path = []
+        result = []
+        _generateParentheses(0, 0)
+        return result
 
 
 if __name__ == '__main__':
-    result = generateParentheses(3)
+    s = Solution()
+    result = s.generateParenthesis(3)
     for i in result:
         print(i)

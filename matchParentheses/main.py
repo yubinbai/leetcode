@@ -24,7 +24,6 @@ class Solution:
                     return False
         return len(stack) == 0
 
-
     def _match(self, c1, c2):
         return any([c1 == '(' and c2 == ')', c1 == '[' and c2 == ']', c1 == '{' and c2 == '}'])
 
