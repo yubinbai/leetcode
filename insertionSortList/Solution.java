@@ -17,19 +17,27 @@ public class Solution {
         ListNode oldList = head.next;
         ListNode prev = newHead, curr = head;
         prev.next = curr;
+        curr.next = null;
+        oldList.printList();
+        head.printList();
 
         while (oldList != null) {
-            if (oldList.val >= prev.val && (curr == null || curr.val >= oldList.val) ) {
-                prev.next = oldList;
-                System.out.println(oldList.val);
-                oldList = oldList.next;
-                System.out.println(oldList.val);
-                prev.next.next = curr;
-                prev = prev.next;
-            }
-            else {
-                curr = curr.next;
-                prev = curr;
+            prev = newHead;
+            curr = newHead.next;
+
+            while (true) {
+                if ( (oldList.val >= prev.val) && (curr == null || curr.val >= oldList.val) ) {
+                    prev.next = oldList;
+                    System.out.println(oldList.val);
+                    oldList = oldList.next;
+                    System.out.println(oldList.val);
+                    prev.next.next = curr;
+                    prev = prev.next;
+                } else {
+                    if(curr == null) break;
+                    curr = curr.next;
+                    prev = curr;
+                }
             }
         }
         return newHead.next;
@@ -46,7 +54,7 @@ public class Solution {
         head.next.printList();
         Solution sol = new Solution();
         head = sol.insertionSortList(head.next);
-        head.printList();
+        // head.printList();
     }
 }
 
