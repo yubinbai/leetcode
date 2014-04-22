@@ -18,33 +18,30 @@ public class Solution {
         ListNode prev = newHead, curr = head;
         prev.next = curr;
         curr.next = null;
-        oldList.printList();
-        head.printList();
 
         while (oldList != null) {
             prev = newHead;
             curr = newHead.next;
 
-            while (true) {
-                if ( (oldList.val >= prev.val) && (curr == null || curr.val >= oldList.val) ) {
-                    prev.next = oldList;
-                    System.out.println(oldList.val);
-                    oldList = oldList.next;
-                    System.out.println(oldList.val);
-                    prev.next.next = curr;
-                    prev = prev.next;
-                } else {
-                    if(curr == null) break;
-                    curr = curr.next;
-                    prev = curr;
-                }
+            while (curr != null) {
+                if (oldList.val >= prev.val && oldList.val < curr.val)
+                    break;
+                prev = curr;
+                curr = curr.next;
             }
+
+            prev.next = oldList;
+            oldList = oldList.next;
+            prev.next.next = curr;
         }
+
         return newHead.next;
     }
 
     public static void main(String[] args) {
-        int[] a = {2, 1, 3, 0, 100, -100};
+        // int[] a = {2, 1, 3, 0, 100, -100};
+        // int[] a = {2, 1};
+        int[] a = {-2147483647,-2147483648};
         ListNode head = new ListNode(0);
         ListNode curr = head;
         for (int i : a) {
@@ -54,7 +51,7 @@ public class Solution {
         head.next.printList();
         Solution sol = new Solution();
         head = sol.insertionSortList(head.next);
-        // head.printList();
+        head.printList();
     }
 }
 
