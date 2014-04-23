@@ -26,12 +26,12 @@ public class Solution {
         if (root.left != null) {
             _maxPathSun(root.left, leftRet);
             ret[0] = Math.max(ret[0], leftRet[0]);
-            ret[1] = Math.max(ret[1], ret[1] + leftRet[1]);
+            ret[1] = Math.max(ret[1], root.val + leftRet[1]);
         }
         if (root.right != null) {
             _maxPathSun(root.right, rightRet);
             ret[0] = Math.max(ret[0], rightRet[0]);
-            ret[1] = Math.max(ret[1], ret[1] + rightRet[1]);
+            ret[1] = Math.max(ret[1], root.val + rightRet[1]);
         }
         ret[0] = Math.max(ret[0], leftRet[1] + rightRet[1] + root.val);
         ret[0] = Math.max(ret[0], ret[1]);
