@@ -8,47 +8,53 @@ Created on May 14, 2013
 
 
 class Node:
-    data = leftChild = rightChild = None
+    val = left = right = None
 
-    def __init__(self, data=None):
-        self.data = data
+    def __init__(self, val=None):
+        self.val = val
 
 
-def generateTreeFromArray(data):
-    def generateTreeHelper(data, root):
-        if root < len(data):
-            r = Node(data[root])
-            r.leftChild = generateTreeHelper(data, 2 * root + 1)
-            r.rightChild = generateTreeHelper(data, 2 * root + 2)
+def generateTreeFromArray(val):
+    def generateTreeHelper(val, root):
+        if root < len(val):
+            r = Node(val[root])
+            r.left = generateTreeHelper(val, 2 * root + 1)
+            r.right = generateTreeHelper(val, 2 * root + 2)
             return r
         else:
             return None
-    return generateTreeHelper(data, 0)
+    return generateTreeHelper(val, 0)
 
 
-def pathSum(root, total):
+class Solution:
+    # @param root, a tree node
+    # @param sum, an integer
+    # @return a boolean
+    def hasPathSum(self, root, sum):
+        def pathSumHelper(root, sum):
+            if root.left == None and root.right == None:
+                if sum == root.val:
+                    path.append(root.val)
+                    results.append(list(path))
+                    path.pop()
+                return
+            path.append(root.val)
+            if root.left != None:
+                pathSumHelper(root.left, sum - root.val)
+            if root.right != None:
+                pathSumHelper(root.right, sum - root.val)
+            path.pop()
 
-    def pathSumHelper(root, total):
-        if root.leftChild == None and root.rightChild == None:
-            if total == root.data:
-                path.append(root.data)
-                results.append(list(path))
-                path.pop()
-            return
-        path.append(root.data)
-        if root.leftChild != None:
-            pathSumHelper(root.leftChild, total - root.data)
-        if root.rightChild != None:
-            pathSumHelper(root.rightChild, total - root.data)
-        path.pop()
-
-    results = []
-    path = []
-    pathSumHelper(root, total)
-    print(results)
+        if root == None:
+            return False
+        results = []
+        path = []
+        pathSumHelper(root, sum)
+        return len(results) > 0
 
 
 if __name__ == '__main__':
-    data = [5, 4, 8, 11, 0, 13, 4, 7, 2, 0, 0, 0, 0, 5, 1]
-    tree = generateTreeFromArray(data)
-    pathSum(tree, 22)
+    val = [5, 4, 8, 11, 0, 13, 4, 7, 2, 0, 0, 0, 0, 5, 1]
+    tree = generateTreeFromArray(val)
+    s = Solution()
+    print s.hasPathSum(tree, 22)
