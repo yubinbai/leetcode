@@ -12,24 +12,27 @@ Created on May 16, 2013
 @author: Yubin Bai
 '''
 
-
-def subsets(data):
-    def _subsets(step):
-        results.append(list(path))
-        for i in range(step, len(data)):
-            if i != step and data[i] == data[i - 1]:
-                continue
-            path.append(data[i])
-            _subsets(i + 1)
-            path.pop()
-    data.sort()
-    results = []
-    path = []
-    _subsets(0)
-    for i in results:
-        print(i)
+class Solution:
+    # @param num, a list of integer
+    # @return a list of lists of integer
+    def subsetsWithDup(self, S):
+        def _subsets(step):
+            results.append(list(path))
+            for i in range(step, len(S)):
+                if i != step and S[i] == S[i - 1]:
+                    continue
+                path.append(S[i])
+                _subsets(i + 1)
+                path.pop()
+        S.sort()
+        results = []
+        path = []
+        _subsets(0)
+        return results
 
 
 if __name__ == '__main__':
-    data = [1, 1, 2]
-    subsets(data)
+    S = [1, 2, 2]
+    sol = Solution()
+    for row in sol.subsetsWithDup(S):
+        print row
