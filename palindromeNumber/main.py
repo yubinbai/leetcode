@@ -12,21 +12,23 @@
 # overflow. How would you handle such case?
 
 # There is a more generic way of solving this problem.
-
-
-def isPalindrome(x):
-    if x < 0:
-        return False
-    p10 = 1
-    while (x / p10 >= 10):
-        p10 *= 10
-    while (x != 0):
-        l = x / p10
-        r = x % 10
-        if (l != r):
-            return false
-        x = (x % p10) / 10
-        p10 /= 100
-    return True
-
-print isPalindrome(101)
+class Solution:
+    # @return a boolean
+    def isPalindrome(self, x):
+        if x < 0:
+            return False
+        p10 = 1
+        while (x / p10 >= 10):
+            p10 *= 10
+        while (x != 0):
+            l = x / p10
+            r = x % 10
+            if (l != r):
+                return False
+            x = (x % p10) / 10
+            p10 /= 100
+        return True
+        
+if __name__ == '__main__':
+    s = Solution() 
+    print s.isPalindrome(101)
