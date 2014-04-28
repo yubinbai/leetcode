@@ -15,9 +15,7 @@ class Solution:
             h1 = h2 = t1 = t2 = None
             if r.left != None:
                 h1, t1 = _flatten(r.left)
-                # print h1.val, t1.val
             if r.right != None: 
-                # print r.val, r.right.val
                 h2, t2 = _flatten(r.right)
 
             head.left = None
