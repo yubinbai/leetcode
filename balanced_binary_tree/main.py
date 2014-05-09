@@ -29,5 +29,5 @@ if __name__ == '__main__':
     s = Solution()
     root = TreeNode(1)
     root.left = TreeNode(2)
-    root.left.left = TreeNode(4)
+    # root.left.left = TreeNode(4)
     print s.isBalanced(root)
