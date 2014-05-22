@@ -4,24 +4,18 @@ public class Solution {
         if (n < 0) return "";
         BigInteger curr = new BigInteger(0);
         BigInteger next = new BigInteger();
+        BigInteger oneOne = new BigInteger(0);
+        BigInteger twoOne = new BigInteger(0);
+        BigInteger oneTwo = new BigInteger(1);
         for (int i = 0; i < n; i++) {
             while (curr.bitLength() > 0) {
                 if (curr.bitLength() > 1) {
-                    curr.poll();
                     if (curr.isEmpty() || (!curr.isEmpty() && curr.peek()) ) {
-                        next.offer(false);
-                        next.offer(false);
-                    } else {
-                        if (!curr.isEmpty() && !curr.peek()) {
-                            curr.poll();
-                            next.offer(true);
-                            next.offer(false);
-                        }
                     }
                 } else {
-                    curr.poll();
-                    next.offer(false);
-                    next.offer(true);
+                    curr.shiftLeft(1);
+                    next.shiftLeft(2);
+                    next.or(oneOne);
                 }
 
             }
