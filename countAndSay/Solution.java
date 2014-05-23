@@ -2,28 +2,23 @@ import java.util.*;
 public class Solution {
     public String countAndSay(int n) {
         if (n < 0) return "";
-        BigInteger curr = new BigInteger(0);
-        BigInteger next = new BigInteger();
-        BigInteger oneOne = new BigInteger(0);
-        BigInteger twoOne = new BigInteger(0);
-        BigInteger oneTwo = new BigInteger(1);
-        for (int i = 0; i < n; i++) {
-            while (curr.bitLength() > 0) {
-                if (curr.bitLength() > 1) {
-                    if (curr.isEmpty() || (!curr.isEmpty() && curr.peek()) ) {
-                    }
-                } else {
-                    curr.shiftLeft(1);
-                    next.shiftLeft(2);
-                    next.or(oneOne);
+        char[] original = new char[] { '1' };
+        StringBuffer sb = null;
+
+        for (int i = 1; i < n; i++) {
+            sb = new StringBuffer();
+            int len = original.length;
+            int begin = 0;
+
+            for (int j = 1; j <= len; j++)
+                if (j == len || original[j] != original[begin]) {
+                    sb.append("" + (j - begin));
+                    sb.append(original[begin]);
+                    begin = j;
                 }
-
-            }
-            curr = next;
-            next = new BigInteger();
+            original = sb.toString().toCharArray();
         }
-
-
+        return new String(original);
 
     }
 
@@ -78,5 +73,6 @@ public class Solution {
         System.out.println(s.countAndSay(2));
         System.out.println(s.countAndSay(3));
         System.out.println(s.countAndSay(4));
+        System.out.println(s.countAndSay(30).length());
     }
 }
