@@ -14,7 +14,7 @@ class Solution:
                 return
 
             if mSize == 1:
-                for i in range(k, k + nSize - 1):
+                for i in range(k, k + nSize):
                     result.append(matrix[i][k])
                 return
 
@@ -50,5 +50,6 @@ class Solution:
 if __name__ == '__main__':
 
     matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    # matrix = [[3], [2]]
     s = Solution()
     print s.spiralOrder(matrix)
