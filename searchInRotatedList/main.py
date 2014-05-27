@@ -14,33 +14,36 @@ Created on 2013-5-19
 '''
 
 
-def searchInRotated(array, key):
-    left = 0
-    right = len(array) - 1
+class Solution:
+    # @param A, a list of integers
+    # @param target, an integer to be searched
+    # @return an integer
 
-    while left <= right:
-        mid = (left + right) >> 1
-        if key > array[mid]:
-            if key > array[right]:
-                right = mid - 1
-            elif key < array[right]:
-                left = mid + 1
+    def search(self, A, target):
+        left = 0
+        right = len(A) - 1
+
+        while left <= right:
+            mid = (left + right) >> 1
+            if target == A[mid]:
+                return mid
+            # print mid, A[mid], left, A[left], right, A[right], '..',
+            if A[left] <= A[mid]:
+                if A[left] <= target and target <= A[mid]:
+                    right = mid - 1
+                else:
+                    left = mid + 1
             else:
-                return right
-        elif key < array[mid]:
-            if key < array[left]:
-                left = mid + 1
-            elif key > array[left]:
-                right = mid - 1
-            else:
-                return left
-        else:
-            return mid
-    return -1
+                if A[mid] < target and target <= A[right]:
+                    left = mid + 1
+                else:
+                    right = mid - 1
+        return -1
 
 if __name__ == '__main__':
-    data = list(range(6, 20)) + list(range(6))
+    s = Solution()
+    data = [4, 5, 6, 7, 8, 1, 2, 3]
     print(data)
-    print(searchInRotated(data, 2))
-    print(searchInRotated(data, 10))
-    print(searchInRotated(data, 100))
+    print(s.search(data, 8))
+    # print(s.search(data, 10))
+    # print(s.search(data, 100))
