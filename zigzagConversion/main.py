@@ -13,18 +13,26 @@
 # convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 
 
-def convert(s, nRows):
-    result = [[] for _ in range(nRows)]
-    m = nRows + 1
-    for i, c in enumerate(s):
-        if i % m in range(nRows):
-            result[i % m].append(c)
-        else:
-            result[nRows >> 1].append(c)
-    res = []
-    for r in result:
-        res.append(''.join(r))
-    return ''.join(res)
+class Solution:
+    # @return a string
 
+    def convert(self, s, nRows):
+        if nRows == 1:
+            return s
+        result = [[] for _ in range(nRows)]
+        m = nRows + nRows - 2
+        for i, c in enumerate(s):
+            if i % m >= 0 and i % m < nRows:
+                result[i % m].append(c)
+            else:
+                result[nRows - 2 - (i % m - nRows)].append(c)
+        res = []
+        for r in result:
+            res.append(''.join(r))
+        return ''.join(res)
 
-print convert("PAYPALISHIRING", 3)
+if __name__ == '__main__':
+    s = Solution()
+    print s.convert("ABC", 2)
+    print s.convert("PAYPALISHIRING", 3)
+    print s.convert("twckwuyvbihajbmhmodminftgpdcbquupwflqfiunpuwtigfwjtgzzcfofjpydjnzqysvgmiyifrrlwpwpyvqadefmvfshsrxsltbxbziiqbvosufqpwsucyjyfbhauesgzvfdwnloojejdkzugsrksakzbrzxwudxpjaoyocpxhycrxwzrpllpwlsnkqlevjwejkfxmuwvsyopxpjmbuexfwksoywkhsqqevqtpoohpd", 4)
