@@ -44,7 +44,9 @@ public class Solution {
         	return null;
         }
         for (ListNode e : lists) {
-            ret.add(e);
+            if (e != null) {
+                ret.add(e);
+            }
         }
         while (ret.size() > 1) {
             l1 = ret.poll();
