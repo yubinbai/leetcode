@@ -1,12 +1,12 @@
 import java.util.*;
 public class Solution {
 
-    ArrayList<ArrayList<String>> ret = new ArrayList<ArrayList<String>>();
+    ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
 
     // TLE
-    public ArrayList<ArrayList<String>> findLadders(String start, String end, HashSet<String> dict) {
+    public ArrayList<ArrayList<String>> tle_findLadders(String start, String end, HashSet<String> dict) {
 
-        if (dict.size() == 0) return ret;
+        if (dict.size() == 0) return result;
         dict.add(end);
 
         LinkedList<String> wordQueue = new LinkedList<String>();
@@ -29,7 +29,7 @@ public class Solution {
 
             if (currWord.equals(end) && currDistance <= minDistance) {
                 minDistance = currDistance;
-                ret.add(currPath);
+                result.add(currPath);
             }
 
             for (int i = 0; i < currWord.length(); i++) {
@@ -51,7 +51,114 @@ public class Solution {
             }
         }
 
-        return ret;
+        return result;
+    }
+
+    public ArrayList<ArrayList<String>> findLadders(String start, String end, HashSet<String> dict) {
+
+        HashMap<String, HashSet<String>> neighbours = new HashMap<String, HashSet<String>>();
+
+        dict.add(start);
+        dict.add(end);
+
+        for (String str : dict) {
+            calcNeighbours(neighbours, str, dict);
+        }
+
+        // BFS search queue
+        LinkedList<Node> queue = new LinkedList<Node>();
+        queue.add(new Node(null, start, 1));
+        int previousLevel = 0;
+        HashMap<String, Integer> visited = new HashMap<String, Integer>();
+
+        while (!queue.isEmpty()) {
+            Node n = queue.pollFirst();
+            if (end.equals(n.str)) {
+                if (previousLevel == 0 || n.level == previousLevel) {
+                    previousLevel = n.level;
+                    savePath(n);
+                } else {
+                    break;
+                }
+            } else {
+                HashSet<String> set = neighbours.get(n.str);
+                if (set == null || set.isEmpty()) continue;
+                ArrayList<String> toRemove = new ArrayList<String>();
+                for (String s : set) {
+
+                    if (visited.containsKey(s)) {
+                        Integer occurLevel = visited.get(s);
+                        if (n.level + 1 > occurLevel) {
+                            neighbours.get(s).remove(n.str);
+                            toRemove.add(s);
+                            continue;
+                        }
+                    }
+
+                    visited.put(s,  n.level + 1);
+                    queue.add(new Node(n, s, n.level + 1));
+
+                    if (neighbours.containsKey(s))
+                        neighbours.get(s).remove(n.str);
+                }
+                for (String s : toRemove) {
+                    set.remove(s);
+                }
+            }
+        }
+
+        return result;
+    }
+
+    public void savePath(Node n) {
+        ArrayList<String> path = new ArrayList<String>();
+        Node p = n;
+        while (p != null) {
+            path.add(0, p.str);
+            p = p.parent;
+        }
+        result.add(path);
+    }
+
+    /*
+     * complexity: O(26*str.length*dict.size)=O(L*N)
+     */
+    void calcNeighbours(HashMap<String, HashSet<String>> neighbours, String str, HashSet<String> dict) {
+        int length = str.length();
+        char [] chars = str.toCharArray();
+        for (int i = 0; i < length; i++) {
+
+            char old = chars[i];
+            for (char c = 'a'; c <= 'z'; c++) {
+
+                if (c == old)  continue;
+                chars[i] = c;
+                String newstr = new String(chars);
+
+                if (dict.contains(newstr)) {
+                    HashSet<String> set = neighbours.get(str);
+                    if (set != null) {
+                        set.add(newstr);
+                    } else {
+                        HashSet<String> newset = new HashSet<String>();
+                        newset.add(newstr);
+                        neighbours.put(str, newset);
+                    }
+                }
+            }
+            chars[i] = old;
+        }
+    }
+
+    private class Node {
+        public Node parent;
+        public String str;
+        public int level;
+        public Node(Node p, String s, int l) {
+            parent = p;
+            str = s;
+            level = l;
+        }
     }
 
     public static void main(String[] args) {
@@ -72,6 +179,7 @@ public class Solution {
 
         for (String s : paths) set.add(s);
         Solution sol = new Solution();
+        // for (ArrayList<String> a : sol.tle_findLadders(start, end, set))
         for (ArrayList<String> a : sol.findLadders(start, end, set))
             System.out.println(a);
     }
