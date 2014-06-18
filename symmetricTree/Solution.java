@@ -2,8 +2,10 @@ import java.util.*;
 
 public class Solution {
 
+    public static TreeNode singular = new TreeNode(0);
+
     public boolean isSymmetric(TreeNode root) {
-        return isSymmetricRecur(root);
+        return isSymmetricIter(root);
     }
 
     public boolean isSymmetricRecur(TreeNode root) {
@@ -25,28 +27,25 @@ public class Solution {
 
     public boolean isSymmetricIter(TreeNode root) {
         if (root == null) return true;
-        ArrayDeque<TreeNode> currLevel = new ArrayDeque<TreeNode>();
-        ArrayDeque<TreeNode> nextLevel = new ArrayDeque<TreeNode>();
-        currLevel.offer(root);
+        LinkedList<TreeNode> l = new LinkedList<TreeNode>();
+        LinkedList<TreeNode> r = new LinkedList<TreeNode>();
 
-        while ( !currLevel.isEmpty() ) {
-            for (TreeNode e : currLevel) {
-                if (e == null) continue;
-                nextLevel.offer(e.left);
-                nextLevel.offer(e.right);
-            }
-
-            while ( !currLevel.isEmpty() ) {
-                TreeNode pl = currLevel.pollFirst();
-                TreeNode pr = currLevel.pollLast();
-                int l = pl == null ? -1 : pl.val;
-                int r = pr == null ? -1 : pr.val;
-                if (l != r)
-                    return false;
+        l.add(root.left);
+        r.add(root.right);
+        while (!l.isEmpty() && !r.isEmpty()) {
+            TreeNode temp1 = l.poll(), temp2 = r.poll();
+            
+            if (temp1 == null && temp2 != null || temp1 != null && temp2 == null)
+                return false;
+            if (temp1 != null) {
+                if (temp1.val != temp2.val) return false;
+                l.add(temp1.left);
+                l.add(temp1.right);
+                r.add(temp2.right);
+                r.add(temp2.left);
             }
         }
         return true;
-
     }
 }
 
