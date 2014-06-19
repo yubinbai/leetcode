@@ -34,9 +34,9 @@ public class Solution {
         r.add(root.right);
         while (!l.isEmpty() && !r.isEmpty()) {
             TreeNode temp1 = l.poll(), temp2 = r.poll();
+
+            if (temp1 == null && temp2 != null || temp1 != null && temp2 == null) return false;
             
-            if (temp1 == null && temp2 != null || temp1 != null && temp2 == null)
-                return false;
             if (temp1 != null) {
                 if (temp1.val != temp2.val) return false;
                 l.add(temp1.left);
