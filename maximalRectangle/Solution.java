@@ -21,7 +21,7 @@ public class Solution {
         }
         // printMatrix(sum, n);
         int ret = 0;
-        for (int i = 0;i<n;i++) {
+        for (int i = 0; i < n; i++) {
             ret = Math.max(ret, largestRectangleArea(sum[i]));
         }
 
@@ -34,10 +34,10 @@ public class Solution {
         int maxArea = 0;
         int[] h = new int[height.length + 1];
         h = Arrays.copyOf(height, height.length + 1);
-        while(i < h.length){
-            if(stack.isEmpty() || h[stack.peek()] <= h[i]){
+        while (i < h.length) {
+            if (stack.isEmpty() || h[stack.peek()] <= h[i]) {
                 stack.push(i++);
-            }else {
+            } else {
                 int t = stack.pop();
                 maxArea = Math.max(maxArea, h[t] * (stack.isEmpty() ? i : i - stack.peek() - 1));
             }
@@ -113,7 +113,7 @@ public class Solution {
                         int currSum = sum[ii][jj];
 
                         currSum -= sum[ii][j];
-                        currSum -= sum[i][jj]; 
+                        currSum -= sum[i][jj];
                         currSum += sum[i][j];
 
                         if (currSum == curr) {

@@ -13,18 +13,22 @@
 Created on 2013-5-19
 @author: Yubin Bai
 '''
-memo = {0: 1, 1: 1}
 
-
-def numOfUniqueBST(n):
-    if n in memo:
-        return memo[n]
-    currSum = 0
-    for i in range(n):
-        currSum += numOfUniqueBST(i) * numOfUniqueBST(n - 1 - i)
-    memo[n] = currSum
-    return currSum
+class Solution:
+    # @return an integer
+    def numTrees(self, n):
+        memo = {0: 1, 1: 1}
+        def numOfUniqueBST(n):
+            if n in memo:
+                return memo[n]
+            currSum = 0
+            for i in range(n):
+                currSum += numOfUniqueBST(i) * numOfUniqueBST(n - 1 - i)
+            memo[n] = currSum
+            return currSum
+        return numOfUniqueBST(n)
 
 if __name__ == '__main__':
-    print(numOfUniqueBST(3))
-    print(numOfUniqueBST(4))
+    s = Solution()
+    print(s.numTrees(3))
+    print(s.numTrees(4))
