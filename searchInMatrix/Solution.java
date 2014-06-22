@@ -23,15 +23,15 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[][] data = {
-            {1,   3,  5,  7},
-            {10, 11, 16, 20},
-            {23, 30, 34, 50}
-        };
-        // int[][] data = new int[1][20000];
-        // for (int i = 1; i <= 20000; i++) data[0][i - 1] = i;
+        // int[][] data = {
+        //     {1,   3,  5,  7},
+        //     {10, 11, 16, 20},
+        //     {23, 30, 34, 50}
+        // };
+        int[][] data = new int[1][20000];
+        for (int i = 1; i <= 20000; i++) data[0][i - 1] = i;
         Solution s = new Solution();
-        boolean b = s.searchMatrix(data, 5);
+        boolean b = s.searchMatrix(data, 100);
         System.out.println(b);
     }
 }
