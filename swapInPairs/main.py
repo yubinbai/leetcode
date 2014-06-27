@@ -9,53 +9,57 @@ Created on 2013-5-20
 '''
 
 
+# Definition for singly-linked list.
 class ListNode:
-
-    def __init__(self, value):
+    def __init__(self, x):
+        self.val = x
         self.next = None
-        self.value = value
 
-
-def swapInPairs(head):
-    if head == None:
-        return None
-    if head.next == None:
-        return head
-    prev = head
-    curr = head.next
-    newHead = curr
-    # swap in pairs
-    while True:
-        nextPrev = curr.next
-        if nextPrev == None:  # reached end of list
+class Solution:
+    # @param a ListNode
+    # @return a ListNode
+    def swapPairs(self, head):
+        if head == None:
+            return None
+        if head.next == None:
+            return head
+        prev = head
+        curr = head.next
+        newHead = curr
+        # swap in pairs
+        while True:
+            nextPrev = curr.next
+            if nextPrev == None:  # reached end of list
+                curr.next = prev
+                prev.next = None
+                break
+            nextCurr = nextPrev.next
+            if nextCurr == None:
+                curr.next = prev
+                prev.next = nextPrev
+                break
             curr.next = prev
-            prev.next = None
-            break
-        nextCurr = nextPrev.next
-        if nextCurr == None:
-            curr.next = prev
-            prev.next = nextPrev
-            break
-        curr.next = prev
-        prev.next = nextCurr
-        prev = nextPrev
-        curr = nextCurr
-    return newHead
+            prev.next = nextCurr
+            prev = nextPrev
+            curr = nextCurr
+        return newHead
 
 
 def printList(head):
     curr = head
     result = []
     while curr != None:
-        result.append(curr.value)
+        result.append(curr.val)
         curr = curr.next
     print(result)
+
 if __name__ == '__main__':
+    s = Solution()
     linked = ListNode(0)
     curr = linked
-    for i in range(1, 6):
+    for i in range(1, 5):
         curr.next = ListNode(i)
         curr = curr.next
     printList(linked)
-    linked2 = swapInPairs(linked)
+    linked2 = s.swapPairs(linked)
     printList(linked2)
