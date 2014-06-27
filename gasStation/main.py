@@ -10,23 +10,27 @@
 
 # Note:
 # The solution is guaranteed to be unique.
+class Solution:
+    # @param gas, a list of integers
+    # @param cost, a list of integers
+    # @return an integer
+    def canCompleteCircuit(self, gas, cost):
+        s = total = 0
+        j = -1
+        for i in range(len(gas)):
+            s += gas[i] - cost[i]
+            total += gas[i] - cost[i]
+            if s < 0:
+                j = i
+                s = 0
+        if total >= 0:
+            return j + 1
+        else:
+            return -1
 
+if __name__ == '__main__':
+    gas = [1, 2, 3]
+    cost = [2, 4, 0]
+    s = Solution()
 
-def canCompleteCircuit(gas, cost):
-    s = total = 0
-    j = -1
-    for i in range(len(gas)):
-        s += gas[i] - cost[i]
-        total += gas[i] - cost[i]
-        if s < 0:
-            j = i
-            s = 0
-    if total >= 0:
-        return j + 1
-    else:
-        return -1
-
-gas = [1, 2, 3]
-cost = [2, 4, 0]
-
-print canCompleteCircuit(gas, cost)
+    print s.canCompleteCircuit(gas, cost)
