@@ -11,29 +11,34 @@ Created on May 16, 2013
 '''
 
 
-def uniquePermutations(array):
-    def _uniquePermutations():
-        if len(path) == len(array):
-            results.append(list(path))
-            return
-        for i in range(len(array)):
-            if used[i] or (i != 0 and array[i] == array[i - 1] and used[i - 1]):
-                continue
-            used[i] = True
-            path.append(array[i])
-            _uniquePermutations()
-            used[i] = False
-            path.pop()
+class Solution:
+    # @param num, a list of integer
+    # @return a list of lists of integers
 
-    results = []
-    used = [False] * len(array)
-    path = []
-    array.sort()
-    _uniquePermutations()
-    for i in results:
-        print(i)
+    def permuteUnique(self, num):
+        def _uniquePermutations():
+            if len(path) == len(num):
+                results.append(list(path))
+                return
+            for i in range(len(num)):
+                if used[i] or (i != 0 and num[i] == num[i - 1] and used[i - 1]):
+                    continue
+                used[i] = True
+                path.append(num[i])
+                _uniquePermutations()
+                used[i] = False
+                path.pop()
+
+        results = []
+        used = [False] * len(num)
+        path = []
+        num.sort()
+        _uniquePermutations()
+        return results
 
 
 if __name__ == '__main__':
-    array = [1, 1, 2]
-    uniquePermutations(array)
+    num = [1, 1, 2]
+    s = Solution()
+    for p in s.permute(num):
+        print p
