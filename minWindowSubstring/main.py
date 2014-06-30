@@ -18,34 +18,44 @@
 Created on 2013-5-16
 @author: Yubin Bai
 '''
-from collections import Counter
+import collections
 
 
-def minWindow(s, t):
-    target = Counter(t)
-    current = {}
-    for i in target:
-        current[i] = 0
-    leftMin, rightMin, currMin = 0, 0, 1 << 33
-    left = right = 0
-    for right in range(len(s)):
-        if s[right] in target:
-            current[s[right]] += 1
-        if all([current[x] >= target[x] for x in target]):
-            while left <= right:
-                if s[left] not in target:
-                    left += 1
-                elif current[s[left]] - target[s[left]] >= 1:
-                    current[s[left]] -= 1
-                    left += 1
-                else:  # cannot shorten more
-                    break
-            if currMin >= right - left + 1:
-                leftMin, rightMin, currMin = left, right, right - left + 1
+class Solution:
+    # @return a string
 
-    return s[leftMin:rightMin + 1]
+    def minWindow(self, S, T):
+        target = collections.Counter(T)
+        current = {}
+        for i in target:
+            current[i] = 0
+        leftMin, rightMin, currMin = 0, 0, 1 << 33
+        left = right = 0
+        for right in range(len(S)):
+            if S[right] in target:
+                current[S[right]] += 1
+            if all([current[x] >= target[x] for x in target]):
+                while left <= right:
+                    if S[left] not in target:
+                        left += 1
+                    elif current[S[left]] - target[S[left]] >= 1:
+                        current[S[left]] -= 1
+                        left += 1
+                    else:  # cannot shorten more
+                        break
+                if currMin >= right - left + 1:
+                    leftMin, rightMin, currMin = left, right, right - left + 1
+        if rightMin - leftMin + 1 < len(T):
+            return ""
+        else:
+            return S[leftMin:rightMin + 1]
 
 if __name__ == '__main__':
     S = "ADOBECODEBANC"
     T = "ABC"
-    print(minWindow(S, T))
+    S = "a"
+    T = "aa"
+    S = "a"
+    T = "b"
+    s = Solution()
+    print(s.minWindow(S, T))
