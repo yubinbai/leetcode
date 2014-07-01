@@ -45,7 +45,7 @@ class Solution:
                         break
                 if currMin >= right - left + 1:
                     leftMin, rightMin, currMin = left, right, right - left + 1
-        if rightMin - leftMin + 1 < len(T):
+        if currMin == 1 << 33:
             return ""
         else:
             return S[leftMin:rightMin + 1]
@@ -53,9 +53,9 @@ class Solution:
 if __name__ == '__main__':
     S = "ADOBECODEBANC"
     T = "ABC"
-    S = "a"
-    T = "aa"
-    S = "a"
-    T = "b"
+    # S = "a"
+    # T = "aa"
+    # S = "a"
+    # T = "b"
     s = Solution()
     print(s.minWindow(S, T))
