@@ -48,6 +48,9 @@ public class Solution {
             }
             sb.append(list.get(i));
         }
+        while (sb.length() < L) {
+            sb.append(" ");
+        }
         return sb.toString();
     }
     public String constructLast(ArrayList<String> list) {
