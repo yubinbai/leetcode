@@ -24,9 +24,9 @@ Created on 2013-5-20
 
 class ListNode:
 
-    def __init__(self, value):
+    def __init__(self, val):
         self.next = None
-        self.value = value
+        self.val = val
 
 
 def generateList(data):
@@ -44,66 +44,68 @@ def printList(head):
     curr = head
     result = []
     while curr != None:
-        result.append(curr.value)
+        result.append(curr.val)
         curr = curr.next
     print(result)
 
 
-def reverseKgroup(head, k):
-    if head == None:
-        return None
+class Solution:
+    # @param head, a ListNode
+    # @param k, an integer
+    # @return a ListNode
 
-    newList = head
-    newListTail = None
+    def reverseKGroup(self, head, k):
 
-    currHead = head
-    currTail = head
-    counter = 1
-    while currHead != None:
-        currTemp = currHead
-        currHead = currHead.next
+        if head == None:
+            return None
+        newList = head
+        newListTail = None
+        currHead = currTail = head
+        counter = 1
+        while currHead != None:
+            currTemp = currHead
+            currHead = currHead.next
+            if counter == k:
+                nextHead, nextTail = self.reverseList(currTail, currTemp)
+                if newList == head:
+                    newList = nextHead
+                    newListTail = nextTail
+                    nextTail.next = None
+                else:
+                    newListTail.next = nextHead
+                    newListTail = nextTail
+                    newListTail.next = None
+                currTail = currHead
+                counter = 0
+            counter += 1
+        if newListTail != None:
+            newListTail.next = currTail
+        return newList
 
-        if counter == k:
-            nextHead, nextTail = reverse(currTail, currTemp)
-            if newList == head:
-                newList = nextHead
-                newListTail = nextTail
-                nextTail.next = None
-            else:
-                newListTail.next = nextHead
-                newListTail = nextTail
-                newListTail.next = None
-            currTail = currHead
-            counter = 0
+    def reverseList(self, head, tail):
+        if head == None:
+            return None
+        if head == tail:
+            return head
+        oldList = head.next
+        newList = head
+        newList.next = None
 
-        counter += 1
-    if newListTail != None:
-        newListTail.next = currTail
-    return newList
-
-
-def reverse(head, tail):
-    if head == None:
-        return None
-    if head == tail:
-        return head
-    oldList = head.next
-    newList = head
-    newList.next = None
-
-    while oldList != tail:
-        curr = oldList
-        oldList = curr.next
-        curr.next = newList
-        newList = curr
-    tail.next = newList
-    return tail, head
+        while oldList != tail:
+            curr = oldList
+            oldList = curr.next
+            curr.next = newList
+            newList = curr
+        tail.next = newList
+        return tail, head
 
 if __name__ == '__main__':
-    data = list(range(10))
+    sol = Solution()
+    # data = list(range(10))
+    data = [1]
     linked = generateList(data)
     printList(linked)
-    linked2 = reverseKgroup(linked, 5)
+    linked2 = sol.reverseKGroup(linked, 5)
     printList(linked2)
-    linked2 = reverseKgroup(linked2, 5)
+    linked2 = sol.reverseKGroup(linked2, 5)
     printList(linked2)
