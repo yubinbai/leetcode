@@ -4,18 +4,26 @@ Created on May 17, 2013
 '''
 
 
-def simplify(pathStr):
-    path = pathStr.split('/')
-    result = []
-    for i in path:
-        if i in ['', '.']:
-            continue
-        elif i == '..' and len(result) > 0:
-            result.pop()
-        else:
-            result.append(i)
-    return '/' + '/'.join(result)
+class Solution:
+    # @param path, a string
+    # @return a string
+
+    def simplifyPath(self, path):
+
+        path = path.split('/')
+        result = []
+        for i in path:
+            if i in ['', '.']:
+                continue
+            elif i == '..':
+                if len(result) > 0:
+                    result.pop()
+            else:
+                result.append(i)
+        return '/' + '/'.join(result)
 
 if __name__ == '__main__':
-    print(simplify('/home/'))
-    print(simplify('/a/./b/../../c/'))
+    sol = Solution()
+    print(sol.simplifyPath('/home/'))
+    print(sol.simplifyPath('/..'))
+    print(sol.simplifyPath('/a/./b/../../c/'))
