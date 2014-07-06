@@ -30,5 +30,4 @@ public class Solution {
         pre = root;
         getWrong(root.right);
     }
-
 }
