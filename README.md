@@ -4,4 +4,5 @@ Leetcode.com
 Solutions to various leetcode problems in Java and Python
 http://leetcode.com
 
-Most python solutions are made before leetcode.com got python support.
+Finished all 151 problems ( as of 7/7/2014)
+
