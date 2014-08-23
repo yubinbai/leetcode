@@ -9,8 +9,8 @@ Given an array S of n integers, find three integers in S such that the sum is cl
 
 Solution
 ====
-
-Same as 3 sum. 
+ 
+Same as 3 sum. Complexity O(n^2)
 
 1. sort the array
 
