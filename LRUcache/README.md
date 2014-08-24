@@ -18,6 +18,6 @@ Use a hash map and a double linked list
 
 4. when adding a new node, remove oldest and add new node as head
 
-Node
+Note:
 ---
 This is implemente in Java as LinkedHashMap
