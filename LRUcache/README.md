@@ -17,3 +17,7 @@ Use a hash map and a double linked list
 3. when updating an existing node, delete and re-insert as head
 
 4. when adding a new node, remove oldest and add new node as head
+
+Node
+---
+This is implemente in Java as LinkedHashMap
