@@ -1,10 +1,14 @@
+import java.util.*;
 class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
-    TreeNode(int x) { val = x; }
+    TreeNode(int x) {
+        val = x;
+    }
 }
 public class Solution {
+    HashMap<TreeNode, Integer> height = new HashMap<TreeNode, Integer>();
     public boolean isBalanced(TreeNode root) {
         if (root == null) return true;
 
@@ -16,8 +20,10 @@ public class Solution {
     }
 
     private int getHeight(TreeNode n) {
-        if (n == null) return 0;
-
-        return Math.max(getHeight(n.left), getHeight(n.right)) + 1;
+        if (height.containsKey(n)) return height.get(n);
+        int ret = 0;
+        if (n != null) ret = Math.max(getHeight(n.left), getHeight(n.right)) + 1;
+        height.put(n, ret);
+        return ret;
     }
 }
