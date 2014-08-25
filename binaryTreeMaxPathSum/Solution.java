@@ -9,17 +9,17 @@ class TreeNode {
 public class Solution {
     public int maxPathSum(TreeNode root) {
         int[] ret = new int[2];
-        _maxPathSun(root, ret);
+        maxPathSum(root, ret);
         return ret[0];
     }
     /**
-     * get max path
+     * get max path sum
      * @param node
-     * @param @return
+     * @param ret, mutable array for return values
      *      ret[0] any path
      *      ret[1] path that ends at current node
      */
-    private void _maxPathSun(TreeNode node, int[] ret) {
+    private void maxPathSum(TreeNode node, int[] ret) {
         int[] leftRet = new int[2];
         int[] rightRet = new int[2];
         if (node == null) return;
@@ -28,12 +28,12 @@ public class Solution {
             return;
         }
         if (node.left != null) {
-            _maxPathSun(node.left, leftRet);
+            maxPathSum(node.left, leftRet);
             ret[0] = Math.max(ret[0], leftRet[0]);
             ret[1] = Math.max(ret[1], node.val + leftRet[1]);
         }
         if (node.right != null) {
-            _maxPathSun(node.right, rightRet);
+            maxPathSum(node.right, rightRet);
             ret[0] = Math.max(ret[0], rightRet[0]);
             ret[1] = Math.max(ret[1], node.val + rightRet[1]);
         }
