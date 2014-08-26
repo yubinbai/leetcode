@@ -19,8 +19,7 @@ public class Solution {
                     int deletion = distances[i][j - 1] + 1;
                     int insertion = distances[i - 1][j] + 1;
                     int substitution = distances[i - 1][j - 1] + 1;
-                    distances[i][j] = Math.min(deletion, insertion);
-                    distances[i][j] = Math.min(distances[i][j], substitution);
+                    distances[i][j] = Math.min(Math.min(deletion, insertion), substitution);
                 }
             }
         }
