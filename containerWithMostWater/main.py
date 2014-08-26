@@ -18,6 +18,7 @@ class Solution:
             else:
                 r -= 1
         return currMax
-
-s = Solution()
-print s.maxArea([2, 4, 1, 3])
+        
+if __name__ == '__main__':
+    s = Solution() 
+    print s.maxArea([2, 4, 1, 3])
