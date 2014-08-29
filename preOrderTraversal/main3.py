@@ -11,21 +11,22 @@ class Solution:
     # @return a list of integers
 
     def preorderTraversal(self, root):
-        def visit(p):
-            ret.append(p.val)
         ret = []
-        stack = []
-        p = root
-        while p != None or stack:
-            if (p.right != None):
-                stack.append(p.right)
-            visit(p)
-            if (p.left != None):
-                p = p.left
-            elif (stack):
-                p = stack.pop()
-            else:
-                p = None
+
+        def visit(e):
+            ret.append(e.val)
+
+        if root == None:
+            return ret
+        stack = [root]
+        while stack:
+            curr = stack.pop()
+            visit(curr)
+            if curr.right != None:
+                stack.append(curr.right)
+            if curr.left != None:
+                stack.append(curr.left)
+
         return ret
 
 

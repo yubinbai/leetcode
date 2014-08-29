@@ -10,22 +10,27 @@ class Solution:
     # @param root, a tree node
     # @return a list of integers
 
-    def preorderTraversal(self, root):
-        def visit(p):
-            ret.append(p.val)
+    def postorderTraversal(self, root):
         ret = []
-        stack = []
-        p = root
-        while p != None or stack:
-            if (p.right != None):
-                stack.append(p.right)
-            visit(p)
-            if (p.left != None):
-                p = p.left
-            elif (stack):
-                p = stack.pop()
-            else:
-                p = None
+
+        def visit(e):
+            ret.append(e.val)
+
+        if root == None:
+            return ret
+        stack = [root]
+        s2 = []
+        while stack:
+            curr = stack.pop()
+            s2.append(curr)
+            if curr.left != None:
+                stack.append(curr.left)
+            if curr.right != None:
+                stack.append(curr.right)
+
+        for e in reversed(s2):
+            visit(e)
+
         return ret
 
 
@@ -42,5 +47,5 @@ if __name__ == '__main__':
     t = [1, 2, 5, 3, 4, 0, 6]
     root = makeTree(t, 0)
     s = Solution()
-    for e in s.preorderTraversal(root):
+    for e in s.postorderTraversal(root):
         print e,
