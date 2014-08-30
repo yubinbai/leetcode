@@ -13,3 +13,9 @@ The largest rectangle is shown in the shaded area, which has area = 10 unit.
 For example,
 Given height = [2,1,5,6,2,3],
 return 10.
+
+Solution
+===
+Maintain an increasing stack of indexes
+
+largest rectangle will be one starting at a stack top value, and ends at the last one smaller than the top value
