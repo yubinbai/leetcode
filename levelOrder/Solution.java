@@ -13,10 +13,10 @@ public class Solution {
 
     // YU's coding
     public ArrayList<ArrayList<Integer>> _levelOrder(TreeNode root) {
-        ArrayList<ArrayList<Integer>> toret = new ArrayList<ArrayList<Integer>>();
+        ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
         ArrayList<TreeNode> queue = new ArrayList<TreeNode>();
 
-        if (root == null) {return toret; }
+        if (root == null) return ret;
         queue.add(root);
         int curcount = 1;
         int next = 0;
@@ -40,11 +40,11 @@ public class Solution {
                 curcount--;
             }
 
-            curcount = next; 
+            curcount = next;
             next = 0;
-            toret.add(level);
+            ret.add(level);
         }
-        return toret;
+        return ret;
     }
 
     // use counting instead of extra queue
