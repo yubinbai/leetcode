@@ -1,8 +1,6 @@
-# Longest Common Prefix
-# Write a function to find the longest common prefix string amongst an
-# array of strings.
 class Solution:
     # @return a string
+
     def longestCommonPrefix(self, strs):
         def commonPrefix(s1, s2):
             n = min(len(s1), len(s2))
