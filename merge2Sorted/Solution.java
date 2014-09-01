@@ -10,30 +10,27 @@ class ListNode {
 public class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
-        ListNode retHead = new ListNode(0);
-        ListNode retCurr = retHead;
-        int i1, i2;
+        ListNode newL = new ListNode(0);
+        ListNode curr = newL;
         while (l1 != null || l2 != null) {
             if (l1 == null) {
-                retCurr.next = l2;
+                curr.next = l2;
                 break;
             }
             if (l2 == null) {
-                retCurr.next = l1;
+                curr.next = l1;
                 break;
             }
-            i1 = l1.val;
-            i2 = l2.val;
-            if (i1 > i2) {
-                retCurr.next = l2;
+            if (l1.val > l2.val) {
+                curr.next = l2;
                 l2 = l2.next;
             } else {
-                retCurr.next = l1;
+                curr.next = l1;
                 l1 = l1.next;
             }
-            retCurr = retCurr.next;
+            curr = curr.next;
         }
-        return retHead.next;
+        return newL.next;
     }
     public void printList(ListNode e) {
         while (e != null) {
