@@ -12,8 +12,11 @@
 # overflow. How would you handle such case?
 
 # There is a more generic way of solving this problem.
+
+
 class Solution:
     # @return a boolean
+
     def isPalindrome(self, x):
         if x < 0:
             return False
@@ -28,7 +31,7 @@ class Solution:
             x = (x % p10) / 10
             p10 /= 100
         return True
-        
+
 if __name__ == '__main__':
-    s = Solution() 
+    s = Solution()
     print s.isPalindrome(101)

@@ -5,11 +5,13 @@ public class Solution2 {
         int[] D = new int[N + 1]; // min cuts between i and N
         boolean[][] P = new boolean[N][N];
         //the worst case is cutting by each char
-        for (int i = 0; i <= N; i++)
+        for (int i = 0; i <= N; i++) {
             D[i] = N - i;
+        }
         for (int i = 0; i < N; i++)
-            for (int j = 0; j < N; j++)
+            for (int j = 0; j < N; j++) {
                 P[i][j] = false;
+            }
         for (int i = N - 1; i >= 0; i--) {
             for (int j = i; j < N; j++) {
                 if (s.charAt(i) == s.charAt(j) && (j - i < 2 || P[i + 1][j - 1])) {

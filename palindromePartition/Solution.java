@@ -11,8 +11,7 @@ public class Solution {
     public void dfs(String s, int pos) {
         if (pos == s.length()) {
             ArrayList<String> arr = new ArrayList<String>();
-            for (String str : curr)
-                arr.add(str);
+            for (String str : curr) arr.add(str);
             ret.add(arr);
             return;
         }
