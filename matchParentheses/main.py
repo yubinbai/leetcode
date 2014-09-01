@@ -1,17 +1,12 @@
-# Valid Parentheses
-# Given a string containing just the characters '(', ')', '{', '}', '['
-# and ']', determine if the input string is valid.
-
-# The brackets must close in the correct order, "()" and "()[]{}" are all
-# valid but "(]" and "([)]" are not.
-
 '''
 Created on May 15, 2013
 @author: Yubin Bai
 '''
 
+
 class Solution:
     # @return a boolean
+
     def isValid(self, s):
         stack = []
         for i in s:

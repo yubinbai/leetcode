@@ -1,9 +1,11 @@
-# Definition for a  binary tree node
+# Definition for a binary tree node
 class TreeNode:
+
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
+
 
 def generateBST(val):
 
@@ -20,9 +22,11 @@ def generateBST(val):
     length = len(val)
     return generateBSTHelper(0, length - 1)
 
+
 class Solution:
     # @param root, a tree node
     # @return an integer
+
     def maxDepth(self, root):
         if root == None:
             return 0
