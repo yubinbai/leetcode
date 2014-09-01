@@ -26,10 +26,10 @@ public class Solution {
         }
     }
     public static void main(String[] args) {
-        int[] arg = {9};
+        int[] arg = {9, 9, 9};
         Solution sol = new Solution();
         for (int i : sol.plusOne(arg)) {
-            System.out.format("%d\t", i);
+            System.out.format("%d ", i);
         }
     }
 }
