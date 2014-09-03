@@ -7,13 +7,13 @@
 // bool isMatch(const char *s, const char *p)
 
 // Some examples:
-// isMatch("aa","a") → false
-// isMatch("aa","aa") → true
-// isMatch("aaa","aa") → false
-// isMatch("aa", "a*") → true
-// isMatch("aa", ".*") → true
-// isMatch("ab", ".*") → true
-// isMatch("aab", "c*a*b") → true
+// isMatch("aa","a") -> false
+// isMatch("aa","aa") -> true
+// isMatch("aaa","aa") -> false
+// isMatch("aa", "a*") -> true
+// isMatch("aa", ".*") -> true
+// isMatch("ab", ".*") -> true
+// isMatch("aab", "c*a*b") -> true
 
 public class Solution {
     public boolean isMatch(String s, String p) {
@@ -22,7 +22,8 @@ public class Solution {
 
         //p's length 1 is special case
         if (p.length() == 1 || p.charAt(1) != '*') {
-            if (s.length() < 1 || (p.charAt(0) != '.' && s.charAt(0) != p.charAt(0))) return false;
+            if (s.length() < 1) return false;
+            if (p.charAt(0) != '.' && s.charAt(0) != p.charAt(0)) return false;
             return isMatch(s.substring(1), p.substring(1));
         } else {
             // case of a*

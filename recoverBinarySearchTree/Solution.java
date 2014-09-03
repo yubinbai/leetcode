@@ -21,6 +21,7 @@ public class Solution {
         getWrong(root.left);
         if (pre != null && root.val < pre.val) {
             if (p == null) {
+                // neighbor swapped
                 p = pre;
                 q = root;
             } else {

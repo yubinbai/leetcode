@@ -5,15 +5,18 @@
 #         self.left = None
 #         self.right = None
 
+
 class Solution:
     # @param root, a tree node
     # @return a list of integers
+
     def postorderTraversal(self, root):
         ret = []
-        def trans(root):
+
+        def traversal(root):
             if root != None:
-                trans(root.left)
-                trans(root.right)
+                traversal(root.left)
+                traversal(root.right)
                 ret.append(root.val)
-        trans(root)
+        traversal(root)
         return ret
