@@ -35,7 +35,7 @@ public class Solution {
         }
 
     }
-    
+
     public static void main(String[] args) {
         ListNode t = new ListNode(5);
         Solution s = new Solution();
