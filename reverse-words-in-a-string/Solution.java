@@ -17,8 +17,8 @@ public class Solution {
     }
     public static void main(String[] args) {
         Solution s = new Solution();
-        System.out.println(s.reverseWords("the sky is blue"));
-        System.out.println(s.reverseWords(" 1"));
-        System.out.println(s.reverseWords("   a   b "));
+        System.out.format("\"%s\"\n", s.reverseWords("the sky is blue"));
+        System.out.format("\"%s\"\n", s.reverseWords(" 1"));
+        System.out.format("\"%s\"\n", s.reverseWords("   a   b "));
     }
 }
