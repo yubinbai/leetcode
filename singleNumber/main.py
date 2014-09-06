@@ -10,8 +10,11 @@ import operator
 class Solution:
     # @param A, a list of integer
     # @return an integer
+
     def singleNumber(self, A):
         return reduce(operator.xor, A)
 
-A = [1, 1, 3, 3, 10000]
-print singleNumber(A)
+if __name__ == '__main__':
+    A = [1, 1, 3, 3, 10000]
+    s = Solution()
+    print s.singleNumber(A)

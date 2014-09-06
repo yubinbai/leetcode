@@ -9,9 +9,11 @@
 # the result should be all bits in a certain position mod 3 == 1, the
 # corresponding value
 
+
 class Solution:
     # @param A, a list of integer
     # @return an integer
+
     def singleNumber(self, A):
         one = two = 0
         for a in A:
@@ -21,5 +23,7 @@ class Solution:
             two = two_
         return one
 
-A = [1, 1, 1, 3, 3, 3, 10000]
-print singleNumber(A)
+if __name__ == '__main__':
+    A = [1, 1, 1, 3, 3, 3, 10000]
+    s = Solution()
+    print s.singleNumber(A)
