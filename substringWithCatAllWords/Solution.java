@@ -1,7 +1,6 @@
 import java.util.*;
 public class Solution {
     int n, w;
-    int[] used;
     String s;
     HashMap<String, Integer> mapBackup = new HashMap<String, Integer>();
     public List<Integer> findSubstring(String S, String[] L) {
@@ -34,17 +33,27 @@ public class Solution {
         return ret;
     }
     public static void main(String[] args) {
-        // String s = "barfoothefoobarman";
-        // String[] l = {"foo", "bar"};
-        // String s = "lingmindraboofooowingdingbarrwingmonkeypoundcake";
-        // String[] l = {"fooo", "barr", "wing", "ding", "wing"};
-        // String s = "a";
-        // String[] l = {"a"};
-        String s = "aaa";
-        String[] l = {"a", "a"};
-        // String s = "mississippi";
-        // String[] l = {"is"};
         Solution sol = new Solution();
+        String s;
+        String[] l;
+        s = "barfoothefoobarman";
+        l = new String[]{"foo", "bar"};
+        System.out.println(sol.findSubstring(s, l));
+
+        s = "lingmindraboofooowingdingbarrwingmonkeypoundcake";
+        l = new String[]{"fooo", "barr", "wing", "ding", "wing"};
+        System.out.println(sol.findSubstring(s, l));
+
+        s = "a";
+        l = new String[]{"a"};
+        System.out.println(sol.findSubstring(s, l));
+
+        s = "aaa";
+        l = new String[]{"a", "a"};
+        System.out.println(sol.findSubstring(s, l));
+
+        s = "mississippi";
+        l = new String[]{"is"};
         System.out.println(sol.findSubstring(s, l));
     }
 }
