@@ -17,13 +17,18 @@
 
 # Could you come up with an one-pass algorithm using only constant space?
 
+
 class Solution:
     # @param A a list of integers
     # @return nothing, sort in place
+
     def sortColors(self, A):
         if not A:
             return
         i, j = 0, len(A) - 1
+        # [0, i) is zero
+        # [i, j] is one
+        # (j, len - 1] is two
         cur = i
         while cur <= j:
             if A[cur] == 0:
@@ -40,6 +45,7 @@ class Solution:
                 j -= 1
         return A
 
-sol = Solution()
-print sol.sortColors([1, 0, 1, 1, 2, 1, 0, 2, 2, 2])
-print sol.sortColors([2, 2, 2])
+if __name__ == '__main__':
+    sol = Solution()
+    print sol.sortColors([1, 0, 1, 1, 2, 1, 0, 2, 2, 2])
+    print sol.sortColors([2, 2, 2])

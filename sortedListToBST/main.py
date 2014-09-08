@@ -36,6 +36,7 @@ class Solution:
         while curr != None:
             curr = curr.next
             size += 1
+        # define variable in class namespace
         self.currListNode = head
         return _generateBST(0, size - 1)
 
