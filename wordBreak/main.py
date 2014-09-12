@@ -29,7 +29,7 @@ def wordBreak(s, d):
     memo.fill(-1)
     return dp(0, n - 1) > 0
 
-
-s = "leetcodeleetcodecode"
-d = ["leet", "code", "abacus"]
-print wordBreak(s, d)
+if __name__ == '__main__':
+    s = "leetcodeleetcodecode"
+    d = ["leet", "code", "abacus"]
+    print wordBreak(s, d)

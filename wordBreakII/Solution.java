@@ -37,11 +37,9 @@ public class Solution {
         for (String s : new String[] {"cat", "cats", "and", "sand", "dog"})
             set.add(s);
         Solution sol = new Solution();
-        for (String s : set)
-            System.out.println(s);
+        for (String s : set) System.out.println(s);
 
-        for (String s : sol.wordBreak("catsanddog", set))
-            System.out.println(s);
+        for (String s : sol.wordBreak("catsanddog", set)) System.out.println(s);
     }
 
     // public static void main(String[] args) {
