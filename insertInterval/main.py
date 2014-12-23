@@ -19,15 +19,26 @@ Created on May 17, 2013
 '''
 import operator
 # Definition for an interval.
+
+
 class Interval:
+
     def __init__(self, s=0, e=0):
         self.start = s
         self.end = e
+
+    def overlap(self, other):
+        return self.end >= other.start
+
+    def merge(self, other):
+        return Interval(min(self.start, other.start), max(self.end, other.end))
+
 
 class Solution:
     # @param intervals, a list of Intervals
     # @param newInterval, a Interval
     # @return a list of Interval
+
     def insert(self, intervals, newInterval):
         result = []
         # sort the intervals by start
@@ -35,15 +46,15 @@ class Solution:
         intervals = sorted(intervals, key=operator.attrgetter('start'))
         if len(intervals) == 0:
             return intervals
-        i1 = Interval(intervals[0].start, intervals[0].end)
+        currI = intervals[0]
         for i in range(1, len(intervals)):
-            i2 = Interval(intervals[i].start, intervals[i].end)
-            if i1.end >= i2.start:
-                i1.end = max(i1.end, i2.end)
+            nextI = intervals[i]
+            if currI.overlap(nextI):
+                currI = currI.merge(nextI)
             else:
-                result.append(Interval(i1.start, i1.end))
-                i1 = i2
-        result.append(i1)
+                result.append(currI)
+                currI = nextI
+        result.append(currI)
         return result
 
 
@@ -54,6 +65,7 @@ if __name__ == '__main__':
     for i in s.insert(intervals, Interval(2, 5)):
         print i.start, ' ', i.end
 
+    print "******"
     intervals = [[1, 2], [3, 5], [6, 7], [8, 10], [12, 16]]
     intervals = [Interval(i[0], i[1]) for i in intervals]
     s = Solution()

@@ -1,3 +1,4 @@
+import java.lang.Integer;
 import java.util.*;
 public class Solution {
     public ArrayList<ArrayList<Integer>> threeSum(int[] num) {
@@ -22,6 +23,7 @@ public class Solution {
                     listOfThree.add(num[l]);
                     if ( !hashSet.contains(listOfThree) ) {
                         hashSet.add(listOfThree);
+
                     }
                     k++;
                 }

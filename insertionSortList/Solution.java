@@ -20,14 +20,16 @@ public class Solution {
         curr.next = null;
 
         while (oldList != null) {
-            prev = newHead;
+            prev = newHead; // sequential search pointers
             curr = newHead.next;
 
             while (curr != null) {
-                if (oldList.val >= prev.val && oldList.val < curr.val)
+                if (oldList.val >= prev.val && oldList.val < curr.val) {
                     break;
-                prev = curr;
-                curr = curr.next;
+                } else {
+                    prev = curr;
+                    curr = curr.next;
+                }
             }
 
             prev.next = oldList;
@@ -41,7 +43,7 @@ public class Solution {
     public static void main(String[] args) {
         // int[] a = {2, 1, 3, 0, 100, -100};
         // int[] a = {2, 1};
-        int[] a = {-2147483647,-2147483648};
+        int[] a = { -2147483647, -2147483648};
         ListNode head = new ListNode(0);
         ListNode curr = head;
         for (int i : a) {
@@ -58,7 +60,7 @@ public class Solution {
 class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) {
+    public ListNode(int x) {
         val = x;
         next = null;
     }
