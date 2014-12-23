@@ -3,9 +3,7 @@ public class Solution {
     public ArrayList<ArrayList<Integer>> fourSum(int[] num, int target) {
 
         Arrays.sort(num);
-
         HashSet<ArrayList<Integer>> hashSet = new HashSet<ArrayList<Integer>>();
-        ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
 
         for (int i = 0; i < num.length - 3; i++) {
             for (int j = i + 1; j < num.length - 2; j++) {
@@ -20,21 +18,20 @@ public class Solution {
                     } else if (sum < target) {
                         k++;
                     } else {
-                        ArrayList<Integer> temp = new ArrayList<Integer>();
-                        temp.add(num[i]);
-                        temp.add(num[j]);
-                        temp.add(num[k]);
-                        temp.add(num[l]);
-                        if ( !hashSet.contains(temp) ) {
-                            result.add(temp);
-                            hashSet.add(temp);
+                        ArrayList<Integer> listOfFour = new ArrayList<Integer>();
+                        listOfFour.add(num[i]);
+                        listOfFour.add(num[j]);
+                        listOfFour.add(num[k]);
+                        listOfFour.add(num[l]);
+                        if ( !hashSet.contains(listOfFour) ) {
+                            hashSet.add(listOfFour);
                         }
                         k++;
                     }
                 }
             }
         }
-        return result;
+        return new ArrayList<ArrayList<Integer>>(hashSet);
     }
 
     public static void main(String[] args) {

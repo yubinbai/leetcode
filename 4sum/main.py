@@ -3,7 +3,7 @@
 # array which gives the sum of target.
 
 # Note:
-# Elements in a quadruplet (a,b,c,d) must be in non-descending order. (ie, a ≤ b ≤ c ≤ d)
+# Elements in a quadruplet (a,b,c,d) must be in non-descending order. (ie, a <= b <= c <= d)
 # The solution set must not contain duplicate quadruplets.
 #     For example, given array S = {1 0 -1 0 -2 2}, and target = 0.
 
@@ -32,5 +32,6 @@ def fourSum(array, target):
                     left += 1
     return sol
 
-array = [1, 0, -1, 0, -2, 2]
-print fourSum(array, 0)
+if __name__ == '__main__':
+    array = [1, 0, -1, 0, -2, 2]
+    print fourSum(array, 0)

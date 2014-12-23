@@ -2,9 +2,7 @@ import java.util.*;
 public class Solution {
     public ArrayList<ArrayList<Integer>> threeSum(int[] num) {
         Arrays.sort(num);
-
         HashSet<ArrayList<Integer>> hashSet = new HashSet<ArrayList<Integer>>();
-        ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
 
         for (int i = 0; i < num.length - 2; i++) {
             int k = i + 1;
@@ -18,19 +16,18 @@ public class Solution {
                 } else if (sum < 0) {
                     k++;
                 } else {
-                    ArrayList<Integer> temp = new ArrayList<Integer>();
-                    temp.add(num[i]);
-                    temp.add(num[k]);
-                    temp.add(num[l]);
-                    if ( !hashSet.contains(temp) ) {
-                        result.add(temp);
-                        hashSet.add(temp);
+                    ArrayList<Integer> listOfThree = new ArrayList<Integer>();
+                    listOfThree.add(num[i]);
+                    listOfThree.add(num[k]);
+                    listOfThree.add(num[l]);
+                    if ( !hashSet.contains(listOfThree) ) {
+                        hashSet.add(listOfThree);
                     }
                     k++;
                 }
             }
         }
-        return result;
+        return new ArrayList<ArrayList<Integer>>(hashSet);
     }
 
     public static void main(String[] args) {
