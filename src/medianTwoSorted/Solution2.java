@@ -15,7 +15,7 @@ public class Solution2 {
 
         // invariant: before midA + before midB = k - 1
         // partition mid by weight of length
-        int i = (int) ((double) (highA - lowA + 1) / (highA - lowA + highB - lowB + 2)(k - 1));
+        int i = (int) ((double) (highA - lowA + 1) / (highA - lowA + highB - lowB + 2)*(k - 1));
         int j = (k - 1) - i;
 
         int midA = lowA + i;
