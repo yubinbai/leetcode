@@ -20,3 +20,9 @@ Notes:
 
 The knight's health has no upper bound.
 Any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.
+
+Solution
+===
+Use binary search to find the best health, when verifying each health value, use DP
+
+It's possible to use rolling array
