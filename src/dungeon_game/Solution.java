@@ -12,7 +12,7 @@ public class Solution {
                 left = mid + 1;
             }
         }
-        return (int) left % Integer.MAX_VALUE;
+        return (int) (left % Integer.MAX_VALUE);
     }
     public boolean valid(long health) {
         int n = dungeon.length;
@@ -37,7 +37,7 @@ public class Solution {
         System.out.format("%d\n", s.calculateMinimumHP(d));
         d = new int[][] {{100}};
         System.out.format("%d\n", s.calculateMinimumHP(d));
-        d = new int[][] {{-3, 5}};
+        d = new int[][] {{ -3, 5}};
         System.out.format("%d\n", s.calculateMinimumHP(d));
     }
 }

@@ -19,3 +19,5 @@ when getting an operator from list, pop two numbers and evaluate
 push result to stack
 
 Last remaining number is the answer
+
+[wiki]: http://en.wikipedia.org/wiki/Reverse_Polish_notation#Postfix_algorithm

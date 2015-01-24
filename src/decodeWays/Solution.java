@@ -16,10 +16,10 @@ public class Solution {
         }
         return fn_1;
     }
-    int check(char one) {
+    private int check(char one) {
         return (one != '0') ? 1 : 0;
     }
-    int check(char one, char two) {
+    private int check(char one, char two) {
         return (one == '1' || (one == '2' && two <= '6')) ? 1 : 0;
     }
 
