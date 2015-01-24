@@ -1,7 +1,7 @@
 import java.util.*;
 public class Solution {
     HashMap<Integer, Integer> freq = new HashMap<Integer, Integer>();
-    ArrayList<Integer> keys = new ArrayList<Integer>();
+    ArrayList<Integer> keys;
     Stack<Integer> stack = new Stack<Integer>();
     ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
     public ArrayList<ArrayList<Integer>> combinationSum2(int[] num, int target) {
@@ -12,21 +12,14 @@ public class Solution {
                 freq.put(i, 1);
             }
         }
-        for (int i : freq.keySet()) {
-            keys.add(i);
-            // System.out.format("%d %d\t", i, freq.get(i));
-        }
+        keys = new ArrayList<Integer>(freq.keySet());
         _combinationSum(target, 0);
         return ret;
     }
     private void _combinationSum(int target, int step) {
         if (target < 0 || (target != 0 && step == keys.size())) return;
         if (target == 0) {
-            ArrayList<Integer> curr = new ArrayList<Integer>();
-            for (int i : stack) {
-                curr.add(i);
-            }
-            ret.add(curr);
+            ret.add(new ArrayList<Integer>(stack));
             return;
         }
         int key = keys.get(step);
@@ -34,7 +27,6 @@ public class Solution {
             for (int j = 0; j < times; j++) {
                 stack.push(key);
             }
-            // System.out.format("%d %d\t", times, key);
             _combinationSum(target - key * times, step + 1);
             for (int j = 0; j < times; j++) {
                 stack.pop();
