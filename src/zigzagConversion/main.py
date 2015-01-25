@@ -20,7 +20,7 @@ class Solution:
         if nRows == 1:
             return s
         result = [[] for _ in range(nRows)]
-        m = nRows + nRows - 2
+        m = nRows * 2 - 2
         for i, c in enumerate(s):
             if i % m >= 0 and i % m < nRows:
                 result[i % m].append(c)
