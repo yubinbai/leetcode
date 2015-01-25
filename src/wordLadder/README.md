@@ -18,3 +18,13 @@ Note:
 Return 0 if there is no such transformation sequence.
 All words have the same length.
 All words contain only lowercase alphabetic characters.
+
+Solution
+===
+BFS
+
+Solution 1:
+construct map from words' similarities, and store graph as array
+
+Solution 2:
+enumerate possible list of adjacent words during bfs expanding, and verify words by hashset
