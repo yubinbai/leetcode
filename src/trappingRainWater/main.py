@@ -10,16 +10,17 @@
 class Solution:
     # @param A, a list of integers
     # @return an integer
+
     def trap(self, A):
         N = len(A)
         if N <= 1:
             return 0
-        leftMax = []
+        leftMax = [None] * N
         currMax = A[0]
         for i in range(N):
             if A[i] > currMax:
                 currMax = A[i]
-            leftMax.append(currMax)
+            leftMax[i] = currMax
 
         rightMax = [None] * N
         currMax = A[-1]

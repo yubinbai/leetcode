@@ -31,4 +31,9 @@ public class Solution {
         }
         return new int[] { -1, -1};
     }
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] ret = s.twoSum(new int[] {2, 7, 11, 15}, 13);
+        System.out.format("%d %d\n", ret[0], ret[1]);
+    }
 }
