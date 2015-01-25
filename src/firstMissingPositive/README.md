@@ -13,4 +13,7 @@ Solution
 
 Jumping pointer to put number in proper place
 
+	if a number is in correct position, proceeed
+	if not, replace this number in the correct position, marshal the replaced number
+
 scan from 1 to n to find missing

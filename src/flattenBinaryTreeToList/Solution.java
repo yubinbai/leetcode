@@ -8,17 +8,16 @@ class TreeNode {
 }
 public class Solution {
     public void flatten(TreeNode root) {
-        _flatten(root, new TreeNode[2]);
+        _flatten(root);
     }
-    public void _flatten(TreeNode e, TreeNode[] ret) {
+    public TreeNode[] _flatten(TreeNode e) {
+        TreeNode[] ret = new TreeNode[2];
         if (e == null) {
             ret[0] = ret[1] = null;
         } else {
             ret[0] = ret[1] = e;
-            TreeNode[] left = new TreeNode[2];
-            _flatten(e.left, left);
-            TreeNode[] right = new TreeNode[2];
-            _flatten(e.right, right);
+            TreeNode[] left = _flatten(e.left);
+            TreeNode[] right = _flatten(e.right);
 
             e.left = null;
             if (left[0] != null) {
@@ -30,6 +29,7 @@ public class Solution {
                 ret[1] = right[1];
             }
         }
+        return ret;
     }
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);

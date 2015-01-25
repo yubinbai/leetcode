@@ -13,11 +13,9 @@ public class Solution2 {
         TreeNode p = root;
 
         while (p != null || !stack.empty()) {
-
             if (p.right != null) {
                 stack.push(p.right);
             }
-
             if (p.left != null) {
                 p.right = p.left;
                 p.left = null;
@@ -25,7 +23,6 @@ public class Solution2 {
                 TreeNode temp = stack.pop();
                 p.right = temp;
             }
-
             p = p.right;
         }
     }
