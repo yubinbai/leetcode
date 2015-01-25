@@ -16,9 +16,7 @@ class Solution:
         for right in range(len(s)):
             if stack and s[stack[-1]] == '(' and s[right] == ')':
                 stack.pop()
-                left = -1
-                if stack:
-                    left = stack[-1]
+                left = stack[-1] if stack else -1
                 if maxLen[0] < right - left:
                     maxLen = right - left, left + 1, right
             else:
