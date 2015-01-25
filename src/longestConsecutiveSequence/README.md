@@ -11,3 +11,7 @@ Your algorithm should run in O(n) complexity.
 Solution
 ====
 Hackish problem, need to use a hash set
+
+1. put all numbers into hashset
+
+2. retrieve one numbre *x* from hashset, and build a list around *x*

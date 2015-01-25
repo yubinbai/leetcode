@@ -5,7 +5,7 @@ Given a string, find the longest substring that contains only two unique charact
 
 Solution
 ===
-Two pointers slider, maintani a valid solution containing only two chars, by:
+Two pointers slider, maintain a valid solution containing only two chars, by:
 
 1. inc counter if char is like the two
 

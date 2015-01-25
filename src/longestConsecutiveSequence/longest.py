@@ -22,5 +22,6 @@ class Solution:
         return currMax
 
 if __name__ == '__main__':
+    s = Solution()
     data = [100, 4, 200, 1, 3, 2]
-    print(longestConsecutive(data))
+    print(s.longestConsecutive(data))
