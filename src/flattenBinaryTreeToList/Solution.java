@@ -1,3 +1,4 @@
+import java.util.*;
 class TreeNode {
     int val;
     TreeNode left;
@@ -31,10 +32,27 @@ public class Solution {
         }
         return ret;
     }
+    public void flattenSolution2(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        TreeNode p = root;
+
+        while (p != null || !stack.isEmpty()) {
+            if (p.right != null) {
+                stack.push(p.right);
+            }
+            if (p.left != null) {
+                p.right = p.left;
+                p.left = null;
+            } else if (!stack.isEmpty()) {
+                p.right = stack.pop();
+            }
+            p = p.right;
+        }
+    }
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         root.right = new TreeNode(2);
         Solution s = new Solution();
-        s.flatten(root);
+        s.flattenSolution2(root);
     }
 }
