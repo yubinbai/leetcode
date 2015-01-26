@@ -9,3 +9,8 @@ s = "leetcode",
 dict = ["leet", "code"].
 
 Return true because "leetcode" can be segmented as "leet code".
+
+Solution
+===
+
+classic dynamic programming in 2D, fulfilled with hashmap

@@ -33,22 +33,15 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+        String[] dict = new String[] {"cat", "cats", "and", "sand", "dog"};
+        String target = "catsanddog";
+        // String[] dict = new String[] {"a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa"};
+        // String target = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";
         Set<String> set = new HashSet<String>();
-        for (String s : new String[] {"cat", "cats", "and", "sand", "dog"})
+        for (String s : dict)
             set.add(s);
         Solution sol = new Solution();
-        for (String s : set) System.out.println(s);
-
-        for (String s : sol.wordBreak("catsanddog", set)) System.out.println(s);
+        // for (String s : set) System.out.println(s);
+        for (String s : sol.wordBreak(target, set)) System.out.println(s);
     }
-
-    // public static void main(String[] args) {
-    //     Set<String> set = new HashSet<String>();
-    //     for (String s : new String[] {"a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa"})
-    //         set.add(s);
-    //     String testStr = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";
-    //     Solution sol = new Solution();
-    //     for (String s : sol.wordBreak(testStr, set))
-    //         System.out.println(s);
-    // }
 }
