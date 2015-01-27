@@ -5,7 +5,9 @@ Solutions to various leetcode problems in Java and Python
 
 https://oj.leetcode.com/problems/
 
-Finished all 151 problems (as of 7/7/2014)
+Java solutions complete
+-----
+Finished all 175 problems (as of 1/26/2015)
 
 Documented all problems and processes of solving
 --------
