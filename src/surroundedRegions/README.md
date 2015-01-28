@@ -20,4 +20,6 @@ region .
 
 Solution
 ===
-BFS from center of regions
+BFS from borders of the matrix, kind of a hackish solution
+
+Notice some optimizations about the bfs, the frontier contains more nodes than the rest of it combined!
