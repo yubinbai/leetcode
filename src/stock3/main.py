@@ -1,14 +1,3 @@
-# Say you have an array for which the ith element is the price of a given
-# stock on day i.
-
-# Design an algorithm to find the maximum profit. You may complete at most
-# two transactions.
-
-'''
-Created on 2013-5-13
-@author: Yubin Bai
-'''
-
 class Solution:
     # @param prices, a list of integer
     # @return an integer
@@ -24,8 +13,7 @@ class Solution:
         for i in range(1, size):
             currMin = min(currMin, prices[i])
             currProfit = prices[i] - currMin
-            maxProfit = max(currProfit, maxProfit)
-            bestLeft[i] = maxProfit
+            bestLeft[i] = maxProfit = max(currProfit, maxProfit)
 
         # find the best from i .. n-1
         bestRight = [0] * size  # bestRight[size-1] is empty
@@ -34,15 +22,16 @@ class Solution:
         for i in range(size - 1, -1, -1):
             currMax = max(currMax, prices[i])
             currProfit = currMax - prices[i]
-            maxProfit = max(currProfit, maxProfit)
-            bestRight[i] = maxProfit
+            bestRight[i] = maxProfit = max(currProfit, maxProfit)
 
         # find the best pair
-        maxSum = 0
-        for i in range(1, size - 1):
-            maxSum = max(maxSum, bestLeft[i] + bestRight[i + 1])
+        if size > 2:
+            maxSum = max(bestLeft[i] + bestRight[i + 1] for i in range(1, size - 1))
+        else:
+            maxSum = 0
         return max(maxSum, self.maxProfit1(prices))
 
+    # only make one transaction
     # @param prices, a list of integer
     # @return an integer
     def maxProfit1(self, prices):
@@ -57,7 +46,8 @@ class Solution:
         return ret
 
 if __name__ == '__main__':
-    prices = [1, 9, 10, 4, 15, 100]
+    # prices = [1, 9, 10, 4, 15, 100]
     # prices = [1, 2, 3, 4]
+    prices = [1, 2]
     s = Solution()
     print(s.maxProfit(prices))
