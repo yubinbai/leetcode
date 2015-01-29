@@ -7,6 +7,7 @@ class Solution:
         else:
             return int(s[::-1])
 
-s = Solution()
-print s.reverse(123)
-print s.reverse(-123)
+if __name__ == '__main__':
+    s = Solution()
+    print s.reverse(123)
+    print s.reverse(-123)
