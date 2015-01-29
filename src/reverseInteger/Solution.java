@@ -8,7 +8,6 @@ public class Solution {
         }
 
         long ret = 0;
-        int pow = 0;
         while (x != 0) {
             ret *= 10;
             ret += x % 10;
