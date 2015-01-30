@@ -24,4 +24,4 @@ a more complicated 'reverse linked list'
 
 1. reverse the root->left links when going down the left subtree
 
-2. rearrage the reversed tree to the desired form
+2. rearrange the reversed tree to the desired form
