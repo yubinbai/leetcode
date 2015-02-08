@@ -41,7 +41,7 @@ public class Solution {
         ListNode l1, l2;
         int n = lists.size();
         if (n == 0) {
-        	return null;
+            return null;
         }
         for (ListNode e : lists) {
             if (e != null) {
@@ -61,6 +61,46 @@ public class Solution {
             e = e.next;
         }
     }
+    public ListNode mergeKListsSolution2(List<ListNode> lists) {
+        if (lists.size() == 0)
+            return null;
+
+        //PriorityQueue is a sorted queue
+        PriorityQueue<ListNode> q = new PriorityQueue<ListNode>(lists.size(),
+        new Comparator<ListNode>() {
+            public int compare(ListNode a, ListNode b) {
+                if (a.val > b.val)
+                    return 1;
+                else if (a.val == b.val)
+                    return 0;
+                else
+                    return -1;
+            }
+        });
+
+        //add first node of each list to the queue
+        for (ListNode list : lists) {
+            if (list != null)
+                q.add(list);
+        }
+
+        ListNode head = new ListNode(0);
+        ListNode p = head; // serve as a pointer/cursor
+
+        while (q.size() > 0) {
+            ListNode temp = q.poll();
+            //poll() retrieves and removes the head of the queue - q.
+            p.next = temp;
+
+            //keep adding next element of each list
+            if (temp.next != null)
+                q.add(temp.next);
+
+            p = p.next;
+        }
+
+        return head.next;
+    }
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
         l1.next = new ListNode(3);
@@ -70,7 +110,7 @@ public class Solution {
         ArrayList<ListNode> lists = new ArrayList<ListNode>();
         lists.add(l1);
         lists.add(l2);
-        ListNode res = s.mergeKLists(lists);
+        ListNode res = s.mergeKListsSolution2(lists);
         s.printList(res);
     }
 }
