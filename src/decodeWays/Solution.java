@@ -29,5 +29,4 @@ public class Solution {
         System.out.println(sol.numDecodings("121"));
         System.out.println(sol.numDecodings("10"));
     }
-
 }

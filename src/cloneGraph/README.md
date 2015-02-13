@@ -26,6 +26,6 @@ Visually, the graph looks like the following:
 Solution
 ===
 
-Copy nodes, keep a hash map of (old\_node, new_node)
+Copy nodes, keep a hash map of (old\_node, new\_node)
 
 From the hash map, generate a mirror of the adjacent list
