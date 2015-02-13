@@ -12,3 +12,5 @@ Solution
 ===
 
 radix sort
+
+scan to find gap

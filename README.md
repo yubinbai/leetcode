@@ -1,7 +1,13 @@
-Leetcode Online Judge Solutions
+Solutions to various leetcode problems in Java and Python
 ============
 
-Solutions to various leetcode problems in Java and Python
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|177|[Best Time to Buy and Sell Stock IV](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)| [Java](./src/best_time_to_buy_and_sell_stock_iv)|Hard|
+|177|[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)| [Java](./src/repeated_DNA_sequences)|Medium|
+|176|[Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/)| []()|Medium|
+|175|[Largest Number](https://oj.leetcode.com/problems/largest-number/) | [Java](./src/largest_number)|Medium|
+|174|[Dungeon Game](https://oj.leetcode.com/problems/dungeon-game/) | [Java](./src/dungeon_game)|Hard|
 
 https://oj.leetcode.com/problems/
 
