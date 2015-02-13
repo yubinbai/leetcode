@@ -3,7 +3,7 @@ LeetCode
 
 | # | Title | Q & A | Difficulty |
 |---| ----- | -------- | ---------- |
-|177|[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)| [Q & A](./src/repeatedDNASequences/repeatedDNASequences.cpp)|Medium|
+|177|[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)| [Q & A](./src/repeated_DNA_sequences)|Medium|
 |176|[Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/)| [Q & A](./src/reverseWordsInAString/reverseWordsInAString.II.cpp)|Medium|
 |175|[Largest Number](https://oj.leetcode.com/problems/largest-number/) | [Q & A](./src/largestNumber/largestNumber.cpp)|Medium|
 |174|[Dungeon Game](https://oj.leetcode.com/problems/dungeon-game/) | [Q & A](./src/dungeonGame/dungeonGame.cpp)|Hard|
