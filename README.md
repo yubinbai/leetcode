@@ -1,13 +1,17 @@
-Solutions to various leetcode problems in Java and Python
+Leetcode solutions in Java and Python
 ============
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|177|[Best Time to Buy and Sell Stock IV](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)| [Java](./src/best_time_to_buy_and_sell_stock_iv)|Hard|
-|177|[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)| [Java](./src/repeated_DNA_sequences)|Medium|
+|188|[Best Time to Buy and Sell Stock IV](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)| [Java](./src/best_time_to_buy_and_sell_stock_iv)|Hard|
+|187|[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)| [Java](./src/repeated_DNA_sequences)|Medium|
 |176|[Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/)| []()|Medium|
-|175|[Largest Number](https://oj.leetcode.com/problems/largest-number/) | [Java](./src/largest_number)|Medium|
+|179|[Largest Number](https://oj.leetcode.com/problems/largest-number/) | [Java](./src/largest_number)|Medium|
 |174|[Dungeon Game](https://oj.leetcode.com/problems/dungeon-game/) | [Java](./src/dungeon_game)|Hard|
+|173|[Binary Search Tree Iterator](https://oj.leetcode.com/problems/binary-search-tree-iterator/) | [Java](./src/binary_search_tree_iterator)|Medium|
+|172|[Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/) | [Java](./src/factorial_trailing_zeroes)|Easy|
+|171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | [Java](./src/excel_sheet_column_number)|Easy|
+
 
 https://oj.leetcode.com/problems/
 
