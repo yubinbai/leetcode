@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|189|[Rotate array](https://oj.leetcode.com/problems/rotate-array/)|[Java](./src/rotate_array)|Easy
 |188|[Best Time to Buy and Sell Stock IV](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)| [Java](./src/best_time_to_buy_and_sell_stock_iv)|Hard|
 |187|[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)| [Java](./src/repeated_DNA_sequences)|Medium|
 |176|[Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/)| []()|Medium|

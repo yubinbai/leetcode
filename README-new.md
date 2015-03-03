@@ -1,12 +1,3 @@
-| # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |
-|177|[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)| [Java](./src/repeated_DNA_sequences)|Medium|
-|176|[Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/)| []()|Medium|
-|175|[Largest Number](https://oj.leetcode.com/problems/largest-number/) | [Java](./src/largest_number)|Medium|
-|174|[Dungeon Game](https://oj.leetcode.com/problems/dungeon-game/) | [Java](./src/dungeon_game)|Hard|
-|173|[Binary Search Tree Iterator](https://oj.leetcode.com/problems/binary-search-tree-iterator/) | [Java](./src/binary_search_tree_iterator)|Medium|
-|172|[Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/) | [Java](./src/factorial_trailing_zeroes)|Easy|
-|171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | [Java](./src/excel_sheet_column_number)|Easy|
 |170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/)| []()|Easy|
 |169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | [Java & Python](./src/majority_element)|Easy|
 |168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | [Java & Python](./src/excel_sheet_column_title)|Easy|
