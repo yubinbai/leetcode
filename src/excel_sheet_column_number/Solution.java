@@ -1,9 +1,9 @@
 public class Solution {
     public int titleToNumber(String s) {
         int ret = 0;
-        for (int i = 0; i < s.length(); ++i) {
+        for (char c : s.toCharArray()) {
             ret *= 26;
-            ret += s.charAt(i) - 'A' + 1;
+            ret += c - 'A' + 1;
         }
         return ret;
     }

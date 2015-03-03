@@ -17,6 +17,6 @@ Special thanks to @Freezen for adding this problem and creating all test cases.
 Solution
 ======
 
-reverse all array
-reverse first k
-reverse remaining
+1. reverse all array
+2. reverse first k
+3. reverse remaining
