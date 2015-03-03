@@ -1,16 +1,19 @@
 import java.util.*;
 public class Solution {
-    public int[][] dp;
-    public int n, counter;
+    public int n;
     public int maxProfit(int k, int[] prices) {
         n = prices.length;
-        if (k >= n / 2) {
-            return unlimitedTrans(prices);
-        }
         if (n == 0 || k == 0) {
             return 0;
         }
-        dp = new int[k + 1][n + 1];
+        if (k >= n / 2) {
+            return unlimitedTrans(prices);
+        } else {
+            return limitedTrans(k, prices);
+        }
+    }
+    public int limitedTrans(int k, int[] prices) {
+        int[][] dp = new int[k + 1][n + 1];
         //  dp[k+1][i+1] = max(dp[k][i+1], dp[k+1][i], prices[i] + max( dp[k][j] - prices[j] )) { 0 <= j < i }
         for (int kk = 0; kk < k; ++kk) {
             int currMax = -prices[0];
