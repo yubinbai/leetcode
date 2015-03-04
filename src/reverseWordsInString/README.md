@@ -8,4 +8,5 @@ Given an input string, reverse the string word by word.
 
 Solution
 ===
-Split by regex
+Soluton 1. Split by regex, then rearrange and concat into sentence
+Soluton 2. Reverse the sentence by character, then reverse each word by character
