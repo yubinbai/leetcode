@@ -12,6 +12,7 @@ Leetcode solutions in Java and Python
 |173|[Binary Search Tree Iterator](https://oj.leetcode.com/problems/binary-search-tree-iterator/) | [Java](./src/binary_search_tree_iterator)|Medium|
 |172|[Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/) | [Java](./src/factorial_trailing_zeroes)|Easy|
 |171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | [Java](./src/excel_sheet_column_number)|Easy|
+|155|[Min Stack](https://oj.leetcode.com/problems/min-stack/)| [Java](./src/min_stack)|Easy|
 |78|[Subsets](https://oj.leetcode.com/problems/subsets/)| [Java, Python](./src/subset)|Medium|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [Java](./src/romanToInt)|Easy|
 

@@ -29,8 +29,8 @@ class MinStack {
     }
     public static void main(String[] args) {
         MinStack ms = new MinStack();
-        ms.push(0);
-        ms.push(1);
+        ms.push(-1);
+        ms.push(-2);
         ms.push(0);
         System.out.format("%d\n", ms.getMin());
         ms.pop();
