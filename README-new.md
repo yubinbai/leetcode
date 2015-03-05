@@ -1,8 +1,8 @@
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/)| []()|Easy|
-|169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | [Java & Python](./src/majority_element)|Easy|
-|168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | [Java & Python](./src/excel_sheet_column_title)|Easy|
+
 |167|[Two Sum II - Input array is sorted](https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| []()|Medium|
-|166|[Fraction to Recurring Decimal](https://oj.leetcode.com/problems/fraction-to-recurring-decimal/) | [Java](./src/fraction_to_recurring_decimal)|Medium|
 |165|[Compare Version Numbers](https://oj.leetcode.com/problems/compare-version-numbers/) | [Java](./src/compare_version_numbers)|Easy|
 |164|[Maximum Gap](https://oj.leetcode.com/problems/maximum-gap/) | [Java](./src/maximum_gap)|Hard|
 |163|[Missing Ranges](https://oj.leetcode.com/problems/missing-ranges/)| [Java & Python](./src/missingRanges)|Medium|

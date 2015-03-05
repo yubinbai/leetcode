@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Solution {
     public String fractionToDecimal(int numerator, int denominator) {
         long num = numerator;
@@ -7,72 +6,51 @@ public class Solution {
         if (den == 0) return "";
         if (num == 0) return "0";
         long sign = num / Math.abs(num) * (den / Math.abs(den));
-        num = Math.abs(num);
-        den = Math.abs(den);
-
-        long g = gcd(num, den);
-        num /= g;
-        den /= g;
+        String str = fractionToDecimalPositive(Math.abs(num), Math.abs(den));
+        if (sign == -1) {
+            return "-" + str;
+        } else {
+            return str;
+        }
+    }
+    private String fractionToDecimalPositive(long num, long den) {
         StringBuilder sb = new StringBuilder();
         sb.append(num / den);
         num = num % den;
         if (num != 0) {
             sb.append('.');
-            ArrayList<Long> digits = new ArrayList<Long>();
-            ArrayList<Long> nums = new ArrayList<Long>();
+            HashMap<Long, Integer> remains = new HashMap<Long, Integer>();
             while (true) {
                 num *= 10;
                 long digit = num / den;
                 num %= den;
                 if (num == 0) {
-                    digits.add(digit);
-                    for (long i : digits) {
-                        sb.append(i);
-                    }
+                    sb.append(digit);
                     break;
                 } else {
-                    int pos = -1;
-                    for (int i = 0; i < digits.size(); ++i) {
-                        if (digits.get(i) == digit && num == nums.get(i)) {
-                            pos = i;
-                            break;
-                        }
-                    }
-                    if (pos != -1) {
-                        for (int i = 0; i < pos; ++i) {
-                            sb.append(digits.get(i));
-                        }
-                        sb.append("(");
-                        for (int i = pos; i < digits.size(); ++i) {
-                            sb.append(digits.get(i));
-                        }
+                    Integer pos = remains.get(num);
+                    if (pos != null && sb.charAt(pos) == '0' + digit) {
+                        sb.insert((int) pos, '(');
                         sb.append(")");
                         break;
                     } else {
-                        digits.add(digit);
-                        nums.add(num);
+                        sb.append(digit);
+                        remains.put(num, sb.length() - 1);
                     }
                 }
             }
         }
-        if (sign == -1) sb.insert(0, '-');
         return sb.toString();
-    }
-    public long gcd(long a, long b) {
-        if (b == 0) {
-            return a;
-        } else {
-            return gcd(b, a % b);
-        }
     }
     public static void main(String[] args) {
         Solution s = new Solution();
+        System.out.format("%s\n", s.fractionToDecimal(1, 6));
         System.out.format("%s\n", s.fractionToDecimal(-1, -2147483648));
         System.out.format("%s\n", s.fractionToDecimal(21, 2));
         System.out.format("%s\n", s.fractionToDecimal(-50, 8));
+        System.out.format("%s\n", s.fractionToDecimal(1, 3));
         System.out.format("%s\n", s.fractionToDecimal(1, 99));
         System.out.format("%s\n", s.fractionToDecimal(257, 256));
-        System.out.format("%s\n", s.fractionToDecimal(1, 3));
         System.out.format("%s\n", s.fractionToDecimal(2, 3));
         System.out.format("%s\n", s.fractionToDecimal(3, 3));
         System.out.format("%s\n", s.fractionToDecimal(1, 11));

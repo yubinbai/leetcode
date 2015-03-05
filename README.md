@@ -12,6 +12,9 @@ Leetcode solutions in Java and Python
 |173|[Binary Search Tree Iterator](https://oj.leetcode.com/problems/binary-search-tree-iterator/) | [Java](./src/binary_search_tree_iterator)|Medium|
 |172|[Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/) | [Java](./src/factorial_trailing_zeroes)|Easy|
 |171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | [Java](./src/excel_sheet_column_number)|Easy|
+|169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | [Java & Python](./src/majority_element)|Easy|
+|168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | [Java & Python](./src/excel_sheet_column_title)|Easy|
+|166|[Fraction to Recurring Decimal](https://oj.leetcode.com/problems/fraction-to-recurring-decimal/) | [Java](./src/fraction_to_recurring_decimal)|Medium|
 |155|[Min Stack](https://oj.leetcode.com/problems/min-stack/)| [Java](./src/min_stack)|Easy|
 |78|[Subsets](https://oj.leetcode.com/problems/subsets/)| [Java, Python](./src/subset)|Medium|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [Java](./src/romanToInt)|Easy|
