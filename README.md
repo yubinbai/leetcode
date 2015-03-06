@@ -19,8 +19,11 @@ Leetcode solutions in Java and Python
 |164|[Maximum Gap](https://oj.leetcode.com/problems/maximum-gap/)|[Java](./src/maximum_gap)|Hard|
 |163|[Missing Ranges](https://oj.leetcode.com/problems/missing-ranges/)|[Java & Python](./src/missingRanges)|Medium|
 |162|[Find Peak Element](https://oj.leetcode.com/problems/find-peak-element/) | [Java & Python](./src/find_peak_element)|Medium|
+|160|[Intersection of Two Linked Lists](https://oj.leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](./src/intersection_of_two_linked_lists)|Easy|
 |159|[Longest Substring with At Most Two Distinct Characters](https://oj.leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| [Java](./src/longestSubstringWith2UniqueChars)|Hard|
 |155|[Min Stack](https://oj.leetcode.com/problems/min-stack/)| [Java](./src/min_stack)|Easy|
+|154|[Find Minimum in Rotated Sorted Array II](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)| [Java](./src/find_minimum_in_rotated_sorted_array)|Hard|
+|153|[Find Minimum in Rotated Sorted Array](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [Java](./src/find_minimum_in_rotated_sorted_array)|Medium|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [Java, Python](./src/reverseWordsInString)|Medium|
 |96|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)| [Java, Python](./src/uniqueBST2)|Medium|
 |78|[Subsets](https://oj.leetcode.com/problems/subsets/)| [Java, Python](./src/subset)|Medium|

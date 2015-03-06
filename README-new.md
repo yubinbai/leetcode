@@ -1,21 +1,14 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/)| []()|Easy|
-
 |167|[Two Sum II - Input array is sorted](https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| []()|Medium|
-
-
-|163|[Missing Ranges](https://oj.leetcode.com/problems/missing-ranges/)| [Java & Python](./src/missingRanges)|Medium|
-|162|[Find Peak Element](https://oj.leetcode.com/problems/find-peak-element/) | [Java & Python](./src/find_peak_element)|Medium|
 |161|[One Edit Distance](https://oj.leetcode.com/problems/one-edit-distance/| []()|Medium|
-|160|[Intersection of Two Java & Pythoned Lists](https://oj.leetcode.com/problems/intersection-of-two-Java & Pythoned-lists/) | [](./src/intersectionOfTwoedLists/intersectionOfTwoedLists.cpp)|Easy|
 
 |158|[Read N Characters Given Read4 II - Call multiple times](https://oj.leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)| [](./src/readNCharactersGivenRead4/readNCharactersGivenRead4.II.cpp)|Hard|
 |157|[Read N Characters Given Read4](https://oj.leetcode.com/problems/read-n-characters-given-read4/)| [](./src/readNCharactersGivenRead4/readNCharactersGivenRead4.cpp)|Easy|
 |156|[Binary Tree Upside Down](https://oj.leetcode.com/problems/binary-tree-upside-down/)| [](./src/binaryTreeUpsideDown/binaryTreeUpsideDown.cpp)|Medium|
 
-|154|[Find Minimum in Rotated Sorted Array II](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)| [](./src/findMinimumInRotatedSortedArray/findMinimumInRotatedSortedArray.II.cpp)|Hard|
-|153|[Find Minimum in Rotated Sorted Array](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [](./src/findMinimumInRotatedSortedArray/findMinimumInRotatedSortedArray.cpp)|Medium|
+
 |152|[Maximum Product Subarray](https://oj.leetcode.com/problems/maximum-product-subarray/)| [](./src/maximumProductSubarray/maximumProductSubarray.cpp)|Medium|
 
 |150|[Evaluate Reverse Polish Notation](https://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)| [](./src/evaluateReversePolishNotation/evaluateReversePolishNotation.cpp)|Medium|
