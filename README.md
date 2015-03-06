@@ -15,7 +15,10 @@ Leetcode solutions in Java and Python
 |169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | [Java & Python](./src/majority_element)|Easy|
 |168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | [Java & Python](./src/excel_sheet_column_title)|Easy|
 |166|[Fraction to Recurring Decimal](https://oj.leetcode.com/problems/fraction-to-recurring-decimal/) | [Java](./src/fraction_to_recurring_decimal)|Medium|
-|165|[Compare Version Numbers](https://oj.leetcode.com/problems/compare-version-numbers/) | [Java](./src/compare_version_number)|Easy|
+|165|[Compare Version Numbers](https://oj.leetcode.com/problems/compare-version-numbers/)|[Java](./src/compare_version_number)|Easy|
+|164|[Maximum Gap](https://oj.leetcode.com/problems/maximum-gap/)|[Java](./src/maximum_gap)|Hard|
+|163|[Missing Ranges](https://oj.leetcode.com/problems/missing-ranges/)|[Java & Python](./src/missingRanges)|Medium|
+|162|[Find Peak Element](https://oj.leetcode.com/problems/find-peak-element/) | [Java & Python](./src/find_peak_element)|Medium|
 |159|[Longest Substring with At Most Two Distinct Characters](https://oj.leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| [Java](./src/longestSubstringWith2UniqueChars)|Hard|
 |155|[Min Stack](https://oj.leetcode.com/problems/min-stack/)| [Java](./src/min_stack)|Easy|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [Java, Python](./src/reverseWordsInString)|Medium|

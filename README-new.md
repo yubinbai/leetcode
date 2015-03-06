@@ -4,7 +4,7 @@
 
 |167|[Two Sum II - Input array is sorted](https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| []()|Medium|
 
-|164|[Maximum Gap](https://oj.leetcode.com/problems/maximum-gap/) | [Java](./src/maximum_gap)|Hard|
+
 |163|[Missing Ranges](https://oj.leetcode.com/problems/missing-ranges/)| [Java & Python](./src/missingRanges)|Medium|
 |162|[Find Peak Element](https://oj.leetcode.com/problems/find-peak-element/) | [Java & Python](./src/find_peak_element)|Medium|
 |161|[One Edit Distance](https://oj.leetcode.com/problems/one-edit-distance/| []()|Medium|

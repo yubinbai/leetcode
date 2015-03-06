@@ -3,7 +3,7 @@ public class Solution {
         int n = num.length;
         int low = 0;
         int high = n - 1;
-        int mid = 0, v1, v2;
+        int mid = 0;
         while ( low < high ) {
             mid = low + (high - low) / 2;
             // Compare middle element with its neighbours (if neighbours exist)
@@ -15,8 +15,8 @@ public class Solution {
             // If middle element is not peak and its left neighbor is greater than it
             // then left half must have a peak element
             if (mid > 0 && num[mid - 1] > num[mid]) {
-                high = mid - 1;
-            } else {
+                high = mid;
+            } else { // neighbors are not equal
                 low = mid + 1;
             }
         }
