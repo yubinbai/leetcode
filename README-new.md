@@ -122,8 +122,6 @@
 |49|["Pow(x, n)"](https://oj.leetcode.com/problems/powx-n/)| [](./src/pow/pow.cpp)|Medium|
 |48|[Anagrams](https://oj.leetcode.com/problems/anagrams/)| [](./src/anagrams/anagrams.cpp)|Medium|
 |47|[Rotate Image](https://oj.leetcode.com/problems/rotate-image/)| [](./src/rotateImage/rotateImage.cpp)|Medium|
-|46|[Permutations II](https://oj.leetcode.com/problems/permutations-ii/)| [](./src/permutations/permutations.II.cpp)|Hard|
-|45|[Permutations](https://oj.leetcode.com/problems/permutations/)| [](./src/permutations/permutations.cpp)|Medium|
 |44|[Jump Game II](https://oj.leetcode.com/problems/jump-game-ii/)| [](./src/jumpGame/jumpGame.II.cpp)|Hard|
 |43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [](./src/wildcardMatching/wildcardMatching.cpp)|Hard|
 |42|[Multiply Strings](https://oj.leetcode.com/problems/multiply-strings/)| [](./src/multiplyStrings/multiplyStrings.cpp)|Medium|
@@ -138,7 +136,7 @@
 |33|[Search for a Range](https://oj.leetcode.com/problems/search-for-a-range/)| [](./src/searchForRange/searchForRange.cpp)|Medium|
 |32|[Search in Rotated Sorted Array](https://oj.leetcode.com/problems/search-in-rotated-sorted-array/)| [](./src/searchInRotatedSortedArray/searchInRotatedSortedArray.cpp)|Hard|
 |31|[Longest Valid Parentheses](https://oj.leetcode.com/problems/longest-valid-parentheses/)| [](./src/longestValidParentheses/longestValidParentheses.cpp)|Hard|
-|30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [](./src/nextPermutation/nextPermutation.cpp)|Medium|
+
 |29|[Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)| [](./src/substringWithConcatenationOfAllWords/substringWithConcatenationOfAllWords.cpp)|Hard|
 |28|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| [](./src/divideTwoInt/divideTwoInt.cpp)|Medium|
 |27|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| [](./src/strStr/strStr.cpp)|Easy|

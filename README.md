@@ -20,6 +20,8 @@ Leetcode solutions in Java and Python
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [Java, Python](./src/reverseWordsInString)|Medium|
 |96|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)| [Java, Python](./src/uniqueBST2)|Medium|
 |78|[Subsets](https://oj.leetcode.com/problems/subsets/)| [Java, Python](./src/subset)|Medium|
+|46|[Permutations II](https://oj.leetcode.com/problems/permutations-ii/)| [Java, Python](./src/permutations)|Hard|
+|45|[Permutations](https://oj.leetcode.com/problems/permutations/)| [Java, Python](./src/permutations)|Medium|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [Java, Python](./src/nextPermutation)|Medium|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [Java](./src/romanToInt)|Easy|
 
