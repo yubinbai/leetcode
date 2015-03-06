@@ -16,12 +16,14 @@ Leetcode solutions in Java and Python
 |168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | [Java & Python](./src/excel_sheet_column_title)|Easy|
 |166|[Fraction to Recurring Decimal](https://oj.leetcode.com/problems/fraction-to-recurring-decimal/) | [Java](./src/fraction_to_recurring_decimal)|Medium|
 |165|[Compare Version Numbers](https://oj.leetcode.com/problems/compare-version-numbers/) | [Java](./src/compare_version_number)|Easy|
+|159|[Longest Substring with At Most Two Distinct Characters](https://oj.leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| [Java](./src/longestSubstringWith2UniqueChars)|Hard|
 |155|[Min Stack](https://oj.leetcode.com/problems/min-stack/)| [Java](./src/min_stack)|Easy|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [Java, Python](./src/reverseWordsInString)|Medium|
 |96|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)| [Java, Python](./src/uniqueBST2)|Medium|
 |78|[Subsets](https://oj.leetcode.com/problems/subsets/)| [Java, Python](./src/subset)|Medium|
 |46|[Permutations II](https://oj.leetcode.com/problems/permutations-ii/)| [Java, Python](./src/permutations)|Hard|
 |45|[Permutations](https://oj.leetcode.com/problems/permutations/)| [Java, Python](./src/permutations)|Medium|
+|41|[Trapping Rain Water](https://oj.leetcode.com/problems/trapping-rain-water/)| [Java, Python](./src/trappingRainWater)|Hard|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [Java, Python](./src/nextPermutation)|Medium|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [Java](./src/romanToInt)|Easy|
 

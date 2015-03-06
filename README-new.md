@@ -9,7 +9,7 @@
 |162|[Find Peak Element](https://oj.leetcode.com/problems/find-peak-element/) | [Java & Python](./src/find_peak_element)|Medium|
 |161|[One Edit Distance](https://oj.leetcode.com/problems/one-edit-distance/| []()|Medium|
 |160|[Intersection of Two Java & Pythoned Lists](https://oj.leetcode.com/problems/intersection-of-two-Java & Pythoned-lists/) | [](./src/intersectionOfTwoedLists/intersectionOfTwoedLists.cpp)|Easy|
-|159|[Longest Substring with At Most Two Distinct Characters](https://oj.leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| [](./src/longestSubstringWithAtMostTwoDistinctCharacters/longestSubstringWithAtMostTwoDistinctCharacters.cpp)|Hard|
+
 |158|[Read N Characters Given Read4 II - Call multiple times](https://oj.leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)| [](./src/readNCharactersGivenRead4/readNCharactersGivenRead4.II.cpp)|Hard|
 |157|[Read N Characters Given Read4](https://oj.leetcode.com/problems/read-n-characters-given-read4/)| [](./src/readNCharactersGivenRead4/readNCharactersGivenRead4.cpp)|Easy|
 |156|[Binary Tree Upside Down](https://oj.leetcode.com/problems/binary-tree-upside-down/)| [](./src/binaryTreeUpsideDown/binaryTreeUpsideDown.cpp)|Medium|
@@ -125,7 +125,7 @@
 |44|[Jump Game II](https://oj.leetcode.com/problems/jump-game-ii/)| [](./src/jumpGame/jumpGame.II.cpp)|Hard|
 |43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [](./src/wildcardMatching/wildcardMatching.cpp)|Hard|
 |42|[Multiply Strings](https://oj.leetcode.com/problems/multiply-strings/)| [](./src/multiplyStrings/multiplyStrings.cpp)|Medium|
-|41|[Trapping Rain Water](https://oj.leetcode.com/problems/trapping-rain-water/)| [](./src/trappingRainWater/trappingRainWater.cpp)|Hard|
+
 |40|[First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/)| [](./src/firstMissingPositive/firstMissingPositive.cpp)|Hard|
 |39|[Combination Sum II](https://oj.leetcode.com/problems/combination-sum-ii/)| [](./src/combinationSum/combinationSum.II.cpp)|Medium|
 |38|[Combination Sum](https://oj.leetcode.com/problems/combination-sum/)| [](./src/combinationSum/combinationSum.cpp)|Medium|

@@ -4,41 +4,29 @@ public class Solution {
             return s;
         }
         char[] sa = s.toCharArray();
-        char c1 = sa[0], c2 = sa[1];
+        char c1 = sa[0], c2 = 0;
         int cnt1 = 1, cnt2 = 0;
         int left = 0, right = 1;
-        for (; right < sa.length; right++) {
-            if (sa[right] == c1) {
-                cnt1++;
-            } else {
-                cnt2 = 1;
-                c2 = sa[right];
-                break;
-            }
-        }
-        if (right == sa.length) {
-            right = sa.length - 1;
-        }
-        int ret = right - left + 1, retLeft = 0, retRight = right + 1;
+        int maxLen = right - left + 1, maxLeft = 0, maxRight = right;
         for (; right < sa.length; ++right) {
             if (sa[right] == c1) {
-                // expand the window
                 cnt1++;
-                if (cnt1 + cnt2 > ret) {
-                    ret = cnt1 + cnt2;
-                    retLeft = left;
-                    retRight = right + 1;
+                if (cnt1 + cnt2 > maxLen) {
+                    maxLen = cnt1 + cnt2;
+                    maxLeft = left;
+                    maxRight = right;
                 }
             } else if (sa[right] == c2) {
-                // expand the window
                 cnt2++;
-                if (cnt1 + cnt2 > ret) {
-                    ret = cnt1 + cnt2;
-                    retLeft = left;
-                    retRight = right + 1;
+                if (cnt1 + cnt2 > maxLen) {
+                    maxLen = cnt1 + cnt2;
+                    maxLeft = left;
+                    maxRight = right;
                 }
+            } else if (c2 == 0) {
+                c2 = sa[right];
+                cnt2 = 1;
             } else {
-                // move the left of the window
                 while (c1 != sa[right] && c2 != sa[right]) {
                     if (sa[left] == c1) {
                         cnt1 --;
@@ -60,11 +48,11 @@ public class Solution {
                 }
             }
         }
-        return s.substring(retLeft, retRight);
+        return s.substring(maxLeft, maxRight + 1);
     }
     public static void main(String[] args) {
         Solution s = new Solution();
-        System.out.println(s.subString("accbbbbcccbdddadacb"));
+        System.out.println(s.subString("aaabbcccbdddadaacb"));
         System.out.println(s.subString("bccbbbbcccbdddadacb"));
         System.out.println(s.subString("bbbbbbbbbbbbbb"));
     }
