@@ -21,3 +21,5 @@ Solution
 In python the integer is unlimited, so no overflow can happen
 
 In static-typed languages, use a long integer to hold overflows, then cast back 
+
+Note: Integer.MIN_VALUE doesn't have inverse in the int range.

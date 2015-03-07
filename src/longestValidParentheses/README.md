@@ -8,3 +8,8 @@ length of the longest valid (well-formed) parentheses substring.
 
 	Another example is ")()())", where the longest valid parentheses
 	substring is "()()", which has length = 4.
+
+Solution
+===
+
+Maintain stack of last unmatched index in string

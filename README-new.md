@@ -12,10 +12,6 @@
 |145|[Binary Tree Postorder Traversal](https://oj.leetcode.com/problems/binary-tree-postorder-traversal/)| [](./src/binaryTreePostorderTraversal/binaryTreePostorderTraversal.cpp)|Hard|
 |144|[Binary Tree Preorder Traversal](https://oj.leetcode.com/problems/binary-tree-preorder-traversal/)| [](./src/binaryTreePreorderTraversal/binaryTreePreorderTraversal.cpp)|Medium|
 |143|[Reorder List](https://oj.leetcode.com/problems/reorder-list/)| [](./src/reorderList/reorderList.cpp)|Medium|
-|142|[ed List Cycle II](https://oj.leetcode.com/problems/ed-list-cycle-ii/)| [](./src/edListCycle/edListCycle.II.cpp)|Medium|
-|141|[ed List Cycle](https://oj.leetcode.com/problems/ed-list-cycle/)| [](./src/edListCycle/edListCycle.cpp)|Medium|
-|140|[Word Break II](https://oj.leetcode.com/problems/word-break-ii/)| [](./src/wordBreak/wordBreak.II.cpp)|Hard|
-|139|[Word Break](https://oj.leetcode.com/problems/word-break/)| [](./src/wordBreak/wordBreak.cpp)|Medium|
 |138|[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)| [](./src/copyListWithRandomPointer/copyListWithRandomPointer.cpp)|Hard|
 |137|[Single Number II](https://oj.leetcode.com/problems/single-number-ii/)| [](./src/singleNumber/singleNumber.II.cpp)|Medium|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [](./src/singleNumber/singleNumber.cpp)|Medium|
@@ -124,19 +120,17 @@
 |23|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)| [](./src/swapNodesInPairs/swapNodesInPairs.cpp)|Medium|
 |22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [](./src/mergeKSortedLists/mergeKSortedLists.cpp)|Hard|
 |21|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)| [](./src/generateParentheses/generateParentheses.cpp)|Medium|
-|20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)| [](./src/validParentheses/validParentheses.cpp)|Easy|
+
 |19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)| [](./src/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.cpp)|Easy|
 |18|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)| [](./src/letterCombinationsOfAPhoneNumber/letterCombinationsOfAPhoneNumber.cpp)|Medium|
 |17|[4Sum](https://oj.leetcode.com/problems/4sum/)| [](./src/4Sum/4Sum.cpp)|Medium|
 |16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)| [](./src/3SumClosest/3SumClosest.cpp)|Medium|
 |15|[3Sum](https://oj.leetcode.com/problems/3sum/)| [](./src/3Sum/3Sum.cpp)|Medium|
 |14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)| [](./src/longestCommonPrefix/longestCommonPrefix.cpp)|Easy|
-|12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)| [](./src/integerToRoman/integerToRoman.cpp)|Medium|
+
 |11|[Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/)| [](./src/containerWithMostWater/containerWithMostWater.cpp)|Medium|
 |10|[Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/)| [](./src/regularExpressionMatching/regularExpressionMatching.cpp)|Hard|
 |9|[Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/)| [](./src/palindromeNumber/palindromeNumber.cpp)|Easy|
 |8|[String to Integer (atoi)](https://oj.leetcode.com/problems/string-to-integer-atoi/)| [](./src/stringToIntegerAtoi/stringToIntegerAtoi.cpp)|Easy|
-|7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)| [](./src/reverseInteger/reverseInteger.cpp)|Easy|
 |6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)| [](./src/zigZagConversion/zigZagConversion.cpp)|Easy|
-
 |2|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)| [](./src/medianOfTwoSortedArrays/medianOfTwoSortedArrays.cpp)|Hard|

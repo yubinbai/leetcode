@@ -5,18 +5,18 @@ public class Solution {
     public String s;
 
     private int dp(int a, int b) {
-        if (memo[a][b] != -1)
+        if (memo[a][b] != 0)
             return memo[a][b];
         if (dict.contains(s.substring(a, b + 1))) {
-            return memo[a][b] = 1;
+            return memo[a][b] = 2;
         }
 
         for (int i = a; i < b; i++) {
-            if ( dp(a, i) > 0 && dp(i + 1, b) > 0) {
-                return memo[a][b] = 1;
+            if ( dp(a, i) > 1 && dp(i + 1, b) > 1) {
+                return memo[a][b] = 2;
             }
         }
-        return memo[a][b] = 0;
+        return memo[a][b] = 1;
     }
 
     public boolean wordBreak(String s, Set<String> dict) {
@@ -24,9 +24,7 @@ public class Solution {
         this.s = s;
         int n = s.length();
         memo = new int[n][n];
-        for (int[] arr : memo)
-            Arrays.fill(arr, -1);
-        return dp(0, n - 1) > 0;
+        return dp(0, n - 1) > 1;
     }
 
     public static void main(String[] args) {

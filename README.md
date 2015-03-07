@@ -27,6 +27,10 @@ Leetcode solutions in Java and Python
 |154|[Find Minimum in Rotated Sorted Array II](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)| [Java](./src/find_minimum_in_rotated_sorted_array)|Hard|
 |153|[Find Minimum in Rotated Sorted Array](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [Java](./src/find_minimum_in_rotated_sorted_array)|Medium|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [Java, Python](./src/reverseWordsInString)|Medium|
+|142|[Linked List Cycle II](https://oj.leetcode.com/problems/linked-list-cycle-ii/)| [Java](./src/linkedListCycleII)|Medium|
+|141|[Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/)| [Java](./src/linkedListCycle)|Medium|
+|140|[Word Break II](https://oj.leetcode.com/problems/word-break-ii/)| [Java](./src/wordBreakII)|Hard|
+|139|[Word Break](https://oj.leetcode.com/problems/word-break/)| [Java](./src/wordBreak)|Medium|
 |96|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)| [Java, Python](./src/uniqueBST2)|Medium|
 |91|[Subsets II](https://oj.leetcode.com/problems/subsets-ii/)| [Java, Python](./src/subset)|Medium|
 |78|[Subsets](https://oj.leetcode.com/problems/subsets/)| [Java, Python](./src/subset)|Medium|
@@ -40,7 +44,10 @@ Leetcode solutions in Java and Python
 |39|[Combination Sum II](https://oj.leetcode.com/problems/combination-sum-ii/)| [Java, Python](./src/combinationSumII)|Medium|
 |38|[Combination Sum](https://oj.leetcode.com/problems/combination-sum/)| [Java, Python](./src/combinationSum)|Medium|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [Java, Python](./src/nextPermutation)|Medium|
+|20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)| [Java, Python](./src/valid_parentheses)|Easy|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [Java](./src/romanToInt)|Easy|
+|12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)| [Python](./src/integerToRoman)|Medium|
+|7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)| [Java](./src/reverseInteger)|Easy|
 |5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)| [](./src/longestPalindromicSubstring/longestPalindromicSubstring.cpp)|Medium|
 |4|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| [Java](./src/addTwoNumbers)|Medium|
 |3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)| [Java](./src/longestSubstringWithoutRepeatingCharacters)|Medium|

@@ -9,3 +9,8 @@ Return all such possible sentences.
     dict = ["cat", "cats", "and", "sand", "dog"].
 
     A solution is ["cats and dog", "cat sand dog"].
+
+Solution
+===
+
+Brute force search with memoization for pruning
