@@ -45,6 +45,10 @@ Leetcode solutions in Java and Python
 |38|[Combination Sum](https://oj.leetcode.com/problems/combination-sum/)| [Java, Python](./src/combinationSum)|Medium|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [Java, Python](./src/nextPermutation)|Medium|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)| [Java, Python](./src/valid_parentheses)|Easy|
+|17|[4Sum](https://oj.leetcode.com/problems/4sum/)| [Java](./src/4sum)|Medium|
+|16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)| [Java, Python](./src/3SumClosest)|Medium|
+|15|[3Sum](https://oj.leetcode.com/problems/3sum/)| [Java](./src/3Sum)|Medium|
+|14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)| [Python](./src/longestCommonPrefix)|Easy|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [Java](./src/romanToInt)|Easy|
 |12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)| [Python](./src/integerToRoman)|Medium|
 |7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)| [Java](./src/reverseInteger)|Easy|

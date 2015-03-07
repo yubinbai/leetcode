@@ -120,14 +120,8 @@
 |23|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)| [](./src/swapNodesInPairs/swapNodesInPairs.cpp)|Medium|
 |22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [](./src/mergeKSortedLists/mergeKSortedLists.cpp)|Hard|
 |21|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)| [](./src/generateParentheses/generateParentheses.cpp)|Medium|
-
 |19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)| [](./src/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.cpp)|Easy|
 |18|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)| [](./src/letterCombinationsOfAPhoneNumber/letterCombinationsOfAPhoneNumber.cpp)|Medium|
-|17|[4Sum](https://oj.leetcode.com/problems/4sum/)| [](./src/4Sum/4Sum.cpp)|Medium|
-|16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)| [](./src/3SumClosest/3SumClosest.cpp)|Medium|
-|15|[3Sum](https://oj.leetcode.com/problems/3sum/)| [](./src/3Sum/3Sum.cpp)|Medium|
-|14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)| [](./src/longestCommonPrefix/longestCommonPrefix.cpp)|Easy|
-
 |11|[Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/)| [](./src/containerWithMostWater/containerWithMostWater.cpp)|Medium|
 |10|[Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/)| [](./src/regularExpressionMatching/regularExpressionMatching.cpp)|Hard|
 |9|[Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/)| [](./src/palindromeNumber/palindromeNumber.cpp)|Easy|
