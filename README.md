@@ -37,8 +37,12 @@ Leetcode solutions in Java and Python
 |46|[Permutations II](https://oj.leetcode.com/problems/permutations-ii/)| [Java, Python](./src/permutations)|Hard|
 |45|[Permutations](https://oj.leetcode.com/problems/permutations/)| [Java, Python](./src/permutations)|Medium|
 |41|[Trapping Rain Water](https://oj.leetcode.com/problems/trapping-rain-water/)| [Java, Python](./src/trappingRainWater)|Hard|
+|39|[Combination Sum II](https://oj.leetcode.com/problems/combination-sum-ii/)| [Java, Python](./src/combinationSumII)|Medium|
+|38|[Combination Sum](https://oj.leetcode.com/problems/combination-sum/)| [Java, Python](./src/combinationSum)|Medium|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [Java, Python](./src/nextPermutation)|Medium|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [Java](./src/romanToInt)|Easy|
+|5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)| [](./src/longestPalindromicSubstring/longestPalindromicSubstring.cpp)|Medium|
+|4|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| [Java](./src/addTwoNumbers)|Medium|
 |3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)| [Java](./src/longestSubstringWithoutRepeatingCharacters)|Medium|
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)| [Java, Python](./src/twoSum)|Medium|
 

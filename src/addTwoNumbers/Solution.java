@@ -20,13 +20,11 @@ public class Solution {
             int s = v1 + v2 + carry;
             carry = s / 10;
 
-            ListNode e = new ListNode(s % 10);
-            curr.next = e;
-            curr = e;
+            curr.next = new ListNode(s % 10);
+            curr = curr.next;
         }
         if (carry == 1) {
-            ListNode e = new ListNode(1);
-            curr.next = e;
+            curr.next = new ListNode(1);
         }
 
         return ret.next;
@@ -60,7 +58,7 @@ public class Solution {
         s.printNumber(n2);
         ListNode res = s.addTwoNumbers(n1, n2);
         s.printNumber(res);
-        
+
     }
 }
 

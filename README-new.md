@@ -105,11 +105,8 @@
 |47|[Rotate Image](https://oj.leetcode.com/problems/rotate-image/)| [](./src/rotateImage/rotateImage.cpp)|Medium|
 |44|[Jump Game II](https://oj.leetcode.com/problems/jump-game-ii/)| [](./src/jumpGame/jumpGame.II.cpp)|Hard|
 |43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [](./src/wildcardMatching/wildcardMatching.cpp)|Hard|
-|42|[Multiply Strings](https://oj.leetcode.com/problems/multiply-strings/)| [](./src/multiplyStrings/multiplyStrings.cpp)|Medium|
-
 |40|[First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/)| [](./src/firstMissingPositive/firstMissingPositive.cpp)|Hard|
-|39|[Combination Sum II](https://oj.leetcode.com/problems/combination-sum-ii/)| [](./src/combinationSum/combinationSum.II.cpp)|Medium|
-|38|[Combination Sum](https://oj.leetcode.com/problems/combination-sum/)| [](./src/combinationSum/combinationSum.cpp)|Medium|
+
 |37|[Count and Say](https://oj.leetcode.com/problems/count-and-say/)| [](./src/countAndSay/countAndSay.cpp)|Easy|
 |36|[Sudoku Solver](https://oj.leetcode.com/problems/sudoku-solver/)| [](./src/sudokuSolver/sudokuSolver.cpp)|Hard|
 |35|[Valid Sudoku](https://oj.leetcode.com/problems/valid-sudoku/)| [](./src/validSudoku/validSudoku.cpp)|Easy|
@@ -141,7 +138,5 @@
 |8|[String to Integer (atoi)](https://oj.leetcode.com/problems/string-to-integer-atoi/)| [](./src/stringToIntegerAtoi/stringToIntegerAtoi.cpp)|Easy|
 |7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)| [](./src/reverseInteger/reverseInteger.cpp)|Easy|
 |6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)| [](./src/zigZagConversion/zigZagConversion.cpp)|Easy|
-|5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)| [](./src/longestPalindromicSubstring/longestPalindromicSubstring.cpp)|Medium|
-|4|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| [](./src/addTwoNumbers/addTwoNumbers.cpp)|Medium|
 
 |2|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)| [](./src/medianOfTwoSortedArrays/medianOfTwoSortedArrays.cpp)|Hard|
