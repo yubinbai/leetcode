@@ -36,8 +36,11 @@ Leetcode solutions in Java and Python
 |78|[Subsets](https://oj.leetcode.com/problems/subsets/)| [Java, Python](./src/subset)|Medium|
 |77|[Combinations](https://oj.leetcode.com/problems/combinations/)| [Java, Python](./src/combination)|Medium|
 |76|[Minimum Window Substring](https://oj.leetcode.com/problems/minimum-window-substring/)| [Java, Python](./src/minWindowSubstring)|Hard|
+|73|[Set Matrix Zeroes](https://oj.leetcode.com/problems/set-matrix-zeroes/)| [C++, Java](./src/setMatrixZero)|Medium|
 |69|[Sqrt(x)](https://oj.leetcode.com/problems/sqrtx/)| [Java, Python](./src/squareRoot)|Medium|
 |64|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)| [Java](./src/merge2Sorted)|Easy|
+|62|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)| [](./src/uniquePaths/uniquePaths.II.cpp)|Medium|
+|61|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)| [Java](./src/uniquePaths)|Medium|
 |46|[Permutations II](https://oj.leetcode.com/problems/permutations-ii/)| [Java, Python](./src/permutations)|Hard|
 |45|[Permutations](https://oj.leetcode.com/problems/permutations/)| [Java, Python](./src/permutations)|Medium|
 |41|[Trapping Rain Water](https://oj.leetcode.com/problems/trapping-rain-water/)| [Java, Python](./src/trappingRainWater)|Hard|

@@ -3,24 +3,23 @@ public class Solution {
         int n = obstacleGrid.length;
         if (n == 0) return 0;
         int m = obstacleGrid[0].length;
-        int[][] ret = new int[n][m];
-        ret[0][0] = obstacleGrid[0][0] == 0 ? 1 : 0;
-        for (int j = 1; j < m; j++) {
-            ret[0][j] = (obstacleGrid[0][j] == 0) ? ret[0][j - 1] : 0;
+        int[] ret = new int[m];
+        ret[0] = obstacleGrid[0][0] == 0 ? 1 : 0;
+        for (int i = 1; i < m; ++i) {
+            ret[i] = (obstacleGrid[0][i] == 0) ? ret[i - 1] : 0;
         }
+        if (n == 1) return ret[m - 1];
         for (int i = 1; i < n; i++) {
-            ret[i][0] = (obstacleGrid[i][0] == 0) ? ret[i - 1][0] : 0;
-        }
-        for (int i = 1; i < n; i++) {
+            if (obstacleGrid[i][0] == 1) ret[0] = 0;
             for (int j = 1; j < m; j++) {
                 if (obstacleGrid[i][j] == 0) {
-                    ret[i][j] = ret[i - 1][j] + ret[i][j - 1];
+                    ret[j] += ret[j - 1];
                 } else {
-                    ret[i][j] = 0;
+                    ret[j] = 0;
                 }
             }
         }
-        return ret[n - 1][m - 1];
+        return ret[m - 1];
     }
     public static void main(String[] args) {
         int[][] data = {
