@@ -3,24 +3,36 @@ public class Solution {
         if (Math.abs(s.length() - t.length()) > 1) {
             return false;
         }
-        int nDiff = 0;
-        int i = 0, j = 0;
-        for (; i < s.length() && j < t.length(); ++i, ++j) {
-            if (s.charAt(i) != t.charAt(j)) {
-                if (nDiff != 0) {
-                    return false;
+        if (s.length() == t.length()) {
+            int diffCount = 0;
+            for (int i = 0; i < s.length(); ++i) {
+                if (s.charAt(i) != t.charAt(i)) {
+                    diffCount++;
                 }
-                if (s.length() > t.length()) {
-                    ++i;
-                } else if (s.length() < t.length()) {
-                    ++j;
-                }
-                nDiff = 1;
             }
+            return diffCount == 1;
+        } else {
+            if (s.length() > t.length()) {
+                String swap = s;
+                s = t;
+                t = swap;
+            }
+            boolean shifted = false;
+            int i = 0, j = 0;
+            while (i < s.length()) {
+                if (s.charAt(i) != t.charAt(j)) {
+                    if (j > i) {
+                        return false;
+                    } else {
+                        j++;
+                    }
+                } else {
+                    i++;
+                    j++;
+                }
+            }
+            return j == t.length() || j == i + 1;
         }
-        if (nDiff == 0 && i == s.length() - 1) return true;
-        if (nDiff == 0 && j == t.length() - 1) return true;
-        return nDiff == 1;
     }
     public static void main(String[] args) {
         Solution s = new Solution();

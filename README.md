@@ -19,6 +19,7 @@ Leetcode solutions in Java and Python
 |164|[Maximum Gap](https://oj.leetcode.com/problems/maximum-gap/)|[Java](./src/maximum_gap)|Hard|
 |163|[Missing Ranges](https://oj.leetcode.com/problems/missing-ranges/)|[Java & Python](./src/missingRanges)|Medium|
 |162|[Find Peak Element](https://oj.leetcode.com/problems/find-peak-element/) | [Java & Python](./src/find_peak_element)|Medium|
+|161|[One Edit Distance](https://oj.leetcode.com/problems/one-edit-distance/)| [Java](./src/one_edit_distance)|Medium|
 |160|[Intersection of Two Linked Lists](https://oj.leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](./src/intersection_of_two_linked_lists)|Easy|
 |159|[Longest Substring with At Most Two Distinct Characters](https://oj.leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| [Java](./src/longestSubstringWith2UniqueChars)|Hard|
 |155|[Min Stack](https://oj.leetcode.com/problems/min-stack/)| [Java](./src/min_stack)|Easy|

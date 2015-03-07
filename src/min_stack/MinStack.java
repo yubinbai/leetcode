@@ -11,13 +11,15 @@ class MinStack {
         }
     }
 
-    public void pop() {
+    public int pop() {
         if (!data.isEmpty()) {
             int v = data.pop();
             if (v == getMin()) {
                 minData.pop();
             }
+            return v;
         }
+        return -1;
     }
 
     public int top() {

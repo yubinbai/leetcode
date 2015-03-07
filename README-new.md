@@ -2,7 +2,6 @@
 |---| ----- | -------- | ---------- |
 |170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/)| []()|Easy|
 |167|[Two Sum II - Input array is sorted](https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| []()|Medium|
-|161|[One Edit Distance](https://oj.leetcode.com/problems/one-edit-distance/| []()|Medium|
 
 |158|[Read N Characters Given Read4 II - Call multiple times](https://oj.leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)| [](./src/readNCharactersGivenRead4/readNCharactersGivenRead4.II.cpp)|Hard|
 |157|[Read N Characters Given Read4](https://oj.leetcode.com/problems/read-n-characters-given-read4/)| [](./src/readNCharactersGivenRead4/readNCharactersGivenRead4.cpp)|Easy|
