@@ -7,7 +7,7 @@ public class Solution {
             this.v = v;
         }
         public int compareTo(Tuple o) {
-            return Integer.compare(this.v, o.v);
+            return Integer.compare(v, o.v);
         }
     }
     public int[] twoSum(int[] numbers, int target) {

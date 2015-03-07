@@ -39,7 +39,8 @@ Leetcode solutions in Java and Python
 |41|[Trapping Rain Water](https://oj.leetcode.com/problems/trapping-rain-water/)| [Java, Python](./src/trappingRainWater)|Hard|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [Java, Python](./src/nextPermutation)|Medium|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [Java](./src/romanToInt)|Easy|
-
+|3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)| [Java](./src/longestSubstringWithoutRepeatingCharacters)|Medium|
+|1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)| [Java, Python](./src/twoSum)|Medium|
 
 https://oj.leetcode.com/problems/
 

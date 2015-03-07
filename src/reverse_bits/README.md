@@ -8,3 +8,7 @@ Follow up:
 If this function is called many times, how would you optimize it?
 
 Related problem: Reverse Integer
+
+Follow up
+===
+If needed, cache results of numbers between 0..255 in array. So the inverse of 32 bit int takes only 4 ops

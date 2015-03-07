@@ -1,15 +1,9 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/)| []()|Easy|
-|167|[Two Sum II - Input array is sorted](https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| []()|Medium|
-
 |158|[Read N Characters Given Read4 II - Call multiple times](https://oj.leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)| [](./src/readNCharactersGivenRead4/readNCharactersGivenRead4.II.cpp)|Hard|
 |157|[Read N Characters Given Read4](https://oj.leetcode.com/problems/read-n-characters-given-read4/)| [](./src/readNCharactersGivenRead4/readNCharactersGivenRead4.cpp)|Easy|
 |156|[Binary Tree Upside Down](https://oj.leetcode.com/problems/binary-tree-upside-down/)| [](./src/binaryTreeUpsideDown/binaryTreeUpsideDown.cpp)|Medium|
-
-
 |152|[Maximum Product Subarray](https://oj.leetcode.com/problems/maximum-product-subarray/)| [](./src/maximumProductSubarray/maximumProductSubarray.cpp)|Medium|
-
 |150|[Evaluate Reverse Polish Notation](https://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)| [](./src/evaluateReversePolishNotation/evaluateReversePolishNotation.cpp)|Medium|
 |149|[Max Points on a Line](https://oj.leetcode.com/problems/max-points-on-a-line/)| [](./src/maxPointsOnALine/maxPointsOnALine.cpp)|Hard|
 |148|[Sort List](https://oj.leetcode.com/problems/sort-list/)| [](./src/sortList/sortList.cpp)|Medium|
@@ -82,21 +76,16 @@
 |81|[Search in Rotated Sorted Array II](https://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/)| [](./src/searchInRotatedSortedArray/searchInRotatedSortedArray.II.cpp)|Medium|
 |80|[Remove Duplicates from Sorted Array II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [](./src/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.II.cpp)|Medium|
 |79|[Word Search](https://oj.leetcode.com/problems/word-search/)| [](./src/wordSearch/wordSearch.cpp)|Medium|
-
-
-
 |75|[Sort Colors](https://oj.leetcode.com/problems/sort-colors/)| [](./src/sortColors/sortColors.cpp)|Medium|
 |74|[Search a 2D Matrix](https://oj.leetcode.com/problems/search-a-2d-matrix/)| [](./src/search2DMatrix/search2DMatrix.cpp)|Medium|
 |73|[Set Matrix Zeroes](https://oj.leetcode.com/problems/set-matrix-zeroes/)| [](./src/setMatrixZeroes/setMatrixZeroes.cpp)|Medium|
 |72|[Edit Distance](https://oj.leetcode.com/problems/edit-distance/)| [](./src/editDistance/editDistance.cpp)|Hard|
 |71|[Simplify Path](https://oj.leetcode.com/problems/simplify-path/)| [](./src/simplifyPath/simplifyPath.cpp)|Medium|
 |70|[Climbing Stairs](https://oj.leetcode.com/problems/climbing-stairs/)| [](./src/climbStairs/climbStairs.cpp)|Easy|
-
 |68|[Text Justification](https://oj.leetcode.com/problems/text-justification/)| [](./src/textJustification/textJustification.cpp)|Hard|
 |67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [](./src/plusOne/plusOne.cpp)|Easy|
 |66|[Valid Number](https://oj.leetcode.com/problems/valid-number/)| [](./src/validNumber/validNumber.cpp)|Easy|
 |65|[Add Binary](https://oj.leetcode.com/problems/add-binary/)| [](./src/addBinary/addBinary.cpp)|Easy|
-
 |63|[Minimum Path Sum](https://oj.leetcode.com/problems/minimum-path-sum/)| [](./src/minimumPathSum/minimumPathSum.cpp)|Medium|
 |62|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)| [](./src/uniquePaths/uniquePaths.II.cpp)|Medium|
 |61|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)| [](./src/uniquePaths/uniquePaths.cpp)|Medium|
@@ -145,7 +134,6 @@
 |16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)| [](./src/3SumClosest/3SumClosest.cpp)|Medium|
 |15|[3Sum](https://oj.leetcode.com/problems/3sum/)| [](./src/3Sum/3Sum.cpp)|Medium|
 |14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)| [](./src/longestCommonPrefix/longestCommonPrefix.cpp)|Easy|
-
 |12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)| [](./src/integerToRoman/integerToRoman.cpp)|Medium|
 |11|[Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/)| [](./src/containerWithMostWater/containerWithMostWater.cpp)|Medium|
 |10|[Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/)| [](./src/regularExpressionMatching/regularExpressionMatching.cpp)|Hard|
@@ -155,6 +143,5 @@
 |6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)| [](./src/zigZagConversion/zigZagConversion.cpp)|Easy|
 |5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)| [](./src/longestPalindromicSubstring/longestPalindromicSubstring.cpp)|Medium|
 |4|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| [](./src/addTwoNumbers/addTwoNumbers.cpp)|Medium|
-|3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)| [](./src/longestSubstringWithoutRepeatingCharacters/longestSubstringWithoutRepeatingCharacters.cpp)|Medium|
+
 |2|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)| [](./src/medianOfTwoSortedArrays/medianOfTwoSortedArrays.cpp)|Hard|
-|1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)| [](./src/twoSum/twoSum.cpp)|Medium|
