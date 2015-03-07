@@ -10,8 +10,8 @@ class ListNode {
 public class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
-        ListNode newL = new ListNode(0);
-        ListNode curr = newL;
+        ListNode newList = new ListNode(0);
+        ListNode curr = newList;
         while (l1 != null || l2 != null) {
             if (l1 == null) {
                 curr.next = l2;
@@ -30,7 +30,7 @@ public class Solution {
             }
             curr = curr.next;
         }
-        return newL.next;
+        return newList.next;
     }
     public void printList(ListNode e) {
         while (e != null) {

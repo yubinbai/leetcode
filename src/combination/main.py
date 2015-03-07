@@ -5,16 +5,16 @@ class Solution:
         results = []
         stack = []
 
-        def comb(curr, step):
+        def _combine(curr, step):
             if step == k:
                 results.append(list(stack))
                 return
             for i in range(curr, n + 1):
                 stack.append(i)
-                comb(i + 1, step + 1)
+                _combine(i + 1, step + 1)
                 stack.pop()
 
-        comb(1, 0)
+        _combine(1, 0)
         return results
 
 if __name__ == '__main__':

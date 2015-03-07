@@ -83,8 +83,8 @@
 |80|[Remove Duplicates from Sorted Array II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [](./src/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.II.cpp)|Medium|
 |79|[Word Search](https://oj.leetcode.com/problems/word-search/)| [](./src/wordSearch/wordSearch.cpp)|Medium|
 
-|77|[Combinations](https://oj.leetcode.com/problems/combinations/)| [](./src/combinations/combinations.cpp)|Medium|
-|76|[Minimum Window Substring](https://oj.leetcode.com/problems/minimum-window-substring/)| [](./src/minimumWindowSubstring/minimumWindowSubstring.cpp)|Hard|
+
+
 |75|[Sort Colors](https://oj.leetcode.com/problems/sort-colors/)| [](./src/sortColors/sortColors.cpp)|Medium|
 |74|[Search a 2D Matrix](https://oj.leetcode.com/problems/search-a-2d-matrix/)| [](./src/search2DMatrix/search2DMatrix.cpp)|Medium|
 |73|[Set Matrix Zeroes](https://oj.leetcode.com/problems/set-matrix-zeroes/)| [](./src/setMatrixZeroes/setMatrixZeroes.cpp)|Medium|
@@ -96,7 +96,7 @@
 |67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [](./src/plusOne/plusOne.cpp)|Easy|
 |66|[Valid Number](https://oj.leetcode.com/problems/valid-number/)| [](./src/validNumber/validNumber.cpp)|Easy|
 |65|[Add Binary](https://oj.leetcode.com/problems/add-binary/)| [](./src/addBinary/addBinary.cpp)|Easy|
-|64|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)| [](./src/mergeTwoSortedList/mergeTwoSortedList.cpp)|Easy|
+
 |63|[Minimum Path Sum](https://oj.leetcode.com/problems/minimum-path-sum/)| [](./src/minimumPathSum/minimumPathSum.cpp)|Medium|
 |62|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)| [](./src/uniquePaths/uniquePaths.II.cpp)|Medium|
 |61|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)| [](./src/uniquePaths/uniquePaths.cpp)|Medium|
