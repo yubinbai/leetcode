@@ -33,6 +33,7 @@ Leetcode solutions in Java and Python
 |139|[Word Break](https://oj.leetcode.com/problems/word-break/)| [Java](./src/wordBreak)|Medium|
 |96|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)| [Java, Python](./src/uniqueBST2)|Medium|
 |91|[Subsets II](https://oj.leetcode.com/problems/subsets-ii/)| [Java, Python](./src/subset)|Medium|
+|80|[Remove Duplicates from Sorted Array II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [Java, Python](./src/remove_duplicates_from_sorted_array_ii)|Medium|
 |78|[Subsets](https://oj.leetcode.com/problems/subsets/)| [Java, Python](./src/subset)|Medium|
 |77|[Combinations](https://oj.leetcode.com/problems/combinations/)| [Java, Python](./src/combination)|Medium|
 |76|[Minimum Window Substring](https://oj.leetcode.com/problems/minimum-window-substring/)| [Java, Python](./src/minWindowSubstring)|Hard|
@@ -47,6 +48,7 @@ Leetcode solutions in Java and Python
 |39|[Combination Sum II](https://oj.leetcode.com/problems/combination-sum-ii/)| [Java, Python](./src/combinationSumII)|Medium|
 |38|[Combination Sum](https://oj.leetcode.com/problems/combination-sum/)| [Java, Python](./src/combinationSum)|Medium|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [Java, Python](./src/nextPermutation)|Medium|
+|25|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Java, DPython](./src/remote_duplicate_from_sorted_array)|Easy|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)| [Java, Python](./src/valid_parentheses)|Easy|
 |17|[4Sum](https://oj.leetcode.com/problems/4sum/)| [Java](./src/4sum)|Medium|
 |16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)| [Java, Python](./src/3SumClosest)|Medium|
