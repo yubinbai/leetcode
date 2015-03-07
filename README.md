@@ -27,7 +27,9 @@ Leetcode solutions in Java and Python
 |153|[Find Minimum in Rotated Sorted Array](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [Java](./src/find_minimum_in_rotated_sorted_array)|Medium|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [Java, Python](./src/reverseWordsInString)|Medium|
 |96|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)| [Java, Python](./src/uniqueBST2)|Medium|
+|91|[Subsets II](https://oj.leetcode.com/problems/subsets-ii/)| [Java, Python](./src/subset)|Medium|
 |78|[Subsets](https://oj.leetcode.com/problems/subsets/)| [Java, Python](./src/subset)|Medium|
+|69|[Sqrt(x)](https://oj.leetcode.com/problems/sqrtx/)| [Java, Python](./src/squareRoot)|Medium|
 |46|[Permutations II](https://oj.leetcode.com/problems/permutations-ii/)| [Java, Python](./src/permutations)|Hard|
 |45|[Permutations](https://oj.leetcode.com/problems/permutations/)| [Java, Python](./src/permutations)|Medium|
 |41|[Trapping Rain Water](https://oj.leetcode.com/problems/trapping-rain-water/)| [Java, Python](./src/trappingRainWater)|Hard|

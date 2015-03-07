@@ -69,7 +69,7 @@
 |94|[Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/)| [](./src/binaryTreeInorderTraversal/binaryTreeInorderTraversal.cpp)|Medium|
 |93|[Restore IP Addresses](https://oj.leetcode.com/problems/restore-ip-addresses/)| [](./src/restoreIPAddresses/restoreIPAddresses.cpp)|Medium|
 |92|[Reverse ed List II](https://oj.leetcode.com/problems/reverse-ed-list-ii/)| [](./src/reverseedList/reverseedList.II.cpp)|Medium|
-|91|[Subsets II](https://oj.leetcode.com/problems/subsets-ii/)| [](./src/subsets/subsets.II.cpp)|Medium|
+
 |90|[Decode Ways](https://oj.leetcode.com/problems/decode-ways/)| [](./src/decodeWays/decodeWays.cpp)|Medium|
 |89|[Gray Code](https://oj.leetcode.com/problems/gray-code/)| [](./src/grayCode/grayCode.cpp)|Medium|
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [](./src/mergeTwoSortedArray/mergeTwoSortedArray.cpp)|Easy|
@@ -82,7 +82,7 @@
 |81|[Search in Rotated Sorted Array II](https://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/)| [](./src/searchInRotatedSortedArray/searchInRotatedSortedArray.II.cpp)|Medium|
 |80|[Remove Duplicates from Sorted Array II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [](./src/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.II.cpp)|Medium|
 |79|[Word Search](https://oj.leetcode.com/problems/word-search/)| [](./src/wordSearch/wordSearch.cpp)|Medium|
-|78|[Subsets](https://oj.leetcode.com/problems/subsets/)| [](./src/subsets/subsets.cpp)|Medium|
+
 |77|[Combinations](https://oj.leetcode.com/problems/combinations/)| [](./src/combinations/combinations.cpp)|Medium|
 |76|[Minimum Window Substring](https://oj.leetcode.com/problems/minimum-window-substring/)| [](./src/minimumWindowSubstring/minimumWindowSubstring.cpp)|Hard|
 |75|[Sort Colors](https://oj.leetcode.com/problems/sort-colors/)| [](./src/sortColors/sortColors.cpp)|Medium|
@@ -91,7 +91,7 @@
 |72|[Edit Distance](https://oj.leetcode.com/problems/edit-distance/)| [](./src/editDistance/editDistance.cpp)|Hard|
 |71|[Simplify Path](https://oj.leetcode.com/problems/simplify-path/)| [](./src/simplifyPath/simplifyPath.cpp)|Medium|
 |70|[Climbing Stairs](https://oj.leetcode.com/problems/climbing-stairs/)| [](./src/climbStairs/climbStairs.cpp)|Easy|
-|69|[Sqrt(x)](https://oj.leetcode.com/problems/sqrtx/)| [](./src/sqrt/sqrt.cpp)|Medium|
+
 |68|[Text Justification](https://oj.leetcode.com/problems/text-justification/)| [](./src/textJustification/textJustification.cpp)|Hard|
 |67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [](./src/plusOne/plusOne.cpp)|Easy|
 |66|[Valid Number](https://oj.leetcode.com/problems/valid-number/)| [](./src/validNumber/validNumber.cpp)|Easy|
