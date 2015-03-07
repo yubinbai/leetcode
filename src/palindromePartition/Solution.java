@@ -8,15 +8,15 @@ public class Solution {
         return ret;
     }
 
-    public void dfs(String s, int pos) {
-        if (pos == s.length()) {
+    public void dfs(String s, int step) {
+        if (step == s.length()) {
             ArrayList<String> arr = new ArrayList<String>();
             for (String str : curr) arr.add(str);
             ret.add(arr);
             return;
         }
-        for (int i = pos + 1; i <= s.length(); i++) {
-            String sub = s.substring(pos, i);
+        for (int i = step + 1; i <= s.length(); i++) {
+            String sub = s.substring(step, i);
             if (isPalindrome(sub)) {
                 curr.push(sub);
                 dfs(s, i);

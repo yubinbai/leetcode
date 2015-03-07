@@ -8,7 +8,6 @@
 |149|[Max Points on a Line](https://oj.leetcode.com/problems/max-points-on-a-line/)| [](./src/maxPointsOnALine/maxPointsOnALine.cpp)|Hard|
 |148|[Sort List](https://oj.leetcode.com/problems/sort-list/)| [](./src/sortList/sortList.cpp)|Medium|
 |147|[Insertion Sort List](https://oj.leetcode.com/problems/insertion-sort-list/)| [](./src/insertionSortList/insertionSortList.cpp)|Medium|
-|146|[LRU Cache](https://oj.leetcode.com/problems/lru-cache/)| [](./src/LRUCache/LRUCache.cpp)|Hard|
 |145|[Binary Tree Postorder Traversal](https://oj.leetcode.com/problems/binary-tree-postorder-traversal/)| [](./src/binaryTreePostorderTraversal/binaryTreePostorderTraversal.cpp)|Hard|
 |144|[Binary Tree Preorder Traversal](https://oj.leetcode.com/problems/binary-tree-preorder-traversal/)| [](./src/binaryTreePreorderTraversal/binaryTreePreorderTraversal.cpp)|Medium|
 |143|[Reorder List](https://oj.leetcode.com/problems/reorder-list/)| [](./src/reorderList/reorderList.cpp)|Medium|
@@ -18,9 +17,6 @@
 |135|[Candy](https://oj.leetcode.com/problems/candy/)| [](./src/candy/candy.cpp)|Hard|
 |134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)| [](./src/gasStation/gasStation.cpp)|Medium|
 |133|[Clone Graph](https://oj.leetcode.com/problems/clone-graph/)| [](./src/cloneGraph/cloneGraph.cpp)|Medium|
-|132|[Palindrome Partitioning II](https://oj.leetcode.com/problems/palindrome-partitioning-ii/)| [](./src/palindromePartitioning/palindromePartitioning.II.cpp)|Hard|
-|131|[Palindrome Partitioning](https://oj.leetcode.com/problems/palindrome-partitioning/)| [](./src/palindromePartitioning/palindromePartitioning.cpp)|Medium|
-|130|[Surrounded Regions](https://oj.leetcode.com/problems/surrounded-regions/)| [](./src/surroundedRegions/surroundedRegions.cpp)|Medium|
 |129|[Sum Root to Leaf Numbers](https://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)| [](./src/sumRootToLeafNumber/sumRootToLeafNumber.cpp)|Medium|
 |128|[Longest Consecutive Sequence](https://oj.leetcode.com/problems/longest-consecutive-sequence/)| [](./src/longestConsecutiveSequence/longestConsecutiveSequence.cpp)|Hard|
 |127|[Word Ladder II](https://oj.leetcode.com/problems/word-ladder-ii/)| [](./src/wordLadder/wordLadder.II.cpp)|Hard|
@@ -110,7 +106,6 @@
 |29|[Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)| [](./src/substringWithConcatenationOfAllWords/substringWithConcatenationOfAllWords.cpp)|Hard|
 |28|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| [](./src/divideTwoInt/divideTwoInt.cpp)|Medium|
 |27|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| [](./src/strStr/strStr.cpp)|Easy|
-|26|[Remove Element](https://oj.leetcode.com/problems/remove-element/)| [](./src/removeElement/removeElement.cpp)|Easy|
 |24|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| [](./src/reverseNodesInKGroup/reverseNodesInKGroup.cpp)|Hard|
 |23|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)| [](./src/swapNodesInPairs/swapNodesInPairs.cpp)|Medium|
 |22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [](./src/mergeKSortedLists/mergeKSortedLists.cpp)|Hard|

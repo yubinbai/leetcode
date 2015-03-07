@@ -27,10 +27,14 @@ Leetcode solutions in Java and Python
 |154|[Find Minimum in Rotated Sorted Array II](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)| [Java](./src/find_minimum_in_rotated_sorted_array)|Hard|
 |153|[Find Minimum in Rotated Sorted Array](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [Java](./src/find_minimum_in_rotated_sorted_array)|Medium|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [Java, Python](./src/reverseWordsInString)|Medium|
+|146|[LRU Cache](https://oj.leetcode.com/problems/lru-cache/)| [Java](./src/LRUCache)|Hard|
 |142|[Linked List Cycle II](https://oj.leetcode.com/problems/linked-list-cycle-ii/)| [Java](./src/linkedListCycleII)|Medium|
 |141|[Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/)| [Java](./src/linkedListCycle)|Medium|
 |140|[Word Break II](https://oj.leetcode.com/problems/word-break-ii/)| [Java](./src/wordBreakII)|Hard|
 |139|[Word Break](https://oj.leetcode.com/problems/word-break/)| [Java](./src/wordBreak)|Medium|
+|132|[Palindrome Partitioning II](https://oj.leetcode.com/problems/palindrome-partitioning-ii/)| [Java](./src/palindromePartitionII)|Hard|
+|131|[Palindrome Partitioning](https://oj.leetcode.com/problems/palindrome-partitioning/)| [Java](./src/palindromePartition)|Medium|
+|130|[Surrounded Regions](https://oj.leetcode.com/problems/surrounded-regions/)| [Java, Python](./src/surroundedRegions)|Medium|
 |96|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)| [Java, Python](./src/uniqueBST2)|Medium|
 |91|[Subsets II](https://oj.leetcode.com/problems/subsets-ii/)| [Java, Python](./src/subset)|Medium|
 |80|[Remove Duplicates from Sorted Array II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [Java, Python](./src/remove_duplicates_from_sorted_array_ii)|Medium|
@@ -48,6 +52,7 @@ Leetcode solutions in Java and Python
 |39|[Combination Sum II](https://oj.leetcode.com/problems/combination-sum-ii/)| [Java, Python](./src/combinationSumII)|Medium|
 |38|[Combination Sum](https://oj.leetcode.com/problems/combination-sum/)| [Java, Python](./src/combinationSum)|Medium|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [Java, Python](./src/nextPermutation)|Medium|
+|26|[Remove Element](https://oj.leetcode.com/problems/remove-element/)| [Java, Python](./src/removeElement)|Easy|
 |25|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Java, DPython](./src/remote_duplicate_from_sorted_array)|Easy|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)| [Java, Python](./src/valid_parentheses)|Easy|
 |17|[4Sum](https://oj.leetcode.com/problems/4sum/)| [Java](./src/4sum)|Medium|
