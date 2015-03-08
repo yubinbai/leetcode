@@ -89,21 +89,16 @@
 |51|[N-Queens II](https://oj.leetcode.com/problems/n-queens-ii/)| [](./src/nQueens/nQueuens.II.cpp)|Hard|
 |50|[N-Queens](https://oj.leetcode.com/problems/n-queens/)| [](./src/nQueens/nQueuens.cpp)|Hard|
 |49|["Pow(x, n)"](https://oj.leetcode.com/problems/powx-n/)| [](./src/pow/pow.cpp)|Medium|
-|48|[Anagrams](https://oj.leetcode.com/problems/anagrams/)| [](./src/anagrams/anagrams.cpp)|Medium|
 |47|[Rotate Image](https://oj.leetcode.com/problems/rotate-image/)| [](./src/rotateImage/rotateImage.cpp)|Medium|
 |44|[Jump Game II](https://oj.leetcode.com/problems/jump-game-ii/)| [](./src/jumpGame/jumpGame.II.cpp)|Hard|
 |43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [](./src/wildcardMatching/wildcardMatching.cpp)|Hard|
 |40|[First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/)| [](./src/firstMissingPositive/firstMissingPositive.cpp)|Hard|
-
 |37|[Count and Say](https://oj.leetcode.com/problems/count-and-say/)| [](./src/countAndSay/countAndSay.cpp)|Easy|
 |36|[Sudoku Solver](https://oj.leetcode.com/problems/sudoku-solver/)| [](./src/sudokuSolver/sudokuSolver.cpp)|Hard|
 |35|[Valid Sudoku](https://oj.leetcode.com/problems/valid-sudoku/)| [](./src/validSudoku/validSudoku.cpp)|Easy|
 |34|[Search Insert Position](https://oj.leetcode.com/problems/search-insert-position/)| [](./src/searchInsertPosition/searchInsertPosition.cpp)|Medium|
 |33|[Search for a Range](https://oj.leetcode.com/problems/search-for-a-range/)| [](./src/searchForRange/searchForRange.cpp)|Medium|
 |32|[Search in Rotated Sorted Array](https://oj.leetcode.com/problems/search-in-rotated-sorted-array/)| [](./src/searchInRotatedSortedArray/searchInRotatedSortedArray.cpp)|Hard|
-|31|[Longest Valid Parentheses](https://oj.leetcode.com/problems/longest-valid-parentheses/)| [](./src/longestValidParentheses/longestValidParentheses.cpp)|Hard|
-
-|29|[Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)| [](./src/substringWithConcatenationOfAllWords/substringWithConcatenationOfAllWords.cpp)|Hard|
 |28|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| [](./src/divideTwoInt/divideTwoInt.cpp)|Medium|
 |27|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| [](./src/strStr/strStr.cpp)|Easy|
 |24|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| [](./src/reverseNodesInKGroup/reverseNodesInKGroup.cpp)|Hard|

@@ -46,12 +46,15 @@ Leetcode solutions in Java and Python
 |64|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)| [Java](./src/merge2Sorted)|Easy|
 |62|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)| [](./src/uniquePaths/uniquePaths.II.cpp)|Medium|
 |61|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)| [Java](./src/uniquePaths)|Medium|
+|48|[Anagrams](https://oj.leetcode.com/problems/anagrams/)| [Java, Python](./src/anagram)|Medium|
 |46|[Permutations II](https://oj.leetcode.com/problems/permutations-ii/)| [Java, Python](./src/permutations)|Hard|
 |45|[Permutations](https://oj.leetcode.com/problems/permutations/)| [Java, Python](./src/permutations)|Medium|
 |41|[Trapping Rain Water](https://oj.leetcode.com/problems/trapping-rain-water/)| [Java, Python](./src/trappingRainWater)|Hard|
 |39|[Combination Sum II](https://oj.leetcode.com/problems/combination-sum-ii/)| [Java, Python](./src/combinationSumII)|Medium|
 |38|[Combination Sum](https://oj.leetcode.com/problems/combination-sum/)| [Java, Python](./src/combinationSum)|Medium|
+|31|[Longest Valid Parentheses](https://oj.leetcode.com/problems/longest-valid-parentheses/)| [Java](./src/longestValidParentheses)|Hard|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [Java, Python](./src/nextPermutation)|Medium|
+|29|[Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)|[Java](./src/substringWithCatAllWords)|Hard|
 |26|[Remove Element](https://oj.leetcode.com/problems/remove-element/)| [Java, Python](./src/removeElement)|Easy|
 |25|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Java, DPython](./src/remote_duplicate_from_sorted_array)|Easy|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)| [Java, Python](./src/valid_parentheses)|Easy|
