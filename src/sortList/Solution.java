@@ -1,86 +1,76 @@
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
 public class Solution {
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) return head;
-        ListNode pivot = head;
-        ListNode curr = head.next;
-        ListNode headLeft = null;
-        ListNode headRight = null;
-        ListNode tailLeft = null;
-        ListNode tailRight = null;
 
-        // without random access array, quicksort degrades to insert sort
-        while (curr != null) {
-            if (curr.val >= pivot.val) {
-                if (tailRight == null) {
-                    tailRight = curr;
-                    headRight = tailRight;
-                } else {
-                    tailRight.next = curr;
-                    tailRight = curr;
-                }
+        ListNode fastP = head.next.next, slowP = head;
+        while (fastP != null) {
+            if (fastP.next == null) break;
+            fastP = fastP.next.next;
+            slowP = slowP.next;
+        }
+        ListNode left = head;
+        ListNode right = slowP.next;
+        slowP.next = null;
+
+        ListNode h1 = sortList(left);
+        ListNode h2 = sortList(right);
+        ListNode merged = merge(h1, h2);
+
+        return merged;
+    }
+
+    public static ListNode merge(ListNode l, ListNode r) {
+        ListNode p1 = l;
+        ListNode p2 = r;
+
+        ListNode fakeHead = new ListNode(100);
+        ListNode curr = fakeHead;
+
+        while (p1 != null || p2 != null) {
+
+            if (p1 == null) {
+                curr.next = p2;
+                break;
+            } else if (p2 == null) {
+                curr.next = p1;
+                break;
             } else {
-                if (tailLeft == null) {
-                    tailLeft = curr;
-                    headLeft = tailLeft;
+                if (p1.val < p2.val) {
+                    curr.next = new ListNode(p1.val);
+                    p1 = p1.next;
+                    curr = curr.next;
+                } else if (p1.val == p2.val) {
+                    curr.next = new ListNode(p1.val);
+                    curr.next.next = new ListNode(p1.val);
+                    curr = curr.next.next;
+                    p1 = p1.next;
+                    p2 = p2.next;
                 } else {
-                    tailLeft.next = curr;
-                    tailLeft = curr;
+                    curr.next = new ListNode(p2.val);
+                    p2 = p2.next;
+                    curr = curr.next;
                 }
             }
-            curr = curr.next;
         }
 
-        // System.out.format("Pivot: %d \n", pivot.val);
-
-        if (headLeft != null) {
-            tailLeft.next = null;
-            // System.out.print("Left"); if (headLeft != null) headLeft.printList();
-            headLeft = sortList(headLeft);
-            tailLeft = headLeft;
-            while (tailLeft.next != null) tailLeft = tailLeft.next;
-            tailLeft.next = pivot;
-        }
-        if (headRight != null) {
-            tailRight.next = null;
-            // System.out.print("Right"); if (headRight != null) headRight.printList();
-            headRight = sortList(headRight);
-        }
-
-        pivot.next = headRight;
-        if (headLeft != null)
-            return headLeft;
-        else
-            return pivot;
+        return fakeHead.next;
     }
 
     public static void main(String[] args) {
-        int[] a = {2, 1, 3, 0, 100, -100};
+        int[] a = {2, 1, 3, 0, 100, -100, 1};
         ListNode head = new ListNode(0);
         ListNode curr = head;
-
         for (int i : a) {
             curr.next = new ListNode(i);
             curr = curr.next;
         }
-
         head.next.printList();
-
         Solution sol = new Solution();
         head = sol.sortList(head.next);
         head.printList();
     }
 }
+
 class ListNode {
     int val;
     ListNode next;

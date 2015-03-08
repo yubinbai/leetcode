@@ -26,16 +26,24 @@ Leetcode solutions in Java and Python
 |155|[Min Stack](https://oj.leetcode.com/problems/min-stack/)| [Java](./src/min_stack)|Easy|
 |154|[Find Minimum in Rotated Sorted Array II](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)| [Java](./src/find_minimum_in_rotated_sorted_array)|Hard|
 |153|[Find Minimum in Rotated Sorted Array](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [Java](./src/find_minimum_in_rotated_sorted_array)|Medium|
+|152|[Maximum Product Subarray](https://oj.leetcode.com/problems/maximum-product-subarray/)| [Java](./src/maximumProductSubarray/maximumProductSubarray.cpp)|Medium|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [Java, Python](./src/reverseWordsInString)|Medium|
+|150|[Evaluate Reverse Polish Notation](https://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)| [Java, Python](./src/evaluateReversePolish)|Medium|
 |149|[Max Points on a Line](https://oj.leetcode.com/problems/max-points-on-a-line/)| [](./src/maxPointsOnALine/maxPointsOnALine.cpp)|Hard|
+|148|[Sort List](https://oj.leetcode.com/problems/sort-list/)| [Java](./src/sortList/sortList.cpp)|Medium|
+|147|[Insertion Sort List](https://oj.leetcode.com/problems/insertion-sort-list/)| [Java](./src/insertionSortList)|Medium|
 |146|[LRU Cache](https://oj.leetcode.com/problems/lru-cache/)| [Java](./src/LRUCache)|Hard|
 |142|[Linked List Cycle II](https://oj.leetcode.com/problems/linked-list-cycle-ii/)| [Java](./src/linkedListCycleII)|Medium|
 |141|[Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/)| [Java](./src/linkedListCycle)|Medium|
 |140|[Word Break II](https://oj.leetcode.com/problems/word-break-ii/)| [Java](./src/wordBreakII)|Hard|
 |139|[Word Break](https://oj.leetcode.com/problems/word-break/)| [Java](./src/wordBreak)|Medium|
+|138|[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)| [Java](./src/copyListWithRandomPointer)|Hard|
 |132|[Palindrome Partitioning II](https://oj.leetcode.com/problems/palindrome-partitioning-ii/)| [Java](./src/palindromePartitionII)|Hard|
 |131|[Palindrome Partitioning](https://oj.leetcode.com/problems/palindrome-partitioning/)| [Java](./src/palindromePartition)|Medium|
 |130|[Surrounded Regions](https://oj.leetcode.com/problems/surrounded-regions/)| [Java, Python](./src/surroundedRegions)|Medium|
+|125|[Valid Palindrome](https://oj.leetcode.com/problems/valid-palindrome/)| [Java, Python](./src/validPalindrome)|Easy|
+|121|[Best Time to Buy and Sell Stock](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java, Python](./src/stock1)|Medium|
+|100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)| [Java, Python](./src/sameTree)|Easy|
 |96|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)| [Java, Python](./src/uniqueBST2)|Medium|
 |91|[Subsets II](https://oj.leetcode.com/problems/subsets-ii/)| [Java, Python](./src/subset)|Medium|
 |80|[Remove Duplicates from Sorted Array II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [Java, Python](./src/remove_duplicates_from_sorted_array_ii)|Medium|
@@ -45,14 +53,18 @@ Leetcode solutions in Java and Python
 |73|[Set Matrix Zeroes](https://oj.leetcode.com/problems/set-matrix-zeroes/)| [C++, Java](./src/setMatrixZero)|Medium|
 |69|[Sqrt(x)](https://oj.leetcode.com/problems/sqrtx/)| [Java, Python](./src/squareRoot)|Medium|
 |64|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)| [Java](./src/merge2Sorted)|Easy|
-|62|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)| [](./src/uniquePaths/uniquePaths.II.cpp)|Medium|
+|62|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)| [Java](./src/uniquePathsII)|Medium|
 |61|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)| [Java](./src/uniquePaths)|Medium|
+|52|[Maximum Subarray](https://oj.leetcode.com/problems/maximum-subarray/)| [Java,Python](./src/maxSubArray)|Medium|
 |48|[Anagrams](https://oj.leetcode.com/problems/anagrams/)| [Java, Python](./src/anagram)|Medium|
+|47|[Rotate Image](https://oj.leetcode.com/problems/rotate-image/)| [Python](./src/rotateImage)|Medium|
 |46|[Permutations II](https://oj.leetcode.com/problems/permutations-ii/)| [Java, Python](./src/permutations)|Hard|
 |45|[Permutations](https://oj.leetcode.com/problems/permutations/)| [Java, Python](./src/permutations)|Medium|
 |41|[Trapping Rain Water](https://oj.leetcode.com/problems/trapping-rain-water/)| [Java, Python](./src/trappingRainWater)|Hard|
 |39|[Combination Sum II](https://oj.leetcode.com/problems/combination-sum-ii/)| [Java, Python](./src/combinationSumII)|Medium|
 |38|[Combination Sum](https://oj.leetcode.com/problems/combination-sum/)| [Java, Python](./src/combinationSum)|Medium|
+|36|[Sudoku Solver](https://oj.leetcode.com/problems/sudoku-solver/)| [Java](./src/sudokuSolver)|Hard|
+|35|[Valid Sudoku](https://oj.leetcode.com/problems/valid-sudoku/)| [Java](./src/isValidSudoku)|Easy|
 |31|[Longest Valid Parentheses](https://oj.leetcode.com/problems/longest-valid-parentheses/)| [Java](./src/longestValidParentheses)|Hard|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [Java, Python](./src/nextPermutation)|Medium|
 |29|[Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)|[Java](./src/substringWithCatAllWords)|Hard|
@@ -65,6 +77,7 @@ Leetcode solutions in Java and Python
 |14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)| [Python](./src/longestCommonPrefix)|Easy|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [Java](./src/romanToInt)|Easy|
 |12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)| [Python](./src/integerToRoman)|Medium|
+|9|[Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/)| [Java, Python](./src/palindromeNumber)|Easy|
 |7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)| [Java](./src/reverseInteger)|Easy|
 |5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)| [](./src/longestPalindromicSubstring/longestPalindromicSubstring.cpp)|Medium|
 |4|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| [Java](./src/addTwoNumbers)|Medium|
