@@ -6,14 +6,9 @@
 |143|[Reorder List](https://oj.leetcode.com/problems/reorder-list/)| [](./src/reorderList/reorderList.cpp)|Medium|
 |135|[Candy](https://oj.leetcode.com/problems/candy/)| [](./src/candy/candy.cpp)|Hard|
 |134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)| [](./src/gasStation/gasStation.cpp)|Medium|
-|128|[Longest Consecutive Sequence](https://oj.leetcode.com/problems/longest-consecutive-sequence/)| [](./src/longestConsecutiveSequence/longestConsecutiveSequence.cpp)|Hard|
 |127|[Word Ladder II](https://oj.leetcode.com/problems/word-ladder-ii/)| [](./src/wordLadder/wordLadder.II.cpp)|Hard|
 |126|[Word Ladder](https://oj.leetcode.com/problems/word-ladder/)| [](./src/wordLadder/wordLadder.cpp)|Medium|
-|123|[Best Time to Buy and Sell Stock III](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [](./src/bestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.III.cpp)|Hard|
-|122|[Best Time to Buy and Sell Stock II](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [](./src/bestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.II.cpp)|Medium|
 |120|[Triangle](https://oj.leetcode.com/problems/triangle/)| [](./src/triangle/triangle.cpp)|Medium|
-|119|[Pascal's Triangle II](https://oj.leetcode.com/problems/pascals-triangle-ii/)| [](./src/pascalTriangle/pascalTriangle.II.cpp)|Easy|
-|118|[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)| [](./src/pascalTriangle/pascalTriangle.cpp)|Easy|
 |117|[Populating Next Right Pointers in Each Node II](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)| [](./src/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.II.cpp)|Hard|
 |116|[Populating Next Right Pointers in Each Node](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)| [](./src/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.cpp)|Medium|
 |115|[Distinct Subsequences](https://oj.leetcode.com/problems/distinct-subsequences/)| [](./src/distinctSubsequences/distinctSubsequences.cpp)|Hard|
@@ -40,15 +35,11 @@
 |86|[Partition List](https://oj.leetcode.com/problems/partition-list/)| [](./src/partitionList/partitionList.cpp)|Medium|
 |85|[Maximal Rectangle](https://oj.leetcode.com/problems/maximal-rectangle/)| [](./src/maximalRectangle/maximalRectangle.cpp)|Hard|
 |84|[Largest Rectangle in Histogram](https://oj.leetcode.com/problems/largest-rectangle-in-histogram/)| [](./src/largestRectangleInHistogram/largestRectangleInHistogram.cpp)|Hard|
-|83|[Remove Duplicates from Sorted List II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [](./src/removeDuplicatesFromSortedList/removeDuplicatesFromSortedList.II.cpp)|Medium|
-|82|[Remove Duplicates from Sorted List](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/)| [](./src/removeDuplicatesFromSortedList/removeDuplicatesFromSortedList.cpp)|Easy|
 |81|[Search in Rotated Sorted Array II](https://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/)| [](./src/searchInRotatedSortedArray/searchInRotatedSortedArray.II.cpp)|Medium|
 |79|[Word Search](https://oj.leetcode.com/problems/word-search/)| [](./src/wordSearch/wordSearch.cpp)|Medium|
 |75|[Sort Colors](https://oj.leetcode.com/problems/sort-colors/)| [](./src/sortColors/sortColors.cpp)|Medium|
-|74|[Search a 2D Matrix](https://oj.leetcode.com/problems/search-a-2d-matrix/)| [](./src/search2DMatrix/search2DMatrix.cpp)|Medium|
 |72|[Edit Distance](https://oj.leetcode.com/problems/edit-distance/)| [](./src/editDistance/editDistance.cpp)|Hard|
 |71|[Simplify Path](https://oj.leetcode.com/problems/simplify-path/)| [](./src/simplifyPath/simplifyPath.cpp)|Medium|
-|70|[Climbing Stairs](https://oj.leetcode.com/problems/climbing-stairs/)| [](./src/climbStairs/climbStairs.cpp)|Easy|
 |68|[Text Justification](https://oj.leetcode.com/problems/text-justification/)| [](./src/textJustification/textJustification.cpp)|Hard|
 |67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [](./src/plusOne/plusOne.cpp)|Easy|
 |66|[Valid Number](https://oj.leetcode.com/problems/valid-number/)| [](./src/validNumber/validNumber.cpp)|Easy|
@@ -70,7 +61,6 @@
 |27|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| [](./src/strStr/strStr.cpp)|Easy|
 |24|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| [](./src/reverseNodesInKGroup/reverseNodesInKGroup.cpp)|Hard|
 |23|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)| [](./src/swapNodesInPairs/swapNodesInPairs.cpp)|Medium|
-|22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [](./src/mergeKSortedLists/mergeKSortedLists.cpp)|Hard|
 |21|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)| [](./src/generateParentheses/generateParentheses.cpp)|Medium|
 |19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)| [](./src/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.cpp)|Easy|
 |10|[Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/)| [](./src/regularExpressionMatching/regularExpressionMatching.cpp)|Hard|

@@ -8,11 +8,11 @@ public class Solution {
                 curr = curr.next;
                 head = head.next;
             } else {
-                ListNode sameValue = head;
-                while (sameValue != null && sameValue.val == head.val) {
-                    sameValue = sameValue.next;
+                ListNode skip = head;
+                while (skip != null && skip.val == head.val) {
+                    skip = skip.next;
                 }
-                head = sameValue;
+                head = skip;
             }
         }
         curr.next = null;

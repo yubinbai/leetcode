@@ -19,6 +19,7 @@ class Solution:
             n += 1
         return prevRow
 
-s = Solution()
-for i in range(10):
-    print s.getRow(i)
+if __name__ == '__main__':
+    s = Solution()
+    for i in range(10):
+        print s.getRow(i)

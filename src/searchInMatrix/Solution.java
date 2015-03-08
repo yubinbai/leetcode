@@ -5,21 +5,17 @@ public class Solution {
         if (n == 0) return false;
         int m = matrix[0].length;
         if (m == 0) return false;
-        int[] firsts = new int[n];
-        for (int i = 0; i < n; i++) {
-            firsts[i] = matrix[i][0];
-        }
-        int pos = Arrays.binarySearch(firsts, target);
-        if (pos >= 0) {
-            return true;
-        } else {
-            pos = (-1) * pos - 1;
-            if (pos == 0) {
-                return false;
+        int left = 0, right = n * m - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            int midV = matrix[mid / m][mid % m];
+            if (midV >= target) {
+                right = mid;
             } else {
-                return (Arrays.binarySearch(matrix[pos - 1], target) >= 0);
+                left = mid + 1;
             }
         }
+        return matrix[left / m][left % m] == target;
     }
 
     public static void main(String[] args) {
@@ -31,7 +27,8 @@ public class Solution {
         int[][] data = new int[1][20000];
         for (int i = 1; i <= 20000; i++) data[0][i - 1] = i;
         Solution s = new Solution();
-        boolean b = s.searchMatrix(data, 100);
-        System.out.println(b);
+        System.out.println(s.searchMatrix(data, 10));
+        System.out.println(s.searchMatrix(data, -1));
+        System.out.println(s.searchMatrix(data, 20000));
     }
 }

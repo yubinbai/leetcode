@@ -2,12 +2,12 @@ public class Solution {
     public int climbStairs(int n) {
         if (n <= 1) return 1;
         int a = 1, b = 1, t;
-        for (int i = 0; i < n; i++) {
-            t = b;
-            b = a + b;
-            a = t;
+        for (int i = 1; i < n; i++) {
+            t = a + b;
+            a = b;
+            b = t;
         }
-        return a;
+        return b;
     }
     public static void main(String[] args) {
         Solution s = new Solution();

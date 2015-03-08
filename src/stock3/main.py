@@ -46,8 +46,12 @@ class Solution:
         return ret
 
 if __name__ == '__main__':
-    # prices = [1, 9, 10, 4, 15, 100]
-    # prices = [1, 2, 3, 4]
-    prices = [1, 2]
     s = Solution()
+    prices = [1, 9, 10, 4, 15, 100]
+    print(s.maxProfit(prices))
+    prices = [1, 2, 3, 4]
+    print(s.maxProfit(prices))
+    prices = [1, 2]
+    print(s.maxProfit(prices))
+    prices = [3,2,6,5,0,3]
     print(s.maxProfit(prices))
