@@ -53,11 +53,14 @@ Leetcode solutions in Java and Python
 |121|[Best Time to Buy and Sell Stock](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java, Python](./src/stock1)|Medium|
 |119|[Pascal's Triangle II](https://oj.leetcode.com/problems/pascals-triangle-ii/)|[Python](./src/pascalII)|Easy|
 |118|[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)|[Python](./src/pascal)|Easy|
+|115|[Distinct Subsequences](https://oj.leetcode.com/problems/distinct-subsequences/)| [Java](./src/distinctSubsequence)|Hard|
 |113|[Path Sum II](https://oj.leetcode.com/problems/path-sum-ii/)|[Java, Python](./src/pathSumII)|Medium|
 |112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)|[Python](./src/pathSum)|Easy|
 |104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)|[Java, Python](./src/max)|Easy|
 |101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)|[Java](./src/symmetricTree)|Easy|
 |100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)|[Java, Python](./src/sameTree)|Easy|
+|98|[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)| [Java](./src/validateBST)|Medium|
+|97|[Interleaving String](https://oj.leetcode.com/problems/interleaving-string/)| [Java](./src/interleavingString)|Hard|
 |96|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)|[Java, Python](./src/uniqueBST2)|Medium|
 |91|[Subsets II](https://oj.leetcode.com/problems/subsets-ii/)|[Java, Python](./src/subset)|Medium|
 |87|[Scramble String](https://oj.leetcode.com/problems/scramble-string/)|[Java, Python](./src/scrambleString)|Hard|

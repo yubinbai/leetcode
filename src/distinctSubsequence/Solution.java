@@ -1,5 +1,6 @@
 public class Solution {
     public int numDistinct(String S, String T) {
+        // how many ways in s[0..i] can make t[0..j]
         int[][] dp = new int[S.length() + 1][T.length() + 1];
 
         for (int i = 0; i < S.length(); i++) dp[i][0] = 1;
@@ -7,9 +8,9 @@ public class Solution {
         for (int i = 1; i <= S.length(); i++) {
             for (int j = 1; j <= T.length(); j++) {
                 if (S.charAt(i - 1) == T.charAt(j - 1)) {
-                    dp[i][j] += dp[i - 1][j] + dp[i - 1][j - 1];
+                    dp[i][j] = dp[i - 1][j] + dp[i - 1][j - 1];
                 } else {
-                    dp[i][j] += dp[i - 1][j];
+                    dp[i][j] = dp[i - 1][j];
                 }
             }
         }

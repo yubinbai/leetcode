@@ -6,14 +6,14 @@ class TreeNode {
 }
 public class Solution {
     public boolean isValidBST(TreeNode root) {
-        return isValid(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+        return isValid(root, (long) Integer.MIN_VALUE, (long) Integer.MAX_VALUE);
     }
-    public boolean isValid(TreeNode e, int min, int max) {
+    public boolean isValid(TreeNode e, long min, long max) {
         if (e == null) return true;
-        if (e.val >= max || e.val <= min) {
+        if (e.val > max || e.val < min) {
             return false;
         } else {
-            return isValid(e.left, min, e.val) && isValid(e.right, e.val, max);
+            return isValid(e.left, min, (long) e.val - 1) && isValid(e.right, (long) e.val + 1, max);
         }
     }
 }
