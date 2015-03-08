@@ -8,8 +8,6 @@
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [](./src/singleNumber/singleNumber.cpp)|Medium|
 |135|[Candy](https://oj.leetcode.com/problems/candy/)| [](./src/candy/candy.cpp)|Hard|
 |134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)| [](./src/gasStation/gasStation.cpp)|Medium|
-|133|[Clone Graph](https://oj.leetcode.com/problems/clone-graph/)| [](./src/cloneGraph/cloneGraph.cpp)|Medium|
-|129|[Sum Root to Leaf Numbers](https://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)| [](./src/sumRootToLeafNumber/sumRootToLeafNumber.cpp)|Medium|
 |128|[Longest Consecutive Sequence](https://oj.leetcode.com/problems/longest-consecutive-sequence/)| [](./src/longestConsecutiveSequence/longestConsecutiveSequence.cpp)|Hard|
 |127|[Word Ladder II](https://oj.leetcode.com/problems/word-ladder-ii/)| [](./src/wordLadder/wordLadder.II.cpp)|Hard|
 |126|[Word Ladder](https://oj.leetcode.com/problems/word-ladder/)| [](./src/wordLadder/wordLadder.cpp)|Medium|
@@ -32,10 +30,8 @@
 |107|[Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)| [](./src/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.II.cpp)|Easy|
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| [](./src/constructBinaryTreeFromInorderAndPostorderTraversal/constructBinaryTreeFromInorderAndPostorderTraversal.cpp)|Medium|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [](./src/constructBinaryTreeFromPreorderAndInorderTraversal/constructBinaryTreeFromPreorderAndInorderTraversal.cpp)|Medium|
-|104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)| [](./src/maximumDepthOfBinaryTree/maximumDepthOfBinaryTree.cpp)|Easy|
 |103|[Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [](./src/binaryTreeZigzagLevelOrderTraversal/binaryTreeZigzagLevelOrderTraversal.cpp)|Medium|
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [](./src/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.cpp)|Easy|
-|101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)| [](./src/symmetricTree/symmetricTree.cpp)|Easy|
 |99|[Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/)| [](./src/recoverBinarySearchTree/recoverBinarySearchTree.cpp)|Hard|
 |98|[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)| [](./src/validateBinarySearchTree/validateBinarySearchTree.cpp)|Medium|
 |97|[Interleaving String](https://oj.leetcode.com/problems/interleaving-string/)| [](./src/interleavingString/interleavingString.cpp)|Hard|
@@ -46,7 +42,6 @@
 |90|[Decode Ways](https://oj.leetcode.com/problems/decode-ways/)| [](./src/decodeWays/decodeWays.cpp)|Medium|
 |89|[Gray Code](https://oj.leetcode.com/problems/gray-code/)| [](./src/grayCode/grayCode.cpp)|Medium|
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [](./src/mergeTwoSortedArray/mergeTwoSortedArray.cpp)|Easy|
-|87|[Scramble String](https://oj.leetcode.com/problems/scramble-string/)| [](./src/scrambleString/scrambleString.cpp)|Hard|
 |86|[Partition List](https://oj.leetcode.com/problems/partition-list/)| [](./src/partitionList/partitionList.cpp)|Medium|
 |85|[Maximal Rectangle](https://oj.leetcode.com/problems/maximal-rectangle/)| [](./src/maximalRectangle/maximalRectangle.cpp)|Hard|
 |84|[Largest Rectangle in Histogram](https://oj.leetcode.com/problems/largest-rectangle-in-histogram/)| [](./src/largestRectangleInHistogram/largestRectangleInHistogram.cpp)|Hard|
@@ -63,19 +58,13 @@
 |67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [](./src/plusOne/plusOne.cpp)|Easy|
 |66|[Valid Number](https://oj.leetcode.com/problems/valid-number/)| [](./src/validNumber/validNumber.cpp)|Easy|
 |65|[Add Binary](https://oj.leetcode.com/problems/add-binary/)| [](./src/addBinary/addBinary.cpp)|Easy|
-|63|[Minimum Path Sum](https://oj.leetcode.com/problems/minimum-path-sum/)| [](./src/minimumPathSum/minimumPathSum.cpp)|Medium|
 |60|[Rotate List](https://oj.leetcode.com/problems/rotate-list/)| [](./src/rotateList/rotateList.cpp)|Medium|
 |59|[Permutation Sequence](https://oj.leetcode.com/problems/permutation-sequence/)| [](./src/permutationSequence/permutationSequence.cpp)|Medium|
 |58|[Spiral Matrix II](https://oj.leetcode.com/problems/spiral-matrix-ii/)| [](./src/spiralMatrix/spiralMatrix.II.cpp)|Medium|
-|57|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)| [](./src/lengthOfLastWord/lengthOfLastWord.cpp)|Easy|
-|56|[Insert Interval](https://oj.leetcode.com/problems/insert-interval/)| [](./src/insertInterval/insertInterval.cpp)|Hard|
-|55|[Merge Intervals](https://oj.leetcode.com/problems/merge-intervals/)| [](./src/mergeIntervals/mergeIntervals.cpp)|Hard|
-|54|[Jump Game](https://oj.leetcode.com/problems/jump-game/)| [](./src/jumpGame/jumpGame.cpp)|Medium|
 |53|[Spiral Matrix](https://oj.leetcode.com/problems/spiral-matrix/)| [](./src/spiralMatrix/spiralMatrix.cpp)|Medium|
 |51|[N-Queens II](https://oj.leetcode.com/problems/n-queens-ii/)| [](./src/nQueens/nQueuens.II.cpp)|Hard|
 |50|[N-Queens](https://oj.leetcode.com/problems/n-queens/)| [](./src/nQueens/nQueuens.cpp)|Hard|
 |49|["Pow(x, n)"](https://oj.leetcode.com/problems/powx-n/)| [](./src/pow/pow.cpp)|Medium|
-|44|[Jump Game II](https://oj.leetcode.com/problems/jump-game-ii/)| [](./src/jumpGame/jumpGame.II.cpp)|Hard|
 |43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [](./src/wildcardMatching/wildcardMatching.cpp)|Hard|
 |40|[First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/)| [](./src/firstMissingPositive/firstMissingPositive.cpp)|Hard|
 |37|[Count and Say](https://oj.leetcode.com/problems/count-and-say/)| [](./src/countAndSay/countAndSay.cpp)|Easy|
@@ -89,8 +78,6 @@
 |22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [](./src/mergeKSortedLists/mergeKSortedLists.cpp)|Hard|
 |21|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)| [](./src/generateParentheses/generateParentheses.cpp)|Medium|
 |19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)| [](./src/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.cpp)|Easy|
-|18|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)| [](./src/letterCombinationsOfAPhoneNumber/letterCombinationsOfAPhoneNumber.cpp)|Medium|
-|11|[Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/)| [](./src/containerWithMostWater/containerWithMostWater.cpp)|Medium|
 |10|[Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/)| [](./src/regularExpressionMatching/regularExpressionMatching.cpp)|Hard|
 |8|[String to Integer (atoi)](https://oj.leetcode.com/problems/string-to-integer-atoi/)| [](./src/stringToIntegerAtoi/stringToIntegerAtoi.cpp)|Easy|
 |6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)| [](./src/zigZagConversion/zigZagConversion.cpp)|Easy|

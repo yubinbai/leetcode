@@ -5,20 +5,16 @@ public class Solution {
         if (n == 0) return 0;
         int m = grid[0].length;
         if (m == 0) return 0;
-        for (int j = 1; j < m; j++) {
-            grid[0][j] += grid[0][j - 1];
+        for (int c = 1; c < m; c++) {
+            grid[0][c] += grid[0][c - 1];
         }
-        for (int i = 1; i < n; i++) {
-            grid[i][0] += grid[i - 1][0];
+        for (int r = 1; r < n; r++) {
+            grid[r][0] += grid[r - 1][0];
         }
 
-        // System.out.format("%d %d\n", m, n);
-        for (int layer = 1; layer < Math.max(m, n); layer++) {
-            for (int j = layer; layer < n && j < m; j++) {
-                grid[layer][j] += Math.min(grid[layer][j - 1], grid[layer - 1][j]);
-            }
-            for (int i = layer + 1; layer < m && i < n; i++) {
-                grid[i][layer] += Math.min(grid[i - 1][layer], grid[i][layer - 1]);
+        for (int r = 1; r < n; r++) {
+            for (int c = 1; c < m; c++) {
+                grid[r][c] += Math.min(grid[r][c - 1], grid[r - 1][c]);
             }
         }
         return grid[n - 1][m - 1];

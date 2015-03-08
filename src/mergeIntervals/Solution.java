@@ -22,17 +22,13 @@ public class Solution {
             }
         });
         ArrayList<Interval> ret = new ArrayList<Interval>();
-        Iterator<Interval> it = intervals.iterator();
-        Interval curr = it.next();
-        while (it.hasNext()) {
-            Interval curr2 = it.next();
-            if (curr.end >= curr2.start) {
-                // merge
-                curr.end = Math.max(curr.end, curr2.end);
+        Interval curr = intervals.get(0);
+        for (Interval next : intervals) {
+            if (curr.end >= next.start) {
+                curr.end = Math.max(curr.end, next.end);
             } else {
-                // cannot merge
                 ret.add(curr);
-                curr = curr2;
+                curr = next;
             }
         }
         ret.add(curr);

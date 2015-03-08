@@ -16,13 +16,7 @@ public class Solution {
     public boolean isSym(TreeNode left, TreeNode right) {
         if (left == null) return right == null;
         if (right == null) return left == null;
-
-        if (left.val != right.val) return false;
-
-        if (!isSym(left.left, right.right)) return false;
-
-        if (!isSym(left.right, right.left)) return false;
-        return true;
+        return left.val == right.val && isSym(left.left, right.right) && isSym(left.right, right.left);
     }
 
     public boolean isSymmetricIter(TreeNode root) {
@@ -36,7 +30,7 @@ public class Solution {
             TreeNode temp1 = l.poll(), temp2 = r.poll();
 
             if (temp1 == null && temp2 != null || temp1 != null && temp2 == null) return false;
-            
+
             if (temp1 != null) {
                 if (temp1.val != temp2.val) return false;
                 l.add(temp1.left);
