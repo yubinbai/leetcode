@@ -45,6 +45,8 @@ Leetcode solutions in Java and Python
 |129|[Sum Root to Leaf Numbers](https://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)| [Java](./src/sumRootToLeaf)|Medium|
 |125|[Valid Palindrome](https://oj.leetcode.com/problems/valid-palindrome/)| [Java, Python](./src/validPalindrome)|Easy|
 |121|[Best Time to Buy and Sell Stock](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java, Python](./src/stock1)|Medium|
+|113|[Path Sum II](https://oj.leetcode.com/problems/path-sum-ii/)| [Java, Python](./src/pathSumII)|Medium|
+|112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)| [Python](./src/pathSum)|Easy|
 |104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)| [Java, Python](./src/max)|Easy|
 |101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)| [Java](./src/symmetricTree)|Easy|
 |100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)| [Java, Python](./src/sameTree)|Easy|
