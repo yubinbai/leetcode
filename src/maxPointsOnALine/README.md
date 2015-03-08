@@ -4,7 +4,6 @@ Given n points on a 2D plane, find the maximum number of points that lie on the 
 
 Solution
 ===
-Solution:
 
 http://rleetcode.blogspot.com/2014/01/max-points-on-linejava.html
 
