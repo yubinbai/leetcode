@@ -4,14 +4,11 @@
 |145|[Binary Tree Postorder Traversal](https://oj.leetcode.com/problems/binary-tree-postorder-traversal/)| [](./src/binaryTreePostorderTraversal/binaryTreePostorderTraversal.cpp)|Hard|
 |144|[Binary Tree Preorder Traversal](https://oj.leetcode.com/problems/binary-tree-preorder-traversal/)| [](./src/binaryTreePreorderTraversal/binaryTreePreorderTraversal.cpp)|Medium|
 |143|[Reorder List](https://oj.leetcode.com/problems/reorder-list/)| [](./src/reorderList/reorderList.cpp)|Medium|
-|137|[Single Number II](https://oj.leetcode.com/problems/single-number-ii/)| [](./src/singleNumber/singleNumber.II.cpp)|Medium|
-|136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [](./src/singleNumber/singleNumber.cpp)|Medium|
 |135|[Candy](https://oj.leetcode.com/problems/candy/)| [](./src/candy/candy.cpp)|Hard|
 |134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)| [](./src/gasStation/gasStation.cpp)|Medium|
 |128|[Longest Consecutive Sequence](https://oj.leetcode.com/problems/longest-consecutive-sequence/)| [](./src/longestConsecutiveSequence/longestConsecutiveSequence.cpp)|Hard|
 |127|[Word Ladder II](https://oj.leetcode.com/problems/word-ladder-ii/)| [](./src/wordLadder/wordLadder.II.cpp)|Hard|
 |126|[Word Ladder](https://oj.leetcode.com/problems/word-ladder/)| [](./src/wordLadder/wordLadder.cpp)|Medium|
-|124|[Binary Tree Maximum Path Sum](https://oj.leetcode.com/problems/binary-tree-maximum-path-sum/)| [](./src/binaryTreeMaximumPathSum/binaryTreeMaximumPathSum.cpp)|Hard|
 |123|[Best Time to Buy and Sell Stock III](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [](./src/bestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.III.cpp)|Hard|
 |122|[Best Time to Buy and Sell Stock II](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [](./src/bestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.II.cpp)|Medium|
 |120|[Triangle](https://oj.leetcode.com/problems/triangle/)| [](./src/triangle/triangle.cpp)|Medium|

@@ -7,38 +7,42 @@ class TreeNode {
     }
 }
 public class Solution {
+    private static int MINV = (int) -1e9;
     public int maxPathSum(TreeNode root) {
-        int[] ret = new int[2];
-        maxPathSum(root, ret);
+        int[] ret = _maxPathSum(root);
         return ret[0];
     }
     /**
      * get max path sum
      * @param node
-     * @param ret, mutable array for return values
+     * @return ret, mutable array for return values
      *      ret[0] any path
      *      ret[1] path that ends at current node
      */
-    private void maxPathSum(TreeNode node, int[] ret) {
-        int[] leftRet = new int[2];
-        int[] rightRet = new int[2];
-        if (node == null) return;
-        ret[0] = ret[1] = node.val;
+    private int[] _maxPathSum(TreeNode node) {
+        if (node == null) return new int[] {MINV, MINV};
+        int[] ret = {node.val, node.val};
         if (node.left == null && node.right == null) {
-            return;
+            return ret;
         }
-        if (node.left != null) {
-            maxPathSum(node.left, leftRet);
-            ret[0] = Math.max(ret[0], leftRet[0]);
-            ret[1] = Math.max(ret[1], node.val + leftRet[1]);
-        }
-        if (node.right != null) {
-            maxPathSum(node.right, rightRet);
-            ret[0] = Math.max(ret[0], rightRet[0]);
-            ret[1] = Math.max(ret[1], node.val + rightRet[1]);
-        }
-        ret[0] = Math.max(ret[0], leftRet[1] + rightRet[1] + node.val);
-        ret[0] = Math.max(ret[0], ret[1]);
-        return;
+
+        int[] leftRet = _maxPathSum(node.left);
+        ret[0] = Math.max(ret[0], leftRet[0]);
+        ret[0] = Math.max(ret[0], node.val + leftRet[1]);
+
+        int[] rightRet = _maxPathSum(node.right);
+        ret[0] = Math.max(ret[0], rightRet[0]);
+        ret[0] = Math.max(ret[0], node.val + rightRet[1]);
+
+        ret[1] = Math.max(ret[1], node.val + Math.max(leftRet[1], rightRet[1]));
+        ret[0] = Math.max(ret[0], node.val + leftRet[1] + rightRet[1]);
+        return ret;
+    }
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        TreeNode e = new TreeNode(-2);
+        e.left = new TreeNode(-1);
+        // e.right = new TreeNode(3);
+        System.out.println(s.maxPathSum(e));
     }
 }

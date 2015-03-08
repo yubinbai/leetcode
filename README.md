@@ -38,12 +38,15 @@ Leetcode solutions in Java and Python
 |140|[Word Break II](https://oj.leetcode.com/problems/word-break-ii/)| [Java](./src/wordBreakII)|Hard|
 |139|[Word Break](https://oj.leetcode.com/problems/word-break/)| [Java](./src/wordBreak)|Medium|
 |138|[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)| [Java](./src/copyListWithRandomPointer)|Hard|
+|137|[Single Number II](https://oj.leetcode.com/problems/single-number-ii/)| [Python](./src/singleNumberII)|Medium|
+|136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [Java, Python](./src/singleNumber)|Medium|
 |133|[Clone Graph](https://oj.leetcode.com/problems/clone-graph/)| [Java](./src/cloneGraph)|Medium|
 |132|[Palindrome Partitioning II](https://oj.leetcode.com/problems/palindrome-partitioning-ii/)| [Java](./src/palindromePartitionII)|Hard|
 |131|[Palindrome Partitioning](https://oj.leetcode.com/problems/palindrome-partitioning/)| [Java](./src/palindromePartition)|Medium|
 |130|[Surrounded Regions](https://oj.leetcode.com/problems/surrounded-regions/)| [Java, Python](./src/surroundedRegions)|Medium|
 |129|[Sum Root to Leaf Numbers](https://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)| [Java](./src/sumRootToLeaf)|Medium|
 |125|[Valid Palindrome](https://oj.leetcode.com/problems/valid-palindrome/)| [Java, Python](./src/validPalindrome)|Easy|
+|124|[Binary Tree Maximum Path Sum](https://oj.leetcode.com/problems/binary-tree-maximum-path-sum/)| [](./src/binaryTreeMaximumPathSum/binaryTreeMaximumPathSum.cpp)|Hard|
 |121|[Best Time to Buy and Sell Stock](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java, Python](./src/stock1)|Medium|
 |113|[Path Sum II](https://oj.leetcode.com/problems/path-sum-ii/)| [Java, Python](./src/pathSumII)|Medium|
 |112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)| [Python](./src/pathSum)|Easy|
