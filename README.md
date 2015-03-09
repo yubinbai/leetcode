@@ -42,12 +42,14 @@ Leetcode solutions in Java and Python
 |137|[Single Number II](https://oj.leetcode.com/problems/single-number-ii/)|[Python](./src/singleNumberII)|Medium|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)|[Java, Python](./src/singleNumber)|Medium|
 |135|[Candy](https://oj.leetcode.com/problems/candy/)| [Java, Python](./src/candy)|Hard|
+|134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)| [Python](./src/gasStation)|Medium|
 |133|[Clone Graph](https://oj.leetcode.com/problems/clone-graph/)|[Java](./src/cloneGraph)|Medium|
 |132|[Palindrome Partitioning II](https://oj.leetcode.com/problems/palindrome-partitioning-ii/)|[Java](./src/palindromePartitionII)|Hard|
 |131|[Palindrome Partitioning](https://oj.leetcode.com/problems/palindrome-partitioning/)|[Java](./src/palindromePartition)|Medium|
 |130|[Surrounded Regions](https://oj.leetcode.com/problems/surrounded-regions/)|[Java, Python](./src/surroundedRegions)|Medium|
 |129|[Sum Root to Leaf Numbers](https://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java](./src/sumRootToLeaf)|Medium|
 |128|[Longest Consecutive Sequence](https://oj.leetcode.com/problems/longest-consecutive-sequence/)| [Java](./src/longestConsecutiveSequence)|Hard|
+|126|[Word Ladder](https://oj.leetcode.com/problems/word-ladder/)| [Java](./src/wordLadder)|Medium|
 |125|[Valid Palindrome](https://oj.leetcode.com/problems/valid-palindrome/)|[Java, Python](./src/validPalindrome)|Easy|
 |124|[Binary Tree Maximum Path Sum](https://oj.leetcode.com/problems/binary-tree-maximum-path-sum/)|[Java](./src/binaryTreeMaxPathSum)|Hard|
 |123|[Best Time to Buy and Sell Stock III](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [Java, Python](./src/stock3)|Hard|
@@ -61,7 +63,9 @@ Leetcode solutions in Java and Python
 |112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)|[Python](./src/pathSum)|Easy|
 |111|[Minimum Depth of Binary Tree](https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)| [Java](./src/minDepthOfTree)|Easy|
 |110|[Balanced Binary Tree](https://oj.leetcode.com/problems/balanced-binary-tree/)| [Java](./src/balanced_binary_tree)|Easy|
+|107|[Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)| [Java](./src/levelOrderII)|Easy|
 |104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)|[Java, Python](./src/max)|Easy|
+|103|[Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Java](./src/binaryTreeZigzag)|Medium|
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [Java](./src/levelOrder)|Easy|
 |101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)|[Java](./src/symmetricTree)|Easy|
 |100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)|[Java, Python](./src/sameTree)|Easy|

@@ -9,8 +9,8 @@ class TreeNode {
 }
 
 public class Solution {
-    public ArrayList<ArrayList<Integer>> zigzagLevelOrder(TreeNode root) {
-        ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+        List<List<Integer>> ret = new ArrayList<List<Integer>>();
         ArrayList<TreeNode> curr = new ArrayList<TreeNode>();
         ArrayList<TreeNode> next = new ArrayList<TreeNode>();
         curr.add(root);

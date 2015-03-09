@@ -12,8 +12,8 @@ class TreeNode {
 public class Solution {
 
     // use counting instead of extra queue
-    public ArrayList<ArrayList<Integer>> levelOrderBottom(TreeNode root) {
-        ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+        ArrayList<List<Integer>> ret = new ArrayList<List<Integer>>();
 
         if (root == null) return ret;
         ArrayDeque<TreeNode> currentLevel = new ArrayDeque<TreeNode>();

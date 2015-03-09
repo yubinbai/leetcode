@@ -3,18 +3,14 @@
 |156|[Binary Tree Upside Down](https://oj.leetcode.com/problems/binary-tree-upside-down/)| [](./src/binaryTreeUpsideDown/binaryTreeUpsideDown.cpp)|Medium|
 |145|[Binary Tree Postorder Traversal](https://oj.leetcode.com/problems/binary-tree-postorder-traversal/)| [](./src/binaryTreePostorderTraversal/binaryTreePostorderTraversal.cpp)|Hard|
 |144|[Binary Tree Preorder Traversal](https://oj.leetcode.com/problems/binary-tree-preorder-traversal/)| [](./src/binaryTreePreorderTraversal/binaryTreePreorderTraversal.cpp)|Medium|
-|134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)| [](./src/gasStation/gasStation.cpp)|Medium|
 |127|[Word Ladder II](https://oj.leetcode.com/problems/word-ladder-ii/)| [](./src/wordLadder/wordLadder.II.cpp)|Hard|
-|126|[Word Ladder](https://oj.leetcode.com/problems/word-ladder/)| [](./src/wordLadder/wordLadder.cpp)|Medium|
 |117|[Populating Next Right Pointers in Each Node II](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)| [](./src/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.II.cpp)|Hard|
 |116|[Populating Next Right Pointers in Each Node](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)| [](./src/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.cpp)|Medium|
 |114|[Flatten Binary Tree to ed List](https://oj.leetcode.com/problems/flatten-binary-tree-to-ed-list/)| [](./src/flattenBinaryTreeToedList/flattenBinaryTreeToedList.cpp)|Medium|
 |109|[Convert Sorted List to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| [](./src/convertSortedListToBinarySearchTree/convertSortedListToBinarySearchTree.cpp)|Medium|
 |108|[Convert Sorted Array to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| [](./src/convertSortedArrayToBinarySearchTree/convertSortedArrayToBinarySearchTree.cpp)|Medium|
-|107|[Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)| [](./src/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.II.cpp)|Easy|
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| [](./src/constructBinaryTreeFromInorderAndPostorderTraversal/constructBinaryTreeFromInorderAndPostorderTraversal.cpp)|Medium|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [](./src/constructBinaryTreeFromPreorderAndInorderTraversal/constructBinaryTreeFromPreorderAndInorderTraversal.cpp)|Medium|
-|103|[Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [](./src/binaryTreeZigzagLevelOrderTraversal/binaryTreeZigzagLevelOrderTraversal.cpp)|Medium|
 |99|[Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/)| [](./src/recoverBinarySearchTree/recoverBinarySearchTree.cpp)|Hard|
 |95|[Unique Binary Search Trees](https://oj.leetcode.com/problems/unique-binary-search-trees/)| [](./src/uniqueBinarySearchTrees/uniqueBinarySearchTrees.cpp)|Medium|
 |94|[Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/)| [](./src/binaryTreeInorderTraversal/binaryTreeInorderTraversal.cpp)|Medium|
