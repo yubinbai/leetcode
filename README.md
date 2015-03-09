@@ -56,7 +56,9 @@ Leetcode solutions in Java and Python
 |115|[Distinct Subsequences](https://oj.leetcode.com/problems/distinct-subsequences/)| [Java](./src/distinctSubsequence)|Hard|
 |113|[Path Sum II](https://oj.leetcode.com/problems/path-sum-ii/)|[Java, Python](./src/pathSumII)|Medium|
 |112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)|[Python](./src/pathSum)|Easy|
+|111|[Minimum Depth of Binary Tree](https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)| [Java](./src/minDepthOfTree)|Easy|
 |104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)|[Java, Python](./src/max)|Easy|
+|102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [](./src/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.cpp)|Easy|
 |101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)|[Java](./src/symmetricTree)|Easy|
 |100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)|[Java, Python](./src/sameTree)|Easy|
 |98|[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)| [Java](./src/validateBST)|Medium|

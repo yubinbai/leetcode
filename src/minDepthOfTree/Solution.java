@@ -17,8 +17,7 @@ public class Solution {
         while ( !q.isEmpty() ) {
             TreeNode e = q.poll();
             Integer d = depthQ.poll();
-            if (e.left == null && e.right == null)
-                return d;
+            if (e.left == null && e.right == null) return d;
             if (e.left != null) {
                 q.offer(e.left);
                 depthQ.offer(d + 1);
@@ -28,6 +27,6 @@ public class Solution {
                 depthQ.offer(d + 1);
             }
         }
-        return 0;
+        return -1;
     }
 }
