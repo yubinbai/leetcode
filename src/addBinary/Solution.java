@@ -26,10 +26,8 @@ public class Solution {
             int num2 = lastB >= 0 ? b.charAt(lastB--) - '0' : 0;
             int current = (num1 + num2 + carry) % 2;
             carry = (num1 + num2 + carry) / 2;
-
             sb.append(current);
         }
-
         sb.reverse();
         return sb.toString();
     }

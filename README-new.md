@@ -3,16 +3,12 @@
 |156|[Binary Tree Upside Down](https://oj.leetcode.com/problems/binary-tree-upside-down/)| [](./src/binaryTreeUpsideDown/binaryTreeUpsideDown.cpp)|Medium|
 |145|[Binary Tree Postorder Traversal](https://oj.leetcode.com/problems/binary-tree-postorder-traversal/)| [](./src/binaryTreePostorderTraversal/binaryTreePostorderTraversal.cpp)|Hard|
 |144|[Binary Tree Preorder Traversal](https://oj.leetcode.com/problems/binary-tree-preorder-traversal/)| [](./src/binaryTreePreorderTraversal/binaryTreePreorderTraversal.cpp)|Medium|
-|143|[Reorder List](https://oj.leetcode.com/problems/reorder-list/)| [](./src/reorderList/reorderList.cpp)|Medium|
-|135|[Candy](https://oj.leetcode.com/problems/candy/)| [](./src/candy/candy.cpp)|Hard|
 |134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)| [](./src/gasStation/gasStation.cpp)|Medium|
 |127|[Word Ladder II](https://oj.leetcode.com/problems/word-ladder-ii/)| [](./src/wordLadder/wordLadder.II.cpp)|Hard|
 |126|[Word Ladder](https://oj.leetcode.com/problems/word-ladder/)| [](./src/wordLadder/wordLadder.cpp)|Medium|
-|120|[Triangle](https://oj.leetcode.com/problems/triangle/)| [](./src/triangle/triangle.cpp)|Medium|
 |117|[Populating Next Right Pointers in Each Node II](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)| [](./src/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.II.cpp)|Hard|
 |116|[Populating Next Right Pointers in Each Node](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)| [](./src/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.cpp)|Medium|
 |114|[Flatten Binary Tree to ed List](https://oj.leetcode.com/problems/flatten-binary-tree-to-ed-list/)| [](./src/flattenBinaryTreeToedList/flattenBinaryTreeToedList.cpp)|Medium|
-|110|[Balanced Binary Tree](https://oj.leetcode.com/problems/balanced-binary-tree/)| [](./src/balancedBinaryTree/balancedBinaryTree.cpp)|Easy|
 |109|[Convert Sorted List to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| [](./src/convertSortedListToBinarySearchTree/convertSortedListToBinarySearchTree.cpp)|Medium|
 |108|[Convert Sorted Array to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| [](./src/convertSortedArrayToBinarySearchTree/convertSortedArrayToBinarySearchTree.cpp)|Medium|
 |107|[Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)| [](./src/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.II.cpp)|Easy|
@@ -37,8 +33,6 @@
 |71|[Simplify Path](https://oj.leetcode.com/problems/simplify-path/)| [](./src/simplifyPath/simplifyPath.cpp)|Medium|
 |68|[Text Justification](https://oj.leetcode.com/problems/text-justification/)| [](./src/textJustification/textJustification.cpp)|Hard|
 |67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [](./src/plusOne/plusOne.cpp)|Easy|
-|66|[Valid Number](https://oj.leetcode.com/problems/valid-number/)| [](./src/validNumber/validNumber.cpp)|Easy|
-|65|[Add Binary](https://oj.leetcode.com/problems/add-binary/)| [](./src/addBinary/addBinary.cpp)|Easy|
 |60|[Rotate List](https://oj.leetcode.com/problems/rotate-list/)| [](./src/rotateList/rotateList.cpp)|Medium|
 |59|[Permutation Sequence](https://oj.leetcode.com/problems/permutation-sequence/)| [](./src/permutationSequence/permutationSequence.cpp)|Medium|
 |58|[Spiral Matrix II](https://oj.leetcode.com/problems/spiral-matrix-ii/)| [](./src/spiralMatrix/spiralMatrix.II.cpp)|Medium|

@@ -19,7 +19,7 @@ public class Solution {
         if (head == h) return true;
         while (t != null && h != null && t != h) {
             t = t.next;
-            if (h.next == null || h.next.next == null) return false;
+            if (h.next == null) return false;
             h = h.next.next;
         }
         return (t == h);

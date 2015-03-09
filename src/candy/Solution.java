@@ -1,6 +1,5 @@
 import java.util.Arrays;
 public class Solution {
-    // AC
     public int candy(int[] ratings) {
         int len = ratings.length;
         int[] left = new int[len];
@@ -8,12 +7,10 @@ public class Solution {
         Arrays.fill(left, 1);
         Arrays.fill(right, 1);
         for (int i = 1; i < len; i++) {
-            if (ratings[i - 1] < ratings[i])
-                left[i] = left[i - 1] + 1;
+            if (ratings[i - 1] < ratings[i]) left[i] = left[i - 1] + 1;
         }
-        for (int i = len - 2; i > -1; i--) {
-            if (ratings[i + 1] < ratings[i])
-                right[i] = right[i + 1] + 1;
+        for (int i = len - 2; i >= 0; i--) {
+            if (ratings[i + 1] < ratings[i]) right[i] = right[i + 1] + 1;
         }
         int total = 0;
         for (int i = 0; i < len; i++) {

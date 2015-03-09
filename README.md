@@ -33,6 +33,7 @@ Leetcode solutions in Java and Python
 |148|[Sort List](https://oj.leetcode.com/problems/sort-list/)|[Java](./src/sortList/sortList.cpp)|Medium|
 |147|[Insertion Sort List](https://oj.leetcode.com/problems/insertion-sort-list/)|[Java](./src/insertionSortList)|Medium|
 |146|[LRU Cache](https://oj.leetcode.com/problems/lru-cache/)|[Java](./src/LRUCache)|Hard|
+|143|[Reorder List](htt ps://oj.leetcode.com/problems/reorder-list/)|[Java](./src/reorderList)|Medium|
 |142|[Linked List Cycle II](https://oj.leetcode.com/problems/linked-list-cycle-ii/)|[Java](./src/linkedListCycleII)|Medium|
 |141|[Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/)|[Java](./src/linkedListCycle)|Medium|
 |140|[Word Break II](https://oj.leetcode.com/problems/word-break-ii/)|[Java](./src/wordBreakII)|Hard|
@@ -40,6 +41,7 @@ Leetcode solutions in Java and Python
 |138|[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)|[Java](./src/copyListWithRandomPointer)|Hard|
 |137|[Single Number II](https://oj.leetcode.com/problems/single-number-ii/)|[Python](./src/singleNumberII)|Medium|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)|[Java, Python](./src/singleNumber)|Medium|
+|135|[Candy](https://oj.leetcode.com/problems/candy/)| [Java, Python](./src/candy)|Hard|
 |133|[Clone Graph](https://oj.leetcode.com/problems/clone-graph/)|[Java](./src/cloneGraph)|Medium|
 |132|[Palindrome Partitioning II](https://oj.leetcode.com/problems/palindrome-partitioning-ii/)|[Java](./src/palindromePartitionII)|Hard|
 |131|[Palindrome Partitioning](https://oj.leetcode.com/problems/palindrome-partitioning/)|[Java](./src/palindromePartition)|Medium|
@@ -51,14 +53,16 @@ Leetcode solutions in Java and Python
 |123|[Best Time to Buy and Sell Stock III](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [Java, Python](./src/stock3)|Hard|
 |122|[Best Time to Buy and Sell Stock II](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Java, Python](./src/stock2)|Medium|
 |121|[Best Time to Buy and Sell Stock](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java, Python](./src/stock1)|Medium|
+|120|[Triangle](https://oj.leetcode.com/problems/triangle/)| [Java, Python](./src/triangle)|Medium|
 |119|[Pascal's Triangle II](https://oj.leetcode.com/problems/pascals-triangle-ii/)|[Python](./src/pascalII)|Easy|
 |118|[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)|[Python](./src/pascal)|Easy|
 |115|[Distinct Subsequences](https://oj.leetcode.com/problems/distinct-subsequences/)| [Java](./src/distinctSubsequence)|Hard|
 |113|[Path Sum II](https://oj.leetcode.com/problems/path-sum-ii/)|[Java, Python](./src/pathSumII)|Medium|
 |112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)|[Python](./src/pathSum)|Easy|
 |111|[Minimum Depth of Binary Tree](https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)| [Java](./src/minDepthOfTree)|Easy|
+|110|[Balanced Binary Tree](https://oj.leetcode.com/problems/balanced-binary-tree/)| [Java](./src/balanced_binary_tree)|Easy|
 |104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)|[Java, Python](./src/max)|Easy|
-|102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [](./src/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.cpp)|Easy|
+|102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [Java](./src/levelOrder)|Easy|
 |101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)|[Java](./src/symmetricTree)|Easy|
 |100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)|[Java, Python](./src/sameTree)|Easy|
 |98|[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)| [Java](./src/validateBST)|Medium|
@@ -76,6 +80,8 @@ Leetcode solutions in Java and Python
 |73|[Set Matrix Zeroes](https://oj.leetcode.com/problems/set-matrix-zeroes/)|[C++, Java](./src/setMatrixZero)|Medium|
 |70|[Climbing Stairs](https://oj.leetcode.com/problems/climbing-stairs/)| [Java](./src/climbStairs)|Easy|
 |69|[Sqrt(x)](https://oj.leetcode.com/problems/sqrtx/)|[Java, Python](./src/squareRoot)|Medium|
+|66|[Valid Number](https://oj.leetcode.com/problems/valid-number/)| [Python](./src/validNumber)|Easy|
+|65|[Add Binary](https://oj.leetcode.com/problems/add-binary/)| [Java, Python](./src/addBinary)|Easy|
 |64|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)|[Java](./src/merge2Sorted)|Easy|
 |63|[Minimum Path Sum](https://oj.leetcode.com/problems/minimum-path-sum/)|[Java](./src/minPathSum)|Medium|
 |62|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)|[Java](./src/uniquePathsII)|Medium|
