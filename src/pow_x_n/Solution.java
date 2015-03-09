@@ -1,9 +1,10 @@
 import java.util.*;
 public class Solution {
+    private static double EPS = 1e-100;
     public double pow(double x, int n) {
-        if (x == 0.0) {
+        if (Math.abs(x) < EPS) {
             if (n < 0) 
-                return 0.0;
+                throw new RuntimeException();
             else
                 return 0.0;
         } else {

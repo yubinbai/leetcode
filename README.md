@@ -76,6 +76,7 @@ Leetcode solutions in Java and Python
 |78|[Subsets](https://oj.leetcode.com/problems/subsets/)|[Java, Python](./src/subset)|Medium|
 |77|[Combinations](https://oj.leetcode.com/problems/combinations/)|[Java, Python](./src/combination)|Medium|
 |76|[Minimum Window Substring](https://oj.leetcode.com/problems/minimum-window-substring/)|[Java, Python](./src/minWindowSubstring)|Hard|
+|75|[Sort Colors](https://oj.leetcode.com/problems/sort-colors/)| [Java](./src/sortColors)|Medium|
 |74|[Search a 2D Matrix](https://oj.leetcode.com/problems/search-a-2d-matrix/)|[Java](./src/searchInMatrix)|Medium|
 |73|[Set Matrix Zeroes](https://oj.leetcode.com/problems/set-matrix-zeroes/)|[C++, Java](./src/setMatrixZero)|Medium|
 |70|[Climbing Stairs](https://oj.leetcode.com/problems/climbing-stairs/)| [Java](./src/climbStairs)|Easy|
@@ -91,6 +92,9 @@ Leetcode solutions in Java and Python
 |55|[Merge Intervals](https://oj.leetcode.com/problems/merge-intervals/)|[Java, Python](./src/mergeIntervals)|Hard|
 |54|[Jump Game](https://oj.leetcode.com/problems/jump-game/)|[Java, Python](./src/jumpGame)|Medium|
 |52|[Maximum Subarray](https://oj.leetcode.com/problems/maximum-subarray/)|[Java,Python](./src/maxSubArray)|Medium|
+|51|[N-Queens II](https://oj.leetcode.com/problems/n-queens-ii/)| [Java](./src/nQueens)|Hard|
+|50|[N-Queens](https://oj.leetcode.com/problems/n-queens/)| [Java](./src/nQueens/nQueuens.cpp)|Hard|
+|49|["Pow(x, n)"](https://oj.leetcode.com/problems/powx-n/)| [Java](./src/pow_x_n)|Medium|
 |48|[Anagrams](https://oj.leetcode.com/problems/anagrams/)|[Java, Python](./src/anagram)|Medium|
 |47|[Rotate Image](https://oj.leetcode.com/problems/rotate-image/)|[Python](./src/rotateImage)|Medium|
 |46|[Permutations II](https://oj.leetcode.com/problems/permutations-ii/)|[Java, Python](./src/permutations)|Hard|
@@ -108,6 +112,7 @@ Leetcode solutions in Java and Python
 |25|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java, DPython](./src/remote_duplicate_from_sorted_array)|Easy|
 |22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [Java](./src/mergeKSorted)|Hard|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)|[Java, Python](./src/valid_parentheses)|Easy|
+|19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Java](./src/removeNthNodeList)|Easy|
 |18|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Java, Python](./src/letterCombinationsPhoneNumber)|Medium|
 |17|[4Sum](https://oj.leetcode.com/problems/4sum/)|[Java](./src/4sum)|Medium|
 |16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)|[Java, Python](./src/3SumClosest)|Medium|
@@ -118,7 +123,8 @@ Leetcode solutions in Java and Python
 |11|[Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/)|[Java, Python](./src/containerWithMostWater)|Medium|
 |9|[Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/)|[Java, Python](./src/palindromeNumber)|Easy|
 |7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)|[Java](./src/reverseInteger)|Easy|
-|5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)|[](./src/longestPalindromicSubstring/longestPalindromicSubstring.cpp)|Medium|
+|6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)| [Python](./src/zigZagConversion)|Easy|
+|5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)|[Java](./src/longestPalindromicSubstring)|Medium|
 |4|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[Java](./src/addTwoNumbers)|Medium|
 |3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)|[Java](./src/longestSubstringWithoutRepeatingCharacters)|Medium|
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)|[Java, Python](./src/twoSum)|Medium|

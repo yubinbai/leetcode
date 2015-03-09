@@ -1,11 +1,12 @@
 import java.util.*;
 public class Solution {
-    ArrayList<String[]> ret = new ArrayList<String[]>();
+    ArrayList<String[]> ret;
     int[] curr;
     boolean[] col, diag, antiDiag;
     int n;
     public List<String[]> solveNQueens(int n) {
         this.n = n;
+        ret = new ArrayList<String[]>();
         curr = new int[n];
         col = new boolean[n];
         diag = new boolean[n * 2];
@@ -24,6 +25,7 @@ public class Solution {
                 r[row] = new String(ch);
             }
             ret.add(r);
+            return;
         }
         for (int i = 0; i < n; i++) {
             if (col[i] || diag[step + i] || antiDiag[step - i + n]) continue;
@@ -36,11 +38,12 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        s.solveNQueens(13);
-        // for (String[] sa : s.solveNQueens(8)) {
-        //     for (String saa : sa) {
-        //         System.out.println(saa);
-        //     }
-        // }
+        // s.solveNQueens(13);
+        for (String[] sa : s.solveNQueens(5)) {
+            for (String saa : sa) {
+                System.out.println(saa);
+            }
+            System.out.println(" ");
+        }
     }
 }

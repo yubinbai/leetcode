@@ -28,7 +28,6 @@
 |84|[Largest Rectangle in Histogram](https://oj.leetcode.com/problems/largest-rectangle-in-histogram/)| [](./src/largestRectangleInHistogram/largestRectangleInHistogram.cpp)|Hard|
 |81|[Search in Rotated Sorted Array II](https://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/)| [](./src/searchInRotatedSortedArray/searchInRotatedSortedArray.II.cpp)|Medium|
 |79|[Word Search](https://oj.leetcode.com/problems/word-search/)| [](./src/wordSearch/wordSearch.cpp)|Medium|
-|75|[Sort Colors](https://oj.leetcode.com/problems/sort-colors/)| [](./src/sortColors/sortColors.cpp)|Medium|
 |72|[Edit Distance](https://oj.leetcode.com/problems/edit-distance/)| [](./src/editDistance/editDistance.cpp)|Hard|
 |71|[Simplify Path](https://oj.leetcode.com/problems/simplify-path/)| [](./src/simplifyPath/simplifyPath.cpp)|Medium|
 |68|[Text Justification](https://oj.leetcode.com/problems/text-justification/)| [](./src/textJustification/textJustification.cpp)|Hard|
@@ -37,9 +36,6 @@
 |59|[Permutation Sequence](https://oj.leetcode.com/problems/permutation-sequence/)| [](./src/permutationSequence/permutationSequence.cpp)|Medium|
 |58|[Spiral Matrix II](https://oj.leetcode.com/problems/spiral-matrix-ii/)| [](./src/spiralMatrix/spiralMatrix.II.cpp)|Medium|
 |53|[Spiral Matrix](https://oj.leetcode.com/problems/spiral-matrix/)| [](./src/spiralMatrix/spiralMatrix.cpp)|Medium|
-|51|[N-Queens II](https://oj.leetcode.com/problems/n-queens-ii/)| [](./src/nQueens/nQueuens.II.cpp)|Hard|
-|50|[N-Queens](https://oj.leetcode.com/problems/n-queens/)| [](./src/nQueens/nQueuens.cpp)|Hard|
-|49|["Pow(x, n)"](https://oj.leetcode.com/problems/powx-n/)| [](./src/pow/pow.cpp)|Medium|
 |43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [](./src/wildcardMatching/wildcardMatching.cpp)|Hard|
 |40|[First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/)| [](./src/firstMissingPositive/firstMissingPositive.cpp)|Hard|
 |37|[Count and Say](https://oj.leetcode.com/problems/count-and-say/)| [](./src/countAndSay/countAndSay.cpp)|Easy|
@@ -51,8 +47,6 @@
 |24|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| [](./src/reverseNodesInKGroup/reverseNodesInKGroup.cpp)|Hard|
 |23|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)| [](./src/swapNodesInPairs/swapNodesInPairs.cpp)|Medium|
 |21|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)| [](./src/generateParentheses/generateParentheses.cpp)|Medium|
-|19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)| [](./src/removeNthNodeFromEndOfList/removeNthNodeFromEndOfList.cpp)|Easy|
 |10|[Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/)| [](./src/regularExpressionMatching/regularExpressionMatching.cpp)|Hard|
 |8|[String to Integer (atoi)](https://oj.leetcode.com/problems/string-to-integer-atoi/)| [](./src/stringToIntegerAtoi/stringToIntegerAtoi.cpp)|Easy|
-|6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)| [](./src/zigZagConversion/zigZagConversion.cpp)|Easy|
 |2|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)| [](./src/medianOfTwoSortedArrays/medianOfTwoSortedArrays.cpp)|Hard|

@@ -8,19 +8,17 @@ class ListNode {
 }
 public class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        ListNode hook = new ListNode(0);
+        ListNode hook = new ListNode(0); // need this if remove the head node
         hook.next = head;
         ListNode curr = hook, prev;
         for (int i = 0; i <= n; i++) {
             curr = curr.next;
         }
-        // System.out.println(curr.val);
         prev = hook;
         while (curr != null) {
             curr = curr.next;
             prev = prev.next;
         }
-        // System.out.println(prev.val);
         prev.next = prev.next.next;
         return hook.next;
     }
