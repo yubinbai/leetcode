@@ -33,6 +33,8 @@ Leetcode solutions in Java and Python
 |148|[Sort List](https://oj.leetcode.com/problems/sort-list/)|[Java](./src/sortList/sortList.cpp)|Medium|
 |147|[Insertion Sort List](https://oj.leetcode.com/problems/insertion-sort-list/)|[Java](./src/insertionSortList)|Medium|
 |146|[LRU Cache](https://oj.leetcode.com/problems/lru-cache/)|[Java](./src/LRUCache)|Hard|
+|145|[Binary Tree Postorder Traversal](https://oj.leetcode.com/problems/binary-tree-postorder-traversal/)| [Python](./src/postOrderTraversal)|Hard|
+|144|[Binary Tree Preorder Traversal](https://oj.leetcode.com/problems/binary-tree-preorder-traversal/)| [Python](./src/preOrderTraversal)|Medium|
 |143|[Reorder List](htt ps://oj.leetcode.com/problems/reorder-list/)|[Java](./src/reorderList)|Medium|
 |142|[Linked List Cycle II](https://oj.leetcode.com/problems/linked-list-cycle-ii/)|[Java](./src/linkedListCycleII)|Medium|
 |141|[Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/)|[Java](./src/linkedListCycle)|Medium|
@@ -63,6 +65,8 @@ Leetcode solutions in Java and Python
 |112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)|[Python](./src/pathSum)|Easy|
 |111|[Minimum Depth of Binary Tree](https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)| [Java](./src/minDepthOfTree)|Easy|
 |110|[Balanced Binary Tree](https://oj.leetcode.com/problems/balanced-binary-tree/)| [Java](./src/balanced_binary_tree)|Easy|
+|109|[Convert Sorted List to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| [Python](./src/sortedListToBST)|Medium|
+|108|[Convert Sorted Array to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| [Java](./src/sortedArrayToBST)|Medium|
 |107|[Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)| [Java](./src/levelOrderII)|Easy|
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| [Java](./src/buildTreeInOrderPostOrder)|Medium|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [Java](./src/buildTreePreOrderInOrder)|Medium|
@@ -79,6 +83,7 @@ Leetcode solutions in Java and Python
 |92|[Reverse linked List II](https://oj.leetcode.com/problems/reverse-ed-list-ii/)| [](./src/reverseedList/reverseedList.II.cpp)|Medium|
 |91|[Subsets II](https://oj.leetcode.com/problems/subsets-ii/)|[Java, Python](./src/subset)|Medium|
 |87|[Scramble String](https://oj.leetcode.com/problems/scramble-string/)|[Java, Python](./src/scrambleString)|Hard|
+|84|[Largest Rectangle in Histogram](https://oj.leetcode.com/problems/largest-rectangle-in-histogram/)| [Java](./src/largestRectangleHistogram)|Hard|
 |83|[Remove Duplicates from Sorted List II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [Java](./src/remove_duplicates_sorted_list)|Medium|
 |82|[Remove Duplicates from Sorted List](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/)| [Java](./src/remove_duplicates_sorted_list)|Easy|
 |80|[Remove Duplicates from Sorted Array II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Java, Python](./src/remove_duplicates_from_sorted_array_ii)|Medium|
@@ -88,6 +93,8 @@ Leetcode solutions in Java and Python
 |75|[Sort Colors](https://oj.leetcode.com/problems/sort-colors/)| [Java](./src/sortColors)|Medium|
 |74|[Search a 2D Matrix](https://oj.leetcode.com/problems/search-a-2d-matrix/)|[Java](./src/searchInMatrix)|Medium|
 |73|[Set Matrix Zeroes](https://oj.leetcode.com/problems/set-matrix-zeroes/)|[C++, Java](./src/setMatrixZero)|Medium|
+|72|[Edit Distance](https://oj.leetcode.com/problems/edit-distance/)| [Java](./src/edit_distance)|Hard|
+|71|[Simplify Path](https://oj.leetcode.com/problems/simplify-path/)| [Python](./src/simplifyPath)|Medium|
 |70|[Climbing Stairs](https://oj.leetcode.com/problems/climbing-stairs/)| [Java](./src/climbStairs)|Easy|
 |69|[Sqrt(x)](https://oj.leetcode.com/problems/sqrtx/)|[Java, Python](./src/squareRoot)|Medium|
 |66|[Valid Number](https://oj.leetcode.com/problems/valid-number/)| [Python](./src/validNumber)|Easy|
@@ -100,6 +107,7 @@ Leetcode solutions in Java and Python
 |56|[Insert Interval](https://oj.leetcode.com/problems/insert-interval/)|[Python](./src/insertInterval)|Hard|
 |55|[Merge Intervals](https://oj.leetcode.com/problems/merge-intervals/)|[Java, Python](./src/mergeIntervals)|Hard|
 |54|[Jump Game](https://oj.leetcode.com/problems/jump-game/)|[Java, Python](./src/jumpGame)|Medium|
+|53|[Spiral Matrix](https://oj.leetcode.com/problems/spiral-matrix/)| [Python](./src/spiralMatrix)|Medium|
 |52|[Maximum Subarray](https://oj.leetcode.com/problems/maximum-subarray/)|[Java,Python](./src/maxSubArray)|Medium|
 |51|[N-Queens II](https://oj.leetcode.com/problems/n-queens-ii/)| [Java](./src/nQueens)|Hard|
 |50|[N-Queens](https://oj.leetcode.com/problems/n-queens/)| [Java](./src/nQueens/nQueuens.cpp)|Hard|
@@ -112,14 +120,18 @@ Leetcode solutions in Java and Python
 |41|[Trapping Rain Water](https://oj.leetcode.com/problems/trapping-rain-water/)|[Java, Python](./src/trappingRainWater)|Hard|
 |39|[Combination Sum II](https://oj.leetcode.com/problems/combination-sum-ii/)|[Java, Python](./src/combinationSumII)|Medium|
 |38|[Combination Sum](https://oj.leetcode.com/problems/combination-sum/)|[Java, Python](./src/combinationSum)|Medium|
+|37|[Count and Say](https://oj.leetcode.com/problems/count-and-say/)| [Java](./src/countAndSay)|Easy|
 |36|[Sudoku Solver](https://oj.leetcode.com/problems/sudoku-solver/)|[Java](./src/sudokuSolver)|Hard|
 |35|[Valid Sudoku](https://oj.leetcode.com/problems/valid-sudoku/)|[Java](./src/isValidSudoku)|Easy|
+|34|[Search Insert Position](https://oj.leetcode.com/problems/search-insert-position/)| [Java](./src/searchInsert)|Medium|
+|33|[Search for a Range](https://oj.leetcode.com/problems/search-for-a-range/)| [Java](./src/searchRange)|Medium|
 |31|[Longest Valid Parentheses](https://oj.leetcode.com/problems/longest-valid-parentheses/)|[Java](./src/longestValidParentheses)|Hard|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)|[Java, Python](./src/nextPermutation)|Medium|
 |29|[Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)|[Java](./src/substringWithCatAllWords)|Hard|
 |26|[Remove Element](https://oj.leetcode.com/problems/remove-element/)|[Java, Python](./src/removeElement)|Easy|
 |25|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java, DPython](./src/remote_duplicate_from_sorted_array)|Easy|
 |22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [Java](./src/mergeKSorted)|Hard|
+|21|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)| [Java](./src/generateParentheses)|Medium|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)|[Java, Python](./src/valid_parentheses)|Easy|
 |19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Java](./src/removeNthNodeList)|Easy|
 |18|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Java, Python](./src/letterCombinationsPhoneNumber)|Medium|

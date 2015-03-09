@@ -1,26 +1,26 @@
 import java.util.*;
 public class Solution {
-    ArrayList<String> ret = new ArrayList<String>();
-    StringBuilder sb = new StringBuilder();
+    ArrayList<String> ret;
+    char[] arr;
     int n;
     public List<String> generateParenthesis(int n) {
+        ret = new ArrayList<String>();
         this.n = n;
+        arr = new char[2 * n];
         solve(0, 0);
         return ret;
     }
     private void solve(int left, int right) {
         if (right == n) {
-            ret.add(sb.toString());
+            ret.add(new String(arr));
         }
         if (right < left) {
-            sb.append(')');
+            arr[left + right] = ')';
             solve(left, right + 1);
-            sb.deleteCharAt(sb.length() - 1);
         }
         if (left < n) {
-            sb.append('(');
+            arr[left + right] = '(';
             solve(left + 1, right);
-            sb.deleteCharAt(sb.length() - 1);
         }
     }
     public static void main(String[] args) {

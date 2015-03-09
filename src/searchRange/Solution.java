@@ -1,30 +1,36 @@
 public class Solution {
     public int[] searchRange(int[] A, int target) {
-        int left = 0, right = A.length;
-        int mid;
         int[] ret = new int[2];
+        ret[0] = getFirst(A, target);
+        ret[1] = getInsertion(A, target) - 1;
+        if (ret[0] > ret[1]) ret[0] = ret[1] = -1;
+        return ret;
+    }
+    public int getFirst(int[] A, int target) {
+        int left = 0, right = A.length;
         while (left < right) {
-            mid = (left + right) >> 1;
+            int mid = (left + right) >> 1;
             if (A[mid] < target) {
                 left = mid + 1;
             } else {
                 right = mid;
             }
         }
-        ret[0] = left;
-        left = 0;
-        right = A.length;
+        return left;
+    }
+    public int getInsertion(int[] A, int target) {
+
+        int left = 0;
+        int right = A.length;
         while (left < right) {
-            mid = (left + right) >> 1;
+            int mid = (left + right) >> 1;
             if (A[mid] <= target) {
                 left = mid + 1;
             } else {
                 right = mid;
             }
         }
-        ret[1] = left - 1;
-        if (ret[0] > ret[1]) ret[0] = ret[1] = -1;
-        return ret;
+        return left;
     }
 
     public static void main(String[] args) {

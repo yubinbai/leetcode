@@ -3,16 +3,16 @@ public class Solution {
     public String countAndSay(int n) {
         if (n < 0) return "";
         char[] original = new char[] { '1' };
-        StringBuffer sb = null;
+        StringBuilder sb = null;
 
         for (int i = 1; i < n; i++) {
-            sb = new StringBuffer();
+            sb = new StringBuilder();
             int len = original.length;
             int begin = 0;
 
             for (int j = 1; j <= len; j++)
                 if (j == len || original[j] != original[begin]) {
-                    sb.append("" + (j - begin));
+                    sb.append(String.format("%d", (j - begin)));
                     sb.append(original[begin]);
                     begin = j;
                 }

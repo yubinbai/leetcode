@@ -15,7 +15,7 @@ public class Solution {
         newListHead = curr;
         newListTail = curr;
 
-        for (int i = n - m; i > 0; i--) {
+        for (int i = 0; i < n - m; i++) {
             curr = oldList;
             oldList = curr.next;
             curr.next = newListHead;
