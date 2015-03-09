@@ -9,13 +9,8 @@
 |114|[Flatten Binary Tree to ed List](https://oj.leetcode.com/problems/flatten-binary-tree-to-ed-list/)| [](./src/flattenBinaryTreeToedList/flattenBinaryTreeToedList.cpp)|Medium|
 |109|[Convert Sorted List to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| [](./src/convertSortedListToBinarySearchTree/convertSortedListToBinarySearchTree.cpp)|Medium|
 |108|[Convert Sorted Array to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| [](./src/convertSortedArrayToBinarySearchTree/convertSortedArrayToBinarySearchTree.cpp)|Medium|
-|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| [](./src/constructBinaryTreeFromInorderAndPostorderTraversal/constructBinaryTreeFromInorderAndPostorderTraversal.cpp)|Medium|
-|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [](./src/constructBinaryTreeFromPreorderAndInorderTraversal/constructBinaryTreeFromPreorderAndInorderTraversal.cpp)|Medium|
 |99|[Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/)| [](./src/recoverBinarySearchTree/recoverBinarySearchTree.cpp)|Hard|
 |95|[Unique Binary Search Trees](https://oj.leetcode.com/problems/unique-binary-search-trees/)| [](./src/uniqueBinarySearchTrees/uniqueBinarySearchTrees.cpp)|Medium|
-|94|[Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/)| [](./src/binaryTreeInorderTraversal/binaryTreeInorderTraversal.cpp)|Medium|
-|93|[Restore IP Addresses](https://oj.leetcode.com/problems/restore-ip-addresses/)| [](./src/restoreIPAddresses/restoreIPAddresses.cpp)|Medium|
-|92|[Reverse linked List II](https://oj.leetcode.com/problems/reverse-ed-list-ii/)| [](./src/reverseedList/reverseedList.II.cpp)|Medium|
 |90|[Decode Ways](https://oj.leetcode.com/problems/decode-ways/)| [](./src/decodeWays/decodeWays.cpp)|Medium|
 |89|[Gray Code](https://oj.leetcode.com/problems/gray-code/)| [](./src/grayCode/grayCode.cpp)|Medium|
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [](./src/mergeTwoSortedArray/mergeTwoSortedArray.cpp)|Easy|

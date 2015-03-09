@@ -1,7 +1,6 @@
 public class Solution {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         ListNode curr, prev, oldList, newListHead, newListTail;
-        int counter;
 
         // pass m - 1 nodes
         curr = head;
@@ -12,17 +11,15 @@ public class Solution {
         }
 
         // reverse list
-        counter = n - m + 1;
         oldList = curr.next;
         newListHead = curr;
         newListTail = curr;
 
-        while (counter > 1) {
+        for (int i = n - m; i > 0; i--) {
             curr = oldList;
             oldList = curr.next;
             curr.next = newListHead;
             newListHead = curr;
-            counter -= 1;
         }
 
         // link the list back

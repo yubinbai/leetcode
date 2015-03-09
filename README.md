@@ -64,6 +64,8 @@ Leetcode solutions in Java and Python
 |111|[Minimum Depth of Binary Tree](https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)| [Java](./src/minDepthOfTree)|Easy|
 |110|[Balanced Binary Tree](https://oj.leetcode.com/problems/balanced-binary-tree/)| [Java](./src/balanced_binary_tree)|Easy|
 |107|[Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)| [Java](./src/levelOrderII)|Easy|
+|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| [Java](./src/buildTreeInOrderPostOrder)|Medium|
+|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [Java](./src/buildTreePreOrderInOrder)|Medium|
 |104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)|[Java, Python](./src/max)|Easy|
 |103|[Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Java](./src/binaryTreeZigzag)|Medium|
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [Java](./src/levelOrder)|Easy|
@@ -72,6 +74,9 @@ Leetcode solutions in Java and Python
 |98|[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)| [Java](./src/validateBST)|Medium|
 |97|[Interleaving String](https://oj.leetcode.com/problems/interleaving-string/)| [Java](./src/interleavingString)|Hard|
 |96|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)|[Java, Python](./src/uniqueBST2)|Medium|
+|94|[Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/)| [Java](./src/inOrderTraversal)|Medium|
+|93|[Restore IP Addresses](https://oj.leetcode.com/problems/restore-ip-addresses/)| [Java](./src/restoreIPaddresses)|Medium|
+|92|[Reverse linked List II](https://oj.leetcode.com/problems/reverse-ed-list-ii/)| [](./src/reverseedList/reverseedList.II.cpp)|Medium|
 |91|[Subsets II](https://oj.leetcode.com/problems/subsets-ii/)|[Java, Python](./src/subset)|Medium|
 |87|[Scramble String](https://oj.leetcode.com/problems/scramble-string/)|[Java, Python](./src/scrambleString)|Hard|
 |83|[Remove Duplicates from Sorted List II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [Java](./src/remove_duplicates_sorted_list)|Medium|
