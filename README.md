@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|191|[Number of 1 bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](./src/number_1_bits)|Easy
 |190|[Reverse bits](https://oj.leetcode.com/problems/reverse-bits/)|[Java](./src/reverse_bits)|Easy
 |189|[Rotate array](https://oj.leetcode.com/problems/rotate-array/)|[Java](./src/rotate_array)|Easy
 |188|[Best Time to Buy and Sell Stock IV](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Java](./src/best_time_to_buy_and_sell_stock_iv)|Hard|
@@ -78,6 +79,7 @@ Leetcode solutions in Java and Python
 |98|[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)| [Java](./src/validateBST)|Medium|
 |97|[Interleaving String](https://oj.leetcode.com/problems/interleaving-string/)| [Java](./src/interleavingString)|Hard|
 |96|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)|[Java, Python](./src/uniqueBST2)|Medium|
+|95|[Unique Binary Search Trees](https://oj.leetcode.com/problems/unique-binary-search-trees/)| [Java](./src/uniqueBST)|Medium|
 |94|[Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/)| [Java](./src/inOrderTraversal)|Medium|
 |93|[Restore IP Addresses](https://oj.leetcode.com/problems/restore-ip-addresses/)| [Java](./src/restoreIPaddresses)|Medium|
 |92|[Reverse linked List II](https://oj.leetcode.com/problems/reverse-ed-list-ii/)| [](./src/reverseedList/reverseedList.II.cpp)|Medium|
