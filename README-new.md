@@ -11,7 +11,6 @@
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [](./src/mergeTwoSortedArray/mergeTwoSortedArray.cpp)|Easy|
 |86|[Partition List](https://oj.leetcode.com/problems/partition-list/)| [](./src/partitionList/partitionList.cpp)|Medium|
 |85|[Maximal Rectangle](https://oj.leetcode.com/problems/maximal-rectangle/)| [](./src/maximalRectangle/maximalRectangle.cpp)|Hard|
-|81|[Search in Rotated Sorted Array II](https://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/)| [](./src/searchInRotatedSortedArray/searchInRotatedSortedArray.II.cpp)|Medium|
 |79|[Word Search](https://oj.leetcode.com/problems/word-search/)| [](./src/wordSearch/wordSearch.cpp)|Medium|
 |68|[Text Justification](https://oj.leetcode.com/problems/text-justification/)| [](./src/textJustification/textJustification.cpp)|Hard|
 |67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [](./src/plusOne/plusOne.cpp)|Easy|
@@ -20,7 +19,6 @@
 |58|[Spiral Matrix II](https://oj.leetcode.com/problems/spiral-matrix-ii/)| [](./src/spiralMatrix/spiralMatrix.II.cpp)|Medium|
 |43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [](./src/wildcardMatching/wildcardMatching.cpp)|Hard|
 |40|[First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/)| [](./src/firstMissingPositive/firstMissingPositive.cpp)|Hard|
-|32|[Search in Rotated Sorted Array](https://oj.leetcode.com/problems/search-in-rotated-sorted-array/)| [](./src/searchInRotatedSortedArray/searchInRotatedSortedArray.cpp)|Hard|
 |28|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| [](./src/divideTwoInt/divideTwoInt.cpp)|Medium|
 |27|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| [](./src/strStr/strStr.cpp)|Easy|
 |24|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| [](./src/reverseNodesInKGroup/reverseNodesInKGroup.cpp)|Hard|

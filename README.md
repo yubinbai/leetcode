@@ -30,7 +30,7 @@ Leetcode solutions in Java and Python
 |152|[Maximum Product Subarray](https://oj.leetcode.com/problems/maximum-product-subarray/)|[Java](./src/maximumProductSubarray/maximumProductSubarray.cpp)|Medium|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)|[Java, Python](./src/reverseWordsInString)|Medium|
 |150|[Evaluate Reverse Polish Notation](https://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)|[Java, Python](./src/evaluateReversePolish)|Medium|
-|149|[Max Points on a Line](https://oj.leetcode.com/problems/max-points-on-a-line/)|[](./src/maxPointsOnALine/maxPointsOnALine.cpp)|Hard|
+|149|[Max Points on a Line](https://oj.leetcode.com/problems/max-points-on-a-line/)|[Java](./src/maxPointsOnALine)|Hard|
 |148|[Sort List](https://oj.leetcode.com/problems/sort-list/)|[Java](./src/sortList/sortList.cpp)|Medium|
 |147|[Insertion Sort List](https://oj.leetcode.com/problems/insertion-sort-list/)|[Java](./src/insertionSortList)|Medium|
 |146|[LRU Cache](https://oj.leetcode.com/problems/lru-cache/)|[Java](./src/LRUCache)|Hard|
@@ -88,6 +88,7 @@ Leetcode solutions in Java and Python
 |84|[Largest Rectangle in Histogram](https://oj.leetcode.com/problems/largest-rectangle-in-histogram/)| [Java](./src/largestRectangleHistogram)|Hard|
 |83|[Remove Duplicates from Sorted List II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [Java](./src/remove_duplicates_sorted_list)|Medium|
 |82|[Remove Duplicates from Sorted List](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/)| [Java](./src/remove_duplicates_sorted_list)|Easy|
+|81|[Search in Rotated Sorted Array II](https://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/)| [Java](./src/searchInRotatedList)|Medium|
 |80|[Remove Duplicates from Sorted Array II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Java, Python](./src/remove_duplicates_from_sorted_array_ii)|Medium|
 |78|[Subsets](https://oj.leetcode.com/problems/subsets/)|[Java, Python](./src/subset)|Medium|
 |77|[Combinations](https://oj.leetcode.com/problems/combinations/)|[Java, Python](./src/combination)|Medium|
@@ -128,6 +129,7 @@ Leetcode solutions in Java and Python
 |34|[Search Insert Position](https://oj.leetcode.com/problems/search-insert-position/)| [Java](./src/searchInsert)|Medium|
 |33|[Search for a Range](https://oj.leetcode.com/problems/search-for-a-range/)| [Java](./src/searchRange)|Medium|
 |31|[Longest Valid Parentheses](https://oj.leetcode.com/problems/longest-valid-parentheses/)|[Java](./src/longestValidParentheses)|Hard|
+|32|[Search in Rotated Sorted Array](https://oj.leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](./src/searchInRotatedList)|Hard|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)|[Java, Python](./src/nextPermutation)|Medium|
 |29|[Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)|[Java](./src/substringWithCatAllWords)|Hard|
 |26|[Remove Element](https://oj.leetcode.com/problems/remove-element/)|[Java, Python](./src/removeElement)|Easy|

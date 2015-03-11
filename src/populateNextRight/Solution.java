@@ -4,23 +4,22 @@ class TreeLinkNode {
     TreeLinkNode left, right, next;
     TreeLinkNode(int x) { val = x; }
 }
+import java.util.*;
+
 public class Solution {
     public void connect(TreeLinkNode root) {
         if (root == null) return;
-        ArrayDeque<TreeLinkNode> curr, next;
-        TreeLinkNode node;
-        curr = new ArrayDeque<TreeLinkNode>();
-        next = new ArrayDeque<TreeLinkNode>();
-        curr.offer(root);
-        while (!curr.isEmpty())  {
-            node = curr.poll();
-            node.next = curr.peek();
-            if (node.left != null) next.offer(node.left);
-            if (node.right != null) next.offer(node.right);
-            if (curr.isEmpty()) {
-                curr = next;
-                next = new ArrayDeque<TreeLinkNode>();
+        if (root.left != null) {
+            root.left.next = root.right;
+        }
+        if (root.right != null) {
+            if (root.next != null) {
+                root.right.next = root.next.left;
+            } else {
+                root.right.next = null;
             }
         }
+        connect(root.left);
+        connect(root.right);
     }
 }
