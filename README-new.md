@@ -6,8 +6,6 @@
 |116|[Populating Next Right Pointers in Each Node](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)| [](./src/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.cpp)|Medium|
 |114|[Flatten Binary Tree to ed List](https://oj.leetcode.com/problems/flatten-binary-tree-to-ed-list/)| [](./src/flattenBinaryTreeToedList/flattenBinaryTreeToedList.cpp)|Medium|
 |99|[Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/)| [](./src/recoverBinarySearchTree/recoverBinarySearchTree.cpp)|Hard|
-|90|[Decode Ways](https://oj.leetcode.com/problems/decode-ways/)| [](./src/decodeWays/decodeWays.cpp)|Medium|
-|89|[Gray Code](https://oj.leetcode.com/problems/gray-code/)| [](./src/grayCode/grayCode.cpp)|Medium|
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [](./src/mergeTwoSortedArray/mergeTwoSortedArray.cpp)|Easy|
 |86|[Partition List](https://oj.leetcode.com/problems/partition-list/)| [](./src/partitionList/partitionList.cpp)|Medium|
 |85|[Maximal Rectangle](https://oj.leetcode.com/problems/maximal-rectangle/)| [](./src/maximalRectangle/maximalRectangle.cpp)|Hard|
