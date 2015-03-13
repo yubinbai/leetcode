@@ -23,4 +23,4 @@ if __name__ == '__main__':
     print s.grayCode(2)
     print s.grayCode(3)
     print s.grayCode(10)
-    print s.grayCode(30)
+    # print s.grayCode(30)
