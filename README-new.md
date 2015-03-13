@@ -21,7 +21,6 @@
 |43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [](./src/wildcardMatching/wildcardMatching.cpp)|Hard|
 |40|[First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/)| [](./src/firstMissingPositive/firstMissingPositive.cpp)|Hard|
 |32|[Search in Rotated Sorted Array](https://oj.leetcode.com/problems/search-in-rotated-sorted-array/)| [](./src/searchInRotatedSortedArray/searchInRotatedSortedArray.cpp)|Hard|
-|28|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| [](./src/divideTwoInt/divideTwoInt.cpp)|Medium|
 |27|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| [](./src/strStr/strStr.cpp)|Easy|
 |24|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| [](./src/reverseNodesInKGroup/reverseNodesInKGroup.cpp)|Hard|
 |23|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)| [](./src/swapNodesInPairs/swapNodesInPairs.cpp)|Medium|

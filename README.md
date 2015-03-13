@@ -27,7 +27,7 @@ Leetcode solutions in Java and Python
 |155|[Min Stack](https://oj.leetcode.com/problems/min-stack/)|[Java](./src/min_stack)|Easy|
 |154|[Find Minimum in Rotated Sorted Array II](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Java](./src/find_minimum_in_rotated_sorted_array)|Hard|
 |153|[Find Minimum in Rotated Sorted Array](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](./src/find_minimum_in_rotated_sorted_array)|Medium|
-|152|[Maximum Product Subarray](https://oj.leetcode.com/problems/maximum-product-subarray/)|[Java](./src/maximumProductSubarray/maximumProductSubarray.cpp)|Medium|
+|152|[Maximum Product Subarray](https://oj.leetcode.com/problems/maximum-product-subarray/)|[Java](./src/max_product_subarray)|Medium|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)|[Java, Python](./src/reverseWordsInString)|Medium|
 |150|[Evaluate Reverse Polish Notation](https://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)|[Java, Python](./src/evaluateReversePolish)|Medium|
 |149|[Max Points on a Line](https://oj.leetcode.com/problems/max-points-on-a-line/)|[](./src/maxPointsOnALine/maxPointsOnALine.cpp)|Hard|
@@ -130,6 +130,7 @@ Leetcode solutions in Java and Python
 |31|[Longest Valid Parentheses](https://oj.leetcode.com/problems/longest-valid-parentheses/)|[Java](./src/longestValidParentheses)|Hard|
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)|[Java, Python](./src/nextPermutation)|Medium|
 |29|[Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)|[Java](./src/substringWithCatAllWords)|Hard|
+|28|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| [Java](./src/divideTwoInteger)|Medium|
 |26|[Remove Element](https://oj.leetcode.com/problems/remove-element/)|[Java, Python](./src/removeElement)|Easy|
 |25|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java, DPython](./src/remote_duplicate_from_sorted_array)|Easy|
 |22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [Java](./src/mergeKSorted)|Hard|

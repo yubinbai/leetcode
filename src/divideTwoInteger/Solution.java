@@ -9,7 +9,7 @@ public class Solution {
             dividend += Math.abs(divisor);
         }
         if (divisor == Integer.MIN_VALUE) return res;
-        boolean isNeg = ((dividend ^ divisor) >>> 31 == 1) ? true : false;
+        boolean isNegative = (dividend < 0) ^ (divisor < 0);
         dividend = Math.abs(dividend);
         divisor = Math.abs(divisor);
         int digit = 0;
@@ -25,6 +25,10 @@ public class Solution {
             divisor >>= 1;
             digit--;
         }
-        return isNeg ? -res : res;
+        return isNegative ? -res : res;
+    }
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.divide(12, 3));
     }
 }
