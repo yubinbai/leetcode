@@ -70,8 +70,8 @@ Leetcode solutions in Java and Python
 |109|[Convert Sorted List to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|[Python](./src/sortedListToBST)|Medium|
 |108|[Convert Sorted Array to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./src/sortedArrayToBST)|Medium|
 |107|[Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Java](./src/levelOrderII)|Easy|
-|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Java](./src/buildTreeInOrderPostOrder)|Medium|
-|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Java](./src/buildTreePreOrderInOrder)|Medium|
+|106|[Construct Binary Tree from Inorder and Postorder](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Java](./src/buildTreeInOrderPostOrder)|Medium|
+|105|[Construct Binary Tree from Preorder and Inorder](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Java](./src/buildTreePreOrderInOrder)|Medium|
 |104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)|[Java, Python](./src/max)|Easy|
 |103|[Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Java](./src/binaryTreeZigzag)|Medium|
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](./src/levelOrder)|Easy|
@@ -142,7 +142,7 @@ Leetcode solutions in Java and Python
 |28|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| [Java](./src/divideTwoInteger)|Medium|
 |27|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| [Java](./src/implement_strstr)|Easy|
 |26|[Remove Element](https://oj.leetcode.com/problems/remove-element/)|[Java, Python](./src/removeElement)|Easy|
-|25|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java, DPython](./src/remote_duplicate_from_sorted_array)|Easy|
+|25|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java, Python](./src/remote_duplicate_from_sorted_array)|Easy|
 |22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)|[Java](./src/mergeKSorted)|Hard|
 |21|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)|[Java](./src/generateParentheses)|Medium|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)|[Java, Python](./src/valid_parentheses)|Easy|
