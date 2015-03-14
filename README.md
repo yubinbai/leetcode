@@ -107,6 +107,7 @@ Leetcode solutions in Java and Python
 |71|[Simplify Path](https://oj.leetcode.com/problems/simplify-path/)|[Python](./src/simplifyPath)|Medium|
 |70|[Climbing Stairs](https://oj.leetcode.com/problems/climbing-stairs/)|[Java](./src/climbStairs)|Easy|
 |69|[Sqrt(x)](https://oj.leetcode.com/problems/sqrtx/)|[Java, Python](./src/squareRoot)|Medium|
+|67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [Java](./src/plusOne)|Easy|
 |66|[Valid Number](https://oj.leetcode.com/problems/valid-number/)|[Python](./src/validNumber)|Easy|
 |65|[Add Binary](https://oj.leetcode.com/problems/add-binary/)|[Java, Python](./src/addBinary)|Easy|
 |64|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)|[Java](./src/merge2Sorted)|Easy|
@@ -146,6 +147,8 @@ Leetcode solutions in Java and Python
 |27|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| [Java](./src/implement_strstr)|Easy|
 |26|[Remove Element](https://oj.leetcode.com/problems/remove-element/)|[Java, Python](./src/removeElement)|Easy|
 |25|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java, Python](./src/remote_duplicate_from_sorted_array)|Easy|
+|24|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| [Java](./src/reverseKgroup)|Hard|
+|23|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)| [Java, Python](./src/swapInPairs)|Medium|
 |22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)|[Java](./src/mergeKSorted)|Hard|
 |21|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)|[Java](./src/generateParentheses)|Medium|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)|[Java, Python](./src/valid_parentheses)|Easy|
