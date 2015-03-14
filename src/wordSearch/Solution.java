@@ -2,6 +2,7 @@ public class Solution {
     int n, m;
     char[] w;
     char[][] board;
+    static int[][] directions = {{0, 1}, {0, -1}, {1, 0}, { -1, 0}};
     public boolean exist(char[][] board, String word) {
         this.board = board;
         n = board.length;
@@ -24,12 +25,11 @@ public class Solution {
         if (step == w.length) {
             return true;
         }
-        int[][] direction = new int[][] {{0, 1}, {0, -1}, {1, 0}, { -1, 0}};
         if (board[i][j] == w[step]) {
             board[i][j] = ' ';
-            for (int d = 0; d < 4; ++d) {
-                int ii = i + direction[d][0];
-                int jj = j + direction[d][1];
+            for (int[] d : directions) {
+                int ii = i + d[0];
+                int jj = j + d[1];
                 if (ii >= 0 && ii < n && jj >= 0 && jj < m) {
                     if (search(ii, jj, step + 1)) {
                         return true;

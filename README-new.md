@@ -5,8 +5,6 @@
 |116|[Populating Next Right Pointers in Each Node](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)| [](./src/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.cpp)|Medium|
 |114|[Flatten Binary Tree to ed List](https://oj.leetcode.com/problems/flatten-binary-tree-to-ed-list/)| [](./src/flattenBinaryTreeToedList/flattenBinaryTreeToedList.cpp)|Medium|
 |99|[Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/)| [](./src/recoverBinarySearchTree/recoverBinarySearchTree.cpp)|Hard|
-|85|[Maximal Rectangle](https://oj.leetcode.com/problems/maximal-rectangle/)| [](./src/maximalRectangle/maximalRectangle.cpp)|Hard|
-|79|[Word Search](https://oj.leetcode.com/problems/word-search/)| [](./src/wordSearch/wordSearch.cpp)|Medium|
 |68|[Text Justification](https://oj.leetcode.com/problems/text-justification/)| [](./src/textJustification/textJustification.cpp)|Hard|
 |67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [](./src/plusOne/plusOne.cpp)|Easy|
 |59|[Permutation Sequence](https://oj.leetcode.com/problems/permutation-sequence/)| [](./src/permutationSequence/permutationSequence.cpp)|Medium|
