@@ -11,5 +11,3 @@ Solution
 ===
 
 Count the length of list, break list into two lists and cat.
-
-Alternatively, keep a second pointer while scan the list, find the last k elements in one scan

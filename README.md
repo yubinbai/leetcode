@@ -36,7 +36,7 @@ Leetcode solutions in Java and Python
 |146|[LRU Cache](https://oj.leetcode.com/problems/lru-cache/)|[Java](./src/LRUCache)|Hard|
 |145|[Binary Tree Postorder Traversal](https://oj.leetcode.com/problems/binary-tree-postorder-traversal/)|[Python](./src/postOrderTraversal)|Hard|
 |144|[Binary Tree Preorder Traversal](https://oj.leetcode.com/problems/binary-tree-preorder-traversal/)|[Python](./src/preOrderTraversal)|Medium|
-|143|[Reorder List](htt ps://oj.leetcode.com/problems/reorder-list/)|[Java](./src/reorderList)|Medium|
+|143|[Reorder List](https://oj.leetcode.com/problems/reorder-list/)|[Java](./src/reorderList)|Medium|
 |142|[Linked List Cycle II](https://oj.leetcode.com/problems/linked-list-cycle-ii/)|[Java](./src/linkedListCycleII)|Medium|
 |141|[Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/)|[Java](./src/linkedListCycle)|Medium|
 |140|[Word Break II](https://oj.leetcode.com/problems/word-break-ii/)|[Java](./src/wordBreakII)|Hard|
@@ -108,6 +108,7 @@ Leetcode solutions in Java and Python
 |63|[Minimum Path Sum](https://oj.leetcode.com/problems/minimum-path-sum/)|[Java](./src/minPathSum)|Medium|
 |62|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)|[Java](./src/uniquePathsII)|Medium|
 |61|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)|[Java](./src/uniquePaths)|Medium|
+|60|[Rotate List](https://oj.leetcode.com/problems/rotate-list/)| [Java](./src/rotateList)|Medium|
 |58|[Spiral Matrix II](https://oj.leetcode.com/problems/spiral-matrix-ii/)| [Python](./src/spiralMatrixII)|Medium|
 |57|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)|[Java](./src/lengthOfLastWord/lengthOfLastWord.cpp)|Easy|
 |56|[Insert Interval](https://oj.leetcode.com/problems/insert-interval/)|[Python](./src/insertInterval)|Hard|

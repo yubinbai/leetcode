@@ -1,28 +1,24 @@
 public class Solution {
     public ListNode rotateRight(ListNode head, int n) {
-        ListNode curr, prev;
-        curr = prev = head;
-        int counter = n;
-        int len = 0;
-        while (curr != null) {
-            len++;
-            curr = curr.next;
-        }
-        if (len <= 1) return head;
-        counter %= len;
-        curr = prev = head;
-
-        for (int i = 0; i < counter; i++) {
-            curr = curr.next;
-        }
-        if (curr == null) return head;
+        if (head == null) return null;
+        ListNode curr = head;
+        int len = 1;
+        // make circular list
         while (curr.next != null) {
-            prev = prev.next;
             curr = curr.next;
+            len++;
         }
         curr.next = head;
-        ListNode ret = prev.next;
-        prev.next = null;
+        n %= len;
+
+        // break at required pos
+        curr = head;
+        for (int i = 0; i < len - n - 1; i++) {
+            curr = curr.next;
+        }
+        ListNode ret = curr.next;
+        curr.next = null;
+
         return ret;
     }
     public void printList(ListNode e) {
@@ -40,7 +36,7 @@ public class Solution {
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
         s.printList(head);
-        head = s.rotateRight(head, 2);
+        head = s.rotateRight(head, 1001);
         s.printList(head);
     }
 }
