@@ -14,7 +14,6 @@
 |67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [](./src/plusOne/plusOne.cpp)|Easy|
 |60|[Rotate List](https://oj.leetcode.com/problems/rotate-list/)| [](./src/rotateList/rotateList.cpp)|Medium|
 |59|[Permutation Sequence](https://oj.leetcode.com/problems/permutation-sequence/)| [](./src/permutationSequence/permutationSequence.cpp)|Medium|
-|58|[Spiral Matrix II](https://oj.leetcode.com/problems/spiral-matrix-ii/)| [](./src/spiralMatrix/spiralMatrix.II.cpp)|Medium|
 |43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [](./src/wildcardMatching/wildcardMatching.cpp)|Hard|
 |40|[First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/)| [](./src/firstMissingPositive/firstMissingPositive.cpp)|Hard|
 |28|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| [](./src/divideTwoInt/divideTwoInt.cpp)|Medium|

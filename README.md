@@ -108,6 +108,7 @@ Leetcode solutions in Java and Python
 |63|[Minimum Path Sum](https://oj.leetcode.com/problems/minimum-path-sum/)|[Java](./src/minPathSum)|Medium|
 |62|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)|[Java](./src/uniquePathsII)|Medium|
 |61|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)|[Java](./src/uniquePaths)|Medium|
+|58|[Spiral Matrix II](https://oj.leetcode.com/problems/spiral-matrix-ii/)| [Python](./src/spiralMatrixII)|Medium|
 |57|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)|[Java](./src/lengthOfLastWord/lengthOfLastWord.cpp)|Easy|
 |56|[Insert Interval](https://oj.leetcode.com/problems/insert-interval/)|[Python](./src/insertInterval)|Hard|
 |55|[Merge Intervals](https://oj.leetcode.com/problems/merge-intervals/)|[Java, Python](./src/mergeIntervals)|Hard|
