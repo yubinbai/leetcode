@@ -1,34 +1,34 @@
 import java.util.*;
 public class Solution {
-    static long[] factorial = new long[30];
-    static {
-        factorial[0] = factorial[1] = 1;
-        for (int i = 2; i < 21; i++) {
-            factorial[i] = factorial[i - 1] * i;
-        }
-    }
+
     public String getPermutation(int n, int k) {
-        k--;
-        ArrayList<Integer> result = new ArrayList<Integer>();
+        int[] result = new int[n];
         ArrayList<Integer> curr = new ArrayList<Integer>();
         for (int i = 1; i <= n; i++) {
             curr.add(i);
         }
-        long fact = factorial[curr.size()];
-        int choice;
+        long fact = factorial(n);
+        k--;
         k %= fact;
-        while (!curr.isEmpty()) {
-            fact /= curr.size();
+        int choice;
+        for (int i = 0; i < n; i++) {
+            fact /= (n - i);
             choice = (int) (k / fact);
             k %= fact;
-            int ret = curr.remove(choice);
-            result.add(ret);
+            result[i] = curr.get(choice);
+            curr.remove(choice);
         }
         StringBuilder sb = new StringBuilder();
         for (int i : result) {
             sb.append(i);
         }
         return sb.toString();
+    }
+    public long factorial(int n) {
+        if (n <= 1) return 1L;
+        long ret = 1;
+        for (int i = 2; i <= n; i++) ret *= i;
+        return ret;
     }
     public static void main(String[] args) {
         Solution sol = new Solution();
@@ -37,4 +37,3 @@ public class Solution {
         }
     }
 }
-

@@ -114,6 +114,7 @@ Leetcode solutions in Java and Python
 |62|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)|[Java](./src/uniquePathsII)|Medium|
 |61|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)|[Java](./src/uniquePaths)|Medium|
 |60|[Rotate List](https://oj.leetcode.com/problems/rotate-list/)| [Java](./src/rotateList)|Medium|
+|59|[Permutation Sequence](https://oj.leetcode.com/problems/permutation-sequence/)| [Java, Python](./src/permutationSequence)|Medium|
 |58|[Spiral Matrix II](https://oj.leetcode.com/problems/spiral-matrix-ii/)| [Python](./src/spiralMatrixII)|Medium|
 |57|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)|[Java](./src/lengthOfLastWord/lengthOfLastWord.cpp)|Easy|
 |56|[Insert Interval](https://oj.leetcode.com/problems/insert-interval/)|[Python](./src/insertInterval)|Hard|

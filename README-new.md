@@ -7,7 +7,6 @@
 |99|[Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/)| [](./src/recoverBinarySearchTree/recoverBinarySearchTree.cpp)|Hard|
 |68|[Text Justification](https://oj.leetcode.com/problems/text-justification/)| [](./src/textJustification/textJustification.cpp)|Hard|
 |67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [](./src/plusOne/plusOne.cpp)|Easy|
-|59|[Permutation Sequence](https://oj.leetcode.com/problems/permutation-sequence/)| [](./src/permutationSequence/permutationSequence.cpp)|Medium|
 |43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [](./src/wildcardMatching/wildcardMatching.cpp)|Hard|
 |40|[First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/)| [](./src/firstMissingPositive/firstMissingPositive.cpp)|Hard|
 |24|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| [](./src/reverseNodesInKGroup/reverseNodesInKGroup.cpp)|Hard|
