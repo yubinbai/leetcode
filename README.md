@@ -52,6 +52,7 @@ Leetcode solutions in Java and Python
 |130|[Surrounded Regions](https://oj.leetcode.com/problems/surrounded-regions/)|[Java, Python](./src/surroundedRegions)|Medium|
 |129|[Sum Root to Leaf Numbers](https://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java](./src/sumRootToLeaf)|Medium|
 |128|[Longest Consecutive Sequence](https://oj.leetcode.com/problems/longest-consecutive-sequence/)|[Java](./src/longestConsecutiveSequence)|Hard|
+|127|[Word Ladder II](https://oj.leetcode.com/problems/word-ladder-ii/)| [Java](./src/wordLadderII)|Hard|
 |126|[Word Ladder](https://oj.leetcode.com/problems/word-ladder/)|[Java](./src/wordLadder)|Medium|
 |125|[Valid Palindrome](https://oj.leetcode.com/problems/valid-palindrome/)|[Java, Python](./src/validPalindrome)|Easy|
 |124|[Binary Tree Maximum Path Sum](https://oj.leetcode.com/problems/binary-tree-maximum-path-sum/)|[Java](./src/binaryTreeMaxPathSum)|Hard|
@@ -86,7 +87,9 @@ Leetcode solutions in Java and Python
 |91|[Subsets II](https://oj.leetcode.com/problems/subsets-ii/)|[Java, Python](./src/subset)|Medium|
 |90|[Decode Ways](https://oj.leetcode.com/problems/decode-ways/)|[Java](./src/decodeWays)|Medium|
 |89|[Gray Code](https://oj.leetcode.com/problems/gray-code/)|[Python](./src/grayCode)|Medium|
+|88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [Java](./src/mergeSortedArray)|Easy|
 |87|[Scramble String](https://oj.leetcode.com/problems/scramble-string/)|[Java, Python](./src/scrambleString)|Hard|
+|86|[Partition List](https://oj.leetcode.com/problems/partition-list/)| [Java, Python](./src/partitionList)|Medium|
 |84|[Largest Rectangle in Histogram](https://oj.leetcode.com/problems/largest-rectangle-in-histogram/)|[Java](./src/largestRectangleHistogram)|Hard|
 |83|[Remove Duplicates from Sorted List II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Java](./src/remove_duplicates_sorted_list)|Medium|
 |82|[Remove Duplicates from Sorted List](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./src/remove_duplicates_sorted_list)|Easy|
@@ -137,6 +140,7 @@ Leetcode solutions in Java and Python
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)|[Java, Python](./src/nextPermutation)|Medium|
 |29|[Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)|[Java](./src/substringWithCatAllWords)|Hard|
 |28|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| [Java](./src/divideTwoInteger)|Medium|
+|27|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| [Java](./src/implement_strstr)|Easy|
 |26|[Remove Element](https://oj.leetcode.com/problems/remove-element/)|[Java, Python](./src/removeElement)|Easy|
 |25|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java, DPython](./src/remote_duplicate_from_sorted_array)|Easy|
 |22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)|[Java](./src/mergeKSorted)|Hard|

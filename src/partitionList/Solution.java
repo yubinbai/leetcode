@@ -47,7 +47,7 @@ public class Solution {
     }
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[] intA = {1, 4, 3, 2, 5 , 2};
+        int[] intA = {1, 4, 3, 2, 5, 2};
         ListNode in = sol.generateList(intA);
         sol.printList(in);
         sol.printList(sol.partition(in, 3));

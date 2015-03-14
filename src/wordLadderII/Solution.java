@@ -1,114 +1,92 @@
 import java.util.*;
 public class Solution {
 
-    ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
+    class Node {
+        String s;
+        boolean visited = false;
+        int distance = Integer.MAX_VALUE;
+        HashSet<Node> children = new HashSet<Node>();
+        HashSet<Node> parents = new HashSet<Node>();
+        public Node (String _s) {s = _s;}
+    }
+    HashMap<String, Node> nodes;
+    List<List<String>> result;
+    Stack<String> stack;
+    Node startNode, endNode;
 
-    public ArrayList<ArrayList<String>> findLadders(String start, String end, HashSet<String> dict) {
+    public List<List<String>> findLadders(String start, String end, HashSet<String> dict) {
 
-        HashMap<String, HashSet<String>> neighbours = new HashMap<String, HashSet<String>>();
+        nodes = new HashMap<String, Node>();
+        result = new ArrayList<List<String>>();
+        stack = new Stack<String>();
 
-        dict.add(start);
-        dict.add(end);
-
-        for (String str : dict) {
-            calcNeighbours(neighbours, str, dict);
+        nodes.put(start, new Node(start));
+        for (String s : dict) {
+            nodes.put(s, new Node(s));
         }
+        nodes.put(end, new Node(end));
 
-        // BFS search queue
-        LinkedList<Node> queue = new LinkedList<Node>();
-        queue.add(new Node(null, start, 1));
-        int previousLevel = 0;
-        HashMap<String, Integer> visited = new HashMap<String, Integer>();
+        endNode = nodes.get(end);
+        startNode = nodes.get(start);
 
-        while (!queue.isEmpty()) {
-            Node n = queue.pollFirst();
-            if (end.equals(n.str)) {
-                if (previousLevel == 0 || n.level == previousLevel) {
-                    previousLevel = n.level;
-                    savePath(n);
-                } else {
-                    break;
-                }
-            } else {
-                HashSet<String> set = neighbours.get(n.str);
-                if (set == null || set.isEmpty()) continue;
-                ArrayList<String> toRemove = new ArrayList<String>();
-                for (String s : set) {
-
-                    if (visited.containsKey(s)) {
-                        Integer occurLevel = visited.get(s);
-                        if (n.level + 1 > occurLevel) {
-                            neighbours.get(s).remove(n.str);
-                            toRemove.add(s);
-                            continue;
+        for (Node e : nodes.values()) {
+            for (int i = 0; i < e.s.length(); i++) {
+                char[] str = e.s.toCharArray();
+                char original = str[i];
+                for (char c = 'a'; c <= 'z'; c++) {
+                    if (c != original) {
+                        str[i] = c;
+                        String currStr = new String(str);
+                        if (nodes.containsKey(currStr)) {
+                            e.children.add(nodes.get(currStr));
                         }
                     }
-
-                    visited.put(s,  n.level + 1);
-                    queue.add(new Node(n, s, n.level + 1));
-
-                    if (neighbours.containsKey(s))
-                        neighbours.get(s).remove(n.str);
-                }
-                for (String s : toRemove) {
-                    set.remove(s);
                 }
             }
         }
+
+        // BFS
+        HashSet<Node> curr = new HashSet<Node>();
+        curr.add(startNode);
+        startNode.visited = true;
+        while (!curr.isEmpty()) {
+            HashSet<Node> next = new HashSet<Node>();
+            for (Node e : curr) {
+
+                for (Node e2 : e.children) {
+                    if (e2.visited == false) {
+                        e2.parents.add(e);
+                        e2.children.remove(e);
+                        next.add(e2);
+                    }
+                }
+            }
+            if (next.contains(endNode)) break;
+            for (Node e2 : next) {
+                e2.visited = true;
+            }
+            curr = next;
+        }
+
+        backtrack(endNode);
 
         return result;
     }
-
-    public void savePath(Node n) {
-        ArrayList<String> path = new ArrayList<String>();
-        Node p = n;
-        while (p != null) {
-            path.add(0, p.str);
-            p = p.parent;
-        }
-        result.add(path);
-    }
-
-    /*
-     * complexity: O(26*str.length*dict.size)=O(L*N)
-     */
-    void calcNeighbours(HashMap<String, HashSet<String>> neighbours, String str, HashSet<String> dict) {
-        int length = str.length();
-        char [] chars = str.toCharArray();
-        for (int i = 0; i < length; i++) {
-
-            char old = chars[i];
-            for (char c = 'a'; c <= 'z'; c++) {
-
-                if (c == old)  continue;
-                chars[i] = c;
-                String newstr = new String(chars);
-
-                if (dict.contains(newstr)) {
-                    HashSet<String> set = neighbours.get(str);
-                    if (set != null) {
-                        set.add(newstr);
-                    } else {
-                        HashSet<String> newset = new HashSet<String>();
-                        newset.add(newstr);
-                        neighbours.put(str, newset);
-                    }
-                }
+    private void backtrack(Node e) {
+        if (e == startNode) {
+            ArrayList<String> solution = new ArrayList<String>(stack);
+            Collections.reverse(solution);
+            solution.add(endNode.s);
+            result.add(solution);
+        } else {
+            for (Node p : e.parents) {
+                stack.push(p.s);
+                backtrack(p);
+                stack.pop();
             }
-            chars[i] = old;
         }
     }
 
-    private class Node {
-        public Node parent;
-        public String str;
-        public int level;
-        public Node(Node p, String s, int l) {
-            parent = p;
-            str = s;
-            level = l;
-        }
-    }
 
     public static void main(String[] args) {
         Solution sol = new Solution();
@@ -117,6 +95,15 @@ public class Solution {
         String end;
         String[] paths;
         HashSet<String> set;
+
+        start = "hot";
+        end = "dog";
+        set = new HashSet<String>();
+        paths = new String[] {"hot", "dog"};
+        for (String s : paths) set.add(s);
+        for (List<String> a : sol.findLadders(start, end, set)) {
+            System.out.println(a);
+        }
 
         start = "a";
         end = "c";
@@ -144,5 +131,15 @@ public class Solution {
         for (List<String> a : sol.findLadders(start, end, set)) {
             System.out.println(a);
         }
+
+        start = "nape";
+        end = "mild";
+        set = new HashSet<String>();
+        paths = new String[] {"dose","ends","dine","jars","prow","soap","guns","hops","cray","hove","ella","hour","lens","jive","wiry","earl","mara","part","flue","putt","rory","bull","york","ruts","lily","vamp","bask","peer","boat","dens","lyre","jets","wide","rile","boos","down","path","onyx","mows","toke","soto","dork","nape","mans","loin","jots","male","sits","minn","sale","pets","hugo","woke","suds","rugs","vole","warp","mite","pews","lips","pals","nigh","sulk","vice","clod","iowa","gibe","shad","carl","huns","coot","sera","mils","rose","orly","ford","void","time","eloy","risk","veep","reps","dolt","hens","tray","melt","rung","rich","saga","lust","yews","rode","many","cods","rape","last","tile","nosy","take","nope","toni","bank","jock","jody","diss","nips","bake","lima","wore","kins","cult","hart","wuss","tale","sing","lake","bogy","wigs","kari","magi","bass","pent","tost","fops","bags","duns","will","tart","drug","gale","mold","disk","spay","hows","naps","puss","gina","kara","zorn","boll","cams","boas","rave","sets","lego","hays","judy","chap","live","bahs","ohio","nibs","cuts","pups","data","kate","rump","hews","mary","stow","fang","bolt","rues","mesh","mice","rise","rant","dune","jell","laws","jove","bode","sung","nils","vila","mode","hued","cell","fies","swat","wags","nate","wist","honk","goth","told","oise","wail","tels","sore","hunk","mate","luke","tore","bond","bast","vows","ripe","fond","benz","firs","zeds","wary","baas","wins","pair","tags","cost","woes","buns","lend","bops","code","eddy","siva","oops","toed","bale","hutu","jolt","rife","darn","tape","bold","cope","cake","wisp","vats","wave","hems","bill","cord","pert","type","kroc","ucla","albs","yoko","silt","pock","drub","puny","fads","mull","pray","mole","talc","east","slay","jamb","mill","dung","jack","lynx","nome","leos","lade","sana","tike","cali","toge","pled","mile","mass","leon","sloe","lube","kans","cory","burs","race","toss","mild","tops","maze","city","sadr","bays","poet","volt","laze","gold","zuni","shea","gags","fist","ping","pope","cora","yaks","cosy","foci","plan","colo","hume","yowl","craw","pied","toga","lobs","love","lode","duds","bled","juts","gabs","fink","rock","pant","wipe","pele","suez","nina","ring","okra","warm","lyle","gape","bead","lead","jane","oink","ware","zibo","inns","mope","hang","made","fobs","gamy","fort","peak","gill","dino","dina","tier"};
+        for (String s : paths) set.add(s);
+        for (List<String> a : sol.findLadders(start, end, set)) {
+            System.out.println(a);
+        }
+        System.out.format("Size: %d\n", paths.length);
     }
 }
