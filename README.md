@@ -63,6 +63,7 @@ Leetcode solutions in Java and Python
 |119|[Pascal's Triangle II](https://oj.leetcode.com/problems/pascals-triangle-ii/)|[Python](./src/pascalII)|Easy|
 |118|[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)|[Python](./src/pascal)|Easy|
 |115|[Distinct Subsequences](https://oj.leetcode.com/problems/distinct-subsequences/)|[Java](./src/distinctSubsequence)|Hard|
+|114|[Flatten Binary Tree to Linked List](https://oj.leetcode.com/problems/flatten-binary-tree-to-ed-list/)| [Java](./src/flattenBinaryTreeToList)|Medium|
 |113|[Path Sum II](https://oj.leetcode.com/problems/path-sum-ii/)|[Java, Python](./src/pathSumII)|Medium|
 |112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)|[Python](./src/pathSum)|Easy|
 |111|[Minimum Depth of Binary Tree](https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](./src/minDepthOfTree)|Easy|
@@ -162,6 +163,7 @@ Leetcode solutions in Java and Python
 |12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)|[Python](./src/integerToRoman)|Medium|
 |11|[Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/)|[Java, Python](./src/containerWithMostWater)|Medium|
 |9|[Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/)|[Java, Python](./src/palindromeNumber)|Easy|
+|8|[String to Integer (atoi)](https://oj.leetcode.com/problems/string-to-integer-atoi/)| [Java](./src/atoi)|Easy|
 |7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)|[Java](./src/reverseInteger)|Easy|
 |6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)|[Python](./src/zigZagConversion)|Easy|
 |5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)|[Java](./src/longestPalindromicSubstring)|Medium|

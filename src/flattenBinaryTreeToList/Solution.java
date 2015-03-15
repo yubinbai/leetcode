@@ -22,7 +22,7 @@ public class Solution {
 
             e.left = null;
             if (left[0] != null) {
-                ret[0].right = left[0];
+                e.right = left[0];
                 ret[1] = left[1];
             }
             if (right[0] != null) {
