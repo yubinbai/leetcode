@@ -3,9 +3,9 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
-|191|[Number of 1 bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](./src/number_1_bits)|Easy
-|190|[Reverse bits](https://oj.leetcode.com/problems/reverse-bits/)|[Java](./src/reverse_bits)|Easy
-|189|[Rotate array](https://oj.leetcode.com/problems/rotate-array/)|[Java](./src/rotate_array)|Easy
+|191|[Number of 1 bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](./src/number_1_bits)|Easy|
+|190|[Reverse bits](https://oj.leetcode.com/problems/reverse-bits/)|[Java](./src/reverse_bits)|Easy|
+|189|[Rotate array](https://oj.leetcode.com/problems/rotate-array/)|[Java](./src/rotate_array)|Easy|
 |188|[Best Time to Buy and Sell Stock IV](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Java](./src/best_time_to_buy_and_sell_stock_iv)|Hard|
 |187|[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)|[Java](./src/repeated_DNA_sequences)|Medium|
 |176|[Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/)|[Java, Python](./src/reverseWordsInString)|Medium|
@@ -63,6 +63,8 @@ Leetcode solutions in Java and Python
 |120|[Triangle](https://oj.leetcode.com/problems/triangle/)|[Java, Python](./src/triangle)|Medium|
 |119|[Pascal's Triangle II](https://oj.leetcode.com/problems/pascals-triangle-ii/)|[Python](./src/pascalII)|Easy|
 |118|[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)|[Python](./src/pascal)|Easy|
+|117|[Populating Next Right Pointers in Each Node II](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)| [Java](./src/populatingNextRightII)|Hard|
+|116|[Populating Next Right Pointers in Each Node](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)| [Java](./src/populatingNextRight)|Medium|
 |115|[Distinct Subsequences](https://oj.leetcode.com/problems/distinct-subsequences/)|[Java](./src/distinctSubsequence)|Hard|
 |114|[Flatten Binary Tree to Linked List](https://oj.leetcode.com/problems/flatten-binary-tree-to-ed-list/)| [Java](./src/flattenBinaryTreeToList)|Medium|
 |113|[Path Sum II](https://oj.leetcode.com/problems/path-sum-ii/)|[Java, Python](./src/pathSumII)|Medium|

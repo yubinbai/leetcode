@@ -1,7 +1,6 @@
 |158|[Read N Characters Given Read4 II - Call multiple times](https://oj.leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)| [](./src/readNCharactersGivenRead4/readNCharactersGivenRead4.II.cpp)|Hard|
 |157|[Read N Characters Given Read4](https://oj.leetcode.com/problems/read-n-characters-given-read4/)| [](./src/readNCharactersGivenRead4/readNCharactersGivenRead4.cpp)|Easy|
-|117|[Populating Next Right Pointers in Each Node II](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)| [](./src/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.II.cpp)|Hard|
-|116|[Populating Next Right Pointers in Each Node](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)| [](./src/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.cpp)|Medium|
+
 |99|[Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/)| [](./src/recoverBinarySearchTree/recoverBinarySearchTree.cpp)|Hard|
 |68|[Text Justification](https://oj.leetcode.com/problems/text-justification/)| [](./src/textJustification/textJustification.cpp)|Hard|
 |43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [](./src/wildcardMatching/wildcardMatching.cpp)|Hard|
