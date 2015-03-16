@@ -1,3 +1,4 @@
+import java.util.*;
 class TreeNode {
     int val;
     TreeNode left;
@@ -8,6 +9,24 @@ class TreeNode {
 }
 public class Solution {
     TreeNode upsideDownBinaryTree(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        TreeNode curr = root;
+        while (curr.left != null) {
+            stack.push(curr);
+            curr = curr.left;
+        }
+        TreeNode result = curr;
+        while (!stack.isEmpty()) {
+            TreeNode parent = stack.pop();
+            curr.right = parent;
+            curr.left = parent.right;
+            parent.left = parent.right = null;
+            curr = parent;
+        }
+        return result;
+    }
+
+    TreeNode upsideDownBinaryTree2(TreeNode root) {
         TreeNode prev = root, curr = root.left, newRoot = new TreeNode(0);
         // reverse linked list on left subtree
         while (curr != null) {
@@ -36,7 +55,7 @@ public class Solution {
     public static void inOrder(TreeNode e) {
         if (e != null) {
             inOrder(e.left);
-            System.out.println(e.val);
+            System.out.format("%d ", e.val);
             inOrder(e.right);
         }
     }
@@ -47,6 +66,7 @@ public class Solution {
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
         inOrder(root);
+        System.out.println("");
 
         Solution s = new Solution();
         TreeNode ret = s.upsideDownBinaryTree(root);

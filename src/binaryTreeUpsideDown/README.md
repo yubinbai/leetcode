@@ -20,6 +20,10 @@ return the root of the binary tree [4,5,2,#,#,3,1].
 
 Solution
 ===
+Keep a stack of parents, rearrage from bottom to up
+
+Solution 2
+===
 a more complicated 'reverse linked list'
 
 1. reverse the root->left links when going down the left subtree
