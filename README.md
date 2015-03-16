@@ -81,6 +81,7 @@ Leetcode solutions in Java and Python
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](./src/levelOrder)|Easy|
 |101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)|[Java](./src/symmetricTree)|Easy|
 |100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)|[Java, Python](./src/sameTree)|Easy|
+|99|[Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/)| [Java](./src/recoverBinarySearchTree)|Hard|
 |98|[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)|[Java](./src/validateBST)|Medium|
 |97|[Interleaving String](https://oj.leetcode.com/problems/interleaving-string/)|[Java](./src/interleavingString)|Hard|
 |96|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)|[Java, Python](./src/uniqueBST2)|Medium|
