@@ -1,43 +1,39 @@
 import java.util.*;
 public class Solution {
-    ArrayList<String> ret;
+    ArrayList<String> result, currList;
     int L;
     public List<String> fullJustify(String[] words, int L) {
         this.L = L;
-        ret = new ArrayList<String>();
-        ArrayList<String> currList = new ArrayList<String>();
-        int curr = 0;
+        result = new ArrayList<String>();
+        currList = new ArrayList<String>();
+        int currLen = 0;
         for (String s : words) {
-            if (curr == 0) {
-                curr += s.length();
+            if (currLen == 0) {
+                currLen += s.length();
                 currList.add(s);
             } else {
-                if (curr + 1 + s.length() <= L) {
-                    curr += 1 + s.length();
+                if (currLen + s.length() + currList.size() <= L) {
+                    currLen += s.length();
                     currList.add(s);
                 } else {
-                    ret.add(construct(currList));
-                    curr = s.length();
-                    currList = new ArrayList<String>();
+                    result.add(construct(currLen));
+                    currLen = s.length();
+                    currList.clear();
                     currList.add(s);
                 }
             }
         }
-        if (!currList.isEmpty()) ret.add(constructLast(currList));
-        return ret;
+        if (!currList.isEmpty()) result.add(constructLast());
+        return result;
     }
-    public String construct(ArrayList<String> list) {
-        int totalLen = 0;
-        for (String s : list) {
-            totalLen += s.length();
-        }
+    private String construct(int totalLen) {
         int blanks = L - totalLen;
-        int size = list.size();
+        int size = currList.size();
         int extra = (size <= 1) ? 0 : (blanks) % (size - 1);
         int width = (size <= 1) ? 0 : (blanks) / (size - 1);
 
         StringBuilder sb = new StringBuilder();
-        sb.append(list.get(0));
+        sb.append(currList.get(0));
         for (int i = 1; i < size; i++) {
             if (extra > 0) {
                 sb.append(" ");
@@ -46,20 +42,19 @@ public class Solution {
             for (int j = 0; j < width; j++) {
                 sb.append(" ");
             }
-            sb.append(list.get(i));
+            sb.append(currList.get(i));
         }
         while (sb.length() < L) {
             sb.append(" ");
         }
         return sb.toString();
     }
-    public String constructLast(ArrayList<String> list) {
+    private String constructLast() {
         StringBuilder sb = new StringBuilder();
-        for (String s : list) {
+        for (String s : currList) {
             sb.append(s);
             sb.append(" ");
         }
-
         while (sb.length() < L) {
             sb.append(" ");
         }
@@ -67,12 +62,21 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        // String[] data = {"What", "must", "be", "shall", "be."};
-        // String[] data = {"This", "is", "an", "example", "of", "text", "justification."};
-        String[] data = {""};
+        String[] data;
         Solution sol = new Solution();
+        data = new String[] {"What", "must", "be", "shall", "be."};
+        for (String s : sol.fullJustify(data, 10)) {
+            System.out.format("__%s__\n", s);
+        }
+
+        data = new String[] {"This", "is", "an", "example", "of", "text", "justification."};
+        for (String s : sol.fullJustify(data, 20)) {
+            System.out.format("__%s__\n", s);
+        }
+
+        data = new String[] {""};
         for (String s : sol.fullJustify(data, 0)) {
-            System.out.format("\"%s\"", s);
+            System.out.format("__%s__\n", s);
         }
     }
 }

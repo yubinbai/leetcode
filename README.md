@@ -43,7 +43,7 @@ Leetcode solutions in Java and Python
 |140|[Word Break II](https://oj.leetcode.com/problems/word-break-ii/)|[Java](./src/wordBreakII)|Hard|
 |139|[Word Break](https://oj.leetcode.com/problems/word-break/)|[Java](./src/wordBreak)|Medium|
 |138|[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)|[Java](./src/copyListWithRandomPointer)|Hard|
-|137|[Single Number II](https://oj.leetcode.com/problems/single-number-ii/)|[Python](./src/singleNumberII)|Medium|
+|137|[Single Number II](https://oj.leetcode.com/problems/single-number-ii/)|[Java, Python](./src/singleNumberII)|Medium|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)|[Java, Python](./src/singleNumber)|Medium|
 |135|[Candy](https://oj.leetcode.com/problems/candy/)|[Java, Python](./src/candy)|Hard|
 |134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)|[Python](./src/gasStation)|Medium|
@@ -112,6 +112,7 @@ Leetcode solutions in Java and Python
 |71|[Simplify Path](https://oj.leetcode.com/problems/simplify-path/)|[Python](./src/simplifyPath)|Medium|
 |70|[Climbing Stairs](https://oj.leetcode.com/problems/climbing-stairs/)|[Java](./src/climbStairs)|Easy|
 |69|[Sqrt(x)](https://oj.leetcode.com/problems/sqrtx/)|[Java, Python](./src/squareRoot)|Medium|
+|68|[Text Justification](https://oj.leetcode.com/problems/text-justification/)| [Java](./src/textJustification)|Hard|
 |67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [Java](./src/plusOne)|Easy|
 |66|[Valid Number](https://oj.leetcode.com/problems/valid-number/)|[Python](./src/validNumber)|Easy|
 |65|[Add Binary](https://oj.leetcode.com/problems/add-binary/)|[Java, Python](./src/addBinary)|Easy|
