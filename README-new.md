@@ -4,4 +4,3 @@
 |43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [](./src/wildcardMatching/wildcardMatching.cpp)|Hard|
 |40|[First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/)| [](./src/firstMissingPositive/firstMissingPositive.cpp)|Hard|
 |10|[Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/)| [](./src/regularExpressionMatching/regularExpressionMatching.cpp)|Hard|
-|2|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)| [](./src/medianOfTwoSortedArrays/medianOfTwoSortedArrays.cpp)|Hard|

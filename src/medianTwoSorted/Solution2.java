@@ -1,48 +1,73 @@
-
 public class Solution2 {
 
-    public static double getMedian(int[] a, int[] b) {
+    public double findMedianSortedArrays(int[] a, int[] b) {
         int size = a.length + b.length;
+        if (size == 0) return 0.0;
+        if (a.length == 0) return simpleMedian(b);
+        if (b.length == 0) return simpleMedian(a);
         if (size % 2 == 0) {
-            return (findKthSmallest(a, b, 0, a.length - 1, 0, b.length - 1, size / 2) +
-                    findKthSmallest(a, b, 0, a.length - 1, 0, b.length - 1, size / 2 + 1)) / 2.0;
+            int m1 = findK(a, b, 0, a.length - 1, size / 2);
+            int m2 = findK(a, b, 0, a.length - 1, size / 2 + 1);
+            return (.0 + m1 + m2) / 2.0;
         } else {
-            return findKthSmallest(a, b, 0, a.length - 1, 0, b.length - 1, size / 2 + 1);
+            return findK(a, b, 0, a.length - 1, size / 2 + 1);
         }
     }
 
-    private static int findKthSmallest(int[] a, int[] b, int lowA, int highA, int lowB, int highB, int k) {
+    private double simpleMedian(int[] a) {
+        int n = a.length;
+        if (n % 2 == 0) {
+            return (0.0 + a[n / 2 - 1] + a[n / 2]) / 2;
+        } else {
+            return a[n / 2];
+        }
+    }
 
-        // invariant: before midA + before midB = k - 1
-        // partition mid by weight of length
-        int i = (int) ((double) (highA - lowA + 1) / (highA - lowA + highB - lowB + 2)*(k - 1));
-        int j = (k - 1) - i;
+    private int findK(int[] a, int[] b, int left, int right, int k) {
+        int m = a.length, n = b.length;
+        if (left > right) return findK(b, a, 0, n - 1, k);
 
-        int midA = lowA + i;
-        int midB = lowB + j;
+        int i = left + (right - left) / 2;
+        int j = k - 2 - i;
+        boolean validLeft = (j < 0) || (j < n && a[i] >= b[j]);
+        boolean validRight = (j >= n - 1) || (j + 1 >= 0 && a[i] <= b[j + 1]);
 
-        // invariant: i + j = k-1
-        // Note: A[lowA] = -INF and A[highA + 1] = +INF to maintain invariant
-        int Asubmid = ((midA == lowA) ? Integer.MIN_VALUE : a[midA - 1]);
-        int Bsubmid = ((midB == lowB) ? Integer.MIN_VALUE : b[midB - 1]);
-        int Amid = ((midA == highA + 1) ? Integer.MAX_VALUE : a[midA]);
-        int Bmid = ((midB == highB + 1) ? Integer.MAX_VALUE : b[midB]);
+        if (validLeft && !validRight) return findK(a, b, left, i - 1, k);
+        if (!validLeft && validRight) return findK(a, b, i + 1, right, k);
 
-        if (Bsubmid < Amid && Amid < Bmid)
-            return Amid;
-        else if (Asubmid < Bmid && Bmid < Amid)
-            return Bmid;
+        return a[i];
+    }
+    public static void main(String[] args) {
+        Solution2 s = new Solution2();
+        int[] A, B;
 
-        // if none of the cases above, then it is either:
-        if (Amid < Bmid)
-            // exclude Amid and below portion
-            // exclude Bmid and above portion
-            return findKthSmallest(a, b, midA + 1, highA, lowB, midB - 1, k - i - 1);
-        else
-            // Bmid < Amid
-            // exclude Amid and above portion
-            // exclude Bmid and below portion
-            return findKthSmallest(a, b, lowA, midA - 1, midB + 1, highB, k - j - 1);
+        A = new int[] {1, 2, 3, 5, 6 , 7};
+        B = new int[] {4};
+        System.out.println(s.findMedianSortedArrays(A, B));
+
+        A = new int[] {1};
+        B = new int[] {2, 3, 4, 5, 6};
+        System.out.println(s.findMedianSortedArrays(A, B));
+
+        A = new int[] {1, 2, 3};
+        B = new int[] {4, 5, 6};
+        System.out.println(s.findMedianSortedArrays(A, B));
+
+        A = new int[] {1, 3, 4};
+        B = new int[] {2, 5, 5, 5};
+        System.out.println(s.findMedianSortedArrays(A, B));
+
+        A = new int[] {1};
+        B = new int[] {1};
+        System.out.println(s.findMedianSortedArrays(A, B));
+
+        A = new int[] {1, 2};
+        B = new int[] {1, 2};
+        System.out.println(s.findMedianSortedArrays(A, B));
+
+        A = new int[] {};
+        B = new int[] {1, 2};
+        System.out.println(s.findMedianSortedArrays(A, B));
     }
 
 }
