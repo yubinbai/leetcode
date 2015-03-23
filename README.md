@@ -32,7 +32,7 @@ Leetcode solutions in Java and Python
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)|[Java, Python](./src/reverseWordsInString)|Medium|
 |150|[Evaluate Reverse Polish Notation](https://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)|[Java, Python](./src/evaluateReversePolish)|Medium|
 |149|[Max Points on a Line](https://oj.leetcode.com/problems/max-points-on-a-line/)|[Java](./src/maxPointsOnALine)|Hard|
-|148|[Sort List](https://oj.leetcode.com/problems/sort-list/)|[Java](./src/sortList/sortList.cpp)|Medium|
+|148|[Sort List](https://oj.leetcode.com/problems/sort-list/)|[Java](./src/sortList)|Medium|
 |147|[Insertion Sort List](https://oj.leetcode.com/problems/insertion-sort-list/)|[Java](./src/insertionSortList)|Medium|
 |146|[LRU Cache](https://oj.leetcode.com/problems/lru-cache/)|[Java](./src/LRUCache)|Hard|
 |145|[Binary Tree Postorder Traversal](https://oj.leetcode.com/problems/binary-tree-postorder-traversal/)|[Python](./src/postOrderTraversal)|Hard|
@@ -138,6 +138,7 @@ Leetcode solutions in Java and Python
 |45|[Permutations](https://oj.leetcode.com/problems/permutations/)|[Java, Python](./src/permutations)|Medium|
 |44|[Jump Game II](https://oj.leetcode.com/problems/jump-game-ii/)|[Java, Python](./src/jumpGameII)|Hard|
 |41|[Trapping Rain Water](https://oj.leetcode.com/problems/trapping-rain-water/)|[Java, Python](./src/trappingRainWater)|Hard|
+|40|[First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/)| [Java](./src/firstMissingPositive/firstMissingPositive.cpp)|Hard|
 |39|[Combination Sum II](https://oj.leetcode.com/problems/combination-sum-ii/)|[Java, Python](./src/combinationSumII)|Medium|
 |38|[Combination Sum](https://oj.leetcode.com/problems/combination-sum/)|[Java, Python](./src/combinationSum)|Medium|
 |37|[Count and Say](https://oj.leetcode.com/problems/count-and-say/)|[Java](./src/countAndSay)|Easy|
@@ -167,6 +168,7 @@ Leetcode solutions in Java and Python
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)|[Java](./src/romanToInt)|Easy|
 |12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)|[Python](./src/integerToRoman)|Medium|
 |11|[Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/)|[Java, Python](./src/containerWithMostWater)|Medium|
+|10|[Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/)| [Java](./src/regularExpressionMatching/regularExpressionMatching.cpp)|Hard|
 |9|[Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/)|[Java, Python](./src/palindromeNumber)|Easy|
 |8|[String to Integer (atoi)](https://oj.leetcode.com/problems/string-to-integer-atoi/)| [Java](./src/atoi)|Easy|
 |7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)|[Java](./src/reverseInteger)|Easy|

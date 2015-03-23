@@ -27,10 +27,13 @@ public class Solution {
             return isMatch(s.substring(1), p.substring(1));
         } else {
             // case of a*
-            int i = -1;
-            while (i < s.length() && (i < 0 || p.charAt(0) == '.' || p.charAt(0) == s.charAt(i))) {
-                if (isMatch(s.substring(i + 1), p.substring(2))) return true;
-                i++;
+            if (isMatch(s, p.substring(2))) return true;
+            for (int i = 0; i < s.length(); i++) {
+                if (p.charAt(0) == '.' || p.charAt(0) == s.charAt(i)) {
+                    if (isMatch(s.substring(i + 1), p.substring(2))) return true;
+                } else {
+                    break;
+                }
             }
             return false;
         }
