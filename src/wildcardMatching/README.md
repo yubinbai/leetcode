@@ -18,3 +18,9 @@ isMatch("aa", "*") → true
 isMatch("aa", "a*") → true
 isMatch("ab", "?*") → true
 isMatch("aab", "c\*a\*b") → false
+
+Solution
+===
+when seeing stars, try each position in 's' after the matched star
+
+rewind when finding a failure.

@@ -24,6 +24,8 @@ Leetcode solutions in Java and Python
 |161|[One Edit Distance](https://oj.leetcode.com/problems/one-edit-distance/)|[Java](./src/one_edit_distance)|Medium|
 |160|[Intersection of Two Linked Lists](https://oj.leetcode.com/problems/intersection-of-two-linked-lists/)|[Java](./src/intersection_of_two_linked_lists)|Easy|
 |159|[Longest Substring with At Most Two Distinct Characters](https://oj.leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Java](./src/longestSubstringWith2UniqueChars)|Hard|
+|158|[Read N Characters Given Read4 II - Call multiple times](https://oj.leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)| [Java](./src/readNCharactersGivenRead4)|Hard|
+|157|[Read N Characters Given Read4](https://oj.leetcode.com/problems/read-n-characters-given-read4/)| [Java](./src/readNCharactersGivenRead4)|Easy|
 |156|[Binary Tree Upside Down](https://oj.leetcode.com/problems/binary-tree-upside-down/)| [Java](./src/binaryTreeUpsideDown)|Medium|
 |155|[Min Stack](https://oj.leetcode.com/problems/min-stack/)|[Java](./src/min_stack)|Easy|
 |154|[Find Minimum in Rotated Sorted Array II](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Java](./src/find_minimum_in_rotated_sorted_array)|Hard|
@@ -137,6 +139,7 @@ Leetcode solutions in Java and Python
 |46|[Permutations II](https://oj.leetcode.com/problems/permutations-ii/)|[Java, Python](./src/permutations)|Hard|
 |45|[Permutations](https://oj.leetcode.com/problems/permutations/)|[Java, Python](./src/permutations)|Medium|
 |44|[Jump Game II](https://oj.leetcode.com/problems/jump-game-ii/)|[Java, Python](./src/jumpGameII)|Hard|
+|43|[Wildcard Matching](https://oj.leetcode.com/problems/wildcard-matching/)| [Java](./src/wildcardMatching)|Hard|
 |41|[Trapping Rain Water](https://oj.leetcode.com/problems/trapping-rain-water/)|[Java, Python](./src/trappingRainWater)|Hard|
 |40|[First Missing Positive](https://oj.leetcode.com/problems/first-missing-positive/)| [Java](./src/firstMissingPositive/firstMissingPositive.cpp)|Hard|
 |39|[Combination Sum II](https://oj.leetcode.com/problems/combination-sum-ii/)|[Java, Python](./src/combinationSumII)|Medium|

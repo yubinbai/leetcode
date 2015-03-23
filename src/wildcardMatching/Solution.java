@@ -10,11 +10,14 @@ public class Solution {
                 ++i;
                 ++j;
             } else if (j < p.length() && p.charAt(j) == '*') {
-                star = j++;
+                star = j;
                 mark = i;
+                ++j;
             } else if (star != -1) {
+                // rewind
                 j = star + 1;
-                i = ++mark;
+                ++mark;
+                i = mark;
             } else {
                 return false;
             }
