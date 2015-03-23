@@ -1,35 +1,30 @@
-import java.lang.Integer;
 import java.util.*;
 public class Solution {
-    public ArrayList<ArrayList<Integer>> threeSum(int[] num) {
+    public List<List<Integer>> threeSum(int[] num) {
         Arrays.sort(num);
-        ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
+        List<List<Integer>> ret = new ArrayList<List<Integer>>();
         int n = num.length;
 
         for (int i = 0; i < n - 2; i++) {
             if (i > 0 && num[i] == num[i - 1]) continue;
-            int k = i + 1;
-            int l = n - 1;
+            int low = i + 1;
+            int high = n - 1;
 
-            while (k < l) {
-                int sum = num[i]  + num[k] + num[l];
+            while (low < high) {
+                int sum = num[i] + num[low] + num[high];
 
                 if (sum > 0) {
-                    while (l > 0 && num[l] == num[l - 1]) l--;
-                    l--;
+                    while (high > 0 && num[high] == num[high - 1]) high--;
+                    high--;
                 } else if (sum < 0) {
-                    while (k < n - 1 && num[k] == num[k + 1]) k++;
-                    k++;
+                    while (low < n - 1 && num[low] == num[low + 1]) low++;
+                    low++;
                 } else {
-                    ArrayList<Integer> listOfThree = new ArrayList<Integer>();
-                    listOfThree.add(num[i]);
-                    listOfThree.add(num[k]);
-                    listOfThree.add(num[l]);
-                    ret.add(listOfThree);
-                    while (l > 0 && num[l] == num[l - 1]) l--;
-                    l--;
-                    while (k < n - 1 && num[k] == num[k + 1]) k++;
-                    k++;
+                    ret.add(Arrays.asList(num[i], num[low], num[high]));
+                    while (high > 0 && num[high] == num[high - 1]) high--;
+                    high--;
+                    while (low < n - 1 && num[low] == num[low + 1]) low++;
+                    low++;
                 }
             }
         }
@@ -40,11 +35,11 @@ public class Solution {
         Solution s = new Solution();
         int[] arr;
         arr = new int[] { -1, 0, 1, 2, -1, -4};
-        for (ArrayList<Integer> a : s.threeSum(arr)) {
+        for (List<Integer> a : s.threeSum(arr)) {
             System.out.println(a);
         }
         arr = new int[] { 0, 0, 0, 0};
-        for (ArrayList<Integer> a : s.threeSum(arr)) {
+        for (List<Integer> a : s.threeSum(arr)) {
             System.out.println(a);
         }
 

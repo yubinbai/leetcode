@@ -7,19 +7,19 @@ public class Solution {
         int minDist = Integer.MAX_VALUE;
 
         for (int i = 0; i < num.length - 2; i++) {
-            int k = i + 1;
-            int l = num.length - 1;
-            while (k < l) {
-                int curr = num[i] +  num[k] + num[l];
+            int low = i + 1;
+            int high = num.length - 1;
+            while (low < high) {
+                int curr = num[i] + num[low] + num[high];
                 int dist = Math.abs(curr - target);
                 if (dist < minDist) {
                     minDist = dist;
                     result = curr;
                 }
                 if (curr > target) {
-                    l--;
+                    high--;
                 } else {
-                    k++;
+                    low++;
                 }
             }
         }
