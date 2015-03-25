@@ -124,12 +124,12 @@ Leetcode solutions in Java and Python
 |61|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)|[Java](./src/uniquePaths)|Medium|
 |60|[Rotate List](https://oj.leetcode.com/problems/rotate-list/)| [Java](./src/rotateList)|Medium|
 |59|[Permutation Sequence](https://oj.leetcode.com/problems/permutation-sequence/)| [Java, Python](./src/permutationSequence)|Medium|
-|58|[Spiral Matrix II](https://oj.leetcode.com/problems/spiral-matrix-ii/)| [Python](./src/spiralMatrixII)|Medium|
+|58|[Spiral Matrix II](https://oj.leetcode.com/problems/spiral-matrix-ii/)| [Java, Python](./src/spiralMatrixII)|Medium|
 |57|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)|[Java](./src/lengthOfLastWord/lengthOfLastWord.cpp)|Easy|
 |56|[Insert Interval](https://oj.leetcode.com/problems/insert-interval/)|[Python](./src/insertInterval)|Hard|
 |55|[Merge Intervals](https://oj.leetcode.com/problems/merge-intervals/)|[Java, Python](./src/mergeIntervals)|Hard|
 |54|[Jump Game](https://oj.leetcode.com/problems/jump-game/)|[Java, Python](./src/jumpGame)|Medium|
-|53|[Spiral Matrix](https://oj.leetcode.com/problems/spiral-matrix/)|[Python](./src/spiralMatrix)|Medium|
+|53|[Spiral Matrix](https://oj.leetcode.com/problems/spiral-matrix/)|[Java, Python](./src/spiralMatrix)|Medium|
 |52|[Maximum Subarray](https://oj.leetcode.com/problems/maximum-subarray/)|[Java,Python](./src/maxSubArray)|Medium|
 |51|[N-Queens II](https://oj.leetcode.com/problems/n-queens-ii/)|[Java](./src/nQueens)|Hard|
 |50|[N-Queens](https://oj.leetcode.com/problems/n-queens/)|[Java](./src/nQueens/nQueuens.cpp)|Hard|
