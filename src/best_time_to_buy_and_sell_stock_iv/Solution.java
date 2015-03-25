@@ -18,9 +18,9 @@ public class Solution {
         for (int kk = 0; kk < k; ++kk) {
             int currMax = -prices[0];
             for (int i = 0; i < n; ++i) {
-                currMax = Math.max(currMax, dp[kk][i] - prices[i]);
                 dp[kk + 1][i + 1] = Math.max(dp[kk][i + 1], dp[kk + 1][i]);
                 dp[kk + 1][i + 1] = Math.max(currMax + prices[i], dp[kk + 1][i + 1]);
+                currMax = Math.max(currMax, dp[kk][i] - prices[i]);
             }
         }
         return dp[k][n];

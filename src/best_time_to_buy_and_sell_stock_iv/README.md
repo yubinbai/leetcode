@@ -13,8 +13,11 @@ Solution
 DP
 
 1. easy to figure out only one trans
-2. state: (# of trans, endingIndex) -> max_profit
-3. base state: (0, *) -> 0, (*, 0) -> 0
+2. state: dp(# of trans, endingIndex) -> max_profit
+3. base state: 
+    no transactions: dp(0, x) -> 0
+    end at zero: dp(x, 0) -> 0
+
 4. states transformation:
 
     dp[k+1][i+1] = max(dp[k][i+1], dp[k+1][i], max( dp[k][j] + prices[i] - prices[j] ))

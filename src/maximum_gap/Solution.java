@@ -18,18 +18,12 @@ public class Solution {
 }
 
 class RadixSort {
-    private static final int radix = 256, shifts[] = {8, 16, 24}, mask = radix - 1;
+    private static final int radix = 256, mask = 255;
     private final int[] bar = new int[radix];
-    private int[] s = new int[65536]; // better caching for array in object
-
-    public void ensureSort(int len) {
-        if (s.length < len)
-            s = new int[len];
-    }
 
     public void sort(int[] a) {
         int n = a.length;
-        ensureSort(n);
+        int[] s = new int[n];
 
         // last 8 bits
         Arrays.fill(bar, 0);
