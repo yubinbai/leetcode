@@ -135,7 +135,7 @@ Leetcode solutions in Java and Python
 |50|[N-Queens](https://oj.leetcode.com/problems/n-queens/)|[Java](./src/nQueens/nQueuens.cpp)|Hard|
 |49|["Pow(x, n)"](https://oj.leetcode.com/problems/powx-n/)|[Java](./src/pow_x_n)|Medium|
 |48|[Anagrams](https://oj.leetcode.com/problems/anagrams/)|[Java, Python](./src/anagram)|Medium|
-|47|[Rotate Image](https://oj.leetcode.com/problems/rotate-image/)|[Python](./src/rotateImage)|Medium|
+|47|[Rotate Image](https://oj.leetcode.com/problems/rotate-image/)|[Java,Python](./src/rotateImage)|Medium|
 |46|[Permutations II](https://oj.leetcode.com/problems/permutations-ii/)|[Java, Python](./src/permutations)|Hard|
 |45|[Permutations](https://oj.leetcode.com/problems/permutations/)|[Java, Python](./src/permutations)|Medium|
 |44|[Jump Game II](https://oj.leetcode.com/problems/jump-game-ii/)|[Java, Python](./src/jumpGameII)|Hard|
