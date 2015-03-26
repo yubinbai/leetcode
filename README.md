@@ -37,8 +37,8 @@ Leetcode solutions in Java and Python
 |148|[Sort List](https://oj.leetcode.com/problems/sort-list/)|[Java](./src/sortList)|Medium|
 |147|[Insertion Sort List](https://oj.leetcode.com/problems/insertion-sort-list/)|[Java](./src/insertionSortList)|Medium|
 |146|[LRU Cache](https://oj.leetcode.com/problems/lru-cache/)|[Java](./src/LRUCache)|Hard|
-|145|[Binary Tree Postorder Traversal](https://oj.leetcode.com/problems/binary-tree-postorder-traversal/)|[Python](./src/postOrderTraversal)|Hard|
-|144|[Binary Tree Preorder Traversal](https://oj.leetcode.com/problems/binary-tree-preorder-traversal/)|[Python](./src/preOrderTraversal)|Medium|
+|145|[Binary Tree Postorder Traversal](https://oj.leetcode.com/problems/binary-tree-postorder-traversal/)|[Java, Python](./src/postOrderTraversal)|Hard|
+|144|[Binary Tree Preorder Traversal](https://oj.leetcode.com/problems/binary-tree-preorder-traversal/)|[Java, Python](./src/preOrderTraversal)|Medium|
 |143|[Reorder List](https://oj.leetcode.com/problems/reorder-list/)|[Java](./src/reorderList)|Medium|
 |142|[Linked List Cycle II](https://oj.leetcode.com/problems/linked-list-cycle-ii/)|[Java](./src/linkedListCycleII)|Medium|
 |141|[Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/)|[Java](./src/linkedListCycle)|Medium|

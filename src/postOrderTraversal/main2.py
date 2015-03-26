@@ -11,13 +11,13 @@ class Solution:
     # @return a list of integers
 
     def postorderTraversal(self, root):
-        ret = []
+        result = []
 
         def visit(e):
-            ret.append(e.val)
+            result.append(e.val)
 
         if root == None:
-            return ret
+            return result
 
         stack = [root]
         prev = None
@@ -46,7 +46,7 @@ class Solution:
                 stack.pop()
             prev = curr
 
-        return ret
+        return result
 
 
 def makeTree(A, i):

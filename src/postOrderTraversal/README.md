@@ -11,3 +11,11 @@ For example:
 	    /
 	   3
 	return [3,2,1].
+
+
+Solution
+===
+
+use a stack and a prev pointer
+
+solution at leetcode forum is over-complicated
