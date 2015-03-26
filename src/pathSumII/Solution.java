@@ -24,11 +24,11 @@ public class Solution {
                 ret.add(new ArrayList<Integer>(stack));
                 stack.pop();
             }
-            return;
+        } else {
+            stack.push(root.val);
+            if (root.left != null) _pathsum(root.left, target - root.val);
+            if (root.right != null) _pathsum(root.right, target - root.val);
+            stack.pop();
         }
-        stack.push(root.val);
-        if (root.left != null) _pathsum(root.left, target - root.val);
-        if (root.right != null) _pathsum(root.right, target - root.val);
-        stack.pop();
     }
 }

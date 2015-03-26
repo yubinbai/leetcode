@@ -14,13 +14,13 @@ Leetcode solutions in Java and Python
 |173|[Binary Search Tree Iterator](https://oj.leetcode.com/problems/binary-search-tree-iterator/)|[Java](./src/binary_search_tree_iterator)|Medium|
 |172|[Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/)|[Java](./src/factorial_trailing_zeroes)|Easy|
 |171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/)|[Java](./src/excel_sheet_column_number)|Easy|
-|169|[Majority Element](https://oj.leetcode.com/problems/majority-element/)|[Java & Python](./src/majority_element)|Easy|
-|168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/)|[Java & Python](./src/excel_sheet_column_title)|Easy|
+|169|[Majority Element](https://oj.leetcode.com/problems/majority-element/)|[Java, Python](./src/majority_element)|Easy|
+|168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/)|[Java, Python](./src/excel_sheet_column_title)|Easy|
 |166|[Fraction to Recurring Decimal](https://oj.leetcode.com/problems/fraction-to-recurring-decimal/)|[Java](./src/fraction_to_recurring_decimal)|Medium|
 |165|[Compare Version Numbers](https://oj.leetcode.com/problems/compare-version-numbers/)|[Java](./src/compare_version_number)|Easy|
 |164|[Maximum Gap](https://oj.leetcode.com/problems/maximum-gap/)|[Java](./src/maximum_gap)|Hard|
-|163|[Missing Ranges](https://oj.leetcode.com/problems/missing-ranges/)|[Java & Python](./src/missingRanges)|Medium|
-|162|[Find Peak Element](https://oj.leetcode.com/problems/find-peak-element/)|[Java & Python](./src/find_peak_element)|Medium|
+|163|[Missing Ranges](https://oj.leetcode.com/problems/missing-ranges/)|[Java, Python](./src/missingRanges)|Medium|
+|162|[Find Peak Element](https://oj.leetcode.com/problems/find-peak-element/)|[Java, Python](./src/find_peak_element)|Medium|
 |161|[One Edit Distance](https://oj.leetcode.com/problems/one-edit-distance/)|[Java](./src/one_edit_distance)|Medium|
 |160|[Intersection of Two Linked Lists](https://oj.leetcode.com/problems/intersection-of-two-linked-lists/)|[Java](./src/intersection_of_two_linked_lists)|Easy|
 |159|[Longest Substring with At Most Two Distinct Characters](https://oj.leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Java](./src/longestSubstringWith2UniqueChars)|Hard|
@@ -70,7 +70,7 @@ Leetcode solutions in Java and Python
 |115|[Distinct Subsequences](https://oj.leetcode.com/problems/distinct-subsequences/)|[Java](./src/distinctSubsequence)|Hard|
 |114|[Flatten Binary Tree to Linked List](https://oj.leetcode.com/problems/flatten-binary-tree-to-ed-list/)| [Java](./src/flattenBinaryTreeToList)|Medium|
 |113|[Path Sum II](https://oj.leetcode.com/problems/path-sum-ii/)|[Java, Python](./src/pathSumII)|Medium|
-|112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)|[Python](./src/pathSum)|Easy|
+|112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)|[Java, Python](./src/pathSum)|Easy|
 |111|[Minimum Depth of Binary Tree](https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](./src/minDepthOfTree)|Easy|
 |110|[Balanced Binary Tree](https://oj.leetcode.com/problems/balanced-binary-tree/)|[Java](./src/balanced_binary_tree)|Easy|
 |109|[Convert Sorted List to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|[Python](./src/sortedListToBST)|Medium|
