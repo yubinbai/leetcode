@@ -116,7 +116,7 @@ Leetcode solutions in Java and Python
 |69|[Sqrt(x)](https://oj.leetcode.com/problems/sqrtx/)|[Java, Python](./src/squareRoot)|Medium|
 |68|[Text Justification](https://oj.leetcode.com/problems/text-justification/)| [Java](./src/textJustification)|Hard|
 |67|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [Java](./src/plusOne)|Easy|
-|66|[Valid Number](https://oj.leetcode.com/problems/valid-number/)|[Python](./src/validNumber)|Easy|
+|66|[Valid Number](https://oj.leetcode.com/problems/valid-number/)|[Java, Python, C++](./src/validNumber)|Easy|
 |65|[Add Binary](https://oj.leetcode.com/problems/add-binary/)|[Java, Python](./src/addBinary)|Easy|
 |64|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)|[Java](./src/merge2Sorted)|Easy|
 |63|[Minimum Path Sum](https://oj.leetcode.com/problems/minimum-path-sum/)|[Java](./src/minPathSum)|Medium|
