@@ -25,7 +25,6 @@ public class Solution {
                 curr = curr.next;
             }
         }
-        curr.next = null;
     }
 
     public ListNode reverse(ListNode head) {

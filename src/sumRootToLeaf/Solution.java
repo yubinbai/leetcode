@@ -15,7 +15,7 @@ public class Solution {
         _sumNumbers(root, 0);
         return ret;
     }
-    public void _sumNumbers(TreeNode root, int curr) {
+    private void _sumNumbers(TreeNode root, int curr) {
         if (root.left == null && root.right == null) {
             ret += curr * 10 + root.val;
         } else {

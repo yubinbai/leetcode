@@ -18,15 +18,18 @@ class MinStack {
                 minData.pop();
             }
             return v;
+        } else {
+            throw new RuntimeException();
         }
-        return -1;
     }
 
     public int top() {
+        if (data.isEmpty()) throw new RuntimeException();
         return data.peek();
     }
 
     public int getMin() {
+        if (minData.isEmpty()) throw new RuntimeException();
         return minData.peek();
     }
     public static void main(String[] args) {

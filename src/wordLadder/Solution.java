@@ -35,7 +35,7 @@ public class Solution {
         while (!frontier.isEmpty()) {
             int v = frontier.poll();
             if (v == listSize - 2) break;
-            for (int i : adj.get(v)) { 
+            for (int i : adj.get(v)) {
                 if (!visited[i]) {
                     frontier.offer(i);
                     shortest[i] = shortest[v] + 1;
@@ -43,10 +43,8 @@ public class Solution {
                 }
             }
         }
-        if (shortest[listSize - 2] < MAX_INT )
-            return shortest[listSize - 2];
-        else
-            return 0;
+        if (shortest[listSize - 2] < MAX_INT ) return shortest[listSize - 2];
+        else return 0;
     }
 
     public int distance(String s1, String s2) {
