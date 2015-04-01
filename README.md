@@ -63,8 +63,8 @@ Leetcode solutions in Java and Python
 |122|[Best Time to Buy and Sell Stock II](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Java, Python](./src/stock2)|Medium|
 |121|[Best Time to Buy and Sell Stock](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java, Python](./src/stock1)|Medium|
 |120|[Triangle](https://oj.leetcode.com/problems/triangle/)|[Java, Python](./src/triangle)|Medium|
-|119|[Pascal's Triangle II](https://oj.leetcode.com/problems/pascals-triangle-ii/)|[Python](./src/pascalII)|Easy|
-|118|[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)|[Python](./src/pascal)|Easy|
+|119|[Pascal's Triangle II](https://oj.leetcode.com/problems/pascals-triangle-ii/)|[Java, Python](./src/pascalII)|Easy|
+|118|[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)|[Java, Python](./src/pascal)|Easy|
 |117|[Populating Next Right Pointers in Each Node II](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)| [Java](./src/populatingNextRightII)|Hard|
 |116|[Populating Next Right Pointers in Each Node](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)| [Java](./src/populatingNextRight)|Medium|
 |115|[Distinct Subsequences](https://oj.leetcode.com/problems/distinct-subsequences/)|[Java](./src/distinctSubsequence)|Hard|
