@@ -36,7 +36,7 @@ Leetcode solutions in Java and Python
 |149|[Max Points on a Line](https://oj.leetcode.com/problems/max-points-on-a-line/)|[Java](./src/maxPointsOnALine)|Hard|
 |148|[Sort List](https://oj.leetcode.com/problems/sort-list/)|[Java](./src/sortList)|Medium|
 |147|[Insertion Sort List](https://oj.leetcode.com/problems/insertion-sort-list/)|[Java](./src/insertionSortList)|Medium|
-|146|[LRU Cache](https://oj.leetcode.com/problems/lru-cache/)|[Java](./src/LRUCache)|Hard|
+|146|[LRU Cache](https://oj.leetcode.com/problems/lru-cache/)|[Java](./src/LRUcache)|Hard|
 |145|[Binary Tree Postorder Traversal](https://oj.leetcode.com/problems/binary-tree-postorder-traversal/)|[Java, Python](./src/postOrderTraversal)|Hard|
 |144|[Binary Tree Preorder Traversal](https://oj.leetcode.com/problems/binary-tree-preorder-traversal/)|[Java, Python](./src/preOrderTraversal)|Medium|
 |143|[Reorder List](https://oj.leetcode.com/problems/reorder-list/)|[Java](./src/reorderList)|Medium|

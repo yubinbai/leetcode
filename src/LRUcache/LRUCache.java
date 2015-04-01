@@ -5,24 +5,15 @@ public class LRUCache {
     private ListNode head, end;
     private int capacity, size;
 
-    class ListNode {
-        public int val, key;
-        public ListNode prev, next;
-
-        public ListNode(int key, int value) {
-            this.key = key;
-            this.val = value;
-        }
-    }
     public LRUCache(int capacity) {
         this.capacity = capacity;
         size = 0;
     }
 
     public int get(int key) {
-        if (map.containsKey(key)) {
-            ListNode latest = map.get(key);
-            removeNode(latest);
+        ListNode latest = map.get(key);
+        if (latest != null) {
+            unlink(latest);
             setHead(latest);
             return latest.val;
         } else {
@@ -30,7 +21,7 @@ public class LRUCache {
         }
     }
 
-    private void removeNode(ListNode node) {
+    private void unlink(ListNode node) {
         ListNode curr = node;
         ListNode prev = curr.prev;
         ListNode next = curr.next;
@@ -64,7 +55,7 @@ public class LRUCache {
         if (map.containsKey(key)) {
             ListNode e = map.get(key);
             e.val = value;
-            removeNode(e);
+            unlink(e);
             setHead(e);
         } else {
             ListNode newNode = new ListNode(key, value);
@@ -85,3 +76,12 @@ public class LRUCache {
     }
 }
 
+class ListNode {
+    public int val, key;
+    public ListNode prev, next;
+
+    public ListNode(int key, int value) {
+        this.key = key;
+        this.val = value;
+    }
+}
