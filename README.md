@@ -74,7 +74,7 @@ Leetcode solutions in Java and Python
 |112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)|[Java, Python](./src/pathSum)|Easy|
 |111|[Minimum Depth of Binary Tree](https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](./src/minDepthOfTree)|Easy|
 |110|[Balanced Binary Tree](https://oj.leetcode.com/problems/balanced-binary-tree/)|[Java](./src/balanced_binary_tree)|Easy|
-|109|[Convert Sorted List to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|[Python](./src/sortedListToBST)|Medium|
+|109|[Convert Sorted List to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|[Java, Python](./src/sortedListToBST)|Medium|
 |108|[Convert Sorted Array to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./src/sortedArrayToBST)|Medium|
 |107|[Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Java](./src/levelOrderII)|Easy|
 |106|[Construct Binary Tree from Inorder and Postorder](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Java](./src/buildTreeInOrderPostOrder)|Medium|
