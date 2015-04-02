@@ -170,13 +170,13 @@ Leetcode solutions in Java and Python
 |15|[3Sum](https://oj.leetcode.com/problems/3sum/)|[Java](./src/3Sum)|Medium|
 |14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)|[Java, Python](./src/longestCommonPrefix)|Easy|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)|[Java](./src/romanToInt)|Easy|
-|12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)|[Python](./src/integerToRoman)|Medium|
+|12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)|[Java, Python](./src/integerToRoman)|Medium|
 |11|[Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/)|[Java, Python](./src/containerWithMostWater)|Medium|
 |10|[Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/)| [Java](./src/regularExpressionMatching/regularExpressionMatching.cpp)|Hard|
 |9|[Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/)|[Java, Python](./src/palindromeNumber)|Easy|
 |8|[String to Integer (atoi)](https://oj.leetcode.com/problems/string-to-integer-atoi/)| [Java](./src/atoi)|Easy|
 |7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)|[Java](./src/reverseInteger)|Easy|
-|6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)|[Python](./src/zigZagConversion)|Easy|
+|6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)|[Java, Python](./src/zigzagConversion)|Easy|
 |5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)|[Java](./src/longestPalindromicSubstring)|Medium|
 |4|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[Java](./src/addTwoNumbers)|Medium|
 |3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)|[Java](./src/longestSubstringWithoutRepeatingCharacters)|Medium|
