@@ -49,7 +49,7 @@ Leetcode solutions in Java and Python
 |137|[Single Number II](https://oj.leetcode.com/problems/single-number-ii/)|[Java, Python](./src/singleNumberII)|Medium|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)|[Java, Python](./src/singleNumber)|Medium|
 |135|[Candy](https://oj.leetcode.com/problems/candy/)|[Java, Python](./src/candy)|Hard|
-|134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)|[Python](./src/gasStation)|Medium|
+|134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)|[Java, Python](./src/gasStation)|Medium|
 |133|[Clone Graph](https://oj.leetcode.com/problems/clone-graph/)|[Java](./src/cloneGraph)|Medium|
 |132|[Palindrome Partitioning II](https://oj.leetcode.com/problems/palindrome-partitioning-ii/)|[Java](./src/palindromePartitionII)|Hard|
 |131|[Palindrome Partitioning](https://oj.leetcode.com/problems/palindrome-partitioning/)|[Java](./src/palindromePartition)|Medium|
