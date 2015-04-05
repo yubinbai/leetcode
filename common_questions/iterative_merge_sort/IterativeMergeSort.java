@@ -8,7 +8,8 @@ class IterativeMergeSort {
 		// of size 2 to create sorted subarrays of size 4, and so on.
 		for (int size = 1; size <= n - 1; size = 2 * size) {
 			for (int low = 0; low < n - 1; low += 2 * size) {
-				int mid = Math.min(low + size - 1, n - 1);
+				int mid = low + size - 1;
+				if (mid >= n - 1) continue;
 				int high = Math.min(low + 2 * size - 1, n - 1);
 				merge(arr, low, mid, high);
 			}
@@ -56,7 +57,7 @@ class IterativeMergeSort {
 	}
 
 	public static void main(String[] args) {
-		int n = 100;
+		int n = 21;
 		Random r = new Random();
 		int[] arr = new int[n];
 		for (int i = 0; i < n; i++) {
