@@ -1,31 +1,31 @@
 public class Solution {
 
-    public int divide(int dividend, int divisor) {
-        if (divisor == 0) return Integer.MAX_VALUE;
+    public int divide(int a, int b) {
+        if (b == 0) return Integer.MAX_VALUE;
 
-        int res = 0;
-        if (dividend == Integer.MIN_VALUE) {
-            res = 1;
-            dividend += Math.abs(divisor);
+        int result = 0;
+        if (a == Integer.MIN_VALUE) {
+            result = 1;
+            a += Math.abs(b);
         }
-        if (divisor == Integer.MIN_VALUE) return res;
-        boolean isNegative = (dividend < 0) ^ (divisor < 0);
-        dividend = Math.abs(dividend);
-        divisor = Math.abs(divisor);
+        if (b == Integer.MIN_VALUE) return result;
+        boolean isNegative = (a < 0) ^ (b < 0);
+        a = Math.abs(a);
+        b = Math.abs(b);
         int digit = 0;
-        while (divisor <= (dividend >> 1)) {
-            divisor <<= 1;
+        while (b <= (a >> 1)) {
+            b <<= 1;
             digit++;
         }
         while (digit >= 0) {
-            if (dividend >= divisor) {
-                dividend -= divisor;
-                res += 1 << digit;
+            if (a >= b) {
+                a -= b;
+                result += 1 << digit;
             }
-            divisor >>= 1;
+            b >>= 1;
             digit--;
         }
-        return isNegative ? -res : res;
+        return isNegative ? -result : result;
     }
     public static void main(String[] args) {
         Solution s = new Solution();
