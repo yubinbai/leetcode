@@ -67,8 +67,8 @@ Leetcode solutions in Java and Python
 |120|[Triangle](https://oj.leetcode.com/problems/triangle/)|[Java, Python](./src/triangle)|Medium|
 |119|[Pascal's Triangle II](https://oj.leetcode.com/problems/pascals-triangle-ii/)|[Java, Python](./src/pascalII)|Easy|
 |118|[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)|[Java, Python](./src/pascal)|Easy|
-|117|[Populating Next Right Pointers in Each Node II](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)| [Java](./src/populatingNextRightII)|Hard|
-|116|[Populating Next Right Pointers in Each Node](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)| [Java](./src/populatingNextRight)|Medium|
+|117|[Populating Next Right Pointers in Each Node II](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)| [Java](./src/populateNextRightII)|Hard|
+|116|[Populating Next Right Pointers in Each Node](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)| [Java](./src/populateNextRight)|Medium|
 |115|[Distinct Subsequences](https://oj.leetcode.com/problems/distinct-subsequences/)|[Java](./src/distinctSubsequence)|Hard|
 |114|[Flatten Binary Tree to Linked List](https://oj.leetcode.com/problems/flatten-binary-tree-to-ed-list/)| [Java](./src/flattenBinaryTreeToList)|Medium|
 |113|[Path Sum II](https://oj.leetcode.com/problems/path-sum-ii/)|[Java, Python](./src/pathSumII)|Medium|
