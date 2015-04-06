@@ -28,24 +28,31 @@ public class AddInterval implements Intervals {
         coverLength = 0;
     }
     public void addInterval(int from, int to) {
+        if (to <= from) return;
+
         Interval i = new Interval(from, to);
         List<Interval> newList = new ArrayList<Interval>();
+        boolean isAdded = false;
 
         for (Interval curr : list) {
             if (curr.to < i.from) {
                 newList.add(curr);
             } else if (curr.from > i.to) {
-                coverLength -= curr.getLength();
-                coverLength += i.getLength();
-                newList.add(i);
-                i = curr;
+                if (!isAdded) {
+                    coverLength += i.getLength();
+                    newList.add(i);
+                    isAdded = true;
+                }
+                newList.add(curr);
             } else if (i.from <= curr.to && curr.from <= i.to) {
                 i = new Interval(Math.min(i.from, curr.from), Math.max(i.to, curr.to));
                 coverLength -= curr.getLength();
             }
         }
-        newList.add(i);
-        coverLength += i.getLength();
+        if (!isAdded) {
+            newList.add(i);
+            coverLength += i.getLength();
+        }
         list = newList;
     }
     public int getTotalCoveredLength() {
