@@ -1,23 +1,27 @@
 public class Solution {
     public int searchInsert(int[] A, int target) {
-        int left = 0, right = A.length;
-        int mid;
-        while (left < right) {
-            mid = (left + right) >> 1;
+        int low = 0, high = A.length;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
             if (A[mid] < target) {
-                left = mid + 1;
+                low = mid + 1;
             } else {
-                right = mid;
+                high = mid;
             }
         }
-        return left;
+        return low;
     }
     public static void main(String[] args) {
-        int[] A = {1, 3, 5, 6};
         Solution sol = new Solution();
+        int[] A;
+
+        A = new int[] {1, 3, 5, 6};
         System.out.println(sol.searchInsert(A, 5));
+
+        A = new int[] {1};
         System.out.println(sol.searchInsert(A, 2));
-        System.out.println(sol.searchInsert(A, 7));
+
+        A = new int[] {1};
         System.out.println(sol.searchInsert(A, 0));
     }
 }
