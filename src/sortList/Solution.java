@@ -23,8 +23,8 @@ public class Solution {
         ListNode p1 = l;
         ListNode p2 = r;
 
-        ListNode fakeHead = new ListNode(100);
-        ListNode curr = fakeHead;
+        ListNode hook = new ListNode(100);
+        ListNode curr = hook;
 
         while (p1 != null || p2 != null) {
 
@@ -53,7 +53,7 @@ public class Solution {
             }
         }
 
-        return fakeHead.next;
+        return hook.next;
     }
 
     public static void main(String[] args) {
