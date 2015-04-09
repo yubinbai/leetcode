@@ -3,44 +3,47 @@ public class Solution {
         if (Math.abs(s.length() - t.length()) > 1) {
             return false;
         }
+        if (s.length() > t.length()) {
+            String swap = s;
+            s = t;
+            t = swap;
+        }
         if (s.length() == t.length()) {
-            int diffCount = 0;
+            boolean hasDiff = false;
             for (int i = 0; i < s.length(); ++i) {
                 if (s.charAt(i) != t.charAt(i)) {
-                    diffCount++;
+                    if (hasDiff) return false;
+                    else hasDiff = true;
                 }
             }
-            return diffCount == 1;
-        } else {
-            if (s.length() > t.length()) {
-                String swap = s;
-                s = t;
-                t = swap;
-            }
-            boolean shifted = false;
-            int i = 0, j = 0;
-            while (i < s.length()) {
-                if (s.charAt(i) != t.charAt(j)) {
-                    if (j > i) {
-                        return false;
-                    } else {
-                        j++;
-                    }
-                } else {
-                    i++;
-                    j++;
+            return hasDiff;
+        } else { // s.length() < t.length()
+            for (int i = 0; i < s.length(); ++i) {
+                if (s.charAt(i) != t.charAt(i)) {
+                    return s.substring(i).equals(t.substring(i + 1));
                 }
             }
-            return j == t.length() || j == i + 1;
+            return t.length() == s.length() + 1;
         }
     }
     public static void main(String[] args) {
         Solution s = new Solution();
-        System.out.format("%s\n", s.isOneEditDistance("abc", "abd"));
         System.out.format("%s\n", s.isOneEditDistance("abc", "abc"));
+        System.out.format("%s\n", s.isOneEditDistance("abc", "bbbc"));
+
+        System.out.format("%s\n", s.isOneEditDistance("abc", "abd"));
         System.out.format("%s\n", s.isOneEditDistance("abc", "abcc"));
+        System.out.format("%s\n", s.isOneEditDistance("abcc", "abc"));
+        System.out.format("%s\n", s.isOneEditDistance("aabc", "abc"));
         System.out.format("%s\n", s.isOneEditDistance("abc", "aabc"));
         System.out.format("%s\n", s.isOneEditDistance("abc", "abbc"));
-        System.out.format("%s\n", s.isOneEditDistance("abc", "bbbc"));
+
+        System.out.println("CATS");
+        System.out.format("%s\n", s.isOneEditDistance("cat", "dog"));
+        System.out.format("%s\n", s.isOneEditDistance("cat", "cats"));
+        System.out.format("%s\n", s.isOneEditDistance("cat", "cut"));
+        System.out.format("%s\n", s.isOneEditDistance("cat", "cast"));
+        System.out.format("%s\n", s.isOneEditDistance("cat", "at"));
+        System.out.format("%s\n", s.isOneEditDistance("cat", "acts"));
     }
 }
