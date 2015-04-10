@@ -1,33 +1,39 @@
 import java.util.*;
-public class Solution {
-	int n, m;
+public class Solution2 {
 	public int numIslands(char[][] grid) {
 		int counter = 0;
-		n = grid.length;
+		int n = grid.length;
 		if (n == 0) return 0;
-		m = grid[0].length;
+		int m = grid[0].length;
 		if (m == 0) return 0;
+		int[][] direct = new int[][] {{0, 1}, {0, -1}, {1, 0}, { -1, 0}};
 
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
 				if (grid[i][j] == '1') {
 					counter++;
-					dfs(i, j, grid);
+					ArrayDeque<Integer> q = new ArrayDeque<Integer>();
+					grid[i][j] = 0;
+					q.add(i);
+					q.add(j);
+					while (!q.isEmpty()) {
+						int r = q.poll();
+						int c = q.poll();
+						for (int[] d : direct) {
+							int rr = d[0] + r;
+							int cc = d[1] + c;
+							if (rr >= 0 && rr < n && cc >= 0 && cc < m && grid[rr][cc] == '1') {
+								grid[rr][cc] = 0;
+								q.add(rr);
+								q.add(cc);
+							}
+						}
+					}
+
 				}
 			}
 		}
 		return counter;
-	}
-	public void dfs(int i, int j, char[][] grid) {
-		if (i < 0 || i >= n || j < 0 || j >= m) return;
-		if (grid[i][j] == '1') {
-			grid[i][j] = 0;
-			dfs(i + 1, j, grid);
-			dfs(i - 1, j, grid);
-			dfs(i, j + 1, grid);
-			dfs(i, j - 1, grid);
-		}
-
 	}
 	public static void main(String[] args) {
 		Solution s = new Solution();
