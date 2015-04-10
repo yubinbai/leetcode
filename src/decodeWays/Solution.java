@@ -1,15 +1,17 @@
 public class Solution {
     public int numDecodings(String s) {
-        if (s == null || s.length() == 0) return 0;
-        if (s.length() == 1) return check(s.charAt(0));
-        if (s.charAt(0) == '0') return 0;
-        int fn = 0, fn_1 = 0, fn_2 = 1;
-        // n == 2 at start
-        fn_1 = (check(s.charAt(0)) * check(s.charAt(1))) + check(s.charAt(0), s.charAt(1));
+        if (s == null) return 0;
+        int n = s.length();
+        if (n == 0) return 0;
+        char[] a = s.toCharArray();
+        if (n == 1) return check(a[0]);
+
+        int fn = 0;
+        int fn_1 = check(a[0]) * check(a[1]) + check(a[0], a[1]);
+        int fn_2 = check(a[0]);
         for (int i = 2; i < s.length(); i++) {
-            if (check(s.charAt(i)) == 1) fn += fn_1;
-            if (check(s.charAt(i - 1), s.charAt(i)) == 1) fn += fn_2;
-            if (fn == 0) return 0;
+            if (check(a[i]) == 1) fn += fn_1;
+            if (check(a[i - 1], a[i]) == 1) fn += fn_2;
             fn_2 = fn_1;
             fn_1 = fn;
             fn = 0;
@@ -28,5 +30,6 @@ public class Solution {
         System.out.println(sol.numDecodings("12"));
         System.out.println(sol.numDecodings("121"));
         System.out.println(sol.numDecodings("10"));
+        System.out.println(sol.numDecodings("0"));
     }
 }
