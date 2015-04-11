@@ -1,13 +1,12 @@
 public class Solution {
 	public int rob(int[] num) {
-		int used = 0, unused = 0;
+		int m0 = 0, m1 = 0;
 		for (int a : num) {
-			int currUse = unused + a;
-			int swapUsed = used;
-			used = Math.max(swapUsed, currUse);
-			unused = Math.max(swapUsed, unused);
+			int curr = m0 + a;
+			m0 = Math.max(m0, m1);
+			m1 = Math.max(curr, m0);
 		}
-		return Math.max(used, unused);
+		return Math.max(m0, m1);
 	}
 	public static void main(String[] args) {
 		Solution s = new Solution();

@@ -1,10 +1,10 @@
 import java.util.*;
 public class Solution {
-    ArrayList<ArrayList<Integer>> ret;
+    List<List<Integer>> ret;
     Stack<Integer> stack;
     boolean[] used;
-    public ArrayList<ArrayList<Integer>> permute(int[] num) {
-        ret = new ArrayList<ArrayList<Integer>>();
+    public List<List<Integer>> permute(int[] num) {
+        ret = new ArrayList<List<Integer>>();
         stack = new Stack<Integer>();
         used = new boolean[num.length];
         _permute(num);
