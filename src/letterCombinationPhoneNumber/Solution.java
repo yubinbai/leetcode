@@ -1,7 +1,7 @@
 import java.util.*;
 public class Solution {
     String[] keypad = new String[] {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-    ArrayList<String> ret;
+    List<String> ret;
     char[] curr, digits;
     public List<String> letterCombinations(String digits) {
         this.digits = digits.toCharArray();
