@@ -102,8 +102,8 @@ Leetcode solutions in Java and Python
 |86|[Partition List](https://oj.leetcode.com/problems/partition-list/)| [Java, Python](./src/partitionList)|Medium|
 |85|[Maximal Rectangle](https://oj.leetcode.com/problems/maximal-rectangle/)| [Java](./src/maximalRectangle)|Hard|
 |84|[Largest Rectangle in Histogram](https://oj.leetcode.com/problems/largest-rectangle-in-histogram/)|[Java](./src/largestRectangleHistogram)|Hard|
-|83|[Remove Duplicates from Sorted List II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Java](./src/remove_duplicates_sorted_list)|Medium|
-|82|[Remove Duplicates from Sorted List](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./src/remove_duplicates_sorted_list)|Easy|
+|83|[Remove Duplicates from Sorted List II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Java](./src/remove_duplicate_sorted_list_ii)|Medium|
+|82|[Remove Duplicates from Sorted List](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./src/remove_duplicate_sorted_list)|Easy|
 |81|[Search in Rotated Sorted Array II](https://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Java](./src/searchInRotatedList)|Medium|
 |80|[Remove Duplicates from Sorted Array II](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Java, Python](./src/remove_duplicates_from_sorted_array_ii)|Medium|
 |79|[Word Search](https://oj.leetcode.com/problems/word-search/)| [Java](./src/wordSearch)|Medium|

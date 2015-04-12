@@ -1,7 +1,7 @@
 public class Solution {
     public ListNode deleteDuplicates(ListNode head) {
-        ListNode ret = new ListNode(0);
-        ListNode curr = ret;
+        ListNode hook = new ListNode(0);
+        ListNode curr = hook;
         while (head != null) {
             if (head.next == null || head.val != head.next.val) {
                 curr.next = head;
@@ -9,8 +9,11 @@ public class Solution {
             }
             head = head.next;
         }
-        curr.next = null;
-        return ret.next;
+        return hook.next;
+    }
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        s.deleteDuplicates(null);
     }
 }
 

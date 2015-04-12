@@ -1,7 +1,7 @@
 public class Solution {
     public ListNode deleteDuplicates(ListNode head) {
-        ListNode ret = new ListNode(0);
-        ListNode curr = ret;
+        ListNode hook = new ListNode(0);
+        ListNode curr = hook;
         while (head != null) {
             if (head.next == null || head.val != head.next.val) {
                 curr.next = head;
@@ -13,10 +13,10 @@ public class Solution {
                     skip = skip.next;
                 }
                 head = skip;
+                curr.next = skip;
             }
         }
-        curr.next = null;
-        return ret.next;
+        return hook.next;
     }
 }
 
