@@ -128,7 +128,7 @@ Leetcode solutions in Java and Python
 |60|[Rotate List](https://oj.leetcode.com/problems/rotate-list/)| [Java](./src/rotateList)|Medium|
 |59|[Permutation Sequence](https://oj.leetcode.com/problems/permutation-sequence/)| [Java, Python](./src/permutationSequence)|Medium|
 |58|[Spiral Matrix II](https://oj.leetcode.com/problems/spiral-matrix-ii/)| [Java, Python](./src/spiralMatrixII)|Medium|
-|57|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)|[Java](./src/lengthOfLastWord/lengthOfLastWord.cpp)|Easy|
+|57|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)|[Java](./src/lengthOfLastWord)|Easy|
 |56|[Insert Interval](https://oj.leetcode.com/problems/insert-interval/)|[Java, Python](./src/insertInterval)|Hard|
 |55|[Merge Intervals](https://oj.leetcode.com/problems/merge-intervals/)|[Java, Python](./src/mergeIntervals)|Hard|
 |54|[Jump Game](https://oj.leetcode.com/problems/jump-game/)|[Java, Python](./src/jumpGame)|Medium|
