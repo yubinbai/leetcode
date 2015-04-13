@@ -15,14 +15,13 @@ public class Solution2 {
             if (si == sn) return false;
             if (p.charAt(pi) != '.' && s.charAt(si) != p.charAt(pi)) return false;
             return check(si + 1, pi + 1);
-        } else {
-            // case of a*
+        } else { // case of a*
             if (check(si, pi + 2)) return true;
             for (int i = si; i < sn; i++) {
                 if (p.charAt(pi) == '.' || p.charAt(pi) == s.charAt(i)) {
                     if (check(i + 1, pi + 2)) return true;
                 } else {
-                    break;
+                    return false;
                 }
             }
             return false;

@@ -34,6 +34,7 @@ public class Solution {
         b = s.isMatch("a", "a"); System.out.println(b);
         b = s.isMatch("babbbaabbaaaaabbababaaaabbbbbbbbbbabbaaaabbababbabaa", "**a****a**b***ab***a*bab"); System.out.println(b);
         b = s.isMatch("aaabbbaabaaaaababaabaaabbabbbbbbbbaabababbabbbaaaaba", "a*******b"); System.out.println(b);
+        b = s.isMatch("babbabbabaaaaabaabaaaaabbabaabbbaaaabbaabbbbbaabbabaabbbbaabbbabaabbaaabbbbabbbabbababaababbaaaaaabaabababbbaaabbaaaaaabbbabbbbabaabaaaabbabbaabaababbaaaababaaaaababbbaabaababbbaaabaababbabbabaaabbbbaa", "*a*ab*b*ab*a*bb**bb**a**abb*bb*ab*a*bbbb***ba***aa**ba*b*ab*ba***aaabbbaa*ba*ba*b****baabb**b*aa*aaab*a"); System.out.println(b);
         b = s.isMatch("aab", "*a*ba"); System.out.println(b);
         b = s.isMatch("aab", "*"); System.out.println(b);
         b = s.isMatch("ab", "*c"); System.out.println(b);
