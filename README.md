@@ -166,7 +166,7 @@ Leetcode solutions in Java and Python
 |21|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)|[Java](./src/generateParentheses)|Medium|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)|[Java, Python](./src/valid_parentheses)|Easy|
 |19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](./src/removeNthNodeList)|Easy|
-|18|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Java, Python](./src/letterCombinationsPhoneNumber)|Medium|
+|18|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Java, Python](./src/letterCombinationPhoneNumber)|Medium|
 |17|[4Sum](https://oj.leetcode.com/problems/4sum/)|[Java](./src/4sum)|Medium|
 |16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)|[Java, Python](./src/3SumClosest)|Medium|
 |15|[3Sum](https://oj.leetcode.com/problems/3sum/)|[Java](./src/3Sum)|Medium|
