@@ -3,6 +3,9 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Java](./src/remove_linkedlist_element)|Easy|
+|202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Java](./src/happy_number)|Easy|
+|201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[Java](./src/bitwiseAndRange)|Medium|
 |200|[Number of islands](https://leetcode.com/problems/number-of-islands/)|[Java](./src/number_of_islands)|Medium|
 |199|[Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/)|[Java](./src/binaryTreeRightSideView)|Medium|
 |198|[House robber](https://leetcode.com/problems/house-robber/)|[Java](./src/house_robber)|Easy|
