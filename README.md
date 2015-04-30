@@ -3,6 +3,8 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](./src/isomorphic_strings)|Easy|
+|204|[Count primes](https://leetcode.com/problems/count-primes/)|[Java](./src/count_primes)|Easy|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Java](./src/remove_linkedlist_element)|Easy|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Java](./src/happy_number)|Easy|
 |201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[Java](./src/bitwiseAndRange)|Medium|
