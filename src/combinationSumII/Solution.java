@@ -1,10 +1,14 @@
 import java.util.*;
 public class Solution {
-    HashMap<Integer, Integer> freq = new HashMap<Integer, Integer>();
-    ArrayList<Integer> keys;
-    Stack<Integer> stack = new Stack<Integer>();
-    ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
-    public ArrayList<ArrayList<Integer>> combinationSum2(int[] num, int target) {
+    HashMap<Integer, Integer> freq;
+    List<Integer> keys;
+    Stack<Integer> stack;
+    List<List<Integer>> ret;
+
+    public List<List<Integer>> combinationSum2(int[] num, int target) {
+        freq = new HashMap<Integer, Integer>();
+        stack = new Stack<Integer>();
+        ret = new ArrayList<List<Integer>>();
         for (int i : num) {
             if (freq.get(i) != null) {
                 freq.put(i, freq.get(i) + 1);
@@ -38,7 +42,7 @@ public class Solution {
         int[] data = {1};
         int target = 1;
         Solution sol = new Solution();
-        for (ArrayList<Integer> list : sol.combinationSum2(data, target)) {
+        for (List<Integer> list : sol.combinationSum2(data, target)) {
             for (int i : list) {
                 System.out.format("%d\t", i);
             }
