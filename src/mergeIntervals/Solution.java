@@ -21,7 +21,7 @@ public class Solution {
                 return Integer.compare(i1.start, i2.start);
             }
         });
-        ArrayList<Interval> ret = new ArrayList<Interval>();
+        List<Interval> ret = new ArrayList<Interval>();
         Interval curr = intervals.get(0);
         for (Interval next : intervals) {
             if (curr.end >= next.start) {
@@ -36,7 +36,7 @@ public class Solution {
     }
     public static void main(String[] args) {
         int[][] intArray = new int[][] {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
-        ArrayList<Interval> intervals = new ArrayList<Interval>();
+        List<Interval> intervals = new ArrayList<Interval>();
         for (int[] a : intArray) {
             intervals.add(new Interval(a[0], a[1]));
         }
