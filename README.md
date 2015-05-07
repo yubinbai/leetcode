@@ -4,6 +4,7 @@ Leetcode solutions in Java and Python
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
 |207|[Course schedule](https://leetcode.com/problems/course-schedule/)|[Java](./src/course_schedule)|Medium|
+|205|[Revese linkedlist](https://leetcode.com/problems/reverse-linked-list/)|[Java](./src/reverse_linkedlist)|Easy|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](./src/isomorphic_strings)|Easy|
 |204|[Count primes](https://leetcode.com/problems/count-primes/)|[Java](./src/count_primes)|Medium|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Java](./src/remove_linkedlist_element)|Easy|
