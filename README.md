@@ -3,7 +3,8 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
-|207|[Minimum Size Subarray Sum ](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Java](./src/minimum_size_subarray_sum)|Medium|
+|209|[Minimum Size Subarray Sum ](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Java](./src/minimum_size_subarray_sum)|Medium|
+|208|[Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Java](./src/implement_trie_prefix_tree)|Medium|
 |207|[Course schedule](https://leetcode.com/problems/course-schedule/)|[Java](./src/course_schedule)|Medium|
 |205|[Revese linkedlist](https://leetcode.com/problems/reverse-linked-list/)|[Java](./src/reverse_linkedlist)|Easy|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](./src/isomorphic_strings)|Easy|
