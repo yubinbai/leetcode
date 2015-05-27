@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|212|[Word search II](https://leetcode.com/problems/word-search-ii/)|[Java](./src/word_search_ii)|Hard|
 |211|[Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Java](./src/add_and_search_word_data_structure_design)|Medium|
 |210|[Course schedule II](https://leetcode.com/problems/course-schedule-ii/)|[Java](./src/course_schedule_ii)|Medium|
 |209|[Minimum Size Subarray Sum ](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Java](./src/minimum_size_subarray_sum)|Medium|
