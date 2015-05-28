@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./src/combination_sum_iii)|Medium|
 |215|[Kth Largest Element in an Array ](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](./src/kth_largest_element_in_an_array)|Medium|
 |214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Java](./src/shortest_palindrome)|Hard|
 |213|[House robber II](https://leetcode.com/problems/house-robber-ii/)|[Java](./src/house_robber_ii)|Medium|
