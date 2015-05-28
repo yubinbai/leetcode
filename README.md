@@ -3,7 +3,8 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
-|214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Java](./src/shortest-palindrome)|Hard|
+|215|[Kth Largest Element in an Array ](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](./src/kth_largest_element_in_an_array)|Medium|
+|214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Java](./src/shortest_palindrome)|Hard|
 |213|[House robber II](https://leetcode.com/problems/house-robber-ii/)|[Java](./src/house_robber_ii)|Medium|
 |212|[Word search II](https://leetcode.com/problems/word-search-ii/)|[Java](./src/word_search_ii)|Hard|
 |211|[Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Java](./src/add_and_search_word_data_structure_design)|Medium|
