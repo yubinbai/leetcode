@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|220|[Contains duplicate iii](https://leetcode.com/problems/contains-duplicate-iii/)|[Java](./src/contains_duplicate_iii)|Medium|
 |219|[Contains duplicate ii](https://leetcode.com/problems/contains-duplicate-ii/)|[Java](./src/contains_duplicate_ii)|Easy|
 |218|[The Skyline Problem ](https://leetcode.com/problems/the-skyline-problem/)|[Java](./src/the_skyline_problem)|Hard|
 |217|[Contains duplicate](https://leetcode.com/problems/contains-duplicate/)|[Java](./src/contains_duplicate)|Easy|
