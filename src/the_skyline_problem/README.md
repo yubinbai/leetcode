@@ -21,6 +21,6 @@ There must be no consecutive horizontal lines of equal height in the output skyl
 Solution
 ===
 
-1. segmentation with all points
+1. segmentation with all points, convert continuous coordinates to discrete 
 2. update each segment represented by starting point
 3. read the result, output all changes in heights
