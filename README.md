@@ -3,6 +3,8 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[Java](./src/basic_calculator)|Medium|
+|223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Java](./src/rectangle_area)|Easy|
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Java](./src/count_complete_tree_nodes)|Medium|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[Java](./src/maximal_square)|Medium|
 |220|[Contains duplicate iii](https://leetcode.com/problems/contains-duplicate-iii/)|[Java](./src/contains_duplicate_iii)|Medium|
