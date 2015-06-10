@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Java](./src/count_complete_tree_nodes)|Medium|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[Java](./src/maximal_square)|Medium|
 |220|[Contains duplicate iii](https://leetcode.com/problems/contains-duplicate-iii/)|[Java](./src/contains_duplicate_iii)|Medium|
 |219|[Contains duplicate ii](https://leetcode.com/problems/contains-duplicate-ii/)|[Java](./src/contains_duplicate_ii)|Easy|
