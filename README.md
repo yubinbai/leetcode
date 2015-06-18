@@ -3,6 +3,8 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](./src/invert_binary_tree)|Easy|
+|225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](./src/implement_stack_using_queues)|Medium|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[Java](./src/basic_calculator)|Medium|
 |223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[Java](./src/rectangle_area)|Easy|
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Java](./src/count_complete_tree_nodes)|Medium|
