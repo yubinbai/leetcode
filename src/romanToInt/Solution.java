@@ -21,7 +21,7 @@ public class Solution {
                 case 'D':
                     ret += 500;
                     break;
-                case 'M':a
+                case 'M':
                     ret += 1000;
                     break;
             }
