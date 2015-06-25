@@ -62,3 +62,6 @@ out/
 # Maven
 log/
 target/
+
+#sublime
+*.sublime-workspace
