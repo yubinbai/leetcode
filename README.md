@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[Java](./src/majority_element_ii/)|Medium|
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Java](./src/summary_ranges)|Easy|
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Java](./src/basic_calculator_ii)|Medium|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](./src/invert_binary_tree)|Easy|
