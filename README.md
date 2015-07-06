@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/power_of_two)|Easy|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Java](./src/kth_smallest_element_in_a_bst)|Medium|
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[Java](./src/majority_element_ii/)|Medium|
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Java](./src/summary_ranges)|Easy|
