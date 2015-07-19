@@ -39,7 +39,4 @@ public class MyStack {
     public boolean empty() {
         return q.isEmpty(); 
     }
-    public static void main(String[] args) {
-        
-    }
 }
