@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[C++](./src/sliding_window_maximum)|Hard|
 |233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)|[C++](./src/number_of_digit_one)|Medium|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](./src/implement_queue_using_stacks)|Easy|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/power_of_two)|Easy|
