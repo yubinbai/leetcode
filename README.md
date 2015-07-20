@@ -3,7 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
-|233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)|[C++](./src/number_of_digit_one)|Easy|
+|233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)|[C++](./src/number_of_digit_one)|Medium|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](./src/implement_queue_using_stacks)|Easy|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/power_of_two)|Easy|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Java](./src/kth_smallest_element_in_a_bst)|Medium|
@@ -217,17 +217,4 @@ Leetcode solutions in Java and Python
 |3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)|[Java](./src/longestSubstringWithoutRepeatingCharacters)|Medium|
 |2|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)|[Java](./src/medianTwoSorted)|Hard|
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)|[Java, Python](./src/twoSum)|Medium|
-
-https://oj.leetcode.com/problems/
-
-Java solutions complete
------
-Finished all 175 problems (as of 1/26/2015)
-
-Documented all problems and processes of solving
---------
-
-It's well known a better way of learning is to actually teach it, so this repo should not only provide solutions, but complete problems and knowledge points. 
-
-For each problem, description and solution hints are accompanied as markdown under the corresponding folder.
 
