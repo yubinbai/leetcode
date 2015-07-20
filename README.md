@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)|[C++](./src/number_of_digit_one)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](./src/implement_queue_using_stacks)|Easy|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](./src/power_of_two)|Easy|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Java](./src/kth_smallest_element_in_a_bst)|Medium|

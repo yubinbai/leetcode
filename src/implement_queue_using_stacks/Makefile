@@ -1,5 +1,5 @@
 all:
-	clang++ main.cpp
+	clang++ main.cpp -o main.exe
 run:
-	clang++ main.cpp
+	clang++ main.cpp -o main.exe
 	./a.out
