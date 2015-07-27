@@ -6,18 +6,16 @@ class Solution {
   
 public:
   bool searchMatrix(vector<vector<int>>& mat, int target) {
-    int n = 0, m = 0, t = target;
-    t = target;
-    n = mat.size();
+    int n = mat.size();
+    int t = target;
     if (n <= 0) {
       return false;
     }
-    m = mat[0].size();
+    int m = mat[0].size();
     if (t < mat[0][0] || t > mat[n-1][m-1]) {
       return false;
     }
-    int row = 0;
-    int col = m-1;
+    int row = 0, col = m-1;
     while (row <= n-1 && col >= 0) {
       if (mat[row][col] < t)
 	row++;
