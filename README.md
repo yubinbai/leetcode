@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|243|[Shortest Word Distance](./src/shortest_word_distance)|[C++](./src/shortest_word_distance)|Easy|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C++](./src/valid_anagram)|Easy|
 |241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[C++](./src/different_ways_to_add_parentheses)|Medium|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[C++](./src/search_a_2d_matrix_ii)|Medium|
