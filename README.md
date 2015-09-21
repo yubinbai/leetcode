@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|245|[Shortest Word Distance III](./src/shortest_word_distance_iii)|[C++](./src/shortest_word_distance_iii)|Medium|
 |244|[Shortest Word Distance II](./src/shortest_word_distance_ii)|[C++](./src/shortest_word_distance_ii)|Medium|
 |243|[Shortest Word Distance](./src/shortest_word_distance)|[C++](./src/shortest_word_distance)|Easy|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C++](./src/valid_anagram)|Easy|
