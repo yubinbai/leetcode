@@ -8,7 +8,7 @@ using namespace std;
 
 class Solution {
 private:
-  map<char, char> digit_map = {{'6', '9'}, {'9', '6'}, {'8', '8'}, {'1', '1'}};
+  map<char, char> digit_map = {{'6', '9'}, {'9', '6'}, {'8', '8'}, {'1', '1'}, {'0', '0'}};
 public:
   bool isStrobogrammatic(string str) {
     int left = 0, right = str.size() - 1;
@@ -31,5 +31,6 @@ int main() {
   Solution sol;
   cout << sol.isStrobogrammatic("818") << endl;
   cout << sol.isStrobogrammatic("414") << endl;
+  cout << sol.isStrobogrammatic("0") << endl;
   return 0;
 }
