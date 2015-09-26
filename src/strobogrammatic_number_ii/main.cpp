@@ -33,14 +33,18 @@ private:
 
 int main() {
   Solution sol;
-  for (auto s : sol.findStrobogrammatic(2)) {
-    cout << s << endl;
+  vector<string> result;
+
+  for (int i = 2; i < 4; i++) {
+    result = sol.findStrobogrammatic(i);
+    for (auto s : result) {
+      cout << s << endl;
+    }
   }
-  for (auto s : sol.findStrobogrammatic(3)) {
-    cout << s << endl;
-  }
-  for (auto s : sol.findStrobogrammatic(4)) {
-    cout << s << endl;
+
+  for (int i = 1; i < 20; i++) {
+    result = sol.findStrobogrammatic(i);
+    cout << "count "  << i << ": " << result.size() << endl;
   }
   return 0;
 }
