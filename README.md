@@ -3,7 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
-|248|[Strobogrammatic Number III](./src/strobogrammatic_number_iii)|[C++](./src/strobogrammatic_number_iii)|Medium|
+|248|[Strobogrammatic Number III](./src/strobogrammatic_number_iii)|[C++](./src/strobogrammatic_number_iii)|Hard|
 |247|[Strobogrammatic Number II](./src/strobogrammatic_number_ii)|[C++](./src/strobogrammatic_number_ii)|Medium|
 |246|[Strobogrammatic Number](./src/strobogrammatic_number)|[C++](./src/strobogrammatic_number)|Easy|
 |245|[Shortest Word Distance III](./src/shortest_word_distance_iii)|[C++](./src/shortest_word_distance_iii)|Medium|
