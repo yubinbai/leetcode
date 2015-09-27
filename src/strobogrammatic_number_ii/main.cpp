@@ -14,8 +14,8 @@ public:
     vector<string> prev, curr;
     prev = (n % 2 == 0) ? zero : one;
     for (int i = n % 2; i <= n - 2; i += 2) {
-      for (auto num : prev) {
-        for (const auto& kvp : digit_map) {
+      for (const auto& kvp : digit_map) {
+        for (auto num : prev) {
           if (i != n - 2 || kvp.first != "0") {
             curr.push_back(kvp.first + num + kvp.second);
           }
@@ -28,7 +28,13 @@ public:
   }
 
 private:
-  const map<string, string> digit_map {{"0", "0"}, {"1", "1"}, {"6", "9"}, {"8", "8"}, {"9", "6"}};
+  const map<string, string> digit_map {
+    {"0", "0"},
+    {"1", "1"},
+    {"6", "9"},
+    {"8", "8"},
+    {"9", "6"},
+  };
 };
 
 int main() {
