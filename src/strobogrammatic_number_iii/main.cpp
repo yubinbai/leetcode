@@ -7,6 +7,16 @@
 using namespace std;
 
 class Solution {
+private:
+  map<char, char> digit_map {
+    {'0', '0'},
+    {'1', '1'},
+    {'6', '9'},
+    {'8', '8'},
+    {'9', '6'},
+  };
+  long count_in_len_allow_zero[100] = {-1L};
+
 public:
   long strobogrammaticInRange(string low, string high) {
     long count = countSmaller(high) - countSmaller(low);
@@ -54,11 +64,14 @@ public:
   }
 
   long countInLengthAllowZero(int len) {
+    if (count_in_len_allow_zero[len] != -1L) {
+      return count_in_len_allow_zero[len];
+    }
 
     if (len == 0) {
-      return 1;
+      return count_in_len_allow_zero[len] = 0;
     } else if (len == 1) {
-      return 3;
+      return count_in_len_allow_zero[len] = 3;
     }
     long result = 1;
     if (len % 2 == 0) {
@@ -71,28 +84,20 @@ public:
       }
       result *= 3;
     }
-    return result;
+    return count_in_len_allow_zero[len] = result;
   }
 
   long countInLength(int len) {
-    if (len == 0) {
+    switch (len) {
+    case 0:
       return 0;
-    } else if (len == 1) {
+    case 1:
       return 3;
+    case 2:
+      return 4;
+    default:
+      return 4 * countInLengthAllowZero(len - 2);
     }
-    long result = 1;
-    if (len % 2 == 0) {
-      for (int i = 2; i < len; i += 2) {
-        result *= 5;
-      }
-      result *= 4;
-    } else {
-      for (int i = 1; i < len - 2; i += 2) {
-        result *= 5;
-      }
-      result *= 12;
-    }
-    return result;
   }
 
   bool isStrobogrammatic(string str) {
@@ -110,15 +115,6 @@ public:
     }
     return true; 
   }
-
-private:
-  map<char, char> digit_map {
-    {'0', '0'},
-    {'1', '1'},
-    {'6', '9'},
-    {'8', '8'},
-    {'9', '6'},
-  };
 };
 
 int main() {
