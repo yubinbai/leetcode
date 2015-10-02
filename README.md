@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|251|[Flatten 2D Vector](./src/flatten_2d_vector)|[C++](./src/flatten_2d_vector)|Medium|
 |250|[Count Univalue Subtrees](./src/count_univalue_subtrees)|[C++](./src/count_univalue_subtrees)|Medium|
 |249|[Group Shifted Strings](./src/group_shifted_strings)|[C++](./src/group_shifted_strings)|Easy|
 |248|[Strobogrammatic Number III](./src/strobogrammatic_number_iii)|[C++](./src/strobogrammatic_number_iii)|Hard|
