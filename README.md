@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|254|[Factor Combinations](./src/factor_combinations)|[C++](./src/factor_combinations)|Medium|
 |253|[Meeting Rooms II](./src/meeting_rooms_ii)|[C++](./src/meeting_rooms_ii)|Medium|
 |252|[Meeting Rooms](./src/meeting_rooms)|[C++](./src/meeting_rooms)|Easy|
 |251|[Flatten 2D Vector](./src/flatten_2d_vector)|[C++](./src/flatten_2d_vector)|Medium|
