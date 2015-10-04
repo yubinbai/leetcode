@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|256|[Paint House](./src/paint_house)|[C++](./src/paint_house)|Medium|
 |255|[Verify Preorder Sequence in Binary Search Tree](./src/verify_preorder_sequence_in_binary_search_tree)|[C++](./src/verify_preorder_sequence_in_binary_search_tree)|Medium|
 |254|[Factor Combinations](./src/factor_combinations)|[C++](./src/factor_combinations)|Medium|
 |253|[Meeting Rooms II](./src/meeting_rooms_ii)|[C++](./src/meeting_rooms_ii)|Medium|
