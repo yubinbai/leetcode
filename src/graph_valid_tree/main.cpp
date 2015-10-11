@@ -26,6 +26,7 @@ public:
     }
     return true;
   }
+
 private:
   bool hasCycle(vector<vector<int>>& adj, int k, int parent,
                 vector<bool>& on_path, vector<bool>& visited) {
