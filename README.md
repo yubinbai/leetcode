@@ -4,6 +4,7 @@ Leetcode solutions in Java and Python
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
 |265|[Paint House II](./src/paint_house_ii)|[C++](./src/paint_house_ii)|Hard|
+|263|[Ugly Number II](./src/ugly_number_ii)|[C++](./src/ugly_number_ii)|Medium|
 |262|[Ugly Number](./src/ugly_number)|[C++](./src/ugly_number)|Easy|
 |261|[Graph Valid Tree](./src/graph_valid_tree)|[C++](./src/graph_valid_tree)|Medium|
 |260|[Single Number III](./src/single_number_iii)|[C++](./src/single_number_iii)|Medium|
