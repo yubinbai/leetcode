@@ -4,6 +4,7 @@ Leetcode solutions in Java and Python
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
 |265|[Paint House II](./src/paint_house_ii)|[C++](./src/paint_house_ii)|Hard|
+|258|[Add Digits](./src/add_digits)|[C++](./src/add_digits)|Easy|
 |257|[Binary Tree Paths](./src/binary_tree_paths)|[C++](./src/binary_tree_paths)|Easy|
 |256|[Paint House](./src/paint_house)|[C++](./src/paint_house)|Medium|
 |255|[Verify Preorder Sequence in Binary Search Tree](./src/verify_preorder_sequence_in_binary_search_tree)|[C++](./src/verify_preorder_sequence_in_binary_search_tree)|Medium|
