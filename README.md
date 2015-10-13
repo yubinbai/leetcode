@@ -3,6 +3,7 @@ Leetcode solutions in Java and Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|267|[Palindrome Permutation II](./src/palindrome_permutation_ii)|[C++](./src/palindrome_permutation_ii)|Medium|
 |266|[Palindrome Permutation](./src/palindrome_permutation)|[C++](./src/palindrome_permutation)|Easy|
 |265|[Paint House II](./src/paint_house_ii)|[C++](./src/paint_house_ii)|Hard|
 |264|[Ugly Number II](./src/ugly_number_ii)|[C++](./src/ugly_number_ii)|Medium|
