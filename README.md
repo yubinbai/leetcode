@@ -1,8 +1,9 @@
-Leetcode solutions in Java and Python
+Leetcode solutions in C++, Java, Python
 ============
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|269|[Alien Dictionary](./src/alien_dictionary)|[C++](./src/alien_dictionary)|Hard|
 |268|[Missing Number](./src/missing_number)|[C++](./src/missing_number)|Medium|
 |267|[Palindrome Permutation II](./src/palindrome_permutation_ii)|[C++](./src/palindrome_permutation_ii)|Medium|
 |266|[Palindrome Permutation](./src/palindrome_permutation)|[C++](./src/palindrome_permutation)|Easy|
