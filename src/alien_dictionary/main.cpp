@@ -65,8 +65,8 @@ private:
       return true;
     }
     on_path[node] = visited[node] = true;
-    for (auto neigh : g[node]) {
-      if (!dfs(g, on_path, visited, result, neigh)) {
+    for (auto neighbor : g[node]) {
+      if (!dfs(g, on_path, visited, result, neighbor)) {
         return false;
       }
     }
