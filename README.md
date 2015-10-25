@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|270|[Closest Binary Search Tree Value](./src/closest_binary_search_tree_value)|[C++](./src/closest_binary_search_tree_value)|Easy|
 |269|[Alien Dictionary](./src/alien_dictionary)|[C++](./src/alien_dictionary)|Hard|
 |268|[Missing Number](./src/missing_number)|[C++](./src/missing_number)|Medium|
 |267|[Palindrome Permutation II](./src/palindrome_permutation_ii)|[C++](./src/palindrome_permutation_ii)|Medium|
