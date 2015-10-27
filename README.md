@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|272|[Closest Binary Search Tree Value II](./src/closest_binary_search_tree_value_ii)|[C++](./src/closest_binary_search_tree_value_ii)|Hard|
 |271|[Encode and Decode Strings](./src/encode_and_decode_strings)|[C++](./src/encode_and_decode_strings)|Medium|
 |270|[Closest Binary Search Tree Value](./src/closest_binary_search_tree_value)|[C++](./src/closest_binary_search_tree_value)|Easy|
 |269|[Alien Dictionary](./src/alien_dictionary)|[C++](./src/alien_dictionary)|Hard|
