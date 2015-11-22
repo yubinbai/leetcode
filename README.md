@@ -3,6 +3,8 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|275|[H Index II](./src/h_index_ii)|[C++](./src/h_index_ii)|Medium|
+|274|[H Index](./src/h_index)|[C++](./src/h_index)|Medium|
 |273|[Integer to English Words](./src/integer_to_english_words)|[C++](./src/integer_to_english_words)|Medium|
 |272|[Closest Binary Search Tree Value II](./src/closest_binary_search_tree_value_ii)|[C++](./src/closest_binary_search_tree_value_ii)|Hard|
 |271|[Encode and Decode Strings](./src/encode_and_decode_strings)|[C++](./src/encode_and_decode_strings)|Medium|
