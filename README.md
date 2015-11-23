@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|276|[Paint Fence](./src/paint_fence)|[C++](./src/paint_fence)|Easy|
 |275|[H Index II](./src/h_index_ii)|[C++](./src/h_index_ii)|Medium|
 |274|[H Index](./src/h_index)|[C++](./src/h_index)|Medium|
 |273|[Integer to English Words](./src/integer_to_english_words)|[C++](./src/integer_to_english_words)|Medium|
