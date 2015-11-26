@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|278|[First Bad Version](./src/first_bad_version)|[C++](./src/first_bad_version)|Easy|
 |277|[Find the Celebrity](./src/find_the_celebrity)|[C++](./src/find_the_celebrity)|Medium|
 |276|[Paint Fence](./src/paint_fence)|[C++](./src/paint_fence)|Easy|
 |275|[H Index II](./src/h_index_ii)|[C++](./src/h_index_ii)|Medium|
