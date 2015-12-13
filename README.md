@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|282|[Expression Add Operators](./src/expression_add_operators)|[C++](./src/expression_add_operators)|Hard|
 |281|[Zigzag Iterator](./src/zigzag_iterator)|[C++](./src/zigzag_iterator)|Medium|
 |280|[Wiggle Sort](./src/wiggle_sort)|[C++](./src/wiggle_sort)|Medium|
 |279|[Perfect Squares](./src/perfect_squares)|[C++](./src/perfect_squares)|Medium|
