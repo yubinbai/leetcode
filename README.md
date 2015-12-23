@@ -3,7 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
-|284|[Peeking Iterator](./src/peaking_iterator)|[C++](./src/peaking_iterator)|Medium|
+|284|[Peeking Iterator](./src/peeking_iterator)|[C++](./src/peeking_iterator)|Medium|
 |283|[Moving Zeroes](./src/moving_zeroes)|[C++](./src/moving_zeroes)|Easy|
 |282|[Expression Add Operators](./src/expression_add_operators)|[C++](./src/expression_add_operators)|Hard|
 |281|[Zigzag Iterator](./src/zigzag_iterator)|[C++](./src/zigzag_iterator)|Medium|
