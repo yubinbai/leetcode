@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|285|[Inorder Successor in BST](./src/inorder_successor_in_bst)|[C++](./src/inorder_successor_in_bst)|Medium|
 |284|[Peeking Iterator](./src/peeking_iterator)|[C++](./src/peeking_iterator)|Medium|
 |283|[Moving Zeroes](./src/moving_zeroes)|[C++](./src/moving_zeroes)|Easy|
 |282|[Expression Add Operators](./src/expression_add_operators)|[C++](./src/expression_add_operators)|Hard|
