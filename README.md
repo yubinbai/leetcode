@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|288|[Unique Word Abbreviation](./src/unique_word_abbreviation)|[C++](./src/unique_word_abbreviation)|Easy|
 |287|[Find the Duplicate Number](./src/find_the_duplicate_number)|[C++](./src/find_the_duplicate_number)|Hard|
 |286|[Walls and Gates](./src/walls_and_gates)|[C++](./src/walls_and_gates)|Medium|
 |285|[Inorder Successor in BST](./src/inorder_successor_in_bst)|[C++](./src/inorder_successor_in_bst)|Medium|
