@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|289|[Game of Life](./src/game_of_life)|[C++](./src/game_of_life)|Medium|
 |288|[Unique Word Abbreviation](./src/unique_word_abbreviation)|[C++](./src/unique_word_abbreviation)|Easy|
 |287|[Find the Duplicate Number](./src/find_the_duplicate_number)|[C++](./src/find_the_duplicate_number)|Hard|
 |286|[Walls and Gates](./src/walls_and_gates)|[C++](./src/walls_and_gates)|Medium|
