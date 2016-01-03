@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|291|[Word Pattern II](./src/word_pattern_ii)|[C++](./src/word_pattern_ii)|Hard|
 |290|[Word Pattern](./src/word_pattern)|[C++](./src/word_pattern)|Easy|
 |289|[Game of Life](./src/game_of_life)|[C++](./src/game_of_life)|Medium|
 |288|[Unique Word Abbreviation](./src/unique_word_abbreviation)|[C++](./src/unique_word_abbreviation)|Easy|
