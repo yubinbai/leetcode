@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|293|[Flip Game](./src/flip_game)|[C++](./src/flip_game)|Easy|
 |292|[Nim Game](./src/nim_game)|[C++](./src/nim_game)|Easy|
 |291|[Word Pattern II](./src/word_pattern_ii)|[C++](./src/word_pattern_ii)|Hard|
 |290|[Word Pattern](./src/word_pattern)|[C++](./src/word_pattern)|Easy|
