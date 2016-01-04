@@ -14,17 +14,14 @@ class Solution {
   unordered_map<string, bool> memo;
 public:
   vector<string> generatePossibleNextMoves(string s) {
-    int n = s.size(), i = 0;
     vector<string> ret;
- 
-    while ( i < n - 1) {
-      if(s[i]=='+' && s[i + 1] == '+'){
+    for (int i = 0; i < s.size() - 1; i++) {
+      if (s[i] == '+' && s[i + 1] == '+'){
         string ss = s;
-        ss[i]='-';
-        ss[i + 1]='-';
+        ss[i] = '-';
+        ss[i + 1] = '-';
         ret.push_back(ss);
       }
-      i++;
     }
     return ret;
   }
