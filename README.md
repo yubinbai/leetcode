@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|296|[Best Meeting Point](./src/best_meeting_point)|[C++](./src/best_meeting_point)|Hard|
 |295|[Find Median from Data Stream](./src/find_median_from_data_stream)|[C++](./src/find_median_from_data_stream)|Hard|
 |294|[Flip Game II](./src/flip_game_ii)|[C++](./src/flip_game_ii)|Medium|
 |293|[Flip Game](./src/flip_game)|[C++](./src/flip_game)|Easy|
