@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|299|[Bulls and Cows](./src/bulls_and_cows)|[C++](./src/bulls_and_cows)|Easy|
 |298|[Binary Tree Longest Consecutive Sequence](./src/binary_tree_longest_consecutive_sequence)|[C++](./src/binary_tree_longest_consecutive_sequence)|Medium|
 |297|[Serialize and Deserialize Binary Tree](./src/serialize_and_deserialize_binary_tree)|[C++](./src/serialize_and_deserialize_binary_tree)|Medium|
 |296|[Best Meeting Point](./src/best_meeting_point)|[C++](./src/best_meeting_point)|Hard|
