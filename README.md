@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|297|[Serialize and Deserialize Binary Tree](./src/serialize_and_deserialize_binary_tree)|[C++](./src/serialize_and_deserialize_binary_tree)|Medium|
 |296|[Best Meeting Point](./src/best_meeting_point)|[C++](./src/best_meeting_point)|Hard|
 |295|[Find Median from Data Stream](./src/find_median_from_data_stream)|[C++](./src/find_median_from_data_stream)|Hard|
 |294|[Flip Game II](./src/flip_game_ii)|[C++](./src/flip_game_ii)|Medium|
