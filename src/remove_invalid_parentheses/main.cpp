@@ -18,7 +18,7 @@ private:
   int max_len = 0;
   void _dfs(int start, int balance, vector<char> curr) {
     if (start == str.size()) {
-      if(balance == 0) {
+      if (balance == 0) {
         string result(curr.begin(), curr.end());
         if (result.size() > max_len) {
           max_len = result.size();
