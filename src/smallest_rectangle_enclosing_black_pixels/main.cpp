@@ -18,6 +18,7 @@ public:
     int n = image[0].size();
     this->image = image;
 
+    // as the 1d projection on cols and rows are continuous
     int left = search(0, x, 0, n,  true,  true);
     int right = search(x + 1, m, 0, n, false,  true);
     int top = search(0, y, left, right,  true, false);
