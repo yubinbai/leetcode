@@ -3,7 +3,8 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
-|303|[Range Sum Query 2D - Immutable](./src/range_sum_query_2d_immutable)|[C++](./src/range_sum_query_2d_immutable)|Medium|
+|305|[Number of Islands II](./src/number_of_islands_ii)|[C++](./src/number_of_islands_ii)|Hard|
+|304|[Range Sum Query 2D - Immutable](./src/range_sum_query_2d_immutable)|[C++](./src/range_sum_query_2d_immutable)|Medium|
 |303|[Range Sum Query - Immutable](./src/range_sum_query_immutable)|[C++](./src/range_sum_query_immutable)|Easy|
 |302|[Smallest Rectangle Enclosing Black Pixels](./src/smallest_rectangle_enclosing_black_pixels)|[C++](./src/smallest_rectangle_enclosing_black_pixels)|Hard|
 |301|[Remove Invalid Parentheses](./src/remove_invalid_parentheses)|[C++](./src/remove_invalid_parentheses)|Hard|
