@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|308|[Range Sum Query 2D - Mutable](./src/range_sum_query_2d_mutable)|[C++](./src/range_sum_query_2d_mutable)|Hard|
 |307|[Range Sum Query - Mutable](./src/range_sum_query_mutable)|[C++](./src/range_sum_query_mutable)|Medium|
 |306|[Additive Number](./src/additive_number)|[C++](./src/additive_number)|Medium|
 |305|[Number of Islands II](./src/number_of_islands_ii)|[C++](./src/number_of_islands_ii)|Hard|
