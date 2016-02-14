@@ -17,7 +17,7 @@ public:
     if (n == 1) {
       return vector<int> {0};
     }
-    vector<unordered_set<int>> adj = vector<unordered_set<int>>(n, unordered_set<int>(0));
+    vector<unordered_set<int>> adj(n, unordered_set<int>(0));
     for (auto edge: edges) {
       adj[edge.first].insert(edge.second);
       adj[edge.second].insert(edge.first);
