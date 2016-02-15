@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|313|[Super Ugly Number](./src/super_ugly_number)|[C++](./src/super_ugly_number)|Medium|
 |312|[Burst Balloons](./src/burst_balloons)|[C++](./src/burst_balloons)|Medium|
 |311|[Sparse Matrix Multiplication](./src/sparse_matrix_multiplication)|[C++](./src/sparse_matrix_multiplication)|Medium|
 |310|[Minimum Height Trees](./src/minimum_height_trees)|[C++](./src/minimum_height_trees)|Medium|
