@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|316|[Remove Duplicate Letters](./src/remove_duplicate_letters)|[C++](./src/remove_duplicate_letters)|Medium|
 |315|[Count of Smaller Numbers After Self](./src/count_of_smaller_number_after_self)|[C++](./src/count_of_smaller_number_after_self)|Hard|
 |314|[Binary Tree Vertical Order Traversal](./src/binary_tree_vertical_order_traversal)|[C++](./src/binary_tree_vertical_order_traversal)|Medium|
 |313|[Super Ugly Number](./src/super_ugly_number)|[C++](./src/super_ugly_number)|Medium|
