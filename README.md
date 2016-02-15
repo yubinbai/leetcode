@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|314|[Binary Tree Vertical Order Traversal](./src/binary_tree_vertical_order_traversal)|[C++](./src/binary_tree_vertical_order_traversal)|Medium|
 |313|[Super Ugly Number](./src/super_ugly_number)|[C++](./src/super_ugly_number)|Medium|
 |312|[Burst Balloons](./src/burst_balloons)|[C++](./src/burst_balloons)|Medium|
 |311|[Sparse Matrix Multiplication](./src/sparse_matrix_multiplication)|[C++](./src/sparse_matrix_multiplication)|Medium|
