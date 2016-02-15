@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|312|[Burst Balloons](./src/burst_balloons)|[C++](./src/burst_balloons)|Medium|
 |311|[Sparse Matrix Multiplication](./src/sparse_matrix_multiplication)|[C++](./src/sparse_matrix_multiplication)|Medium|
 |310|[Minimum Height Trees](./src/minimum_height_trees)|[C++](./src/minimum_height_trees)|Medium|
 |309|[Best Time to Buy and Sell Stock with Cooldown](./src/best_time_to_buy_and_sell_stock_with_cooldown)|[C++](./src/best_time_to_buy_and_sell_stock_with_cooldown)|Medium|
