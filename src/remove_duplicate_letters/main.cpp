@@ -17,28 +17,26 @@ class Solution {
 public:
   string removeDuplicateLetters(string s) {
     vector<int> count(30, 0);
-    vector<char> vs(s.begin(), s.end());
-    for (char c: vs) {
-      count[c - '0']++;
+    vector<bool> seen(30, false);
+    for (char c: s) {
+      count[c - 'a']++;
     }
 
-    vector<bool> seen(30, false);
-    vector<char> ans;
-    for (char c: vs) {
-      int index = c - '0';
+    string ans = "";
+    for (char c: s) {
+      int index = c - 'a';
       count[index]--;
       if (seen[index]) {
         continue;
       }
-      while (!ans.empty() && ans.back() > c && count[ans.back() - '0'] > 0) {
-        seen[ans.back() - '0'] = false;
+      while (!ans.empty() && ans.back() > c && count[ans.back() - 'a'] > 0) {
+        seen[ans.back() - 'a'] = false;
         ans.pop_back();
       }
       ans.push_back(c);
       seen[index] = true;
     }
-
-    return string(ans.begin(), ans.end());
+    return ans;
   }
 };
 
