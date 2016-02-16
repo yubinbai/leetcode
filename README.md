@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|319|[Bulb Switcher](./src/bulb_switcher)|[C++](./src/bulb_switcher)|Medium|
 |318|[Maximum Product of Word Lengths](./src/maximum_product_of_word_lengths)|[C++](./src/maximum_product_of_word_lengths)|Medium|
 |317|[Shortest Distance from All Buildings](./src/shortest_distance_from_all_buildings)|[C++](./src/shortest_distance_from_all_buildings)|Hard|
 |316|[Remove Duplicate Letters](./src/remove_duplicate_letters)|[C++](./src/remove_duplicate_letters)|Medium|
