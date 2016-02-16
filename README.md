@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|318|[Maximum Product of Word Lengths](./src/maximum_product_of_word_lengths)|[C++](./src/maximum_product_of_word_lengths)|Medium|
 |317|[Shortest Distance from All Buildings](./src/shortest_distance_from_all_buildings)|[C++](./src/shortest_distance_from_all_buildings)|Hard|
 |316|[Remove Duplicate Letters](./src/remove_duplicate_letters)|[C++](./src/remove_duplicate_letters)|Medium|
 |315|[Count of Smaller Numbers After Self](./src/count_of_smaller_number_after_self)|[C++](./src/count_of_smaller_number_after_self)|Hard|
