@@ -4,6 +4,7 @@ Leetcode solutions in C++, Java, Python
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
 |321|[Create Maximum Number](./src/create_maximum_number)|[C++](./src/create_maximum_number)|Hard|
+|320|[Generalized Abbreviation](./src/generalized_abbreviation)|[C++](./src/generalized_abbreviation)|Medium|
 |319|[Bulb Switcher](./src/bulb_switcher)|[C++](./src/bulb_switcher)|Medium|
 |318|[Maximum Product of Word Lengths](./src/maximum_product_of_word_lengths)|[C++](./src/maximum_product_of_word_lengths)|Medium|
 |317|[Shortest Distance from All Buildings](./src/shortest_distance_from_all_buildings)|[C++](./src/shortest_distance_from_all_buildings)|Hard|
