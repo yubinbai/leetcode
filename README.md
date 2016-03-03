@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|322|[Coin Change](./src/coin_change)|[C++](./src/coin_change)|Medium|
 |321|[Create Maximum Number](./src/create_maximum_number)|[C++](./src/create_maximum_number)|Hard|
 |320|[Generalized Abbreviation](./src/generalized_abbreviation)|[C++](./src/generalized_abbreviation)|Medium|
 |319|[Bulb Switcher](./src/bulb_switcher)|[C++](./src/bulb_switcher)|Medium|
