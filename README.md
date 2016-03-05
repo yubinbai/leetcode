@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|324|[Wiggle Sort II](./src/wiggle_sort_ii)|[C++](./src/wiggle_sort_ii)|Medium|
 |323|[Number of Connected Components](./src/number_of_connected_components)|[C++](./src/number_of_connected_components)|Medium|
 |322|[Coin Change](./src/coin_change)|[C++](./src/coin_change)|Medium|
 |321|[Create Maximum Number](./src/create_maximum_number)|[C++](./src/create_maximum_number)|Hard|
