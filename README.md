@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|326|[Power of Three](./src/power_of_three)|[C++](./src/power_of_three)|Easy|
 |325|[Maximum Size Subarray Sum Equals k](./src/maximum_size_subarray_sum_equals_k)|[C++](./src/maximum_size_subarray_sum_equals_k)|Easy|
 |324|[Wiggle Sort II](./src/wiggle_sort_ii)|[C++](./src/wiggle_sort_ii)|Medium|
 |323|[Number of Connected Components](./src/number_of_connected_components)|[C++](./src/number_of_connected_components)|Medium|
