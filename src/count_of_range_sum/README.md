@@ -18,6 +18,13 @@ Solution
 
 mergesort, divide & conquer
 
+    sum_j - sum_i >= lower
+    sum_j - sum_i <= upper
+    
+    -->
+
+    sum_i + lower <= sum_j <= sum_i + upper
+
 1. make incremental sums
 
 2. Duing the merging step, for each [i] in the lower half, search for:
