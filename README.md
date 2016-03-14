@@ -3,8 +3,9 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|329|[Longest Increasing Path in a Matrix](./src/longest_increasing_path_in_a_matrix)|[C++](./src/longest_increasing_path_in_a_matrix)|Hard|
 |328|[Odd Even Linked List](./src/odd_even_linked_list)|[C++](./src/odd_even_linked_list)|Easy|
-|327|[Count of Range Sum](./src/count_of_range_sum)|[C++](./src/count_of_range_sum)|Hard|
+|327|[Count of Range Sum](./src/count_of_range_sum)|[C++, Python](./src/count_of_range_sum)|Hard|
 |326|[Power of Three](./src/power_of_three)|[C++](./src/power_of_three)|Easy|
 |325|[Maximum Size Subarray Sum Equals k](./src/maximum_size_subarray_sum_equals_k)|[C++](./src/maximum_size_subarray_sum_equals_k)|Easy|
 |324|[Wiggle Sort II](./src/wiggle_sort_ii)|[C++](./src/wiggle_sort_ii)|Medium|
