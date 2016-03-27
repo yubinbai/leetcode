@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|330|[Verify Preorder Serialization of a Binary Tree](./src/verify_preorder_serialization_of_a_binary_tree)|[C++](./src/verify_preorder_serialization_of_a_binary_tree)|Medium|
 |330|[Patching Array](./src/patching_array)|[C++](./src/patching_array)|Medium|
 |329|[Longest Increasing Path in a Matrix](./src/longest_increasing_path_in_a_matrix)|[C++](./src/longest_increasing_path_in_a_matrix)|Hard|
 |328|[Odd Even Linked List](./src/odd_even_linked_list)|[C++](./src/odd_even_linked_list)|Easy|
