@@ -4,6 +4,7 @@ Leetcode solutions in C++, Java, Python
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
 |338|[Counting Bits](./src/counting_bits)|[C++](./src/counting_bits)|Medium|
+|337|[House Robber III](./src/house_robber_iii)|[C++](./src/house_robber_iii)|Medium|
 |332|[Reconstruct Itinerary](./src/reconstruct_itinerary)|[C++](./src/reconstruct_itinerary)|Medium|
 |331|[Verify Preorder Serialization of a Binary Tree](./src/verify_preorder_serialization_of_a_binary_tree)|[C++](./src/verify_preorder_serialization_of_a_binary_tree)|Medium|
 |330|[Patching Array](./src/patching_array)|[C++](./src/patching_array)|Medium|
