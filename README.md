@@ -5,6 +5,7 @@ Leetcode solutions in C++, Java, Python
 |---|-----|--------|----------|
 |338|[Counting Bits](./src/counting_bits)|[C++](./src/counting_bits)|Medium|
 |337|[House Robber III](./src/house_robber_iii)|[C++](./src/house_robber_iii)|Medium|
+|335|[Self Crossing](./src/self_crossing)|[C++](./src/self_crossing)|Hard|
 |334|[Increasing Triplet Subsequence](./src/increasing_triplet_subsequence)|[C++](./src/increasing_triplet_subsequence)|Medium|
 |333|[Largest BST subtree](./src/largest_bst_subtree)|[C++](./src/largest_bst_subtree)|Medium|
 |332|[Reconstruct Itinerary](./src/reconstruct_itinerary)|[C++](./src/reconstruct_itinerary)|Medium|
