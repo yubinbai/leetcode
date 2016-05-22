@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|339|[Nested List Weight Sum](./src/nested_list_weight_sum)|[C++](./src/nested_list_weight_sum)|Easy|
 |338|[Counting Bits](./src/counting_bits)|[C++](./src/counting_bits)|Medium|
 |337|[House Robber III](./src/house_robber_iii)|[C++](./src/house_robber_iii)|Medium|
 |336|[Palindrome Pairs](./src/palindrome_pairs)|[C++](./src/palindrome_pairs)|Hard|
