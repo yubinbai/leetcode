@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|342|[Power of Four](./src/power_of_four)|[C++](./src/power_of_four)|Easy|
 |341|[Flatten Nested List Iterator](./src/flatten_nested_list_iterator)|[C++](./src/flatten_nested_list_iterator)|Medium|
 |340|[Longest Substring with At Most K Distinct Characters](./src/longest_substring_with_at_most_k_distinct_characters)|[C++](./src/longest_substring_with_at_most_k_distinct_characters)|Hard|
 |339|[Nested List Weight Sum](./src/nested_list_weight_sum)|[C++](./src/nested_list_weight_sum)|Easy|
