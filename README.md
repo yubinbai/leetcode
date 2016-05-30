@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|345|[Reverse Vowels of a String](./src/reverse_vowels_of_a_string)|[C++](./src/reverse_vowels_of_a_string)|Easy|
 |344|[Reverse String](./src/reverse_string)|[C++](./src/reverse_string)|Easy|
 |343|[Integer Break](./src/integer_break)|[C++](./src/integer_break)|Medium|
 |342|[Power of Four](./src/power_of_four)|[C++](./src/power_of_four)|Easy|
