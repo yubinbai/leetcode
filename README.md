@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|346|[Moving Average from data stream](./src/moving_average_from_data_stream)|[C++](./src/moving_average_from_data_stream)|Easy|
 |345|[Reverse Vowels of a String](./src/reverse_vowels_of_a_string)|[C++](./src/reverse_vowels_of_a_string)|Easy|
 |344|[Reverse String](./src/reverse_string)|[C++](./src/reverse_string)|Easy|
 |343|[Integer Break](./src/integer_break)|[C++](./src/integer_break)|Medium|
