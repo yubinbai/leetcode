@@ -3,6 +3,8 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|350|[Intersection of Two Arrays II](./src/intersection_of_two_arrays_ii)|[C++](./src/intersection_of_two_arrays_ii)|Easy|
+|349|[Intersection of Two Arrays](./src/intersection_of_two_arrays)|[C++](./src/intersection_of_two_arrays)|Easy|
 |348|[Design tic-tac-toe](./src/design_tic_tac_toe)|[C++](./src/design_tic_tac_toe)|Medium|
 |347|[Top K frequent elements](./src/top_k_frequent_elements)|[C++](./src/top_k_frequent_elements)|Medium|
 |346|[Moving Average from data stream](./src/moving_average_from_data_stream)|[C++](./src/moving_average_from_data_stream)|Easy|
