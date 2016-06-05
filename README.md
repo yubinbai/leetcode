@@ -3,6 +3,9 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|353|[Design Snake Game](./src/design_snake_game)|[C++](./src/design_snake_game)|Medium|
+|352|[Data Stream as Disjoint Intervals](./src/data_stream_as_disjoint_intervals)|[C++](./src/data_stream_as_disjoint_intervals)|Hard|
+|351|[Android unlock patterns](./src/android_unlock_patterns)|[C++](./src/android_unlock_patterns)|Medium|
 |350|[Intersection of Two Arrays II](./src/intersection_of_two_arrays_ii)|[C++](./src/intersection_of_two_arrays_ii)|Easy|
 |349|[Intersection of Two Arrays](./src/intersection_of_two_arrays)|[C++](./src/intersection_of_two_arrays)|Easy|
 |348|[Design tic-tac-toe](./src/design_tic_tac_toe)|[C++](./src/design_tic_tac_toe)|Medium|
