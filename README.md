@@ -314,7 +314,7 @@ Leetcode solutions in C++, Java, Python
 |25|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java, Python](./src/remote_duplicate_from_sorted_array)|Easy|
 |24|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| [Java](./src/reverseKgroup)|Hard|
 |23|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)| [Java, Python](./src/swapInPairs)|Medium|
-|22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)|[Java](./src/mergeKSorted)|Hard|
+|22|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)|[C++, Java](./src/mergeKSorted)|Hard|
 |21|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)|[Java](./src/generateParentheses)|Medium|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)|[Java, Python](./src/valid_parentheses)|Easy|
 |19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](./src/removeNthNodeList)|Easy|
