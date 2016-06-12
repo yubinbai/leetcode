@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|354|[Russian Doll Envelopes](./src/russian_doll_envelopes)|[C++](./src/russian_doll_envelopes)|Hard|
 |353|[Design Snake Game](./src/design_snake_game)|[C++](./src/design_snake_game)|Medium|
 |352|[Data Stream as Disjoint Intervals](./src/data_stream_as_disjoint_intervals)|[C++](./src/data_stream_as_disjoint_intervals)|Hard|
 |351|[Android unlock patterns](./src/android_unlock_patterns)|[C++](./src/android_unlock_patterns)|Medium|
