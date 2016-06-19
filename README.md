@@ -334,8 +334,8 @@ Leetcode solutions in C++, Java, Python
 |7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)|[Java](./src/reverseInteger)|Easy|
 |6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)|[Java, Python](./src/zigzagConversion)|Easy|
 |5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)|[Java](./src/longestPalindromicSubstring)|Medium|
-|4|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[Java](./src/addTwoNumbers)|Medium|
+|4|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)|[Java](./src/medianTwoSorted)|Hard|
 |3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)|[Java](./src/longestSubstringWithoutRepeatingCharacters)|Medium|
-|2|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)|[Java](./src/medianTwoSorted)|Hard|
+|2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[C++, Java](./src/add_two_numbers)|Medium|
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)|[C++, Java, Python](./src/two_sum)|Medium|
 
