@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|356|[Line Reflection](./src/line_reflection)|[C++](./src/line_reflection)|Medium|
 |355|[Design Twitter](./src/design_twitter)|[C++](./src/design_twitter)|Medium|
 |354|[Russian Doll Envelopes](./src/russian_doll_envelopes)|[C++](./src/russian_doll_envelopes)|Hard|
 |353|[Design Snake Game](./src/design_snake_game)|[C++](./src/design_snake_game)|Medium|
