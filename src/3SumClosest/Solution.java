@@ -2,10 +2,14 @@ import java.util.*;
 public class Solution {
     public int threeSumClosest(int[] num, int target) {
 
-        Arrays.sort(num);
+        
         int result = Integer.MAX_VALUE;
         int minDist = Integer.MAX_VALUE;
 
+
+
+dsjhfskjadf
+dfsjlk
         for (int i = 0; i < num.length - 2; i++) {
             int low = i + 1;
             int high = num.length - 1;
