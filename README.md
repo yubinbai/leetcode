@@ -3,7 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
-|358|[Rearrage String K distance Apart](./src/rearrage_string_k_distance_apart)|[C++](./src/rearrage_string_k_distance_apart)|Hard|
+|358|[Rearrage String K distance Apart](./src/rearrange_string_k_distance_apart)|[C++](./src/rearrange_string_k_distance_apart)|Hard|
 |357|[Count Numbers with Unique Digits](./src/count_numbers_with_unique_digits)|[C++](./src/count_numbers_with_unique_digits)|Medium|
 |356|[Line Reflection](./src/line_reflection)|[C++](./src/line_reflection)|Medium|
 |355|[Design Twitter](./src/design_twitter)|[C++](./src/design_twitter)|Medium|
