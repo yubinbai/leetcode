@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|358|[Rearrage String K distance Apart](./src/rearrage_string_k_distance_apart)|[C++](./src/rearrage_string_k_distance_apart)|Hard|
 |357|[Count Numbers with Unique Digits](./src/count_numbers_with_unique_digits)|[C++](./src/count_numbers_with_unique_digits)|Medium|
 |356|[Line Reflection](./src/line_reflection)|[C++](./src/line_reflection)|Medium|
 |355|[Design Twitter](./src/design_twitter)|[C++](./src/design_twitter)|Medium|
@@ -340,4 +341,3 @@ Leetcode solutions in C++, Java, Python
 |3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)|[C++, Java](./src/longestSubstringWithoutRepeatingCharacters)|Medium|
 |2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[C++, Java](./src/add_two_numbers)|Medium|
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)|[C++, Java, Python](./src/two_sum)|Medium|
-
