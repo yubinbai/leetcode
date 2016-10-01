@@ -3,7 +3,8 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
-|358|[Logger Rate Limiter](./src/logger_rate_limiter)|[C++](./src/logger_rate_limiter)|Easy|
+|360|[Sort Transformed Array](./src/sort_transformed_array)|[C++](./src/sort_transformed_array)|Medium|
+|359|[Logger Rate Limiter](./src/logger_rate_limiter)|[C++](./src/logger_rate_limiter)|Easy|
 |358|[Rearrage String K distance Apart](./src/rearrange_string_k_distance_apart)|[C++](./src/rearrange_string_k_distance_apart)|Hard|
 |357|[Count Numbers with Unique Digits](./src/count_numbers_with_unique_digits)|[C++](./src/count_numbers_with_unique_digits)|Medium|
 |356|[Line Reflection](./src/line_reflection)|[C++](./src/line_reflection)|Medium|
