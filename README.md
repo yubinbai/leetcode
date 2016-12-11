@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|361|[Bomb Enemy](./src/bomb_enemy)|[C++](./src/bomb_enemy)|Medium|
 |360|[Sort Transformed Array](./src/sort_transformed_array)|[C++](./src/sort_transformed_array)|Medium|
 |359|[Logger Rate Limiter](./src/logger_rate_limiter)|[C++](./src/logger_rate_limiter)|Easy|
 |358|[Rearrage String K distance Apart](./src/rearrange_string_k_distance_apart)|[C++](./src/rearrange_string_k_distance_apart)|Hard|
