@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|363|[Max Sum of Rectangle No Larger Than K](./src/max_sum_of_rectangle_no_larger_than_k)|[C++](./src/max_sum_of_rectangle_no_larger_than_k)|Hard|
 |362|[Design Hit Counter](./src/design_hit_counter)|[C++](./src/design_hit_counter)|Medium|
 |361|[Bomb Enemy](./src/bomb_enemy)|[C++](./src/bomb_enemy)|Medium|
 |360|[Sort Transformed Array](./src/sort_transformed_array)|[C++](./src/sort_transformed_array)|Medium|
