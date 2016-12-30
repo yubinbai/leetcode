@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|365|[Water and Jug Problem](./src/water_and_jug_problem)|[C++](./src/water_and_jug_problem)|Medium|
 |364|[Nested List Weight Sum II](./src/nested_list_weight_sum_ii)|[C++](./src/nested_list_weight_sum_ii)|Medium|
 |363|[Max Sum of Rectangle No Larger Than K](./src/max_sum_of_rectangle_no_larger_than_k)|[C++](./src/max_sum_of_rectangle_no_larger_than_k)|Hard|
 |362|[Design Hit Counter](./src/design_hit_counter)|[C++](./src/design_hit_counter)|Medium|
