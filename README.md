@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|367|[Valid Perfect Square](./src/valid_perfect_square)|[C++](./src/valid_perfect_square)|Medium|
 |366|[Find Leaves of Binary Tree](./src/find_leaves_of_binary_tree)|[C++](./src/find_leaves_of_binary_tree)|Medium|
 |365|[Water and Jug Problem](./src/water_and_jug_problem)|[C++](./src/water_and_jug_problem)|Medium|
 |364|[Nested List Weight Sum II](./src/nested_list_weight_sum_ii)|[C++](./src/nested_list_weight_sum_ii)|Medium|
