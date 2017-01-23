@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|369|[Plus One Linked List](./src/plus_one_linked_list)|[C++](./src/plus_one_linked_list)|Medium|
 |368|[Largest divisible subset](./src/largest_divisible_subset)|[C++](./src/largest_divisible_subset)|Medium|
 |367|[Valid Perfect Square](./src/valid_perfect_square)|[C++](./src/valid_perfect_square)|Medium|
 |366|[Find Leaves of Binary Tree](./src/find_leaves_of_binary_tree)|[C++](./src/find_leaves_of_binary_tree)|Medium|
