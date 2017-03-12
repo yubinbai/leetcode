@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|371|[Sum of Two Integers](./src/sum_of_two_integers)|[C++](./src/sum_of_two_integers)|Easy|
 |370|[Range Addition](./src/range_addition)|[C++](./src/range_addition)|Medium|
 |369|[Plus One Linked List](./src/plus_one_linked_list)|[C++](./src/plus_one_linked_list)|Medium|
 |368|[Largest divisible subset](./src/largest_divisible_subset)|[C++](./src/largest_divisible_subset)|Medium|
