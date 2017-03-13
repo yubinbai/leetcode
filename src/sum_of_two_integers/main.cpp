@@ -16,14 +16,12 @@ using namespace std;
 class Solution {
 public:
   int getSum(int a, int b) {
-    int x = a, y = b;
-    while (y != 0) {
-      int xx = x ^ y;
-      int yy = x & y;
-      x = xx;
-      y = yy << 1;
+    while (b != 0) {
+      int carry = a & b;
+      a = a ^ b;
+      b = carry << 1;
     }
-    return x;
+    return a;
   }
 };
 
