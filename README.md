@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Solution|Difficulty|
 |---|-----|--------|----------|
+|373|[Find K Pairs with Smallest Sums](./src/find_k_pairs_with_smallest_sums)|[C++](./src/find_k_pairs_with_smallest_sums)|Medium|
 |372|[Super Pow](./src/super_pow)|[C++](./src/super_pow)|Medium|
 |371|[Sum of Two Integers](./src/sum_of_two_integers)|[C++](./src/sum_of_two_integers)|Easy|
 |370|[Range Addition](./src/range_addition)|[C++](./src/range_addition)|Medium|
