@@ -43,5 +43,8 @@ int main() {
   Solution sol;
   vector<vector<int>> vvi = {{0, 1}, {1, 0}}; 
   cout << sol.minTotalDistance(vvi) << endl;
+
+  vvi = {{1,0,0,0,1}, {0,0,0,0,0}, {0,0,1,0,0}}; 
+  cout << sol.minTotalDistance(vvi) << endl;
   return 0;
 }
