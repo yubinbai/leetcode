@@ -33,8 +33,7 @@ int main() {
   vector<int> coins = {1, 2, 5};
   cout << sol.coinChange(coins, 11) << endl;
 
-  vector<int> coins2 = {2};
-  cout << sol.coinChange(coins, 3) << endl;
+  vector<int> coins2 = {10};
+  cout << sol.coinChange(coins2, 4) << endl;
   return 0;
 }
-
