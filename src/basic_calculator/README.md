@@ -18,6 +18,8 @@ Note: Do not use the eval built-in library function.
 Solution
 ===
 
-Convert to postfix and evaluate that
+solution 1: use a stack of parens to track the current sign of number
+
+solution 2: Convert to postfix and evaluate that
 
 [Wikipedia] (http://en.wikipedia.org/wiki/Shunting-yard_algorithm)
