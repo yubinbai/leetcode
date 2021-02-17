@@ -15,14 +15,14 @@ using namespace std;
 
 class Solution {
 public:
-  int maxKilledEnemies(vector<vector<char>>& grid) {
+  int maxKilledEnemies(vector<vector<char> >& grid) {
     if (grid.empty() || grid[0].empty()) {
       return 0;
     }
     int m = grid.size();
     int n = grid[0].size();
     int res = 0;
-    vector<vector<int>> sum(m, vector<int>(n, 0));
+    vector<vector<int> > sum(m, vector<int>(n, 0));
 
     // rows
     for (int i = 0; i < m; ++i) {
@@ -76,7 +76,7 @@ public:
 
 int main() {
   Solution s;
-  vector<vector<char>> grid = {
+  vector<vector<char> > grid = {
     {'0', 'X', '0', '0'},
     {'X', '0', 'Y', 'X'},
     {'0', 'X', '0', '0'},
