@@ -25,13 +25,13 @@ struct TreeNode {
 
 class Solution {
 private:
+  vector<int> preorder;
   vector<int> inorder;
-  vector<int> postorder;
   
 public:
-  TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
+  TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+    this->preorder = preorder;
     this->inorder = inorder;
-    this->postorder = postorder;
     int size = inorder.size();
     return buildTreeInRange(0, size - 1, 0, size - 1);
   }
@@ -43,16 +43,16 @@ public:
       return nullptr;
     }
     TreeNode* e = new TreeNode();
-    e->val = postorder[y2];
+    e->val = preorder[x1];
     int pos;
-    for (pos = x1; pos <= y1; pos++) {
-      if (inorder[pos] == postorder[y2]) {
+    for (pos = x2; pos <= y2; pos++) {
+      if (inorder[pos] == preorder[x1]) {
         break;
       }
     }
-    int left_size = pos - x1;
-    e->left = buildTreeInRange(x1, pos - 1, x2, x2 + left_size - 1);
-    e->right = buildTreeInRange(pos + 1, y1, x2 + left_size, y2 - 1);
+    int left_size = pos - x2;
+    e->left = buildTreeInRange(x1 + 1, x1 + left_size, x2, pos - 1);
+    e->right = buildTreeInRange(x1 + left_size + 1, y1, pos + 1, y2);
     return e;
   }
   void printInOrder(TreeNode* e) {
@@ -63,22 +63,31 @@ public:
     printf("%d\t", e->val);
     printInOrder(e->right);
   }
-  void printPostOrder(TreeNode* e) {
+  void printPreOrder(TreeNode* e) {
     if (e == nullptr) return;
-    printPostOrder(e->left);
-    printPostOrder(e->right);
     printf("%d\t", e->val);
+    printPreOrder(e->left);
+    printPreOrder(e->right);
   }
 };
 
 int main() {
   Solution s;
-  vector<int> inorder = {9,3,15,20,7};
-  vector<int> postorder = {9,15,7,20,3};
-  TreeNode* t = s.buildTree(inorder, postorder);
+  vector<int> preorder = {1, 2};
+  vector<int> inorder = {1, 2};
+  TreeNode* t = s.buildTree(preorder, inorder);
+  s.printPreOrder(t);
+  cout << endl;
   s.printInOrder(t);
   cout << endl;
-  s.printPostOrder(t);
+
+  preorder = {3,9,20,15,7};
+  inorder = {9,3,15,20,7};
+  t = s.buildTree(preorder, inorder);
+  s.printPreOrder(t);
+  cout << endl;
+  s.printInOrder(t);
+  cout << endl;
 
   return 0;
 }
