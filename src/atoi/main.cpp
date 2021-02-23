@@ -37,7 +37,7 @@ public:
     char flag = '+';
 
     // check negative or positive
-    int i = 0;
+    uint i = 0;
     if (s[0] == '-') {
       flag = '-';
       i++;

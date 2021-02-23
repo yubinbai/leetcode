@@ -106,7 +106,7 @@ public:
 
 int main() {
   Solution s;
-  vector<vector<int> > adj_list = {{2,4},{1,3},{2,4},{1,3}};
+  vector<vector<int>> adj_list = {{2,4},{1,3},{2,4},{1,3}};
   Node* g1 = s.buildGraph(adj_list);
   Node* g2 = s.cloneGraph(g1);
 
