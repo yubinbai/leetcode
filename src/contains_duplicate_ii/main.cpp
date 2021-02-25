@@ -24,7 +24,7 @@ public:
       }
       q.push_back(i);
       nearby.insert(i);
-      if (q.size() > k) {
+      if (q.size() > (uint)k) {
         int f = q.front();
         q.pop_front();
         nearby.erase(f);

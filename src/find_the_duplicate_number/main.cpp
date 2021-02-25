@@ -43,5 +43,9 @@ int main() {
   Solution sol;
   vector<int> nums = {1, 2, 3, 4, 5, 5, 6}; 
   cout << sol.findDuplicate(nums) << endl;
+
+  nums = {1, 1, 2}; 
+  cout << sol.findDuplicate(nums) << endl;
+
   return 0;
 }

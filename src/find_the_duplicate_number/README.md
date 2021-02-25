@@ -7,3 +7,8 @@ You must not modify the array (assume the array is read only).
 You must use only constant, O(1) extra space.
 Your runtime complexity should be less than O(n^2).
 There is only one duplicate number in the array, but it could be repeated more than once.
+
+
+Solution
+===
+Use binary search and counter functional
