@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Difficulty|
 |---|-----|----------|
+|376|[Wiggle sequence](./src/wiggle_sequence)|Medium|
 |375|[Guess number higher or lower ii](./src/guess_number_higher_or_lower_ii)|Medium|
 |374|[Guess number higher or lower](./src/guess_number_higher_or_lower)|Easy|
 |373|[Find K Pairs with Smallest Sums](./src/find_k_pairs_with_smallest_sums)|Medium|
