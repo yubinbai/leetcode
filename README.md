@@ -3,6 +3,7 @@ Leetcode solutions in C++, Java, Python
 
 |#|Title|Difficulty|
 |---|-----|----------|
+|378|[Kth Smallest Element in a Sorted Matrix](./src/kth_smallest_sorted_matrix)|Medium|
 |377|[Combination Sum IV](./src/combination_sum_iv)|Medium|
 |376|[Wiggle sequence](./src/wiggle_sequence)|Medium|
 |375|[Guess number higher or lower ii](./src/guess_number_higher_or_lower_ii)|Medium|
