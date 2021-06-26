@@ -1,7 +1,7 @@
 Leetcode solutions in C++, Java, Python
 ============
 
-|#|Title|Difficulty|
+|Number|Title|Difficulty|
 |---|-----|----------|
 |378|[Kth Smallest Element in a Sorted Matrix](./src/kth_smallest_sorted_matrix)|Medium|
 |377|[Combination Sum IV](./src/combination_sum_iv)|Medium|
