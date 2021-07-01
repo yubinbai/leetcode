@@ -2,7 +2,8 @@ Leetcode solutions in C++, Java, Python
 
 | Number | Title                                                                                                                                                | Difficulty |
 |--------+------------------------------------------------------------------------------------------------------------------------------------------------------+------------|
-|    381 | [[./src/insert_delete_getrandom_o1_duplicate][Insert Delete GetRandom O(1) Duplicate]]                                                               | Medium     |
+|    382 | [[./src/linked_list_random_note][Linked List Random Node]]                 | Medium     |
+|    381 | [[./src/insert_delete_getrandom_o1_duplicate][Insert Delete GetRandom O(1) Duplicate]]                                                               | Hard |
 |    380 | [[./src/insert_delete_getrandom_o1][Insert Delete GetRandom O(1)]]                                                                                   | Medium     |
 |    379 | [[./src/design_phone_directory][Design Phone Directory]]                                                                                             | Medium     |
 |    378 | [[./src/kth_smallest_sorted_matrix][Kth Smallest Element in a Sorted Matrix]]                                                                        | Medium     |
