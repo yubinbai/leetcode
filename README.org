@@ -2,6 +2,7 @@ Leetcode solutions in C++, Java, Python
 
 | Number | Title                                                                                                                                                | Difficulty |
 |--------+------------------------------------------------------------------------------------------------------------------------------------------------------+------------|
+|    385 | [[./src/mini_parser][Mini parser]]                                                                                                                   | Medium     |
 |    384 | [[./src/shuffle_an_array][Shuffle An Array]]                                                                                                         | Medium     |
 |    383 | [[./src/ransom_note][Ransom Note]]                                                                                                                   | Easy       |
 |    382 | [[./src/linked_list_random_note][Linked List Random Node]]                                                                                           | Medium     |
