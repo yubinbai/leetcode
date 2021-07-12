@@ -2,6 +2,7 @@ Leetcode solutions in C++, Java, Python
 
 | Number | Title                                                                                                                                                | Difficulty |
 |--------+------------------------------------------------------------------------------------------------------------------------------------------------------+------------|
+|    387 | [[./src/first_unique_character_in_a_string][First Unique Character in a String]]                                                                     | Easy       |
 |    386 | [[./src/lexicographical_numbers][Lexicographical Numbers]]                                                                                           | Medium     |
 |    385 | [[./src/mini_parser][Mini parser]]                                                                                                                   | Medium     |
 |    384 | [[./src/shuffle_an_array][Shuffle An Array]]                                                                                                         | Medium     |
