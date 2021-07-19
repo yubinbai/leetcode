@@ -2,6 +2,7 @@ Leetcode solutions in C++, Java, Python
 
 | Number | Title                                                                                                                                                | Difficulty |
 |--------+------------------------------------------------------------------------------------------------------------------------------------------------------+------------|
+|    390 | [[./src/elimination_game][Elimination Game]]                                                                                                         | Medium     |
 |    389 | [[./src/find_the_difference][Find the Difference]]                                                                                                   | Easy       |
 |    388 | [[./src/longest_absolute_file_path][Longest Absolute File Path]]                                                                                     | Medium     |
 |    387 | [[./src/first_unique_character_in_a_string][First Unique Character in a String]]                                                                     | Easy       |
