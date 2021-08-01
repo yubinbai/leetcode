@@ -2,6 +2,7 @@ Leetcode solutions in C++, Java, Python
 
 | Number | Title                                                                                                                                                | Difficulty |
 |--------+------------------------------------------------------------------------------------------------------------------------------------------------------+------------|
+|    395 | [[./src/longest_substring_with_at_least_k_repeating_characters][Longest Substring with At Least K Repeating Characters]]                             | Medium     |
 |    394 | [[./src/decode_string][Decode String]]                                                                                                               | Medium     |
 |    393 | [[./src/utf_8_validation][UTF-8 Validation]]                                                                                                         | Medium     |
 |    392 | [[./src/is_subsequence][Is Subsequence]]                                                                                                             | Easy       |
