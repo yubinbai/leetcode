@@ -11,29 +11,32 @@
 using namespace std;
 
 class Solution {
-private:
-  int counter[26] = {0};
-  bool isValid(int k) {
-    for (int i = 0; i < 26; i++) {
-      if (counter[i] > 0 && counter[i] < k) {
-        return false;
-      }
-    }
-    return true;
-  }
 public:
   int longestSubstring(string s, int k) {
-    int ret = 0;
-    for (int start = 0; start < s.size(); start++) {
-      memset(counter, 0, sizeof(counter));
-      for (int end = start; end < s.size(); end++) {
-        counter[s[end] - 'a']++;
-        if (isValid(k)) {
-          ret = max(ret, end - start + 1);
-        }
+    int counter[26] = {0};
+    for (char c: s) {
+      counter[c - 'a']++;
+    }
+
+    int pos;
+    for (pos = 0; pos < s.size(); pos++) {
+      if (counter[s[pos] - 'a'] < k) {
+        break;
       }
     }
-    return ret;
+    if (pos == s.size()) {
+      return s.size();
+    }
+
+    int left = 0;
+    if (pos > 1) {
+      left = longestSubstring(s.substr(0, pos), k);
+    }
+    int right = 0;
+    if (pos < s.size()) {
+      right = longestSubstring(s.substr(pos + 1), k);
+    }
+    return max(left, right);
   }
 };
 
@@ -53,6 +56,9 @@ int main() {
   cout << sol.longestSubstring(s, k) << endl;
 
   s = "ababbcc", k = 2;
+  cout << sol.longestSubstring(s, k) << endl;
+
+  s = "adcefccc", k = 3;
   cout << sol.longestSubstring(s, k) << endl;
 
   return 0;

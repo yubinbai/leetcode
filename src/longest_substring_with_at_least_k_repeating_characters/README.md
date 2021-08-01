@@ -26,5 +26,8 @@ s consists of only lowercase English letters.
 Solution
 ---
 
-for each starting point of substring, use a sliding window to maintain counter of chars
+naive: for each starting point of substring, use a sliding window to maintain counter of chars
 time: n^2
+
+optimized: use an inversion of thinking. find the infrequent elements (show less than k times) as splits since any of these infrequent elements couldn’t be any part of the substring we want. 
+time: n*logn
