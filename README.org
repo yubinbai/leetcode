@@ -2,6 +2,7 @@ Leetcode solutions in C++, Java, Python
 
 | Number | Title                                                                                                                                                | Difficulty |
 |--------+------------------------------------------------------------------------------------------------------------------------------------------------------+------------|
+|    398 | [[./src/random_pick_index][Random Pick Index]]                                                                                                       | Medium     |
 |    397 | [[./src/integer_replacement][Integer Replacement]]                                                                                                   | Medium     |
 |    396 | [[./src/rotate_function][Rotate Function]]                                                                                                           | Medium     |
 |    395 | [[./src/longest_substring_with_at_least_k_repeating_characters][Longest Substring with At Least K Repeating Characters]]                             | Medium     |
