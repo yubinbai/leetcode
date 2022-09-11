@@ -2,6 +2,7 @@ Leetcode solutions in C++, Java, Python
 
 | Number | Title                                                                                                                                                | Difficulty |
 |--------+------------------------------------------------------------------------------------------------------------------------------------------------------+------------|
+|    399 | [[./src/evaluate_division][Evaluate Division]]                                                                                                       | Medium     |
 |    398 | [[./src/random_pick_index][Random Pick Index]]                                                                                                       | Medium     |
 |    397 | [[./src/integer_replacement][Integer Replacement]]                                                                                                   | Medium     |
 |    396 | [[./src/rotate_function][Rotate Function]]                                                                                                           | Medium     |
