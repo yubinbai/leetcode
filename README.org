@@ -2,7 +2,8 @@ Leetcode solutions in C++, Java, Python
 
 | Number | Title                                                                                                                                                | Difficulty |
 |--------+------------------------------------------------------------------------------------------------------------------------------------------------------+------------|
-|    402 | [[./src/402_remove_k_digits][Remove K Digits]]                                                                                                       | Medium |
+|    403 | [[./src/403_frog_jump][Frog Jump]]                                                                                                                   | Hard       |
+|    402 | [[./src/402_remove_k_digits][Remove K Digits]]                                                                                                       | Medium     |
 |    401 | [[./src/401_binary_watch][Binary Watch]]                                                                                                             | Easy       |
 |    400 | [[./src/400_nth_digit][Nth Digit]]                                                                                                                   | Medium     |
 |    399 | [[./src/evaluate_division][Evaluate Division]]                                                                                                       | Medium     |
