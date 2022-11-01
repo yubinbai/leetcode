@@ -68,3 +68,4 @@ target/
 
 #xcode
 xcode-project/leetcode-debugger/leetcode-debugger.xcodeproj/project.xcworkspace/xcuserdata/*
+xcode-project/leetcode-debugger/leetcode-debugger.xcodeproj/xcuserdata/*
