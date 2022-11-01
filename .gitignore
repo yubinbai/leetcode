@@ -65,3 +65,6 @@ target/
 
 #sublime
 *.sublime-workspace
+
+#xcode
+xcode-project/leetcode-debugger/leetcode-debugger.xcodeproj/project.xcworkspace/xcuserdata/*
