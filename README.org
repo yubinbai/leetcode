@@ -146,7 +146,7 @@ Leetcode solutions in C++, Java, Python
 |    266 | [[./src/palindrome_permutation][Palindrome Permutation]]                                                                                             | Easy       |
 |    265 | [[./src/paint_house_ii][Paint House II]]                                                                                                             | Hard       |
 |    264 | [[./src/ugly_number_ii][Ugly Number II]]                                                                                                             | Medium     |
-|    263 | [[./src/ugly_number][Ugly Number]]                                                                                                                   | Easy       |
+|    263 | [[./src/263_ugly_number][Ugly Number]]                                                                                                               | Easy       |
 |    261 | [[./src/graph_valid_tree][Graph Valid Tree]]                                                                                                         | Medium     |
 |    260 | [[./src/single_number_iii][Single Number III]]                                                                                                       | Medium     |
 |    259 | [[./src/3sum_smaller][3Sum Smaller]]                                                                                                                 | Medium     |
