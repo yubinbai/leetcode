@@ -2,6 +2,7 @@ Leetcode solutions in C++, Java, Python
 
 | Number | Title                                                                                                                                                | Difficulty |
 |--------+------------------------------------------------------------------------------------------------------------------------------------------------------+------------|
+|    408 | [[./src/408_valid_word_abbreviation][Valid Word Abbreviation]]                                                                                       | Medium     |
 |    407 | [[./src/407_trapping_rain_water_ii][Trapping Rain Water II]]                                                                                         | Hard       |
 |    406 | [[./src/406_queue_reconstruction_by_height][Queue Reconstruction by Height]]                                                                         | Medium     |
 |    405 | [[./src/405_convert_a_number_to_hex][Convert a Number to Hexadecimal]]                                                                               | Easy       |
